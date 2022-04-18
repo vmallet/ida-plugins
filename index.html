@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- TODO: massive work in progress; very experimental at the moment -->
+	<head>
+		<meta charset="utf-8"/>
+		<link href="lib/tabulator.min.css" rel="stylesheet">
+		<title>IDA Plugins</title>
+		<style>
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+				font-size: 12px
+			}
+			.no-underline a {
+				text-decoration: none;
+			}
+			.no-underline a:hover {
+				text-decoration: underline;
+			}
+		</style>
+
+	</head>
+	<body>
+		<h1>WORK IN PROGRESS</h1>
+		See <a href="https://github.com/vmallet/ida-plugins">source</a>
+		<p/>
+		<div class="no-underline">
+			<div id="plugin-table"><i>Loading...</i></div>
+		</div>
+
+		<script type="text/javascript" src="lib/tabulator.min.js"></script>
+		<script type="text/javascript" src="data.js"></script>
+
+		<script type="text/javascript">
+	var table = new Tabulator("#plugin-table", {
+		data:tabledata, //load initial data into table
+		layout:"fitColumns", //fit columns to width of table (optional)
+		columns:[ //Define Table Columns
+			{title:"Name", field: "name", sorter: "string", formatter:"link", hozAlign:"left",
+				formatterParams: {urlField: "url", labelField: "name"}, width: 150},
+			{title:"Desc", field:"desc", sorter:"string", formatter: "textarea", hozAlign:"left"},
+			{title:"Cat", field:"cats", sorter:"string", formatter: "plaintext", hozAlign:"left", width: 100},
+			{title:"Src", field:"src", sorter:"string", formatter: "plaintext", hozAlign:"left", width: 50},
+		],
+	});
+</script>
+	<p>Author: <a href="https://github.com/vmallet">Vincent Mallet</a></p>
+	</body>
+</html>
