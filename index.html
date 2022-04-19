@@ -36,9 +36,9 @@
 		layout:"fitColumns", //fit columns to width of table (optional)
 		columns:[ //Define Table Columns
 			{title:"Name", field: "name", sorter: "string", formatter:"link", hozAlign:"left",
-				formatterParams: {urlField: "url", labelField: "name"}, width: 150},
+				formatterParams: {urlField: "url", labelField: "name", target: "_blank"}, width: 150},
 			{title:"Desc", field:"desc", sorter:"string", formatter: "textarea", hozAlign:"left"},
-			{title:"Cat", field:"cats", sorter:"string", formatter: "plaintext", hozAlign:"left", width: 100},
+			{title:"Cat", field:"cats", sorter:"string", formatter: "textarea", hozAlign:"left", width: 100},
 			{title:"Src", field:"src", sorter:"string", formatter: "plaintext", hozAlign:"left", width: 50},
 		],
 	});
