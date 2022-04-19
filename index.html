@@ -27,6 +27,7 @@
 			<div id="plugin-table"><i>Loading...</i></div>
 		</div>
 
+		<script type="text/javascript" src="lib/moment.min.js"></script>
 		<script type="text/javascript" src="lib/tabulator.min.js"></script>
 		<script type="text/javascript" src="data.js"></script>
 
@@ -40,6 +41,13 @@
 			{title:"Desc", field:"desc", sorter:"string", formatter: "textarea", hozAlign:"left"},
 			{title:"Cat", field:"cats", sorter:"string", formatter: "textarea", hozAlign:"left", width: 100},
 			{title:"Src", field:"src", sorter:"string", formatter: "plaintext", hozAlign:"left", width: 50},
+			{title:"Last", field:"last", sorter:"string", formatter:function(cell, params, onRendered){
+					if (!cell.getValue()) {
+						return "";
+					}
+			        return moment(cell.getValue(), "YYYYMMDD").fromNow();
+			    },
+				hozAlign:"left", width: 120}
 		],
 	});
 </script>
