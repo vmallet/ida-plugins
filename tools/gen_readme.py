@@ -7,30 +7,14 @@ directly) (License: LGPL3)
 https://github.com/dmeranda/demjson
 """
 
-import re
 import sys
-from typing import Dict, List
-
-import demjson
 
 __author__ = "https://github.com/vmallet"
 
-JS_VAR = re.compile("^var [^=]*= *(.*);$", re.DOTALL)
+import jsstore
 
 SKIP_MARKER = "__SKIP__"
 GEN_MARKER = "__GENERATED_LIST__"
-
-
-def load_plugins(js_file: str) -> List[Dict[str, str]]:
-    """Parse the JS structure into an array of dicts, one dict per plugin."""
-    with open(js_file, "rt", encoding="UTF-8") as f:
-        content = f.read().strip()
-        m = JS_VAR.match(content)
-        if not m:
-            raise Exception("Unable to parse js data definiton from: {}".format(js_file))
-        plugins = demjson.decode(m.group(1))
-
-    return plugins
 
 
 def desc_to_md(desc: str):
@@ -74,7 +58,7 @@ def output_plugins(plugins):
 def gen_readme(template_path: str, js_path: str):
     """Produce a templated readme on stdout using the provided template
     and injecting the plugins definitions read from the JS data."""
-    plugins = load_plugins(js_path)
+    plugins = jsstore.load_plugins(js_path)
 
     with open(template_path, "rt") as f:
         for line in f:
