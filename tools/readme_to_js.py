@@ -6,28 +6,27 @@ README.md and produce a more-or-less usable JS datastructure.
 import re
 import sys
 
+from jsstore import EntryFormatter
+
 __author__ = "https://github.com/vmallet"
 
 ENTRY_HEADER = \
-    re.compile("^\\* \\[(?P<name>[^]]*)\\]\\((?P<url>[^)]+)\\):? ?(?P<desc>.*)\n")
+    re.compile("^\\* \\[(?P<name>[^]]*)]\\((?P<url>[^)]+)\\):? ?(?P<desc>.*)\n")
 """regex to match:  * [plugin-name](plugin-url): plugin-desc"""
 
 
 class Entry(object):
     def __init__(self, name, url, desc1):
-        self.name = name
-        self.url = url
-        self.desc = [ desc1 ]
+        self.attrs = {"name": name, "url": url}
+        self.desc = [desc1]
 
     def append(self, desc):
         self.desc.append(desc)
 
     def emit(self):
-        print("{{name: \"{}\", ".format(self.name))
-        print(" url: \"{}\",".format(self.url))
-        print(" desc: \"{}\"}},".format(
-            "\\n".join(desc.replace('"', '\\"') for desc in self.desc)))
-        print()
+        attrs = dict(self.attrs)
+        attrs["desc"] = "\n".join(desc for desc in self.desc)
+        EntryFormatter(attrs).emit()
 
 
 def produce_js(filename: str):
