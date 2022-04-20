@@ -144,6 +144,13 @@ var tabledata = [
  vers: "7.5",
  desc: "collabREate is a plugin for IDA Pro that is designed to provide a collaborative reverse engineering capability for multiple IDA users working on the same binary file."},
 
+{name: "CollaRE",
+ url: "https://github.com/Martyx00/CollaRE",
+ src: "py",
+ cats: "collab",
+ last: "20220216",
+ desc: "Multi-tool reverse engineering collaboration solution. CollareRE is a tool for collaborative reverse engineering that aims to allow teams that do need to use more then one tool during a project to collaborate without the need to share the files on a separate locations."},
+
 {name: "Comida",
  url: "https://github.com/airbus-cert/comida",
  src: "py",
@@ -154,7 +161,7 @@ var tabledata = [
 {name: "Continuum",
  url: "https://github.com/zyantific/continuum",
  src: "py",
- last: "20160912",
+ last: "20160913",
  vers: "6.9",
  desc: "Continuum is an IDA Pro plugin adding multi-binary project support, allowing fast navigation in applications involving many shared libraries."},
 
@@ -170,6 +177,14 @@ var tabledata = [
  cats: "decomp",
  last: "20210503",
  desc: "The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations."},
+
+{name: "D-810",
+ url: "https://github.com/joydo/d810",
+ src: "py",
+ cats: "deobf",
+ last: "20210225",
+ vers: "7.5",
+ desc: "D-810 is an IDA Pro plugin which can be used to deobfuscate code at decompilation time by modifying IDA Pro microcode."},
 
 {name: "Dalvik Header",
  url: "https://github.com/strazzere/dalvik-header-plugin",
@@ -200,6 +215,13 @@ var tabledata = [
  vers: "7.1",
  desc: "IDA Pro plugin that implements more user-friendly register and stack views."},
 
+{name: "Describe Key",
+ url: "https://github.com/vmallet/ida-describekey",
+ src: "py",
+ last: "20220408",
+ vers: "7.5",
+ desc: "Quickly learn what a shortcut does. Describe Key is a very simple IDA Pro plugin: invoke it, press a shortcut, and instantly see what actions are associated with the shortcut. Quick and easy, call it from anywhere in IDA."},
+
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
@@ -213,6 +235,13 @@ var tabledata = [
  last: "20171119",
  vers: "6.9",
  desc: "Run IDA Pro disassembler in Docker containers for automating, scaling and distributing the use of IDAPython scripts."},
+
+{name: "dotNIET",
+ url: "https://github.com/synacktiv/dotNIET",
+ src: "py",
+ last: "20210630",
+ vers: "7.5",
+ desc: "Import missing symbols (usually few thousands) which are resolved at runtime by .NET Native compiled binaries. These symbols lie in SharedLibrary.dll and are not exported by this one."},
 
 {name: "DOXBox Debugger",
  url: "https://github.com/wjp/idados",
@@ -395,6 +424,13 @@ var tabledata = [
  last: "20200622",
  desc: "Making GO reversing easier in IDA Pro"},
 
+{name: "grap",
+ url: "https://github.com/QuoSecGmbH/grap",
+ src: "py",
+ last: "20220316",
+ vers: "7.1",
+ desc: "Define and match graph patterns within binaries. grap takes patterns and binary files, uses a Casptone-based disassembler to obtain the control flow graphs from the binaries, then matches the patterns against them."},
+
 {name: "Graph Slick",
  url: "https://github.com/lallousx86/GraphSlick",
  last: "20141120",
@@ -405,6 +441,14 @@ var tabledata = [
  last: "20210713",
  desc: "An IDA Pro plugin to examine the heap, focused on exploit development."},
 
+{name: "Hex-Rays Block Highlighter",
+ url: "https://github.com/vmallet/ida-hex-highlighter",
+ src: "py",
+ cats: "decomp",
+ last: "20220417",
+ vers: "7.5",
+ desc: "Highlight code blocks in the Hex-Rays decompiler output. In some cases the decompilation output can be quite hairy with lots of nested blocks and it can be hard to follow where one ends and the other begins. This plugin will highlight blocks in a sticky way, allowing one to navigate within the window while keeping the block highlight around."},
+
 {name: "HexRays CodeXplorer",
  url: "https://github.com/REhints/HexRaysCodeXplorer",
  last: "20220309",
@@ -414,7 +458,7 @@ var tabledata = [
  url: "https://github.com/RolfRolles/HexRaysDeob",
  src: "c++",
  cats: "deobf",
- last: "20190903",
+ last: "20190827",
  vers: "7.3",
  desc: "A Hex-Rays microcode API plugin breaking an obfuscating compiler used to create an in-the-wild malware family. The plugin is fully automatic and requires no user intervention; upon installation, the decompilation listings presented to the user will be free of obfuscation."},
 
@@ -446,7 +490,7 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20211031",
+ last: "20211101",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "IDA2SQL",
@@ -578,6 +622,14 @@ var tabledata = [
  url: "https://github.com/andreafioraldi/IDAngr",
  last: "20200722",
  desc: "Use angr in the ida debugger generating a state from the current debug session "},
+
+{name: "IDA - Nightfall",
+ url: "https://github.com/0xItx/ida_nightfall",
+ src: "py",
+ cats: "ui",
+ last: "20190625",
+ vers: "7.3",
+ desc: "A dark color theme for IDA Pro"},
 
 {name: "IDA Patchwork",
  url: "https://bitbucket.org/daniel_plohmann/idapatchwork",
@@ -725,7 +777,7 @@ var tabledata = [
 {name: "Keypatch",
  url: "https://github.com/keystone-engine/keypatch",
  src: "py",
- last: "2021021",
+ last: "20210218",
  vers: "7.5",
  desc: "A multi-architeture assembler for IDA. Keypatch allows you enter assembly instructions to directly patch the binary under analysis. Powered by [Keystone engine](http://keystone-engine.org)."},
 
@@ -885,6 +937,14 @@ var tabledata = [
  last: "20140811",
  desc: "Change processor without restarting IDA."},
 
+{name: "PSIDA",
+ url: "https://github.com/soggysec/psida",
+ src: "py",
+ cats: "collab",
+ last: "20180803",
+ vers: "7.0",
+ desc: "PSIDA is a collection of useful Python scripts for IDA. At this point, PSIDA focuses on collaborative reverse engineering in two models."},
+
 {name: "pyhexraysdeob",
  url: "https://github.com/idapython/pyhexraysdeob",
  src: "py",
@@ -985,7 +1045,7 @@ var tabledata = [
 {name: "Sig Maker",
  url: "https://github.com/ajkhoury/SigMaker-x64",
  src: "c++",
- last: "20220301",
+ last: "20210728",
  vers: "7.0",
  desc: "Can create sigs automatically and has a wide variety of functions."},
 
@@ -1015,7 +1075,7 @@ var tabledata = [
  url: "https://github.com/yegord/snowman",
  src: "c++",
  cats: "decomp",
- last: "20210623",
+ last: "20210621",
  desc: "Snowman is a native code to C/C++ decompiler. Standalone and IDA Plugin. [Source Code](https://github.com/yegord/snowman)"},
 
 {name: "Splode",
@@ -1043,6 +1103,13 @@ var tabledata = [
  url: "https://github.com/techbliss/IDA-Styler",
  last: "20140725",
  desc: "Small Plugin to change the style off Ida Pro"},
+
+{name: "SyncReven",
+ url: "https://github.com/riskeco/SyncReven",
+ src: "py",
+ last: "20210915",
+ vers: "7.3",
+ desc: "Reven integration plugin: synchronize the Axion current analysis window with some code opened in IDA."},
 
 {name: "Synergy",
  url: "https://github.com/CubicaLabs/IDASynergy",
@@ -1105,6 +1172,14 @@ var tabledata = [
  url: "http://www.idabook.com/ida-x86emu/",
  desc: " Its purpose is to allow a reverse engineer the chance to step through x86 code while reverse engineering a binary.  The plugin can help you step through any x86 binary from any platform. For Windows binaries, many common library calls are trapped and emulated by the emulator, allowing for a higher fidelity emulation. I find it particularly useful for stepping through obfuscated code as it automatically reorganizes an IDA disassembly based on actual code paths."},
 
+{name: "xdeobf",
+ url: "https://github.com/teapotd/xdeobf",
+ src: "c++",
+ cats: "deobf",
+ last: "20200324",
+ vers: "7.2",
+ desc: "Experimental deobfuscation plugin for IDA 7.2. It aims to reverse control flow flattening transformation that I encountered (probably a variation of obfuscator-llvm)."},
+
 {name: "Xex Loader for IDA 6.6",
  url: "http://xorloser.com/blog/?p=395",
  cats: "loader",
@@ -1119,8 +1194,19 @@ var tabledata = [
 
 {name: "YaCo",
  url: "https://github.com/DGA-MI-SSI/YaCo",
+ src: "py",
+ cats: "collab",
  last: "20181114",
- desc: ": Collaboration Plugin : when enabled, an unlimited number of users can work simultaneously on the same binary. Any modification done by any user is synchronized through git version control. It has been initially released at [SSTIC 2017](https://www.sstic.org/2017/presentation/YaCo/)"},
+ vers: "7.1",
+ desc: "Collaborative Reverse-Engineering for IDA. When enabled, an unlimited number of users can work simultaneously on the same binary. Any modification done by any user is synchronized through git version control. It has been initially released at [SSTIC 2017](https://www.sstic.org/2017/presentation/YaCo/)"},
+
+{name: "Yagi",
+ url: "https://github.com/airbus-cert/Yagi",
+ src: "c++",
+ cats: "decomp",
+ last: "20211220",
+ vers: "7.6",
+ desc: "Yet Another Ghidra Integration for IDA. Yagi intends to include the wonderful Ghidra decompiler into both IDA pro and IDA Free."},
 
 {name: "Zynamics BinDiff",
  url: "http://www.zynamics.com/bindiff.html",
