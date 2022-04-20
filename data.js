@@ -151,6 +151,13 @@ var tabledata = [
  last: "20200513",
  desc: "Comida is a plugin which searches all the references of the GUID COM object (Common Object Model) and deduce the associated type using the Hexrays plugin to improve the readability of the code."},
 
+{name: "Continuum",
+ url: "https://github.com/zyantific/continuum",
+ src: "py",
+ last: "20160912",
+ vers: "6.9",
+ desc: "Continuum is an IDA Pro plugin adding multi-binary project support, allowing fast navigation in applications involving many shared libraries."},
+
 {name: "Cortex M Firmware",
  url: "https://github.com/duo-labs/idapython",
  src: "py",
@@ -289,7 +296,7 @@ var tabledata = [
  desc: "IDA pro plugin to find crypto constants (and more)"},
 
 {name: "FIRST",
- url: "https://github.com/vrtadmin/FIRST-plugin-ida/tree/dev",
+ url: "https://github.com/Cisco-Talos/FIRST-plugin-ida",
  last: "20200131",
  desc: "Function Identification and Recovery Signature Tool (FIRST) is a plugin for IDA Pro that allows users to automatically search for and apply function metadata (the function name, parameter names, parameter types, comments, etc.) submitted from different IDBs / users. This functionality is similar to IDA's Lumina feature, which was introduced in IDA 7.2, although with FIRST the function metadata server address is configurable and the FIRST server code is open source, which means the user can set up a private metadata server for internal use if desired. A community database is also maintained by Cisco Talos and available to use free-of-charge. FIRST supports IDA 6.9 SP1 and above."},
 
@@ -372,12 +379,6 @@ var tabledata = [
  url: "https://github.com/patois/genmc",
  last: "20210115",
  desc: "Genmc is an IDAPython script/plugin hybrid that displays Hexrays decompiler microcode, which can help in developing microcode plugins."},
-
-{name: "Gensida",
- url: "https://github.com/lab313ru/Gensida",
- src: "c++",
- cats: "debug",
- desc: "IDA debugger plugin for Sega Genesis / Megadrive ROMs based on Gens ReRecordings emulator modifications."},
 
 {name: "Geolocator",
  url: "https://github.com/techbliss/ida_pro_http_ip_geolocator",
@@ -566,6 +567,12 @@ var tabledata = [
  url: "https://github.com/bnbdr/ida-bpf-processor",
  last: "20180827",
  desc: "BPF Bytecode Processor for IDA (python). Supports the old BPF bytecode only (no eBPF)."},
+
+{name: "idahunt",
+ url: "https://github.com/nccgroup/idahunt",
+ src: "py",
+ last: "20220104",
+ desc: "idahunt is a framework to analyze binaries with IDA Pro and hunt for things in IDA Pro. It is command line tool to analyse all executable files recursively from a given folder. It executes IDA in the background so you don't have to open manually each file. It supports executing external IDA Python scripts."},
 
 {name: "IDA Migrator",
  url: "https://github.com/giladreich/ida_migrator",
@@ -813,6 +820,13 @@ var tabledata = [
  url: "https://www.hex-rays.com/contests/2018/index.shtml",
  desc: "An IDA Pro processor module for Altera Nios II Classic/Gen2 microprocessor architecture."},
 
+{name: "nmips",
+ url: "https://github.com/0rganizers/nmips",
+ src: "py",
+ cats: "loader, debug, proc",
+ last: "20210915",
+ desc: "IDA plugin to enable nanoMIPS processor support. This is not limited to simple disassembly, but fully supports decompilation and even fixes up the stack in certain functions using custom microcode optimizers. It also supports relocations and automatic ELF detection (even though the UI might not show it, it kinda works). Debugging also works thanks to GDB and it also does some other stuff, such as automatic switch detections."},
+
 {name: "NSIS Reversing Suite",
  url: "https://github.com/isra17/nrs/",
  last: "20180519",
@@ -960,10 +974,13 @@ var tabledata = [
  last: "20160727",
  desc: "IDA Pro Qt Plugin for recording reversing sessions."},
 
-{name: "Sega Genesis/Megadrive Tools",
- url: "https://github.com/DrMefistO/smd_ida_tools",
- last: "20210429",
- desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Tested work on v5.2, v6.6. Should work on other versions."},
+{name: "Sega Genesis/Megadrive Tools 2",
+ url: "https://github.com/lab313ru/smd_ida_tools2",
+ src: "c++",
+ cats: "loader, debug",
+ last: "20210625",
+ vers: "7.5",
+ desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Updated to at least IDA 7.5"},
 
 {name: "Sig Maker",
  url: "https://github.com/ajkhoury/SigMaker-x64",

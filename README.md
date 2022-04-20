@@ -1,11 +1,11 @@
-# IDA Plugin List
+# Interactive IDA Plugin List
 
 Experimental interactive list of plugins for [IDA Pro](https://hex-rays.com/products/ida-pro/)
 
 **[Go to interactive list](https://vmallet.github.io/ida-plugins)**
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-205 plugins
+207 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files
 
 * [abyss](https://github.com/patois/abyss): Postprocess Hexrays Decompiler Output
@@ -61,6 +61,8 @@ Experimental interactive list of plugins for [IDA Pro](https://hex-rays.com/prod
 
 * [Comida](https://github.com/airbus-cert/comida): Comida is a plugin which searches all the references of the GUID COM object (Common Object Model) and deduce the associated type using the Hexrays plugin to improve the readability of the code.
 
+* [Continuum](https://github.com/zyantific/continuum): Continuum is an IDA Pro plugin adding multi-binary project support, allowing fast navigation in applications involving many shared libraries.
+
 * [Cortex M Firmware](https://github.com/duo-labs/idapython): The Cortex M Firmware module grooms an IDA Pro database containing firmware from an ARM Cortex M microcontroller. This module will annotate the firmware vector table, which contains a number of function pointers. This vector table annotation will cause IDA Pro to perform auto analysis against the functions these pointers point to.
 
 * [Crowd Detox](https://github.com/CrowdStrike/CrowdDetox): The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations.
@@ -107,7 +109,7 @@ Experimental interactive list of plugins for [IDA Pro](https://hex-rays.com/prod
 
 * [Findcrypt](https://github.com/polymorf/findcrypt-yara): IDA pro plugin to find crypto constants (and more)
 
-* [FIRST](https://github.com/vrtadmin/FIRST-plugin-ida/tree/dev): Function Identification and Recovery Signature Tool (FIRST) is a plugin for IDA Pro that allows users to automatically search for and apply function metadata (the function name, parameter names, parameter types, comments, etc.) submitted from different IDBs / users. This functionality is similar to IDA's Lumina feature, which was introduced in IDA 7.2, although with FIRST the function metadata server address is configurable and the FIRST server code is open source, which means the user can set up a private metadata server for internal use if desired. A community database is also maintained by Cisco Talos and available to use free-of-charge. FIRST supports IDA 6.9 SP1 and above.
+* [FIRST](https://github.com/Cisco-Talos/FIRST-plugin-ida): Function Identification and Recovery Signature Tool (FIRST) is a plugin for IDA Pro that allows users to automatically search for and apply function metadata (the function name, parameter names, parameter types, comments, etc.) submitted from different IDBs / users. This functionality is similar to IDA's Lumina feature, which was introduced in IDA 7.2, although with FIRST the function metadata server address is configurable and the FIRST server code is open source, which means the user can set up a private metadata server for internal use if desired. A community database is also maintained by Cisco Talos and available to use free-of-charge. FIRST supports IDA 6.9 SP1 and above.
 
 * [flare-emu](https://github.com/fireeye/flare-emu): flare-emu marries a supported binary analysis framework, such as IDA Pro or Radare2, with Unicorn’s emulation framework to provide the user with an easy to use and flexible interface for scripting emulation tasks. It is designed to handle all the housekeeping of setting up a flexible and robust emulator for its supported architectures so that you can focus on solving your code analysis problems. Currently, flare-emu supports the x86, x86_64, ARM, and ARM64 architectures.
 
@@ -140,8 +142,6 @@ Experimental interactive list of plugins for [IDA Pro](https://hex-rays.com/prod
 * [gdbida](https://github.com/comsecuris/gdbida): A visual bridge between a GDB session and IDA Pro's disassembler
 
 * [genmc](https://github.com/patois/genmc): Genmc is an IDAPython script/plugin hybrid that displays Hexrays decompiler microcode, which can help in developing microcode plugins.
-
-* [Gensida](https://github.com/lab313ru/Gensida): IDA debugger plugin for Sega Genesis / Megadrive ROMs based on Gens ReRecordings emulator modifications.
 
 * [Geolocator](https://github.com/techbliss/ida_pro_http_ip_geolocator): Lookup IP's and http/https adresses, using google maps, and MaxMind databases.
 
@@ -224,6 +224,8 @@ Experimental interactive list of plugins for [IDA Pro](https://hex-rays.com/prod
 * [IDAngr](https://github.com/andreafioraldi/IDAngr): Use angr in the ida debugger generating a state from the current debug session
 
 * [IDA BPF Processor](https://github.com/bnbdr/ida-bpf-processor): BPF Bytecode Processor for IDA (python). Supports the old BPF bytecode only (no eBPF).
+
+* [idahunt](https://github.com/nccgroup/idahunt): idahunt is a framework to analyze binaries with IDA Pro and hunt for things in IDA Pro. It is command line tool to analyse all executable files recursively from a given folder. It executes IDA in the background so you don't have to open manually each file. It supports executing external IDA Python scripts.
 
 * [IDA Migrator](https://github.com/giladreich/ida_migrator): IDA Migrator plugin makes the job of migrating symbols and type informations from one IDA database instance to another. It will help migrating function names, structures and enums. This comes in handy when:
   * Moving to a newer version of IDA that does better analysis and you don't want to change in the new instance type information or variable names of the decompiled functions.
@@ -339,6 +341,8 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [NIOS2](https://www.hex-rays.com/contests/2018/index.shtml): An IDA Pro processor module for Altera Nios II Classic/Gen2 microprocessor architecture.
 
+* [nmips](https://github.com/0rganizers/nmips): IDA plugin to enable nanoMIPS processor support. This is not limited to simple disassembly, but fully supports decompilation and even fixes up the stack in certain functions using custom microcode optimizers. It also supports relocations and automatic ELF detection (even though the UI might not show it, it kinda works). Debugging also works thanks to GDB and it also does some other stuff, such as automatic switch detections.
+
 * [NSIS Reversing Suite](https://github.com/isra17/nrs/): NRS is a set of Python librairies used to unpack and analysis NSIS installer's data. It also feature an IDA plugin used to disassembly the NSIS Script of an installer.
 
 * [obfDetect](https://github.com/mcdulltii/obfDetect): A plugin to automatically detect obfuscated code and state machines in binaries.
@@ -400,7 +404,7 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [Screen recorder](https://github.com/techbliss/Ida_Pro_Screen_Recorder): IDA Pro Qt Plugin for recording reversing sessions.
 
-* [Sega Genesis/Megadrive Tools](https://github.com/DrMefistO/smd_ida_tools): Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Tested work on v5.2, v6.6. Should work on other versions.
+* [Sega Genesis/Megadrive Tools 2](https://github.com/lab313ru/smd_ida_tools2): Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Updated to at least IDA 7.5
 
 * [Sig Maker](https://github.com/ajkhoury/SigMaker-x64): Can create sigs automatically and has a wide variety of functions.
 
@@ -463,7 +467,7 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 The original list of 200 plugins came from
 [onethawt](https://github.com/onethawt)'s excellent
 [idaplugins-list](https://github.com/onethawt/idaplugins-list). His and
-other crontributors' work was essential in putting together this
+other contributors' work was essential in putting together this
 interactive list.
 
 

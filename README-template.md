@@ -1,5 +1,5 @@
 _TEMPLATE file for README.md; see [README.md](README.md) instead (__SKIP__)_
-# IDA Plugin List
+# Interactive IDA Plugin List
 
 Experimental interactive list of plugins for [IDA Pro](https://hex-rays.com/products/ida-pro/)
 
@@ -14,7 +14,7 @@ __GENERATED_LIST__
 The original list of 200 plugins came from 
 [onethawt](https://github.com/onethawt)'s excellent 
 [idaplugins-list](https://github.com/onethawt/idaplugins-list). His and
-other crontributors' work was essential in putting together this 
+other contributors' work was essential in putting together this 
 interactive list.
 
 
