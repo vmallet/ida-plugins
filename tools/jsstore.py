@@ -52,3 +52,16 @@ def load_plugins(js_file: str) -> List[Dict[str, str]]:
 
     return plugins
 
+
+def _info_key(info):
+    """Return a midly-sanitized sorting key for the given plugin info."""
+    return info.get("name", "").lower().replace(" ", "").replace("-", "")
+
+
+def print_plugins(plugins, file=sys.stdout):
+    """Print plugins in the canonical order to a JS var definition."""
+    plugins = sorted(plugins, key=_info_key)
+    print("var tabledata = [", file=file)
+    for info in plugins:
+        EntryFormatter(info).emit(file=file)
+    print("];", file=file)

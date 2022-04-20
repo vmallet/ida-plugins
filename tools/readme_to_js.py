@@ -6,7 +6,7 @@ README.md and produce a more-or-less usable JS datastructure.
 import re
 import sys
 
-from jsstore import EntryFormatter
+from jsstore import print_plugins
 
 __author__ = "https://github.com/vmallet"
 
@@ -23,14 +23,15 @@ class Entry(object):
     def append(self, desc):
         self.desc.append(desc)
 
-    def emit(self):
+    def to_attrs(self):
+        """Get a 'info' compatible set of attributes for this entry."""
         attrs = dict(self.attrs)
         attrs["desc"] = "\n".join(desc for desc in self.desc)
-        EntryFormatter(attrs).emit()
+        return attrs
 
 
 def produce_js(filename: str):
-    print("var tabledata = [")
+    plugins = []
     entry = None
     with open(filename, "rt") as f:
         for line in f:
@@ -42,7 +43,7 @@ def produce_js(filename: str):
                 url = m.group("url")
                 desc = m.group("desc")
                 if entry:
-                    entry.emit()
+                    plugins.append(entry.to_attrs())
                 entry = Entry(name, url, desc)
                 continue
 
@@ -51,8 +52,9 @@ def produce_js(filename: str):
             if entry and line:
                 entry.append(line)
     if entry:
-        entry.emit()
-    print("];")
+        plugins.append(entry.to_attrs())
+
+    print_plugins(plugins)
 
 
 if __name__ == "__main__":
