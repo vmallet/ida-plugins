@@ -114,6 +114,8 @@ var tabledata = [
 {name: "Class Informer", 
  url: "http://sourceforge.net/projects/classinformer/",
  src: "c++",
+ last: "20180714",
+ vers: "7.1",
  desc: "Scans an MSVC 32bit target IDB for vftables with C++ RTTI, and MFC RTCI type data. Places structure defs, names, labels, and comments to make more sense of class vftables (\"Virtual Function Table\") and make them read easier as an aid to reverse engineering. Creates a list window with found vftables for browsing."},
 
 {name: "Classy", 
@@ -136,7 +138,10 @@ var tabledata = [
  desc: "Codemap is a binary analysis tool for \"run-trace visualization\" provided as IDA plugin."},
 
 {name: "collabREate", 
- url: "http://www.idabook.com/collabreate/",
+ url: "https://github.com/cseagle/collabREate",
+ src: "c++",
+ last: "20210901",
+ vers: "7.5",
  desc: "collabREate is a plugin for IDA Pro that is designed to provide a collaborative reverse engineering capability for multiple IDA users working on the same binary file."},
 
 {name: "Comida", 
@@ -236,7 +241,10 @@ var tabledata = [
  desc: "dwarfexport is an IDA Pro plugin that allows the user to export dwarf debug information. This can then be imported in to gdb and other tools, allowing you to debug using info you have recovered in IDA even when you cannot connect the IDA debugger."},
 
 {name: "DWARF Plugin", 
- url: "https://hex-rays.com/contests/2009/IDADwarf-0.2/README",
+ url: "https://github.com/vrasneur/idadwarf",
+ src: "c++",
+ last: "20091115",
+ vers: "5.5",
  desc: "IDADWARF is an IDA plugin that imports DWARF debugging symbols into an IDA database. [Download](https://hex-rays.com/contests/2009/IDADwarf-0.2/idadwarf-0.2.zip)"},
 
 {name: "Dynamic Data Resolver", 
@@ -270,7 +278,9 @@ var tabledata = [
  desc: "This is a very simple IDA plugin to extract all Mach-O binaries contained anywhere in the disassembly."},
 
 {name: "FCatalog", 
- url: "http://www.xorpd.net/pages/fcatalog.html",
+ url: "https://github.com/xorpd/fcatalog_client",
+ src: "py",
+ last: "20160819",
  desc: "FCatalog (The functions catalog) is a mechanism for finding similarities between different binary blobs in an efficient manner. It is mostly useful for identifying a new binary blob is somewhat similar to a binary blob that have been encountered before. The client side of FCatalog is an IDA plugin that allows a group of reverse engineers to manage a pool of reversed functions. Whenever a new binary function is encountered, FCatalog can compare it to all the known and previously reversed binary functions."},
 
 {name: "Findcrypt", 
@@ -365,6 +375,8 @@ var tabledata = [
 
 {name: "Gensida", 
  url: "https://github.com/lab313ru/Gensida",
+ src: "c++",
+ cats: "debug",
  desc: "IDA debugger plugin for Sega Genesis / Megadrive ROMs based on Gens ReRecordings emulator modifications."},
 
 {name: "Geolocator", 
@@ -398,7 +410,11 @@ var tabledata = [
  desc: "The Hex-Rays Decompiler plugin for better code navigation in RE process. CodeXplorer automates code REconstruction of C++ applications or modern malware like Stuxnet, Flame, Equation, Animal Farm ..."},
 
 {name: "HexRaysDeob", 
- url: "https://www.hex-rays.com/contests/2018/index.shtml",
+ url: "https://github.com/RolfRolles/HexRaysDeob",
+ src: "c++",
+ cats: "deobf",
+ last: "20190903",
+ vers: "7.3",
  desc: "A Hex-Rays microcode API plugin breaking an obfuscating compiler used to create an in-the-wild malware family. The plugin is fully automatic and requires no user intervention; upon installation, the decompilation listings presented to the user will be free of obfuscation."},
 
 {name: "Hexrays Toolbox", 
@@ -427,7 +443,9 @@ var tabledata = [
  desc: "HexRays decompiler plugin that visualizes the ctree of decompiled functions using IDA's graph engine."},
 
 {name: "Hyara", 
- url: "https://www.hex-rays.com/contests/2018/index.shtml",
+ url: "https://github.com/hyuunnn/Hyara",
+ src: "py",
+ last: "20211031",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "ida-qscripts", 
@@ -476,8 +494,9 @@ var tabledata = [
  desc: "IDABuddy is a reverse-engineer's best friend. Designed to be everything Clippy the Office Assistant was, and more!"},
 
 {name: "IDA C#", 
- url: "https://github.com/Fabi/IDACSharp",
- desc: "Scripting IDA with C#"},
+ url: "https://blog.karatos.in/a?ID=01000-69f2f124-560e-47a5-bb0c-93052d9763af",
+ last: "20100605",
+ desc: "Scripting IDA with C#, download [here](https://files.cnblogs.com/nnhy/IDACSharp_20100605143116.rar)"},
 
 {name: "IDA Compare", 
  url: "https://github.com/dzzie/IDACompare",
@@ -501,10 +520,16 @@ var tabledata = [
 
 {name: "IDA Eye", 
  url: "http://www.mfmokbel.com/Down/RCE/Documentation.html",
+ src: "c++",
+ last: "20180310",
+ vers: "7.0",
  desc: "Plugin that enables you to perform different operations at the mnemonic level, independent of any particular processor type. These operations are facilitated through a parameterized template, which include the capabilities to de/highlight instructions, gather statistical information about the frequency of each instruction, and search for sequences of mnemonics, among other features."},
 
 {name: "IDA Extrapass", 
  url: "http://sourceforge.net/projects/idaextrapassplugin/",
+ src: "c++",
+ last: "20180713",
+ vers: "7.1",
  desc: "An IDA Pro Win32 target clean up plug-in by Sirmabus. It does essentially four cleaning/fixing steps: Convert stray code section values to \"unknown\", fix missing \"align\" blocks, fix missing code bytes, and locate and fix missing/undefined functions."},
 
 {name: "IDAFuzzy", 
@@ -564,6 +589,8 @@ var tabledata = [
 
 {name: "IDA Patchwork", 
  url: "https://bitbucket.org/daniel_plohmann/idapatchwork",
+ src: "py",
+ last: "20141104",
  desc: "Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim."},
 
 {name: "IDA Python Embedded Toolkit", 
@@ -603,6 +630,9 @@ var tabledata = [
 
 {name: "IDA Signature Matching Tool", 
  url: "http://sourceforge.net/projects/idasignsrch/",
+ src: "c++",
+ last: "20180713",
+ vers: "7.1",
  desc: "Tool for searching signatures inside files, extremely useful as help in reversing jobs like figuring or having an initial idea of what encryption/compression algorithm is used for a proprietary protocol or file. It can recognize tons of compression, multimedia and encryption algorithms and\nmany other things like known strings and anti-debugging code which can be also manually added since it's all based on a text signature file read at run-time and easy to modify."},
 
 {name: "IDA Skins", 
@@ -686,7 +716,10 @@ var tabledata = [
  desc: "\"Karta\" (Russian for \"Map\") is a source code assisted fast binary matching plugin for IDA. Karta identifies and matches open-sourced libraries in a given binary using a unique technique that enables it to support huge binaries (> 200,000 functions) with almost no impact on the overall performance."},
 
 {name: "Keypatch", 
- url: "http://keystone-engine.org/keypatch",
+ url: "https://github.com/keystone-engine/keypatch",
+ src: "py",
+ last: "2021021",
+ vers: "7.5",
  desc: "A multi-architeture assembler for IDA. Keypatch allows you enter assembly instructions to directly patch the binary under analysis. Powered by [Keystone engine](http://keystone-engine.org)."},
 
 {name: "Labeless", 
@@ -751,6 +784,9 @@ var tabledata = [
 
 {name: "MyNav", 
  url: "https://code.google.com/p/mynav/",
+ src: "c++",
+ last: "20100903",
+ vers: "5.6",
  desc: "MyNav is a plugin for IDA Pro to help reverse engineers in the most typical task like discovering what functions are responsible of some specifical tasks, finding paths between \"interesting\" functions and data entry points."},
 
 {name: "nao", 
@@ -789,6 +825,10 @@ var tabledata = [
 
 {name: "Optimice", 
  url: "https://code.google.com/p/optimice/",
+ src: "py",
+ cats: "deobf",
+ last: "20120805",
+ vers: "6.0",
  desc: "This plugin enables you to remove some common obfuscations and rewrite code to a new segment. Currently supported optimizations are: Dead code removal, JMP merging, JCC opaque predicate removal, Pattern based deobfuscations"},
 
 {name: "Oregami", 
@@ -831,7 +871,14 @@ var tabledata = [
  last: "20140811",
  desc: "Change processor without restarting IDA."},
 
-{name: "Python Editor", 
+{name: "pyhexraysdeob",
+ url: "https://github.com/idapython/pyhexraysdeob",
+ src: "py",
+ cats: "deobf",
+ last: "20191015",
+ desc: "A port of Rolf Rolles' HexRaysDeob to Python."},
+
+{name: "Python Editor",
  url: "https://github.com/techbliss/Python_editor",
  last: "20201225",
  desc: "Python editor based IDA Pro. The plugin helps python devs with scripting and running python scripts, and creating them. IT have many functions, code recognition and more."},
@@ -872,7 +919,11 @@ var tabledata = [
  desc: "A way of making almost-arbitrary changes to an executable when run under a debugger -- even changes that don't fit."},
 
 {name: "retdec", 
- url: "https://retdec.com/idaplugin/",
+ url: "https://github.com/avast/retdec-idaplugin",
+ src: "c++",
+ cats: "decomp",
+ last: "20200818",
+ vers: "7.5",
  desc: "IDA plugin for retdec - a retargetable machine-code decompiler based on LLVM."},
 
 {name: "ret-sync", 
@@ -915,10 +966,20 @@ var tabledata = [
  desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Tested work on v5.2, v6.6. Should work on other versions."},
 
 {name: "Sig Maker", 
- url: "https://tuts4you.com/download.php?view.3263",
- desc: "Can create sigs automatically and has a wide variety of functions (might be unstable on IDA 6.2)."},
+ url: "https://github.com/ajkhoury/SigMaker-x64",
+ src: "c++",
+ last: "20220301",
+ vers: "7.0",
+ desc: "Can create sigs automatically and has a wide variety of functions."},
 
-{name: "SimplifyGraph", 
+{name: "SigMakerEx",
+ url: "https://github.com/kweatherman/sigmakerex",
+ src: "c++",
+ last: "20220216",
+ vers: "7.6",
+ desc: "Enhanced IDA Pro signature generator plugin."},
+
+{name: "SimplifyGraph",
  url: "https://github.com/fireeye/SimplifyGraph",
  last: "20180129",
  desc: "An IDA Pro plugin to assist with complex graphs."},
@@ -934,7 +995,10 @@ var tabledata = [
  desc: "Snippet Detector is an IDA Python scripts project used to detect snippets from 32bit disassembled files. snippet is the word used to identify a generic sequence of instructions (at the moment a snippet is indeed a defined function). The aim of the tool is to collect many disassembled snippets inside a database for the detection process."},
 
 {name: "Snowman Decompiler", 
- url: "http://derevenets.com/",
+ url: "https://github.com/yegord/snowman",
+ src: "c++",
+ cats: "decomp",
+ last: "20210623",
  desc: "Snowman is a native code to C/C++ decompiler. Standalone and IDA Plugin. [Source Code](https://github.com/yegord/snowman)"},
 
 {name: "Splode", 
@@ -954,6 +1018,8 @@ var tabledata = [
 
 {name: "Structure Dump", 
  url: "http://www.openrce.org/downloads/details/227/Structure_Dump",
+ src: "c++",
+ last: "20070405",
  desc: "StructDump is an IDA plugin, allowing you to export IDA types into high-level language definitions. Currently, C++ is supported."},
 
 {name: "Styler", 
@@ -978,6 +1044,9 @@ var tabledata = [
 
 {name: "TurboDiff", 
  url: "http://www.coresecurity.com/corelabs-research/open-source-tools/turbodiff",
+ src: "c++",
+ last: "20111213",
+ vers: "5.1",
  desc: "Turbodiff is a binary diffing tool developed as an IDA plugin. It discovers and analyzes differences between the functions of two binaries."},
 
 {name: "uEmu", 
@@ -1017,6 +1086,9 @@ var tabledata = [
 
 {name: "Xex Loader for IDA 6.6", 
  url: "http://xorloser.com/blog/?p=395",
+ cats: "loader",
+ last: "20130923",
+ vers: "6.6",
  desc: "This adds the ability to load xex files into IDA directly without having to first process them in any way. It processes the xex file as much as possible while loading to minimise the work required by the user to get it to a state fit for reversing."},
 
 {name: "xray", 
