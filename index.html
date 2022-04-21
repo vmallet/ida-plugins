@@ -23,6 +23,17 @@
 		<h1>Interactive IDA Plugin List</h1>
 		<p></p>
 		<h1>WORK IN PROGRESS</h1>
+		<div style="text-align: center">
+		<div style="display: inline-block; text-align: left; max-width: 80%">
+		<i>I am only partially done trying to go through the list of plugins to give
+			them some very rough categories, and assign them a source language (pretty
+			much C++ or Python; although there is one Scheme one...). As you can tell
+			I know absolutely nothing about how to construct a web page or any UI for
+			that matter; if you know your way around HTML of JS, help would be welcome :)
+		</i>
+		</div>
+		</div>
+		<p></p>
 		See <a href="https://github.com/vmallet/ida-plugins">source</a>
 		<p></p>
 		<div>
@@ -37,6 +48,8 @@
 				<!-- Please help me make a half-decent webpage! -->
 				&nbsp;&nbsp;&nbsp;&nbsp;
 				<label>Categories:&nbsp;</label>
+				<input type="checkbox" id="cats-collab" name="cats-collab" value="collab"/>
+		  		<label for="cats-collab">collab</label>
 				<input type="checkbox" id="cats-debug" name="cats-debug" value="debug"/>
 		  		<label for="cats-debug">debug</label>
 				<input type="checkbox" id="cats-decomp" name="cats-decomp" value="decomp"/>
@@ -47,6 +60,8 @@
 		  		<label for="cats-loader">loader</label>
 				<input type="checkbox" id="cats-proc" name="cats-proc" value="proc"/>
 		  		<label for="cats-proc">proc</label>
+				<input type="checkbox" id="cats-trace" name="cats-trace" value="trace"/>
+		  		<label for="cats-trace">trace</label>
 				<input type="checkbox" id="cats-ui" name="cats-ui" value="ui"/>
 		  		<label for="cats-ui">ui</label>
 			</span>
@@ -88,8 +103,8 @@
 	/** Category filter. */
 	let cats = [];
 	const cats_checkboxes = [
-			"#cats-deobf", "#cats-decomp", "#cats-loader", "#cats-debug",
-			"#cats-proc", "#cats-ui" ];
+			"#cats-collab", "#cats-deobf", "#cats-decomp", "#cats-loader",
+		    "#cats-debug", "#cats-proc", "#cats-trace", "#cats-ui" ];
 
 	/**
 	 * Filter a table row.
