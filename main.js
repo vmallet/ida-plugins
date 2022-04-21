@@ -17,6 +17,9 @@ let table = new Tabulator("#plugin-table", {
 			hozAlign:"left", width: 120}
 	],
 });
+table.on("dataFiltered", function(filters, rows){
+	$("#plugin-stats").text(buildStatsText(rows))
+});
 
 /** Src filter. */
 let src = [];
@@ -25,8 +28,9 @@ const src_checkboxes = [ "#src-cpp", "#src-py" ];
 /** Category filter. */
 let cats = [];
 const cats_checkboxes = [
-		"#cats-collab", "#cats-deobf", "#cats-decomp", "#cats-loader",
-	    "#cats-debug", "#cats-proc", "#cats-trace", "#cats-ui" ];
+		"#cats-collab", "#cats-debug", "#cats-decomp", "#cats-deobf",
+		"#cats-int", "#cats-loader", "#cats-proc", "#cats-trace",
+		"#cats-ui" ];
 
 /**
  * Filter a table row.
@@ -48,6 +52,91 @@ function customFilter(data) {
 		return false;
 	}
 	return true;
+}
+
+/**
+ * Super simple dictionary w/ default value. Not ideal but will get us by.
+ */
+class DefaultDict {
+    constructor(defaultVal) {
+        return new Proxy(
+            {},
+            {
+                get: (target, name) => {
+                    if (name === '__dict__') {
+                        return target;
+                    }
+					if (name in target) {
+                        return target[name];
+                    }
+					target[name] = defaultVal;
+					return defaultVal;
+                },
+            }
+        );
+    }
+}
+
+/**
+ * Return a custom string for the given key/value pair.
+ */
+function _kvToStr([k, v]) {
+	if (k === "undefined") {
+		return "(none):" + v;
+	}
+	return k + ":" + v;
+}
+
+/**
+ * Compare two strings, putting any starting with '(' last.
+ *
+ * (Not robust. Only feed it strings.)
+ */
+function _sortParenLast(a, b) {
+	let res = 0;
+	if (a < b) {
+		res = -1;
+	} else if (a > b) {
+		res = 1;
+	}
+
+	if (a.startsWith('(') || b.startsWith('(')) {
+		res = -res;
+	}
+	return res;
+}
+
+/**
+ * Construct the stats text displayed above the table. Ultra crude.
+ *
+ * TODO: make this presentable, decide what to keep and what not to.
+ * */
+function buildStatsText(rows) {
+	const count = rows.length
+	const zsrcs = new DefaultDict(0);
+	const zcats = new DefaultDict(0);
+
+	// Count languages, categories
+	for (const row of rows) {
+		let data = row.getData();
+		// Count source language, straightforward
+		zsrcs[data.src]++;
+		// Count categories
+		if (!data.cats) {
+			zcats["undefined"]++;
+		} else {
+			let split = data.cats.split(",");
+			for (const cat of split) {
+				zcats[cat.trim()]++;
+			}
+		}
+	}
+
+	src_txt = Object.entries(zsrcs).map(_kvToStr).sort(_sortParenLast).join(" ")
+	cat_txt = Object.entries(zcats).map(_kvToStr).sort(_sortParenLast).join(" ")
+
+	// TODO: this looks just horrible; do something about the UI treatment.
+	return "Showing " + count + " plugins.  ---  " + src_txt + "  ---  " + cat_txt
 }
 
 /**
