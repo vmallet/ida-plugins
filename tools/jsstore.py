@@ -80,7 +80,8 @@ def load_plugins(js_file: str, check_attributes=False) -> List[Dict[str, str]]:
 
 def _info_key(info):
     """Return a midly-sanitized sorting key for the given plugin info."""
-    return info.get("name", "").lower().replace(" ", "").replace("-", "")
+    # TODO: switch to using translate() instead of chaining replace()?
+    return info.get("name", "").lower().replace(" ", "").replace("-", "").replace("_", "")
 
 
 def print_plugins(plugins, file=sys.stdout):
