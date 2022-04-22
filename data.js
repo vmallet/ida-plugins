@@ -355,7 +355,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20220415",
+ last: "20220421",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -772,7 +772,7 @@ var tabledata = [
 
 {name: "ida-qscripts",
  url: "https://github.com/0xeb/ida-qscripts",
- last: "20220113",
+ last: "20220420",
  desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
 {name: "IDARay",
@@ -1096,7 +1096,7 @@ var tabledata = [
 {name: "Ponce",
  url: "https://github.com/illera88/Ponce",
  src: "c++",
- last: "20210516",
+ last: "20220421",
  vers: "7.6",
  desc: "Taint analysis and symbolic execution over binaries in an easy and intuitive fashion."},
 
