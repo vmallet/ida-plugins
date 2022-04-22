@@ -28,7 +28,7 @@ const src_checkboxes = [ "#src-cpp", "#src-py" ];
 /** Category filter. */
 let cats = [];
 const cats_checkboxes = [
-		"#cats-collab", "#cats-debug", "#cats-decomp", "#cats-deobf",
+		"#cats-collab", "#cats-debug", "#cats-decomp", "#cats-deobf", "#cats-dev",
 		"#cats-int", "#cats-loader", "#cats-proc", "#cats-trace",
 		"#cats-ui" ];
 
