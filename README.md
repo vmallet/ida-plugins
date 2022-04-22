@@ -1,6 +1,6 @@
 # Interactive IDA Plugin List
 
-This is a comprehensive list of plugins for [IDA Pro](https://hex-rays.com/products/ida-pro/) that is more _interactive_, that is, it can be sorted and filtered to help find plugins of interest. It also has extra metadata like the language the plugin is written in, when the plugin was last updated, and an attempt at putting plugins into categories.
+This is a comprehensive list of plugins for [IDA Pro](https://hex-rays.com/products/ida-pro/) that is more _interactive_, that is, it can be sorted and filtered to help with finding plugins of interest. It also has extra metadata like the language the plugin is written in, when the plugin was last updated, and an attempt at putting plugins into categories.
 
 The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-plugins). Below you can still find a standard, static version of the list.
 
@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-234 plugins
+260 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files
 
 * [abyss](https://github.com/patois/abyss): Postprocess Hexrays Decompiler Output
@@ -26,6 +26,10 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
   *  Generates interactive call graphs
   *  Fully scriptable
 
+* [AlphaGolang](https://github.com/SentineLabs/AlphaGolang): IDApython Scripts for Analyzing Golang Binaries.
+
+* [AMIE](https://github.com/NeatMonster/AMIE): A Minimalist Instruction Extender. AMIE is a Python rework of FRIEND that focuses solely on the ARM architecture (only AArch32 and AArch64 are supported). It is both lightweight and dependency-free, and provides the most relevant and up-to-date information about the ARM system registers and instructions.
+
 * [Amnesia](https://github.com/duo-labs/idapython): Amnesia is an IDAPython module designed to use byte level heuristics to find ARM thumb instructions in undefined bytes in an IDA Pro database. Currently, the heuristics in this module find code in a few different ways. Some instructions identify and define new code by looking for comon byte sequences that correspond to particular ARM opcodes. Other functions in this module define new functions based on sequences of defined instructions.
 
 * [Android Debugging](https://github.com/techbliss/ADB_Helper_QT_Super_version): This version have both support for native arm debugging via usb and sdk ADV manager.
@@ -36,11 +40,17 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [AutoRE](https://github.com/a1ext/auto_re): Auto-renaming plugin with tagging support.
 
+* [Back 2 The Future](https://github.com/SafeBreach-Labs/Back2TheFuture): Find patterns of vulnerabilities on Windows in order to find 0-day and write exploits of 1-days. We use Microsoft security updates in order to find the patterns.
+
 * [BinAuthor](https://github.com/g4hsean/BinAuthor): Match an author to an unknown binary.
 
 * [BinCAT](https://github.com/airbus-seclab/bincat): BinCAT is a static Binary Code Analysis Toolkit, designed to help reverse engineers, directly from IDA.
 
 * [BinClone](https://github.com/BinSigma/BinClone): BinClone: detecting code clones in malware [SERE 2014]
+
+* [BinDiff](http://www.zynamics.com/bindiff.html): BinDiff by Zynamics (now Google) is a comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.
+
+* [BinExport](https://github.com/google/binexport): Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires.
 
 * [BinNavi](https://github.com/google/binnavi): BinNavi is a binary analysis IDE - an environment that allows users to inspect, navigate, edit, and annotate control-flow-graphs of disassembled code, do the same for the callgraph of the executable, collect and combine execution traces, and generally keep track of analysis results among a group of analysts.
 
@@ -79,7 +89,7 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [Cortex M Firmware](https://github.com/duo-labs/idapython): The Cortex M Firmware module grooms an IDA Pro database containing firmware from an ARM Cortex M microcontroller. This module will annotate the firmware vector table, which contains a number of function pointers. This vector table annotation will cause IDA Pro to perform auto analysis against the functions these pointers point to.
 
-* [Crowd Detox](https://github.com/CrowdStrike/CrowdDetox): The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations.
+* [CrowdDetox](https://github.com/CrowdStrike/CrowdDetox): The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations.
 
 * [CTO: Call Tree Overviewer](https://github.com/herosi/CTO): IDA plugin for creating a simple and efficient function call tree graph. It can also summarize function information such as internal function calls, API calls, static linked library function calls, unresolved indirect function calls, string references, structure member accesses, specific comments.
 
@@ -88,6 +98,8 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 * [Dalvik Header](https://github.com/strazzere/dalvik-header-plugin): This is a simple Dalvik header plugin for IDA Pro
 
 * [Data Xref Counter](https://github.com/onethawt/idapyscripts): Enumerates all of the the x-references in a specific segment and counts the frequency of usage. The plugin displays the data in QtTableWidget and lets the user filter and sort the references. You can also export the data to a CSV file.
+
+* [DBGHider](https://github.com/iweizime/DBGHider): An IDA plugin aims to hide debugger from processes (Windows).
 
 * [Debugger](https://github.com/cseagle/sk3wldbg): Debugger plugin for IDA Pro backed by the Unicorn Engine
 
@@ -102,6 +114,8 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 * [dotNIET](https://github.com/synacktiv/dotNIET): Import missing symbols (usually few thousands) which are resolved at runtime by .NET Native compiled binaries. These symbols lie in SharedLibrary.dll and are not exported by this one.
 
 * [DOXBox Debugger](https://github.com/wjp/idados): Eric Fry's IDA/DOSBox debugger plugin
+
+* [dp701](https://github.com/pr701/dp701): Dark theme for IDA Pro.
 
 * [DrGadget](https://github.com/patois/DrGadget): This is an IDAPython plugin for the Interactive Disassembler for all your ROP experimentation needs.
 
@@ -121,9 +135,13 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [Dynamic IDA Enrichment](https://github.com/ynvb/DIE): DIE is an IDA python plugin designed to enrich IDA`s static analysis with dynamic data. This is done using the IDA Debugger API, by placing breakpoints in key locations and saving the current system context once those breakpoints are hit.
 
+* [Dynlib](https://github.com/aerosoul94/dynlib): This is an IDA Pro plugin to aid in reverse engineering PS4 user mode elf's by loading the PS4 specific DYNLIBDATA segment.
+
 * [EFI Scripts](https://github.com/danse-macabre/ida-efitools): Some IDA scripts and tools to assist with reverse engineering EFI executables.
 
 * [efiXplorer](https://github.com/binarly-io/efiXplorer): IDA plugin for UEFI firmware analysis and reverse engineering automation.
+
+* [epanos](https://github.com/drvink/epanos): ElectroPaint Automatic No-source Object reaSsembler (a MIPS to C decompiler). This is a very dumb MIPS to C static translator.
 
 * [EtherAnnotate](https://github.com/inositle/etherannotate_ida): Parses the specialized instruction trace files that are generated using the EtherAnnotate Xen modification (http://github.com/inositle/etherannotate_xen).  From the instruction trace, register values and code coverage of the run-time information are visualized in IDA Pro through instruction comments and line colorations.
 
@@ -143,6 +161,8 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [FLARE Plugins](https://github.com/fireeye/flare-ida): Shellcode Hashes, Struct Typer, StackStrings, MSDN Annotations, ApplyCalleType
 
+* [FLIRTDB](https://github.com/Maktm/FLIRTDB): A community driven collection of IDA FLIRT signature files.
+
 * [FLS Loader](https://github.com/rpw/flsloader): IDA Pro loader module for IFX iPhone baseband firmwares. Based on a universal scatter loader script by roxfan.
 
 * [Fluorescence](https://github.com/devttys0/ida/tree/master/plugins/fluorescence): Un/highlights function call instructions
@@ -153,7 +173,7 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [Frida](https://github.com/techbliss/Frida_For_Ida_Pro): This is plugin for ida pro thar uses the Frida api. Mainly trace functions.
 
-* [FRIEND](https://github.com/alexhude/FRIEND): Flexible Register/Instruction Extender aNd Documentation. FRIEND is an IDA plugin created to improve disassembly and bring register/instruction documentation right into IDA View.
+* [FRIEND](https://github.com/alexhude/FRIEND): Flexible Register/Instruction Extender aNd Documentation. FRIEND is an IDA plugin created to improve disassembly and bring register/instruction documentation right into IDA View. (see also: AMIE)
 
 * [Funcap](https://github.com/deresz/funcap): This script records function calls (and returns) across an executable using IDA debugger API, along with all the arguments passed. It dumps the info to a text file, and also inserts it into IDA's inline comments. This way, static analysis that usually follows the behavioral runtime analysis when analyzing malware, can be directly fed with runtime info such as decrypted strings returned in function's arguments.
 
@@ -165,6 +185,8 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [Gamecube Extension](https://github.com/hyperiris/gekkoPS): This is a Gekko CPU Paired Single extension instructions plug-in for IDA Pro 5.2
 
+* [garmin-ida-loader](https://sourceforge.net/projects/garminidaloader/): IDA loader for Garmin firmwares.
+
 * [gdbida](https://github.com/comsecuris/gdbida): A visual bridge between a GDB session and IDA Pro's disassembler
 
 * [genmc](https://github.com/patois/genmc): Genmc is an IDAPython script/plugin hybrid that displays Hexrays decompiler microcode, which can help in developing microcode plugins.
@@ -173,9 +195,9 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [GhIDA](https://github.com/Cisco-Talos/GhIDA): GhIDA is an IDA Pro plugin that integrates the Ghidra decompiler in IDA.
 
-* [go_parser](https://github.com/0xjiayu/go_parser): Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro.
-
 * [golang_loader_assist](https://github.com/strazzere/golang_loader_assist): Making GO reversing easier in IDA Pro.
+
+* [go_parser](https://github.com/0xjiayu/go_parser): Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro.
 
 * [grap](https://github.com/QuoSecGmbH/grap): Define and match graph patterns within binaries. grap takes patterns and binary files, uses a Casptone-based disassembler to obtain the control flow graphs from the binaries, then matches the patterns against them.
 
@@ -192,6 +214,8 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 * [HexRaysDeob](https://github.com/RolfRolles/HexRaysDeob): A Hex-Rays microcode API plugin breaking an obfuscating compiler used to create an in-the-wild malware family. The plugin is fully automatic and requires no user intervention; upon installation, the decompilation listings presented to the user will be free of obfuscation.
 
 * [HexRaysPyTools](https://github.com/igogo-x86/HexRaysPyTools): Plugin assists in creation classes/structures and detection virtual tables. Best to use with Class Informer plugin, because it helps to automatically get original classes names.
+
+* [hexrays_scripts](https://github.com/patois/hexrays_scripts): Various scripts for the Hexrays decompiler (kloppy, shuffle, arachno, IDA coffee, screenrecorder, ricky).
 
 * [Hexrays Toolbox](https://github.com/patois/HexraysToolbox): Find code patterns within the Hexrays AST
 
@@ -211,15 +235,17 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [IDA2SQL](https://github.com/zynamics/ida2sql-plugin-ida): As the name implies this plugin can be used to export information from IDA databases to SQL databases. This allows for further analysis of the collected data: statstical analysis, building graphs, finding similarities between programs, etc.
 
-* [IDA ARM](https://github.com/gdelugre/ida-arm-system-highlight): This script will give you the list of ARM system instructions used in your IDA database. This is useful for locating specific low-level pieces of code (setting up the MMU, caches, fault handlers, etc.).
+* [ida-arm-system-highlight](https://github.com/gdelugre/ida-arm-system-highlight): This script will give you the list of ARM system instructions used in your IDA database. This is useful for locating specific low-level pieces of code (setting up the MMU, caches, fault handlers, etc.).
 
 * [IDA Batch Decompile](https://github.com/tintinweb/ida-batch_decompile): IDA Batch Decompile is a plugin for Hex-Ray's IDA Pro that adds the ability to batch decompile multiple files and their imports with additional annotations (xref, stack var size) to the pseudocode .c file
+
+* [ida bitfields](https://github.com/JustasMasiulis/ida_bitfields): A simple IDA Pro plugin to make bitfields and bitflags in them easier to reason about.
 
 * [IDA BPF Processor](https://github.com/bnbdr/ida-bpf-processor): BPF Bytecode Processor for IDA (python). Supports the old BPF bytecode only (no eBPF).
 
 * [IDABuddy](https://github.com/tmr232/IDABuddy): IDABuddy is a reverse-engineer's best friend. Designed to be everything Clippy the Office Assistant was, and more!
 
-* [IDA C#](https://blog.karatos.in/a?ID=01000-69f2f124-560e-47a5-bb0c-93052d9763af): Scripting IDA with C#, download [here](https://files.cnblogs.com/nnhy/IDACSharp_20100605143116.rar)
+* [IDA C#](https://blog.karatos.in/a?ID=01000-69f2f124-560e-47a5-bb0c-93052d9763af): Scripting IDA with C#, download [here](https://files.cnblogs.com/nnhy/IDACSharp_20100605143116.rar). (All in Chinese).
 
 * [ida-climacros](https://github.com/0xeb/ida-climacros): `ida-climacros` is a productivity plugin that allows you to define macros that will be expanded when interfacing with IDA's command line interpreter (in the output window).
 
@@ -227,13 +253,15 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [IDA Compare](https://github.com/dzzie/IDACompare): IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage.
 
-* [IDACyber](https://github.com/patois/IDACyber): IDACyber is a plugin for the Interactive Disassembler that visualizes an IDA database's content.
+* [IDACyber](https://github.com/patois/IDACyber): IDACyber is a plugin that visualizes an IDA database's content.
 
 * [idadiff](https://github.com/0x00ach/idadiff): IDAPython script to auto-rename subs using the MACHOC algorithm.
 
 * [IDA EA](https://github.com/1111joe1111/ida_ea): Provides a context viewer,  instruction emulator, heap explorer, trace dumper, GDB integration, Styling
 
 * [IDA Emu](https://github.com/36hours/idaemu): idaemu is an IDA Pro Plugin - use for emulating code in IDA Pro. it is base on unicorn-engine.
+
+* [IDA-EVM](https://github.com/crytic/ida-evm): IDA Processor Module for the Ethereum Virtual Machine (EVM).
 
 * [IDA Extrapass](http://sourceforge.net/projects/idaextrapassplugin/): An IDA Pro Win32 target clean up plug-in by Sirmabus. It does essentially four cleaning/fixing steps: Convert stray code section values to "unknown", fix missing "align" blocks, fix missing code bytes, and locate and fix missing/undefined functions.
 
@@ -243,15 +271,21 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [IDAFuzzy](https://github.com/Ga-ryo/IDAFuzzy): IDAFuzzy is fuzzy searching tool for IDA Pro. This tool helps you to find command/function/struct and so on.
 
+* [ida_game_elf_loaders (gel)](https://github.com/aerosoul94/ida_gel): A collection of IDA loaders for various game console ELF's: PS3, PSVita, WiiU.
+
 * [ida-genesis](https://github.com/zznop/ida-genesis): Suite of IDA scripts for SEGA Genesis ROM hacking.
 
 * [idahunt](https://github.com/nccgroup/idahunt): idahunt is a framework to analyze binaries with IDA Pro and hunt for things in IDA Pro. It is command line tool to analyse all executable files recursively from a given folder. It executes IDA in the background so you don't have to open manually each file. It supports executing external IDA Python scripts.
+
+* [IDA iBoot Loader](https://github.com/matteyeux/ida-iboot-loader): IDA loader for Apple's 64 bits iBoot, SecureROM and AVPBooter.
 
 * [idaidle](https://github.com/google/idaidle): idaidle is a plugin for the commercial IDA Pro disassembler that warns users if they leave their instance idling for too long. After a predetermined amount of idle time, the plugin first warns and later then saves the current disassemlby database and closes IDA.
 
 * [IDA Images](https://github.com/rr-/ida-images): Image preview plugin for IDA disassembler.
 
 * [IDA IPython](https://github.com/james91b/ida_ipython): This is a plugin to embed an IPython kernel in IDA Pro. The Python ecosystem has amazing libraries (and communities) for scientific computing. IPython itself is great for exploratory data analysis. Using tools such as the IPython notebook make it easy to share code and explanations with rich media. IPython makes using IDAPython and interacting with IDA programmatically really fun and easy.
+
+* [IDA Key Checker](https://github.com/pr701/ida_key_checker): IDA Pro key checker tool, check IDA keys from the command line.
 
 * [IDAMagicStrings](https://github.com/joxeankoret/idamagicstrings): An IDA Python plugin to extract information from string constants. The current version of the plugin is able to:
   * Display functions to source files relationships (in a tree and in a plain list, a chooser in IDA language).
@@ -260,6 +294,10 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
   * Rename functions according to the guessed function name.
 
 * [idamagnum](https://github.com/lucasg/idamagnum): A plugin for integrating MagnumDB requests within IDA. MagNumDB is a database that contains about 380,000 items. These items are constants, names, values all extracted from more than 6,000 header files (.h, .hxx, .hpp, .idl, etc.) provided by standard Windows and Visual Studio SDKs and WDKs.
+
+* [ida_medigate](https://github.com/medigate-io/ida_medigate): Medigate plugin for c++ reverse engineering and other utils. Two parts:
+  * Implementation of C++ classes and polymorphism over IDA
+  * A RTTI parser which rebuilds the classes hierarchy.
 
 * [IDA Migrator](https://github.com/giladreich/ida_migrator): IDA Migrator plugin makes the job of migrating symbols and type informations from one IDA database instance to another. It will help migrating function names, structures and enums. This comes in handy when:
   * Moving to a newer version of IDA that does better analysis and you don't want to change in the new instance type information or variable names of the decompiled functions.
@@ -270,9 +308,11 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.
 
-* [IDAngr](https://github.com/andreafioraldi/IDAngr): Use angr in the ida debugger generating a state from the current debug session
+* [IDAngr](https://github.com/andreafioraldi/IDAngr): Use angr in the ida debugger generating a state from the current debug session.
 
 * [IDA - Nightfall](https://github.com/0xItx/ida_nightfall): A dark color theme for IDA Pro
+
+* [IDAObjcTypes](https://github.com/PoomSmart/IDAObjcTypes): A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis.
 
 * [IDA Patcher](https://github.com/iphelix/ida-patcher): IDA Patcher is a plugin for Hex-Ray's IDA Pro disassembler designed to enhance IDA's ability to patch binary files and memory.
 
@@ -294,7 +334,11 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [IDArling](https://github.com/IDArlingTeam/IDArling/): IDArling is a collaborative reverse engineering plugin for IDA Pro and Hex-Rays. It allows to synchronize in real-time the changes made to a database by multiple users, by connecting together different instances of IDA Pro.
 
+* [IDArling (Fork)](https://github.com/fidgetingbits/IDArling): IDArling is a collaborative reverse engineering plugin for IDA Pro and Hex-Rays. This is an actively maintained fork of the now-abandoned IDARling above.
+
 * [IDA Scope](https://github.com/danielplohmann/idascope): IDAscope is an IDA Pro extension with the goal to ease the task of (malware) reverse engineering with a current focus on x86 Windows. It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations in the analysis target, seamless access to MSDN documentation of Windows API, and finding of potential crypto/compression algorithms.
+
+* [IDAShell](https://github.com/namazso/IDAShell): IDAShell is a shell extension for launching IDA from the context menu of executables (Windows).
 
 * [IDA Signature Matching Tool](http://sourceforge.net/projects/idasignsrch/): Tool for searching signatures inside files, extremely useful as help in reversing jobs like figuring or having an initial idea of what encryption/compression algorithm is used for a proprietary protocol or file. It can recognize tons of compression, multimedia and encryption algorithms and
 many other things like known strings and anti-debugging code which can be also manually added since it's all based on a text signature file read at run-time and easy to modify.
@@ -322,7 +366,7 @@ many other things like known strings and anti-debugging code which can be also m
   * control flow reconstruction and graph mode
   * code and data cross references
   * globals, function parameters, local variables, etc. can be renamed
-  * auto-comment hint suport
+  * auto-comment hint support
 
 * [idaxex](https://github.com/emoose/idaxex): Xbox360/Xenon loader plugin for IDA 7.2+, supporting most known Xbox360/Xenon .XEX executable file formats.
 
@@ -359,11 +403,17 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [Localxrefs](https://github.com/devttys0/ida/tree/master/plugins/localxrefs): Finds references to any selected text from within the current function.
 
+* [Lucid](https://github.com/gaasedelen/lucid): Lucid is a developer-oriented IDA Pro plugin for exploring the Hex-Rays microcode. It was designed to provide a seamless, interactive experience for studying microcode transformations in the decompiler pipeline.
+
+* [Lumen](https://github.com/naim94a/lumen): A private Lumina server for IDA Pro written in Rust.
+
 * [MadNES](https://github.com/patois/MadNES): This plugin exports IDA names to FCEUXD SP symbols.
 
 * [MazeWalker](https://github.com/0xPhoeniX/MazeWalker): Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part.
 
 * [MC68K Processor Model Extension](https://github.com/LucienMP/idapro_m68k): This is a sample plugin for extending gdb support for step-over for the M68K, and to enable type information support so you can press "y" on functions and have the parameters propagate inside and back out of the function.
+
+* [MicroAVX](https://github.com/gaasedelen/microavx): An AVX Lifter for the Hex-Rays Decompiler. It adds partial support for a number of common instructions from Intel's Advanced Vector Extensions (AVX). This plugin demonstrates how the Hex-Rays microcode can be used to lift and decompile new or previously unsupported instructions.
 
 * [mipslocalvars](https://github.com/devttys0/ida/tree/master/plugins/mipslocalvars): Names stack variables used by the compiler for storing registers on the stack, simplifying stack data analysis (MIPS only)
 
@@ -379,7 +429,7 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [MyNav](https://code.google.com/p/mynav/): MyNav is a plugin for IDA Pro to help reverse engineers in the most typical task like discovering what functions are responsible of some specifical tasks, finding paths between "interesting" functions and data entry points.
 
-* [nao](https://github.com/tkmru/nao): nao(no-meaning assembly omiter) is dead code eliminator plugin for IDA pro
+* [nao](https://github.com/tkmru/nao): nao (no-meaning assembly omitter) is dead code eliminator plugin for IDA pro.
 
 * [NDSLdr](https://github.com/patois/NDSLdr): Nintendo DS ROM loader module for IDA Pro.
 
@@ -417,6 +467,8 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [PSIDA](https://github.com/soggysec/psida): PSIDA is a collection of useful Python scripts for IDA. At this point, PSIDA focuses on collaborative reverse engineering in two models.
 
+* [pwndbg](https://github.com/pwndbg/pwndbg): GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server.
+
 * [pyhexraysdeob](https://github.com/idapython/pyhexraysdeob): A port of Rolf Rolles' HexRaysDeob to Python.
 
 * [Python Editor](https://github.com/techbliss/Python_editor): Python editor based IDA Pro. The plugin helps python devs with scripting and running python scripts, and creating them. IT have many functions, code recognition and more.
@@ -427,9 +479,11 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [Qualcomm Loader](https://github.com/daxgr/qcom-mbn-ida-loader): IDA loader plugin for Qualcomm Bootloader Stages
 
-* [Recompiler](https://github.com/bastkerg/Recomp): IDA recompiler
+* [Recompiler](https://github.com/bastkerg/Recomp): IDA recompiler, no docs no help.
 
 * [Reef](https://github.com/darx0r/Reef): IDAPython plugin for finding Xrefs from a function.
+
+* [REmatch](https://github.com/nirizr/rematch): REmatch, a complete binary diffing framework that works by revealing and identifying previously reverse engineered similar functions and migrating documentation and annotations to current IDB.
 
 * [REobjc](https://github.com/duo-labs/idapython): REobjc is an IDAPython module designed to make proper cross references between calling functions and called functions in Objective-C methods. The current form of the module supports X64, and will be updated to also support ARM in the future.
 
@@ -474,6 +528,8 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [spu3dbg](https://github.com/revel8n/spu3dbg): Ida Pro debugger module for the anergistic SPU emulator.
 
+* [Stadeo](https://github.com/eset/stadeo): Stadeo is a set of tools primarily developed to facilitate analysis of Stantinko, which is a botnet performing click fraud, ad injection, social network fraud, password stealing attacks and cryptomining, using IDA.
+
 * [Stingray](https://github.com/darx0r/Stingray): Stingray is an IDAPython plugin for finding function strings. The search is from the current position onwards in the current function. It can do it recursively also with configurable search depth. The results order is the natural order of strings in the BFS search graph.
 
 * [Structure Dump](http://www.openrce.org/downloads/details/227/Structure_Dump): StructDump is an IDA plugin, allowing you to export IDA types into high-level language definitions. Currently, C++ is supported.
@@ -517,8 +573,6 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 * [YaCo](https://github.com/DGA-MI-SSI/YaCo): Collaborative Reverse-Engineering for IDA. When enabled, an unlimited number of users can work simultaneously on the same binary. Any modification done by any user is synchronized through git version control. It has been initially released at [SSTIC 2017](https://www.sstic.org/2017/presentation/YaCo/)
 
 * [Yagi](https://github.com/airbus-cert/Yagi): Yet Another Ghidra Integration for IDA. Yagi intends to include the wonderful Ghidra decompiler into both IDA pro and IDA Free.
-
-* [Zynamics BinDiff](http://www.zynamics.com/bindiff.html): BinDiff is a comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.
 
 
 
