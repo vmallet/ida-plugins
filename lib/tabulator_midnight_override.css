@@ -1,0 +1,16 @@
+/**
+ * Custom color overrides for Tabulator's "midnight" theme
+ */
+
+.tabulator-row {
+  color: #cdd9e5;
+  background-color: #33373d;
+}
+
+.tabulator-row.tabulator-row-even {
+  background-color: #23272d;
+}
+
+.tabulator-row.tabulator-selectable:hover {
+  background-color: #1b1e23;
+}

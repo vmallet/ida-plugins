@@ -4,7 +4,7 @@
 * Repo: [olifolkerd/tabulator](https://github.com/olifolkerd/tabulator)
 * License: [MIT](https://github.com/olifolkerd/tabulator/blob/master/LICENSE)
 * Version: 5.1.8 (28180b8)
-* Files: `tabulator.min.js`, `tabulator.min.css`
+* Files: `tabulator.min.js`, `tabulator.min.css`, `tabulator_midnight.min.css`
 
 ## moment.js
 * Repo: [moment/moment](https://github.com/moment/moment)

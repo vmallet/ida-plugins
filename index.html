@@ -3,18 +3,29 @@
 	<!-- TODO: massive work in progress; very experimental at the moment -->
 	<head>
 		<meta charset="utf-8"/>
-		<link href="lib/tabulator.min.css" rel="stylesheet">
+		<link href="lib/tabulator.min.css" rel="stylesheet" media="(prefers-color-scheme: light)">
+		<link href="lib/tabulator_midnight.min.css" rel="stylesheet" media="(prefers-color-scheme: dark)">
+		<link href="lib/tabulator_midnight_override.css" rel="stylesheet" media="(prefers-color-scheme: dark)">
 		<title>Interactive IDA Plugin List</title>
 		<style>
 			body {
 				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-				font-size: 12px
+				font-size: 12px;
 			}
 			.no-underline a {
 				text-decoration: none;
 			}
 			.no-underline a:hover {
 				text-decoration: underline;
+			}
+			@media (prefers-color-scheme: dark) {
+			    body {
+					color: #cdd9e5;
+					background: #23272d;
+			    }
+				a {
+					color: #539bf5;
+				}
 			}
 		</style>
 
