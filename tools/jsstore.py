@@ -11,6 +11,19 @@ import demjson
 
 __author__ = "https://github.com/vmallet"
 
+# Attribute names used in plugin definition
+ATTR_NAME = "name"
+ATTR_URL = "url"
+ATTR_SRC = "src"
+ATTR_CATS = "cats"
+ATTR_LAST = "last"
+ATTR_VERS = "vers"
+ATTR_DESC = "desc"
+
+VALID_ATTRS = {
+    ATTR_NAME, ATTR_URL, ATTR_SRC, ATTR_CATS, ATTR_LAST, ATTR_VERS, ATTR_DESC
+}
+
 JS_VAR = re.compile("^var [^=]*= *(.*);$", re.DOTALL)
 
 
@@ -30,18 +43,27 @@ class EntryFormatter(object):
 
     def emit(self, file=sys.stdout):
         print("{", end='', file=file)
-        self._emit_attr_maybe("name", suffix=",", file=file)
-        self._emit_attr_maybe("url", prefix=" ", suffix=",", file=file)
-        self._emit_attr_maybe("src", prefix=" ", suffix=",", file=file)
-        self._emit_attr_maybe("cats", prefix=" ", suffix=",", file=file)
-        self._emit_attr_maybe("last", prefix=" ", suffix=",", file=file)
-        self._emit_attr_maybe("vers", prefix=" ", suffix=",", file=file)
-        self._emit_attr_maybe("desc", prefix=" ", escape=True, end='', file=file)
+        self._emit_attr_maybe(ATTR_NAME, suffix=",", file=file)
+        self._emit_attr_maybe(ATTR_URL, prefix=" ", suffix=",", file=file)
+        self._emit_attr_maybe(ATTR_SRC, prefix=" ", suffix=",", file=file)
+        self._emit_attr_maybe(ATTR_CATS, prefix=" ", suffix=",", file=file)
+        self._emit_attr_maybe(ATTR_LAST, prefix=" ", suffix=",", file=file)
+        self._emit_attr_maybe(ATTR_VERS, prefix=" ", suffix=",", file=file)
+        self._emit_attr_maybe(ATTR_DESC, prefix=" ", escape=True, end='', file=file)
         print("},", file=file)
         print(file=file)
 
 
-def load_plugins(js_file: str) -> List[Dict[str, str]]:
+def check_attrs(plugins):
+    """Check for unknown attributes in plugins, raise if so."""
+    for i, info in enumerate(plugins):
+        keys = set(info.keys())
+        if not keys.issubset(VALID_ATTRS):
+            raise Exception("Unknown attribute, plugin entry {}: {}".format(
+                i, keys - VALID_ATTRS))
+
+
+def load_plugins(js_file: str, check_attributes=False) -> List[Dict[str, str]]:
     """Parse the JS structure into an array of dicts, one dict per plugin."""
     with open(js_file, "rt", encoding="UTF-8") as f:
         content = f.read().strip()
@@ -49,6 +71,9 @@ def load_plugins(js_file: str) -> List[Dict[str, str]]:
         if not m:
             raise Exception("Unable to parse js data definiton from: {}".format(js_file))
         plugins = demjson.decode(m.group(1))
+
+    if check_attributes:
+        check_attrs(plugins)
 
     return plugins
 
