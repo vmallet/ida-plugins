@@ -491,27 +491,41 @@ var tabledata = [
 
 {name: "FLS Loader",
  url: "https://github.com/rpw/flsloader",
+ src: "py",
+ cats: "loader",
  last: "20120419",
+ vers: "6.2",
  desc: "IDA Pro loader module for IFX iPhone baseband firmwares. Based on a universal scatter loader script by roxfan."},
 
 {name: "Fluorescence",
  url: "https://github.com/devttys0/ida/tree/master/plugins/fluorescence",
+ src: "py",
  last: "20210602",
+ vers: "7.4",
  desc: "Un/highlights function call instructions"},
 
 {name: "FRAPL",
  url: "https://github.com/FriedAppleTeam/FRAPL",
+ src: "py",
+ cats: "int",
  last: "20161226",
+ vers: "6.95",
  desc: "FRAPL is a reverse engineering framework created to simplify dynamic instrumentation with Frida."},
 
 {name: "Free the debuggers",
  url: "https://github.com/techbliss/Free_the_Debuggers",
+ src: "py",
+ cats: "debug",
  last: "20150207",
+ vers: "6.7",
  desc: "Free the ida pro debuggers for all files."},
 
 {name: "Frida",
  url: "https://github.com/techbliss/Frida_For_Ida_Pro",
+ src: "py",
+ cats: "int",
  last: "20150405",
+ vers: "6.7",
  desc: "This is plugin for ida pro thar uses the Frida api. Mainly trace functions."},
 
 {name: "FRIEND",
@@ -523,7 +537,10 @@ var tabledata = [
 
 {name: "Funcap",
  url: "https://github.com/deresz/funcap",
+ src: "py",
+ cats: "trace",
  last: "20160304",
+ vers: "6.6",
  desc: "This script records function calls (and returns) across an executable using IDA debugger API, along with all the arguments passed. It dumps the info to a text file, and also inserts it into IDA's inline comments. This way, static analysis that usually follows the behavioral runtime analysis when analyzing malware, can be directly fed with runtime info such as decrypted strings returned in function's arguments."},
 
 {name: "Functions+",
@@ -535,7 +552,9 @@ var tabledata = [
 
 {name: "Function Tagger",
  url: "https://github.com/alessandrogario/IDA-Function-Tagger",
+ src: "py",
  last: "20210526",
+ vers: "7.6",
  desc: "This IDAPython script tags subroutines according to their use of imported functions"},
 
 {name: "Gamecube DSP",
@@ -548,7 +567,9 @@ var tabledata = [
 
 {name: "Gamecube Extension",
  url: "https://github.com/hyperiris/gekkoPS",
+ src: "c++",
  last: "20180425",
+ vers: "5.2",
  desc: "This is a Gekko CPU Paired Single extension instructions plug-in for IDA Pro 5.2"},
 
 {name: "garmin-ida-loader",
@@ -727,7 +748,9 @@ var tabledata = [
 
 {name: "ida-climacros",
  url: "https://github.com/0xeb/ida-climacros",
+ src: "c++",
  last: "20210105",
+ vers: "7.5",
  desc: "`ida-climacros` is a productivity plugin that allows you to define macros that will be expanded when interfacing with IDA's command line interpreter (in the output window)."},
 
 {name: "ida-cmake",
