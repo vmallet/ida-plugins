@@ -49,38 +49,84 @@
 		<p id="plugin-stats">Loading...</p>
 		<p></p>
 		<div>
-			<span>
-				<!-- Hardcoded at the moment; should generate from the data we have -->
-				<label>Source:&nbsp;</label>
-				<input type="checkbox" id="src-cpp" name="src-cpp" value="c++"/>
-		  		<label for="src-cpp">c++</label>
-				<input type="checkbox" id="src-py" name="src-py" value="py"/>
-		  		<label for="src-py">py</label>
-
-				<!-- Please help me make a half-decent webpage! -->
-				&nbsp;&nbsp;&nbsp;&nbsp;
-				<label>Categories:&nbsp;</label>
-				<input type="checkbox" id="cats-collab" name="cats-collab" value="collab"/>
-		  		<label for="cats-collab">collab</label>
-				<input type="checkbox" id="cats-debug" name="cats-debug" value="debug"/>
-		  		<label for="cats-debug">debug</label>
-				<input type="checkbox" id="cats-decomp" name="cats-decomp" value="decomp"/>
-		  		<label for="cats-decomp">decomp</label>
-				<input type="checkbox" id="cats-deobf" name="cats-deobf" value="deobf"/>
-		  		<label for="cats-deobf">deobf</label>
-				<input type="checkbox" id="cats-dev" name="cats-dev" value="dev"/>
-		  		<label for="cats-dev">dev</label>
-				<input type="checkbox" id="cats-int" name="cats-int" value="int"/>
-		  		<label for="cats-int">int</label>
-				<input type="checkbox" id="cats-loader" name="cats-loader" value="loader"/>
-		  		<label for="cats-loader">loader</label>
-				<input type="checkbox" id="cats-proc" name="cats-proc" value="proc"/>
-		  		<label for="cats-proc">proc</label>
-				<input type="checkbox" id="cats-trace" name="cats-trace" value="trace"/>
-		  		<label for="cats-trace">trace</label>
-				<input type="checkbox" id="cats-ui" name="cats-ui" value="ui"/>
-		  		<label for="cats-ui">ui</label>
-			</span>
+			<!-- Doing layout with tables! Someone stop me, please! -->
+			<table>
+				<tr style="vertical-align: top">
+					<td>
+						<!-- Hardcoded at the moment; should generate from the data we have -->
+						<label>Source:&nbsp;</label><br/>
+						<input type="checkbox" id="src-cpp" name="src-cpp" value="c++"/>
+						<label for="src-cpp">c++</label>
+						<input type="checkbox" id="src-py" name="src-py" value="py"/>
+						<label for="src-py">py</label>
+					</td>
+					<td style="min-width: 20px;"></td>
+					<!-- Please help me make a half-decent webpage! -->
+					<td>
+						<div>
+							<label>Categories:&nbsp;</label><br/>
+							<table>
+								<tr>
+									<td>
+										<input type="checkbox" id="cats-collab"
+											   name="cats-collab" value="collab"/>
+										<label for="cats-collab">Collaboration
+											(collab)</label>
+									</td>
+									<td>
+										<input type="checkbox" id="cats-debug"
+											   name="cats-debug" value="debug"/>
+										<label for="cats-debug">Debug</label>
+									</td>
+									<td>
+										<input type="checkbox" id="cats-decomp"
+											   name="cats-decomp" value="decomp"/>
+										<label for="cats-decomp">Decompiler (decomp)</label>
+									</td>
+									<td>
+										<input type="checkbox" id="cats-deobf"
+											   name="cats-deobf" value="deobf"/>
+										<label for="cats-deobf">Deobfuscation
+											(deobf)</label>
+									</td>
+									<td>
+										<input type="checkbox" id="cats-dev" name="cats-dev"
+											   value="dev"/>
+										<label for="cats-dev">Development (dev)</label>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="checkbox" id="cats-int" name="cats-int"
+											   value="int"/>
+										<label for="cats-int">Integration (int)</label>
+									</td>
+									<td>
+										<input type="checkbox" id="cats-loader"
+											   name="cats-loader" value="loader"/>
+										<label for="cats-loader">Loader</label>
+									</td>
+									<td>
+										<input type="checkbox" id="cats-proc"
+											   name="cats-proc" value="proc"/>
+										<label for="cats-proc">Proc</label>
+									</td>
+									<td>
+										<input type="checkbox" id="cats-trace"
+											   name="cats-trace" value="trace"/>
+										<label for="cats-trace">Trace</label>
+									</td>
+									<td>
+										<input type="checkbox" id="cats-ui" name="cats-ui"
+											   value="ui"/>
+										<label for="cats-ui">UI</label>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+			</table>
 		</div>
 		<p></p>
 		<div class="no-underline">
