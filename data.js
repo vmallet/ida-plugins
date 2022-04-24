@@ -594,8 +594,11 @@ var tabledata = [
 
 {name: "Geolocator",
  url: "https://github.com/techbliss/ida_pro_http_ip_geolocator",
+ src: "py",
+ cats: "int",
  last: "20190310",
- desc: "Lookup IP's and http/https adresses, using google maps, and MaxMind databases."},
+ vers: "7.0",
+ desc: "Lookup (geolocate) IP's and http/https addresses, using google maps, and MaxMind databases."},
 
 {name: "GhIDA",
  url: "https://github.com/Cisco-Talos/GhIDA",
@@ -655,7 +658,10 @@ var tabledata = [
 
 {name: "HexRays CodeXplorer",
  url: "https://github.com/REhints/HexRaysCodeXplorer",
+ src: "c++",
+ cats: "decomp",
  last: "20220309",
+ vers: "7.7",
  desc: "The Hex-Rays Decompiler plugin for better code navigation in RE process. CodeXplorer automates code REconstruction of C++ applications or modern malware like Stuxnet, Flame, Equation, Animal Farm ..."},
 
 {name: "HexRaysDeob",
@@ -668,7 +674,10 @@ var tabledata = [
 
 {name: "HexRaysPyTools",
  url: "https://github.com/igogo-x86/HexRaysPyTools",
+ src: "py",
+ cats: "decomp",
  last: "20200215",
+ vers: "7.4",
  desc: "Plugin assists in creation classes/structures and detection virtual tables. Best to use with Class Informer plugin, because it helps to automatically get original classes names."},
 
 {name: "hexrays_scripts",
@@ -679,12 +688,18 @@ var tabledata = [
 
 {name: "Hexrays Toolbox",
  url: "https://github.com/patois/HexraysToolbox",
+ src: "py",
+ cats: "decomp",
  last: "20211105",
+ vers: "7.4",
  desc: "Find code patterns within the Hexrays AST"},
 
 {name: "HexRays Tools",
  url: "https://github.com/nihilus/hexrays_tools",
+ src: "py",
+ cats: "decomp, dev",
  last: "20160126",
+ vers: "7.4",
  desc: "* Assist in creation of new structure definitions / virtual calls detection\n* Jump directly to virtual function or structure member definition\n* Gives list of structures with given size, with given offset\n* Finds structures with same \"shape\" as is used.\n* convert function to __usercall or __userpurge\n* and more...."},
 
 {name: "HRDEV",
@@ -737,7 +752,9 @@ var tabledata = [
 
 {name: "IDABuddy",
  url: "https://github.com/tmr232/IDABuddy",
+ src: "py",
  last: "20170917",
+ vers: "6.9",
  desc: "IDABuddy is a reverse-engineer's best friend. Designed to be everything Clippy the Office Assistant was, and more!"},
 
 {name: "IDA C#",
@@ -760,7 +777,9 @@ var tabledata = [
 
 {name: "IDA Compare",
  url: "https://github.com/dzzie/IDACompare",
+ src: "c++",
  last: "20190530",
+ vers: "6.7",
  desc: "IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage."},
 
 {name: "IDACyber",
@@ -778,13 +797,17 @@ var tabledata = [
 
 {name: "IDA EA",
  url: "https://github.com/1111joe1111/ida_ea",
+ src: "py",
  last: "20171128",
- desc: "Provides a context viewer,  instruction emulator, heap explorer, trace dumper, GDB integration, Styling"},
+ vers: "7.0",
+ desc: "A set of exploitation/reversing aids for IDA. Provides a context viewer, instruction emulator, heap explorer, trace dumper, GDB integration, Styling"},
 
-{name: "IDA Emu",
+{name: "idaemu",
  url: "https://github.com/36hours/idaemu",
+ src: "py",
  last: "20161215",
- desc: "idaemu is an IDA Pro Plugin - use for emulating code in IDA Pro. it is base on unicorn-engine."},
+ vers: "6.9",
+ desc: "Emulate code in IDA Pro. it is based on unicorn-engine."},
 
 {name: "IDA-EVM",
  url: "https://github.com/crytic/ida-evm",
@@ -1013,32 +1036,45 @@ var tabledata = [
 
 {name: "IDA Skins",
  url: "https://github.com/zyantific/IDASkins",
+ src: "py",
+ cats: "ui",
  last: "20190615",
+ vers: "7.2",
  desc: "Plugin providing advanced skinning support for the Qt version of IDA Pro utilizing Qt stylesheets, similar to CSS."},
 
 {name: "IDA Sploiter",
  url: "https://github.com/iphelix/ida-sploiter",
+ src: "py",
  last: "20190513",
+ vers: "6.5",
  desc: "IDA Sploiter is a plugin for Hex-Ray's IDA Pro disassembler designed to enhance IDA's capabilities as an exploit development and vulnerability research tool. Some of the plugin's features include a powerful ROP gadgets search engine, semantic gadget analysis and filtering, interactive ROP chain builder, stack pivot analysis, writable function pointer search, cyclic memory pattern generation and offset analysis, detection of bad characters and memory holes, and many others."},
 
 {name: "IDA Stealth",
- url: "https://github.com/onethawt/idastealth",
+ url: "https://github.com/nihilus/idastealth",
+ src: "c++",
+ cats: "debug",
  last: "20140914",
+ vers: "5.6",
  desc: "IDAStealth is a plugin which aims to hide the IDA debugger from most common anti-debugging techniques. The plugin is composed of two files, the plugin itself and a dll which is injected into the debuggee as soon as the debugger attaches to the process. The injected dll actually implements most of the stealth techniques either by hooking system calls or by patching some flags in the remote process."},
 
 {name: "IDA StringCluster",
  url: "https://github.com/Comsecuris/ida_strcluster",
+ src: "py",
  last: "20180314",
+ vers: "6.9",
  desc: "This plugin extends IDA Pro's capabilities to display strings within the binary by clustering found strings on a per-function basis."},
 
 {name: "IDA Toolbag",
  url: "https://github.com/aaronportnoy/toolbag",
+ src: "py",
  last: "20150130",
  desc: "The IDA Toolbag plugin provides many handy features, such as:\n* A 'History' view, that displays functions in the disassembly that you have decided are important, and the relationships between them.\n* A code path-searching tool, that lets you find what functions (or blocks) are forming a path between two locations.\n* Manage and run your IDC/Python scripts\n* Something that's also of considerable importance is that the IDA Toolbag lets you collaborate with other IDA users: one can publish his 'History', or import another user's history & even merge them!\n* See the official documentation for an extensive feature list."},
 
 {name: "IDAtropy",
  url: "https://github.com/danigargu/IDAtropy",
+ src: "py",
  last: "20210416",
+ vers: "7.4",
  desc: "IDAtropy is a plugin for Hex-Ray's IDA Pro designed to generate charts of entropy and histograms using the power of idapython and matplotlib."},
 
 {name: "IdaVSHelp",
@@ -1521,12 +1557,17 @@ var tabledata = [
 
 {name: "Simulator",
  url: "https://github.com/nihilus/IDASimulator",
+ src: "py",
+ cats: "debug",
  last: "20140902",
+ vers: "6.4",
  desc: "IDASimulator is a plugin that extends IDA's conditional breakpoint support, making it easy to augment / replace complex executable code inside a debugged process with Python code."},
 
-{name: "Snippt Detector",
+{name: "Snippet Detector",
  url: "https://github.com/zaironne/SnippetDetector",
+ src: "py",
  last: "20150424",
+ vers: "6.7",
  desc: "Snippet Detector is an IDA Python scripts project used to detect snippets from 32bit disassembled files. snippet is the word used to identify a generic sequence of instructions (at the moment a snippet is indeed a defined function). The aim of the tool is to collect many disassembled snippets inside a database for the detection process."},
 
 {name: "Snowman Decompiler",
@@ -1574,6 +1615,13 @@ var tabledata = [
  last: "20140725",
  desc: "Small Plugin to change the style off Ida Pro"},
 
+{name: "syms2elf",
+ url: "https://github.com/danigargu/syms2elf",
+ src: "py",
+ last: "20211117",
+ vers: "7.5",
+ desc: "A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table."},
+
 {name: "SyncReven",
  url: "https://github.com/riskeco/SyncReven",
  src: "py",
@@ -1588,11 +1636,6 @@ var tabledata = [
  cats: "collab",
  last: "20150128",
  desc: "A combination of an IDAPython Plugin and a control version system that result in a new reverse engineering collaborative addon for IDA Pro. By http://cubicalabs.com/"},
-
-{name: "sysm2elf",
- url: "https://github.com/danigargu/syms2elf",
- last: "20211117",
- desc: "A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table."},
 
 {name: "Tarkus",
  url: "https://github.com/tmr232/Tarkus",
