@@ -814,7 +814,7 @@ var tabledata = [
  url: "https://github.com/JustasMasiulis/ida_bitfields",
  src: "c++",
  cats: "decomp",
- last: "20220401",
+ last: "20220424",
  desc: "A simple IDA Pro plugin to make bitfields and bitflags in them easier to reason about."},
 
 {name: "IDA BPF Processor",
@@ -1616,7 +1616,7 @@ var tabledata = [
 {name: "Ponce",
  url: "https://github.com/illera88/Ponce",
  src: "c++",
- last: "20220421",
+ last: "20220425",
  vers: "7.6",
  desc: "Taint analysis and symbolic execution over binaries in an easy and intuitive fashion."},
 

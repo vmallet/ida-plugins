@@ -371,7 +371,7 @@ _Updated: 2016 02 21 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 07 12 &nbsp;&nbsp; Language: Python_
 
 * [ida bitfields](https://github.com/JustasMasiulis/ida_bitfields): A simple IDA Pro plugin to make bitfields and bitflags in them easier to reason about.<br>
-_Updated: 2022 04 01 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 04 24 &nbsp;&nbsp; Language: C++_
 
 * [IDA BPF Processor](https://github.com/bnbdr/ida-bpf-processor): BPF Bytecode Processor for IDA (python). Supports the old BPF bytecode only (no eBPF).<br>
 _Updated: 2018 08 27 &nbsp;&nbsp; Language: Python_
@@ -728,7 +728,7 @@ _Updated: 2014 11 25 &nbsp;&nbsp; Language: Python_
 _Updated: 2014 09 23 &nbsp;&nbsp; Language: Python_
 
 * [Ponce](https://github.com/illera88/Ponce): Taint analysis and symbolic execution over binaries in an easy and intuitive fashion.<br>
-_Updated: 2022 04 21 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 04 25 &nbsp;&nbsp; Language: C++_
 
 * [Prefix](https://github.com/gaasedelen/prefix): Prefix is a small function prefixing plugin for IDA Pro. The plugin augments IDA's function renaming capabilities by adding a handful of convenient prefixing actions to relevant right click menus.<br>
 _Updated: 2020 04 24 &nbsp;&nbsp; Language: Python_
