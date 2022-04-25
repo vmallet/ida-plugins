@@ -16,7 +16,7 @@ var tabledata = [
 {name: "ActionScript 3",
  url: "https://github.com/KasperskyLab/ActionScript3",
  src: "py",
- cats: "loader, proc, debug",
+ cats: "debug, loader, proc",
  last: "20181005",
  vers: "7.1",
  desc: "An ActionScript 3 processor module and Flash debugger plugin."},
@@ -70,6 +70,7 @@ var tabledata = [
  url: "https://github.com/danielplohmann/apiscout",
  src: "py",
  last: "20220117",
+ vers: "7.5",
  desc: "This project aims at simplifying Windows API import recovery. As input, arbitrary memory dumps for a known environment can be processed (please note: a reference DB has to be built first, using apiscout/db_builder). The output is an ordered list of identified Windows API references with some meta information, and an ApiVector fingerprint. Includes a convenience GUI wrapper for use in IDA."},
 
 {name: "AutoRE",
@@ -1074,14 +1075,19 @@ var tabledata = [
  last: "20181116",
  desc: "IDARay is an IDA Pro plugin that matches the database against multiple YARA files. Maybe your rules are scattered over multiple YARA files or you simply want to match against as much rules as possible, IDARay is here to help."},
 
-{name: "IDA Ref",
+{name: "IdaRef",
  url: "https://github.com/nologic/idaref",
+ src: "py",
  last: "20211020",
+ vers: "7.4",
  desc: "IDA Pro Full Instruction Reference Plugin - It's like auto-comments but useful."},
 
 {name: "IDA Rest",
  url: "https://github.com/dshikashio/idarest",
+ src: "py",
+ cats: "dev, int",
  last: "20150321",
+ vers: "6.7",
  desc: "A simple REST-like API for basic interoperability with IDA Pro."},
 
 {name: "IDArling",
@@ -1102,7 +1108,9 @@ var tabledata = [
 
 {name: "IDA Scope",
  url: "https://github.com/danielplohmann/idascope",
+ src: "py",
  last: "20200813",
+ vers: "7.0",
  desc: "IDAscope is an IDA Pro extension with the goal to ease the task of (malware) reverse engineering with a current focus on x86 Windows. It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations in the analysis target, seamless access to MSDN documentation of Windows API, and finding of potential crypto/compression algorithms."},
 
 {name: "IDAShell",
@@ -1192,7 +1200,7 @@ var tabledata = [
  cats: "dev",
  last: "20211227",
  vers: "7.5",
- desc: "Xbox360/Xenon loader plugin for IDA 7.2+, supporting most known Xbox360/Xenon .XEX executable file formats."},
+ desc: "idax is a set of C++ extensions for the IDASDK. These extensions are a work in progress and are not meant to be used in production code yet. As of now, only my personal IDA plugins use idax."},
 
 {name: "idaxex",
  url: "https://github.com/emoose/idaxex",
@@ -1212,8 +1220,10 @@ var tabledata = [
 
 {name: "idb2pat",
  url: "https://github.com/alexander-pick/idb2pat",
+ src: "c++",
  last: "20111008",
- desc: "IDB to Pat."},
+ vers: "6.2",
+ desc: "IDB to Pat, fixed to work with IDA 6.2. Create patterns for IDA objects."},
 
 {name: "idenLib",
  url: "https://github.com/secrary/IDA-scripts/tree/master/idenLib",
@@ -1230,13 +1240,9 @@ var tabledata = [
 
 {name: "ifred",
  url: "https://github.com/Jinmo/ifred",
+ src: "c++",
  last: "20220308",
- desc: "IDA command palette & further"},
-
-{name: "ioctl_plugin",
- url: "https://github.com/sam-b/ioctl_plugin",
- last: "20180822",
- desc: "A tool to help when dealing with IOCTL codes and Windows driver IOCTL dispatch functions."},
+ desc: "IDA command palette & more (Ctrl+Shift+P, Ctrl+P)."},
 
 {name: "IPyIDA",
  url: "https://github.com/eset/ipyida",
@@ -1255,12 +1261,16 @@ var tabledata = [
 
 {name: "Kam1n0",
  url: "https://github.com/McGill-DMaS/Kam1n0-Plugin-IDA-Pro",
+ src: "py",
  last: "20220213",
+ vers: "7.4",
  desc: "Kam1n0 is a scalable system that supports assembly code clone search. It allows a user to first index a (large) collection of binaries, and then search for the code clones of a given target function or binary file. Kam1n0 tries to solve the efficient subgraph search problem (i.e. graph isomorphism problem) for assembly functions."},
 
 {name: "Karta",
  url: "https://github.com/CheckPointSW/Karta",
+ src: "py",
  last: "20220315",
+ vers: "7.4",
  desc: "\"Karta\" (Russian for \"Map\") is a source code assisted fast binary matching plugin for IDA. Karta identifies and matches open-sourced libraries in a given binary using a unique technique that enables it to support huge binaries (> 200,000 functions) with almost no impact on the overall performance."},
 
 {name: "Keypatch",
@@ -1280,7 +1290,9 @@ var tabledata = [
 
 {name: "LazyIDA",
  url: "https://github.com/L4ys/LazyIDA",
+ src: "py",
  last: "20220225",
+ vers: "7.0",
  desc: "LazyIDA lets you perform many tasks simply and quickly (e.g., remove function return type in Hex-Rays, convert data into different formats, scan for format string vulnerabilities and a variety of shortcuts)"},
 
 {name: "Lighthouse",
@@ -1292,7 +1304,10 @@ var tabledata = [
 
 {name: "LoadProcConfig",
  url: "https://github.com/alexhude/LoadProcConfig",
+ src: "c++",
+ cats: "proc",
  last: "20170921",
+ vers: "7.0",
  desc: "LoadProcConfig is an IDA plugin to load processor configuration files."},
 
 {name: "Localxrefs",
@@ -1479,6 +1494,8 @@ var tabledata = [
 
 {name: "Plus22",
  url: "https://github.com/v0s/plus22",
+ src: "php",
+ cats: "decomp",
  last: "20150111",
  desc: "Plus22 transforms x86_64 executables to be processed with 32-bit version of Hex-Rays Decompiler."},
 
@@ -1511,7 +1528,10 @@ var tabledata = [
 
 {name: "Processor changer",
  url: "https://github.com/techbliss/Processor-Changer",
+ src: "py",
+ cats: "proc",
  last: "20140811",
+ vers: "6.5",
  desc: "Change processor without restarting IDA."},
 
 {name: "PSIDA",
@@ -1539,7 +1559,9 @@ var tabledata = [
 
 {name: "Python Editor",
  url: "https://github.com/techbliss/Python_editor",
+ src: "py",
  last: "20201225",
+ vers: "7.5",
  desc: "Python editor based IDA Pro. The plugin helps python devs with scripting and running python scripts, and creating them. IT have many functions, code recognition and more."},
 
 {name: "python-idb",
@@ -1631,7 +1653,9 @@ var tabledata = [
 
 {name: "REtypedef",
  url: "https://github.com/zyantific/REtypedef",
+ src: "c++",
  last: "20150103",
+ vers: "6.7",
  desc: "REtypedef is an IDA PRO plugin that allows defining custom substitutions for function names. It comes with a default ruleset providing substitutions for many common STL types."},
 
 {name: "rizzo",
@@ -1660,13 +1684,15 @@ var tabledata = [
 
 {name: "Screen recorder",
  url: "https://github.com/techbliss/Ida_Pro_Screen_Recorder",
+ src: "py",
  last: "20160727",
+ vers: "6.9",
  desc: "IDA Pro Qt Plugin for recording reversing sessions."},
 
 {name: "Sega Genesis/Megadrive Tools 2",
  url: "https://github.com/lab313ru/smd_ida_tools2",
  src: "c++",
- cats: "loader, debug",
+ cats: "debug, loader",
  last: "20210625",
  vers: "7.5",
  desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Updated to at least IDA 7.5"},
@@ -1837,6 +1863,13 @@ var tabledata = [
  src: "py",
  last: "20090710",
  desc: "Python script which extracts procedures from IDA Win32 LST files and converts them to correctly dynamically linked compilable Visual C++ inline assembly."},
+
+{name: "Windows Driver Plugin",
+ url: "https://github.com/FSecureLABS/win_driver_plugin",
+ src: "py",
+ last: "20180822",
+ vers: "7.0",
+ desc: "A tool to help when dealing with Windows IOCTL codes or reversing Windows drivers."},
 
 {name: "WinIOCtlDecoder",
  url: "https://github.com/tandasat/WinIoCtlDecoder",
