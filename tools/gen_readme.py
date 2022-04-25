@@ -34,6 +34,34 @@ def desc_to_md(desc: str):
     return fixed
 
 
+SRC_MAP = {"c++": "C++", "py": "Python", "php": "PHP", "scm": "Scheme"}
+"""Human-readable language names."""
+
+def print_trailer(info):
+    """Print the 'Updated...Language...' trailer for a plugin."""
+    updated = info.get("last", "")
+    if len(updated) != 8:
+        updated = None
+
+    src_raw = info.get("src", None)
+    src = SRC_MAP.get(src_raw, src_raw)
+
+    trailers = []
+    if updated:
+        trailers.append("Updated: {} {} {}".format(
+            updated[0:4], updated[4:6], updated[6:8]))
+    if src:
+        trailers.append("Language: {}".format(src))
+
+    trailer = " &nbsp;&nbsp; ".join(trailers)
+
+    if trailer:
+        print("<br>")
+        print("_{}_".format(trailer))
+    else:
+        print()
+
+
 def output_plugins(plugins):
     """Print plugins in Markdown format to stdout."""
     for i, info in enumerate(plugins):
@@ -49,9 +77,12 @@ def output_plugins(plugins):
 
         md_desc = desc_to_md(desc)
 
-        print("* [{}]({}): {}".format(name, url, md_desc[0]))
+        print("* [{}]({}): {}".format(name, url, md_desc[0]), end='')
         for line in md_desc[1:]:
-            print(line)
+            print()
+            print(line, end='')
+
+        print_trailer(info)  # Will take care of the last newline character
         print()
 
 
