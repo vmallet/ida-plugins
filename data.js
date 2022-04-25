@@ -85,6 +85,13 @@ var tabledata = [
  last: "20210809",
  desc: "Find patterns of vulnerabilities on Windows in order to find 0-day and write exploits of 1-days. We use Microsoft security updates in order to find the patterns."},
 
+{name: "bankswitch",
+ url: "https://github.com/patois/bankswitch",
+ src: "c++",
+ last: "20181218",
+ vers: "4.9",
+ desc: "Nintendo Entertainment System (NES) bank switcher: plugin for NES ROMs, simulates bank switching/paging."},
+
 {name: "BinAuthor",
  url: "https://github.com/g4hsean/BinAuthor",
  src: "py",
@@ -543,6 +550,13 @@ var tabledata = [
  vers: "6.6",
  desc: "This script records function calls (and returns) across an executable using IDA debugger API, along with all the arguments passed. It dumps the info to a text file, and also inserts it into IDA's inline comments. This way, static analysis that usually follows the behavioral runtime analysis when analyzing malware, can be directly fed with runtime info such as decrypted strings returned in function's arguments."},
 
+{name: "FuncScanner",
+ url: "https://github.com/patois/FuncScanner",
+ src: "py",
+ last: "20201206",
+ vers: "7.3",
+ desc: "Collects extended function properties from IDA Pro databases. This is especially useful in reverse engineering code that comes with no or little symbolic information, as is often the case with embedded firmware."},
+
 {name: "Functions+",
  url: "https://github.com/nihilus/functions-plus",
  src: "py",
@@ -712,7 +726,10 @@ var tabledata = [
 
 {name: "HrDevHelper",
  url: "https://github.com/patois/HRDevHelper",
+ src: "py",
+ cats: "decomp, dev",
  last: "20211104",
+ vers: "7.3",
  desc: "HexRays decompiler plugin that visualizes the ctree of decompiled functions using IDA's graph engine."},
 
 {name: "Hyara",
@@ -723,8 +740,19 @@ var tabledata = [
 
 {name: "IDA2SQL",
  url: "https://github.com/zynamics/ida2sql-plugin-ida",
+ src: "py",
+ cats: "int",
  last: "20120110",
- desc: "As the name implies this plugin can be used to export information from IDA databases to SQL databases. This allows for further analysis of the collected data: statstical analysis, building graphs, finding similarities between programs, etc."},
+ vers: "5.7",
+ desc: "As the name implies this plugin can be used to export information from IDA databases to SQL databases. This allows for further analysis of the collected data: statistical analysis, building graphs, finding similarities between programs, etc."},
+
+{name: "IDA 7.x VS2017 Sample Project",
+ url: "https://github.com/patois/ida_vs2017",
+ src: "c++",
+ cats: "dev",
+ last: "20180510",
+ vers: "7.0",
+ desc: "This is a sample Visual Studio 2017 (Community Edition) project for IDA 7.x plugins on Windows."},
 
 {name: "ida-arm-system-highlight",
  url: "https://github.com/gdelugre/ida-arm-system-highlight",
@@ -733,10 +761,20 @@ var tabledata = [
  vers: "7.4",
  desc: "This script will give you the list of ARM system instructions used in your IDA database. This is useful for locating specific low-level pieces of code (setting up the MMU, caches, fault handlers, etc.)."},
 
+{name: "IDA Autoruns",
+ url: "https://github.com/tmr232/ida-autoruns",
+ src: "py",
+ last: "20160221",
+ vers: "6.8",
+ desc: "IDA-Autoruns is a simple plugin to make a script run automatically every time you open a specific IDB."},
+
 {name: "IDA Batch Decompile",
  url: "https://github.com/tintinweb/ida-batch_decompile",
+ src: "py",
+ cats: "decomp",
  last: "20180712",
- desc: "IDA Batch Decompile is a plugin for Hex-Ray's IDA Pro that adds the ability to batch decompile multiple files and their imports with additional annotations (xref, stack var size) to the pseudocode .c file"},
+ vers: "7.0",
+ desc: "Batch decompile multiple files and their imports with additional annotations (xref, stack var size) to a pseudocode .c file."},
 
 {name: "ida bitfields",
  url: "https://github.com/JustasMasiulis/ida_bitfields",
@@ -747,7 +785,9 @@ var tabledata = [
 
 {name: "IDA BPF Processor",
  url: "https://github.com/bnbdr/ida-bpf-processor",
+ src: "py",
  last: "20180827",
+ vers: "7.0",
  desc: "BPF Bytecode Processor for IDA (python). Supports the old BPF bytecode only (no eBPF)."},
 
 {name: "IDABuddy",
@@ -772,8 +812,25 @@ var tabledata = [
 
 {name: "ida-cmake",
  url: "https://github.com/0xeb/ida-cmake",
+ cats: "dev",
  last: "20220223",
+ vers: "7.6",
  desc: "This is not an IDA plugin but a CMake project generator for IDA plugins development."},
+
+{name: "ida-cmake",
+ url: "https://github.com/zyantific/ida-cmake",
+ cats: "dev",
+ last: "20170902",
+ vers: "7.0",
+ desc: "CMake build scripts and a Python helper allowing compilation of C++ IDA plugins for Windows, macOS and Linux without much user effort."},
+
+{name: "IDA Color Schemer",
+ url: "https://github.com/tmr232/IDAColorSchemer",
+ src: "py",
+ cats: "ui",
+ last: "20190105",
+ vers: "7.2",
+ desc: "tool to easily design IDA color schemes outside IDA. This will hopefully allow simplifying & automating the generation of color schemes and help create colorblind-friendly settings."},
 
 {name: "IDA Compare",
  url: "https://github.com/dzzie/IDACompare",
@@ -839,8 +896,10 @@ var tabledata = [
 
 {name: "IDAFuzzy",
  url: "https://github.com/Ga-ryo/IDAFuzzy",
+ src: "py",
  last: "20191216",
- desc: "IDAFuzzy is fuzzy searching tool for IDA Pro. This tool helps you to find command/function/struct and so on."},
+ vers: "7.4",
+ desc: "IDAFuzzy is fuzzy searching tool for IDA Pro. This tool helps you to find command/function/struct and so on. (a la Mac Spotlight)."},
 
 {name: "ida_game_elf_loaders (gel)",
  url: "https://github.com/aerosoul94/ida_gel",
@@ -852,8 +911,10 @@ var tabledata = [
 
 {name: "ida-genesis",
  url: "https://github.com/zznop/ida-genesis",
+ src: "py",
+ cats: "loader",
  last: "20200216",
- desc: "Suite of IDA scripts for SEGA Genesis ROM hacking."},
+ desc: "Suite of IDA scripts for SEGA Genesis ROM hacking. ROM Loader, Branch Table Enumeration."},
 
 {name: "idahunt",
  url: "https://github.com/nccgroup/idahunt",
@@ -870,7 +931,9 @@ var tabledata = [
 
 {name: "idaidle",
  url: "https://github.com/google/idaidle",
+ src: "c++",
  last: "20210217",
+ vers: "7.5",
  desc: "idaidle is a plugin for the commercial IDA Pro disassembler that warns users if they leave their instance idling for too long. After a predetermined amount of idle time, the plugin first warns and later then saves the current disassemlby database and closes IDA."},
 
 {name: "IDA Images",
@@ -882,7 +945,10 @@ var tabledata = [
 
 {name: "IDA IPython",
  url: "https://github.com/james91b/ida_ipython",
+ src: "c++",
+ cats: "dev, int",
  last: "20170805",
+ vers: "6.9",
  desc: "This is a plugin to embed an IPython kernel in IDA Pro. The Python ecosystem has amazing libraries (and communities) for scientific computing. IPython itself is great for exploratory data analysis. Using tools such as the IPython notebook make it easy to share code and explanations with rich media. IPython makes using IDAPython and interacting with IDA programmatically really fun and easy."},
 
 {name: "IDA Key Checker",
@@ -894,7 +960,9 @@ var tabledata = [
 
 {name: "IDAMagicStrings",
  url: "https://github.com/joxeankoret/idamagicstrings",
+ src: "py",
  last: "20191108",
+ vers: "7.4",
  desc: "An IDA Python plugin to extract information from string constants. The current version of the plugin is able to:\n* Display functions to source files relationships (in a tree and in a plain list, a chooser in IDA language).\n* Display guessed function names for functions.\n* Rename functions according to the source code file their belong + address (for example, memory_mgmt_0x401050).\n* Rename functions according to the guessed function name."},
 
 {name: "idamagnum",
@@ -915,7 +983,9 @@ var tabledata = [
 
 {name: "IDA Migrator",
  url: "https://github.com/giladreich/ida_migrator",
+ src: "py",
  last: "20210528",
+ vers: "7.6",
  desc: "IDA Migrator plugin makes the job of migrating symbols and type informations from one IDA database instance to another. It will help migrating function names, structures and enums. This comes in handy when:\n* Moving to a newer version of IDA that does better analysis and you don't want to change in the new instance type information or variable names of the decompiled functions.\n* The current idb instance fails to decompile a function or the decompilation looks wrong in comparison to another idb instance of the same binary.\n* Experimenting on another idb instance before making major changes on the current instance.\n* A lightweight easy way of creating small backups of the current work.\n* For w/e reason, the current idb instance you're working on gets corrupted."},
 
 {name: "IDA-minsc",
@@ -960,6 +1030,26 @@ var tabledata = [
  last: "20141104",
  desc: "Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim."},
 
+{name: "IDA Plugin Loader",
+ url: "https://github.com/tmr232/ida-plugin-loader",
+ src: "py",
+ last: "20191027",
+ vers: "7.4",
+ desc: "Random IDA scripts, plugins, example code (some of it may be old and not working anymore)."},
+
+{name: "idaplugins",
+ url: "https://github.com/patois/idaplugins",
+ src: "c++",
+ last: "20170205",
+ desc: "Random IDA scripts, plugins, example code (some of it may be old and not working anymore)."},
+
+{name: "idaplugins",
+ url: "https://github.com/tmr232/ida-plugins",
+ src: "py",
+ last: "20150531",
+ vers: "6.7",
+ desc: "Plugins for IDA: Plugin Proxy, Function Strings, LCA Graph, Autoenum, Autostruct, Function Flow, Quick Copy."},
+
 {name: "idapm",
  url: "https://github.com/tkmru/idapm",
  src: "py",
@@ -978,11 +1068,6 @@ var tabledata = [
  url: "https://github.com/maddiestone/IDAPythonEmbeddedToolkit",
  last: "20190814",
  desc: "IDAPython scripts for automating analysis of firmware of embedded devices."},
-
-{name: "ida-qscripts",
- url: "https://github.com/0xeb/ida-qscripts",
- last: "20220420",
- desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
 {name: "IDARay",
  url: "https://github.com/SouhailHammou/IDARay-Plugin",
@@ -1057,6 +1142,14 @@ var tabledata = [
  vers: "5.6",
  desc: "IDAStealth is a plugin which aims to hide the IDA debugger from most common anti-debugging techniques. The plugin is composed of two files, the plugin itself and a dll which is injected into the debuggee as soon as the debugger attaches to the process. The injected dll actually implements most of the stealth techniques either by hooking system calls or by patching some flags in the remote process."},
 
+{name: "IDA StrikeOut",
+ url: "https://github.com/0xeb/ida-strikeout",
+ src: "c++",
+ cats: "decomp",
+ last: "20211227",
+ vers: "7.5",
+ desc: "IDA strike-out: A Hex-Rays decompiler plugin to patch the Ctree (e.g. remove statements)."},
+
 {name: "IDA StringCluster",
  url: "https://github.com/Comsecuris/ida_strcluster",
  src: "py",
@@ -1080,7 +1173,7 @@ var tabledata = [
 {name: "IdaVSHelp",
  url: "https://github.com/andreafioraldi/IdaVSHelp",
  src: "py",
- cats: "int",
+ cats: "dev, int",
  last: "20170513",
  vers: "6.8",
  desc: "IDAPython plugin to integrate Visual Studio Help Viewer in IDA Pro >= 6.8"},
@@ -1093,9 +1186,20 @@ var tabledata = [
  vers: "7.1",
  desc: "These IDA Pro plugins add support for loading and disassembling WebAssembly modules.\n* control flow reconstruction and graph mode\n* code and data cross references\n* globals, function parameters, local variables, etc. can be renamed\n* auto-comment hint support"},
 
+{name: "idax",
+ url: "https://github.com/0xeb/idax",
+ src: "c++",
+ cats: "dev",
+ last: "20211227",
+ vers: "7.5",
+ desc: "Xbox360/Xenon loader plugin for IDA 7.2+, supporting most known Xbox360/Xenon .XEX executable file formats."},
+
 {name: "idaxex",
  url: "https://github.com/emoose/idaxex",
+ src: "c++",
+ cats: "loader",
  last: "20220218",
+ vers: "7.5",
  desc: "Xbox360/Xenon loader plugin for IDA 7.2+, supporting most known Xbox360/Xenon .XEX executable file formats."},
 
 {name: "IDA Xtensa",
@@ -1168,7 +1272,10 @@ var tabledata = [
 
 {name: "Labeless",
  url: "https://github.com/a1ext/labeless",
+ src: "c++",
+ cats: "debug",
  last: "20220325",
+ vers: "6.95",
  desc: "Labeless is a plugin system for dynamic, seamless and realtime synchronization between IDA Database and Olly. Labels, function names and global variables synchronization is supported. \nLabeless provides easy to use dynamic dumping tool, which supports automatic on-the-fly imports fixing as well as convenient tool for IDA-Olly Python scripting synergy."},
 
 {name: "LazyIDA",
@@ -1211,8 +1318,11 @@ var tabledata = [
 
 {name: "MadNES",
  url: "https://github.com/patois/MadNES",
+ src: "c++",
+ cats: "int",
  last: "20120912",
- desc: "This plugin exports IDA names to FCEUXD SP symbols."},
+ vers: "4.9",
+ desc: "This plugin exports IDA names to FCEUXD SP symbols. These can be loaded by FCEUXD SP to allow symbolic debugging."},
 
 {name: "MazeWalker",
  url: "https://github.com/0xPhoeniX/MazeWalker",
@@ -1282,6 +1392,7 @@ var tabledata = [
  src: "c++",
  cats: "loader",
  last: "20170205",
+ vers: "5.0",
  desc: "Nintendo DS ROM loader module for IDA Pro."},
 
 {name: "NECromancer",
@@ -1291,6 +1402,14 @@ var tabledata = [
  last: "20180508",
  vers: "7.0",
  desc: "IDA Pro V850 Processor Module Extension."},
+
+{name: "nesdbg",
+ url: "https://github.com/patois/nesdbg",
+ src: "c++",
+ cats: "debug",
+ last: "20181218",
+ vers: "4.9",
+ desc: "Failed attempt in creating an IDA Pro debugger plugin for NES ROMs"},
 
 {name: "NES Loader",
  url: "https://github.com/patois/nesldr",
@@ -1438,6 +1557,14 @@ var tabledata = [
  last: "20150713",
  desc: "qb-sync is an open source tool to add some helpful glue between IDA Pro and Windbg. Its core feature is to dynamically synchronize IDA's graph windows with Windbg's position."},
 
+{name: "QScripts",
+ url: "https://github.com/0xeb/ida-qscripts",
+ src: "c++",
+ cats: "dev",
+ last: "20220420",
+ vers: "7.7",
+ desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
+
 {name: "Qualcomm Loader",
  url: "https://github.com/daxgr/qcom-mbn-ida-loader",
  src: "c++",
@@ -1450,6 +1577,14 @@ var tabledata = [
  src: "py",
  last: "20141208",
  desc: "IDA recompiler, no docs no help."},
+
+{name: "RECON2017",
+ url: "https://github.com/tmr232/RECon2017",
+ src: "py",
+ cats: "ui",
+ last: "20170616",
+ vers: "6.8",
+ desc: "RECON 2017 IDA skin & color scheme"},
 
 {name: "Reef",
  url: "https://github.com/darx0r/Reef",
@@ -1501,7 +1636,9 @@ var tabledata = [
 
 {name: "rizzo",
  url: "https://github.com/devttys0/ida/tree/master/plugins/rizzo",
+ src: "py",
  last: "20210602",
+ vers: "7.4",
  desc: "Identifies and re-names functions between two or more IDBs based on:\n* Formal signatures (i.e., exact function signatures)\n* References to unique string\n* References to unique constants\n* Fuzzy signatures (i.e., similar function signatures)\n* Call graphs (e.g., identification by association)"},
 
 {name: "Samsung S4 Rom Loader",
@@ -1612,8 +1749,11 @@ var tabledata = [
 
 {name: "Styler",
  url: "https://github.com/techbliss/IDA-Styler",
+ src: "py",
+ cats: "ui",
  last: "20140725",
- desc: "Small Plugin to change the style off Ida Pro"},
+ vers: "6.5",
+ desc: "Small Plugin to change the style of Ida Pro."},
 
 {name: "syms2elf",
  url: "https://github.com/danigargu/syms2elf",
@@ -1639,7 +1779,9 @@ var tabledata = [
 
 {name: "Tarkus",
  url: "https://github.com/tmr232/Tarkus",
+ src: "py",
  last: "20150813",
+ vers: "6.7",
  desc: "Tarkus is a plugin manager for IDA Pro, modelled after Python's pip."},
 
 {name: "TurboDiff",

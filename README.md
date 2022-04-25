@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-260 plugins
+273 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files
 
 * [abyss](https://github.com/patois/abyss): Postprocess Hexrays Decompiler Output
@@ -41,6 +41,8 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 * [AutoRE](https://github.com/a1ext/auto_re): Auto-renaming plugin with tagging support.
 
 * [Back 2 The Future](https://github.com/SafeBreach-Labs/Back2TheFuture): Find patterns of vulnerabilities on Windows in order to find 0-day and write exploits of 1-days. We use Microsoft security updates in order to find the patterns.
+
+* [bankswitch](https://github.com/patois/bankswitch): Nintendo Entertainment System (NES) bank switcher: plugin for NES ROMs, simulates bank switching/paging.
 
 * [BinAuthor](https://github.com/g4hsean/BinAuthor): Match an author to an unknown binary.
 
@@ -177,6 +179,8 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [Funcap](https://github.com/deresz/funcap): This script records function calls (and returns) across an executable using IDA debugger API, along with all the arguments passed. It dumps the info to a text file, and also inserts it into IDA's inline comments. This way, static analysis that usually follows the behavioral runtime analysis when analyzing malware, can be directly fed with runtime info such as decrypted strings returned in function's arguments.
 
+* [FuncScanner](https://github.com/patois/FuncScanner): Collects extended function properties from IDA Pro databases. This is especially useful in reverse engineering code that comes with no or little symbolic information, as is often the case with embedded firmware.
+
 * [Functions+](https://github.com/nihilus/functions-plus): IDA Pro plugin to make functions tree view. Plugin parses function names and groups them by namespaces.
 
 * [Function Tagger](https://github.com/alessandrogario/IDA-Function-Tagger): This IDAPython script tags subroutines according to their use of imported functions
@@ -233,11 +237,15 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [Hyara](https://github.com/hyuunnn/Hyara): A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary.
 
-* [IDA2SQL](https://github.com/zynamics/ida2sql-plugin-ida): As the name implies this plugin can be used to export information from IDA databases to SQL databases. This allows for further analysis of the collected data: statstical analysis, building graphs, finding similarities between programs, etc.
+* [IDA2SQL](https://github.com/zynamics/ida2sql-plugin-ida): As the name implies this plugin can be used to export information from IDA databases to SQL databases. This allows for further analysis of the collected data: statistical analysis, building graphs, finding similarities between programs, etc.
+
+* [IDA 7.x VS2017 Sample Project](https://github.com/patois/ida_vs2017): This is a sample Visual Studio 2017 (Community Edition) project for IDA 7.x plugins on Windows.
 
 * [ida-arm-system-highlight](https://github.com/gdelugre/ida-arm-system-highlight): This script will give you the list of ARM system instructions used in your IDA database. This is useful for locating specific low-level pieces of code (setting up the MMU, caches, fault handlers, etc.).
 
-* [IDA Batch Decompile](https://github.com/tintinweb/ida-batch_decompile): IDA Batch Decompile is a plugin for Hex-Ray's IDA Pro that adds the ability to batch decompile multiple files and their imports with additional annotations (xref, stack var size) to the pseudocode .c file
+* [IDA Autoruns](https://github.com/tmr232/ida-autoruns): IDA-Autoruns is a simple plugin to make a script run automatically every time you open a specific IDB.
+
+* [IDA Batch Decompile](https://github.com/tintinweb/ida-batch_decompile): Batch decompile multiple files and their imports with additional annotations (xref, stack var size) to a pseudocode .c file.
 
 * [ida bitfields](https://github.com/JustasMasiulis/ida_bitfields): A simple IDA Pro plugin to make bitfields and bitflags in them easier to reason about.
 
@@ -250,6 +258,10 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 * [ida-climacros](https://github.com/0xeb/ida-climacros): `ida-climacros` is a productivity plugin that allows you to define macros that will be expanded when interfacing with IDA's command line interpreter (in the output window).
 
 * [ida-cmake](https://github.com/0xeb/ida-cmake): This is not an IDA plugin but a CMake project generator for IDA plugins development.
+
+* [ida-cmake](https://github.com/zyantific/ida-cmake): CMake build scripts and a Python helper allowing compilation of C++ IDA plugins for Windows, macOS and Linux without much user effort.
+
+* [IDA Color Schemer](https://github.com/tmr232/IDAColorSchemer): tool to easily design IDA color schemes outside IDA. This will hopefully allow simplifying & automating the generation of color schemes and help create colorblind-friendly settings.
 
 * [IDA Compare](https://github.com/dzzie/IDACompare): IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage.
 
@@ -269,11 +281,11 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [IDA-For-Delphi](https://github.com/Coldzer0/IDA-For-Delphi): IDA Python Script to Get All function names from Event Constructor (VCL).
 
-* [IDAFuzzy](https://github.com/Ga-ryo/IDAFuzzy): IDAFuzzy is fuzzy searching tool for IDA Pro. This tool helps you to find command/function/struct and so on.
+* [IDAFuzzy](https://github.com/Ga-ryo/IDAFuzzy): IDAFuzzy is fuzzy searching tool for IDA Pro. This tool helps you to find command/function/struct and so on. (a la Mac Spotlight).
 
 * [ida_game_elf_loaders (gel)](https://github.com/aerosoul94/ida_gel): A collection of IDA loaders for various game console ELF's: PS3, PSVita, WiiU.
 
-* [ida-genesis](https://github.com/zznop/ida-genesis): Suite of IDA scripts for SEGA Genesis ROM hacking.
+* [ida-genesis](https://github.com/zznop/ida-genesis): Suite of IDA scripts for SEGA Genesis ROM hacking. ROM Loader, Branch Table Enumeration.
 
 * [idahunt](https://github.com/nccgroup/idahunt): idahunt is a framework to analyze binaries with IDA Pro and hunt for things in IDA Pro. It is command line tool to analyse all executable files recursively from a given folder. It executes IDA in the background so you don't have to open manually each file. It supports executing external IDA Python scripts.
 
@@ -318,13 +330,17 @@ Any contribution is welcome one way or another. If you know of a plugin that cou
 
 * [IDA Patchwork](https://bitbucket.org/daniel_plohmann/idapatchwork): Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim.
 
+* [IDA Plugin Loader](https://github.com/tmr232/ida-plugin-loader): Random IDA scripts, plugins, example code (some of it may be old and not working anymore).
+
+* [idaplugins](https://github.com/patois/idaplugins): Random IDA scripts, plugins, example code (some of it may be old and not working anymore).
+
+* [idaplugins](https://github.com/tmr232/ida-plugins): Plugins for IDA: Plugin Proxy, Function Strings, LCA Graph, Autoenum, Autostruct, Function Flow, Quick Copy.
+
 * [idapm](https://github.com/tkmru/idapm): idapm is IDA Plugin Manager. It works perfectly on macOS, it probably works on Windows and Linux.
 
 * [IDAPyHelper](https://github.com/patois/IDAPyHelper): IDAPyHelper is a script for the Interactive Disassembler that helps writing IDAPython scripts and plugins.
 
 * [IDA Python Embedded Toolkit](https://github.com/maddiestone/IDAPythonEmbeddedToolkit): IDAPython scripts for automating analysis of firmware of embedded devices.
-
-* [ida-qscripts](https://github.com/0xeb/ida-qscripts): An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script.
 
 * [IDARay](https://github.com/SouhailHammou/IDARay-Plugin): IDARay is an IDA Pro plugin that matches the database against multiple YARA files. Maybe your rules are scattered over multiple YARA files or you simply want to match against as much rules as possible, IDARay is here to help.
 
@@ -349,6 +365,8 @@ many other things like known strings and anti-debugging code which can be also m
 
 * [IDA Stealth](https://github.com/nihilus/idastealth): IDAStealth is a plugin which aims to hide the IDA debugger from most common anti-debugging techniques. The plugin is composed of two files, the plugin itself and a dll which is injected into the debuggee as soon as the debugger attaches to the process. The injected dll actually implements most of the stealth techniques either by hooking system calls or by patching some flags in the remote process.
 
+* [IDA StrikeOut](https://github.com/0xeb/ida-strikeout): IDA strike-out: A Hex-Rays decompiler plugin to patch the Ctree (e.g. remove statements).
+
 * [IDA StringCluster](https://github.com/Comsecuris/ida_strcluster): This plugin extends IDA Pro's capabilities to display strings within the binary by clustering found strings on a per-function basis.
 
 * [IDA Toolbag](https://github.com/aaronportnoy/toolbag): The IDA Toolbag plugin provides many handy features, such as:
@@ -367,6 +385,8 @@ many other things like known strings and anti-debugging code which can be also m
   * code and data cross references
   * globals, function parameters, local variables, etc. can be renamed
   * auto-comment hint support
+
+* [idax](https://github.com/0xeb/idax): Xbox360/Xenon loader plugin for IDA 7.2+, supporting most known Xbox360/Xenon .XEX executable file formats.
 
 * [idaxex](https://github.com/emoose/idaxex): Xbox360/Xenon loader plugin for IDA 7.2+, supporting most known Xbox360/Xenon .XEX executable file formats.
 
@@ -407,7 +427,7 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [Lumen](https://github.com/naim94a/lumen): A private Lumina server for IDA Pro written in Rust.
 
-* [MadNES](https://github.com/patois/MadNES): This plugin exports IDA names to FCEUXD SP symbols.
+* [MadNES](https://github.com/patois/MadNES): This plugin exports IDA names to FCEUXD SP symbols. These can be loaded by FCEUXD SP to allow symbolic debugging.
 
 * [MazeWalker](https://github.com/0xPhoeniX/MazeWalker): Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part.
 
@@ -434,6 +454,8 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 * [NDSLdr](https://github.com/patois/NDSLdr): Nintendo DS ROM loader module for IDA Pro.
 
 * [NECromancer](https://github.com/patois/NECromancer): IDA Pro V850 Processor Module Extension.
+
+* [nesdbg](https://github.com/patois/nesdbg): Failed attempt in creating an IDA Pro debugger plugin for NES ROMs
 
 * [NES Loader](https://github.com/patois/nesldr): Nintendo Entertainment System (NES) ROM loader module for IDA Pro.
 
@@ -477,9 +499,13 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [qb-sync](https://github.com/quarkslab/qb-sync): qb-sync is an open source tool to add some helpful glue between IDA Pro and Windbg. Its core feature is to dynamically synchronize IDA's graph windows with Windbg's position.
 
+* [QScripts](https://github.com/0xeb/ida-qscripts): An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script.
+
 * [Qualcomm Loader](https://github.com/daxgr/qcom-mbn-ida-loader): IDA loader plugin for Qualcomm Bootloader Stages
 
 * [Recompiler](https://github.com/bastkerg/Recomp): IDA recompiler, no docs no help.
+
+* [RECON2017](https://github.com/tmr232/RECon2017): RECON 2017 IDA skin & color scheme
 
 * [Reef](https://github.com/darx0r/Reef): IDAPython plugin for finding Xrefs from a function.
 
@@ -534,7 +560,7 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 
 * [Structure Dump](http://www.openrce.org/downloads/details/227/Structure_Dump): StructDump is an IDA plugin, allowing you to export IDA types into high-level language definitions. Currently, C++ is supported.
 
-* [Styler](https://github.com/techbliss/IDA-Styler): Small Plugin to change the style off Ida Pro
+* [Styler](https://github.com/techbliss/IDA-Styler): Small Plugin to change the style of Ida Pro.
 
 * [syms2elf](https://github.com/danigargu/syms2elf): A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.
 
