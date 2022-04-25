@@ -10,8 +10,55 @@
 		<style>
 			body {
 				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-				font-size: 12px;
+				font-size: 16px;
 			}
+			h1 {
+				font-size: 2em;
+				font-weight: 600;
+				line-height: 1.25;
+			}
+
+			h1.title {
+				text-align: center;
+				margin-top: 1em;
+				/*margin-bottom: 2em;*/
+			}
+
+			.tagline {
+				text-align: center;
+				/*max-width: 60%;*/
+				font-style: italic;
+			}
+
+			.section {
+				font-weight: 600;
+				font-size: 1.5em;
+				margin-top: 1em;
+				margin-bottom: 7px;
+			}
+
+			span.stat-elem {
+				margin-right: 14px;
+			}
+
+			span.stat-val {
+				color: #6589bd;
+			}
+
+			dl {
+			  	display: grid;
+				grid-template-columns: max-content auto;
+			}
+
+			dt {
+			  	grid-column-start: 1;
+				margin-bottom: 5px;
+			}
+
+			dd {
+			  	grid-column-start: 2;
+			}
+
 			.no-underline a {
 				text-decoration: none;
 			}
@@ -26,26 +73,28 @@
 				a {
 					color: #539bf5;
 				}
+				span.stat-val {
+					color: orange;
+				}
+
 			}
 		</style>
 
 	</head>
 	<body>
-		<h1>Interactive IDA Plugin List</h1>
+		<h1 class="title">The Interactive IDA Plugin List</h1>
+		<p class="tagline">A comprehensive list of plugins for
+			<a href="https://hex-rays.com/products/ida-pro/">IDA Pro</a>.</p>
 		<p></p>
-		<h1>WORK IN PROGRESS</h1>
-		<div style="text-align: center">
-		<div style="display: inline-block; text-align: left; max-width: 80%">
-		<i>As you can tell I know absolutely nothing about how to construct a web page
-			or any UI for that matter; if you know your way around HTML of JS, help
-			would be welcome :)
-		</i>
-		</div>
-		</div>
+
+		<div class="section">Contributing</div>
+		Know of a plugin not in the list? Saw a typo? A better way to describe a plugin?
+		Go to <a href="https://github.com/vmallet/ida-plugins">the repo</a> and send a PR!
+		If you feel you have the skills to improve this terrible UI please feel free to
+		contribute too!
+
 		<p></p>
-		See <a href="https://github.com/vmallet/ida-plugins">source</a>
-		<p id="plugin-stats">Loading...</p>
-		<p></p>
+		<div class="section">Filters</div>
 		<div>
 			<!-- Doing layout with tables! Someone stop me, please! -->
 			<table>
@@ -126,10 +175,19 @@
 				</tr>
 			</table>
 		</div>
-		<p></p>
-		<div class="no-underline">
-			<div id="plugin-table"><i>Loading...</i></div>
+
+		<div id="loading">Loading...</div>
+		<div id="stats" style="visibility: hidden;">
+			Showing <span id="plugin-count" class="stat-val">N</span> plugins:
+			<dl>
+				<dt>Languages:</dt>
+				<dd><span id="stats-languages"></span></dd>
+				<dt>Categories:</dt>
+				<dd><span id="stats-categories"></span></dd>
+			</dl>
 		</div>
+
+		<div class="no-underline" id="plugin-table"><i>Loading...</i></div>
 
 		<script type="text/javascript" src="lib/moment.min.js"></script>
 		<script type="text/javascript" src="lib/tabulator.min.js"></script>
@@ -137,6 +195,7 @@
 		<script type="text/javascript" src="data.js"></script>
 		<script type="text/javascript" src="main.js"></script>
 
-		<p>Author: <a href="https://github.com/vmallet">Vincent Mallet</a></p>
+		<p>Author: <a href="https://github.com/vmallet">Vincent Mallet</a>.
+			See <a href="https://github.com/vmallet/ida-plugins">source</a></p>
 	</body>
 </html>

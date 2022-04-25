@@ -18,7 +18,7 @@ let table = new Tabulator("#plugin-table", {
 	],
 });
 table.on("dataFiltered", function(filters, rows){
-	$("#plugin-stats").text(buildStatsText(rows))
+	updateStats(rows)
 });
 
 /** Src filter. */
@@ -88,11 +88,11 @@ function _kvToStr([k, v]) {
 }
 
 /**
- * Compare two strings, putting any starting with '(' last.
+ * Compare two [name, count] pairs, putting any name starting with '(' last.
  *
- * (Not robust. Only feed it strings.)
+ * (Not robust.)
  */
-function _sortParenLast(a, b) {
+function _sortParenLast([a, c1], [b, c2]) {
 	let res = 0;
 	if (a < b) {
 		res = -1;
@@ -107,11 +107,18 @@ function _sortParenLast(a, b) {
 }
 
 /**
+ * Rename 'undefined' to (none).
+ */
+function map_undefined([name, count]) {
+	return [ name === "undefined" ? "(none)" : name, count];
+}
+
+/**
  * Construct the stats text displayed above the table. Ultra crude.
  *
  * TODO: make this presentable, decide what to keep and what not to.
  * */
-function buildStatsText(rows) {
+function buildStats(rows) {
 	const count = rows.length
 	const zsrcs = new DefaultDict(0);
 	const zcats = new DefaultDict(0);
@@ -132,11 +139,39 @@ function buildStatsText(rows) {
 		}
 	}
 
-	src_txt = Object.entries(zsrcs).map(_kvToStr).sort(_sortParenLast).join(" ")
-	cat_txt = Object.entries(zcats).map(_kvToStr).sort(_sortParenLast).join(" ")
+	src_stats = Object.entries(zsrcs).map(map_undefined).sort(_sortParenLast)
+	cat_stats = Object.entries(zcats).map(map_undefined).sort(_sortParenLast)
 
-	// TODO: this looks just horrible; do something about the UI treatment.
-	return "Showing " + count + " plugins.  ---  " + src_txt + "  ---  " + cat_txt
+	return { count, src_stats, cat_stats }
+}
+
+/**
+ * Build and attach stat elements for the given counts to the parent element
+ * with id 'parentId'.
+ */
+function populateStatElements(parentId, counts) {
+	let $stats = $(parentId);
+	$stats.empty()
+	for (const [name, count] of counts) {
+		$span = $("<span>", { "class": "stat-elem"})
+	    $span.text(name + " ")
+		$val = $("<span>", { "class": "stat-val"})
+		$val.text(count)
+		$span.append($val)
+		$stats.append($span)
+	}
+}
+
+/**
+ * Update the "showing" stats when the table is changed.
+ */
+function updateStats(rows) {
+	let { count, src_stats, cat_stats } = buildStats(rows)
+	$("#plugin-count").text(count)
+	populateStatElements("#stats-languages", src_stats)
+	populateStatElements("#stats-categories", cat_stats)
+	$("#loading").css("visibility", "hidden");
+	$("#stats").css("visibility", "visible");
 }
 
 /**
