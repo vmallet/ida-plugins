@@ -66,6 +66,13 @@ var tabledata = [
  last: "20200503",
  desc: "Collection of Android reverse engineering scripts that make my life easier"},
 
+{name: "Andromeda-payload",
+ url: "https://github.com/0xEBFE/Andromeda-payload",
+ src: "py",
+ last: "20130330",
+ vers: "6.4",
+ desc: "IDAPython script for decryption payload of Andromeda malware."},
+
 {name: "APIScout",
  url: "https://github.com/danielplohmann/apiscout",
  src: "py",
@@ -143,6 +150,14 @@ var tabledata = [
  last: "20200909",
  desc: "Bip is a project which aims to simplify the usage of python for interacting with IDA. Its main goals are to facilitate the usage of python in the interactive console of IDA and the writing of plugins."},
 
+{name: "blc: Binary Lifting Contraption",
+ url: "https://github.com/cseagle/blc",
+ src: "c++",
+ cats: "decomp, int",
+ last: "20210424",
+ vers: "7.5",
+ desc: "Integrate Ghidra's decompiler as an Ida plugin."},
+
 {name: "Bootroom Analysis Library",
  url: "https://github.com/digitalbond/IBAL",
  src: "py",
@@ -169,6 +184,14 @@ var tabledata = [
  last: "20220420",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
+
+{name: "CGC Loader",
+ url: "https://github.com/cseagle/cgc_ldr",
+ src: "c++",
+ cats: "loader",
+ last: "20180409",
+ vers: "7.0",
+ desc: "IDA Loader for DARPA CGC binaries."},
 
 {name: "CGEN",
  url: "https://github.com/yifanlu/cgen",
@@ -596,7 +619,10 @@ var tabledata = [
 
 {name: "gdbida",
  url: "https://github.com/comsecuris/gdbida",
+ src: "py",
+ cats: "debug",
  last: "20180423",
+ vers: "6.95",
  desc: "A visual bridge between a GDB session and IDA Pro's disassembler"},
 
 {name: "genmc",
@@ -739,6 +765,13 @@ var tabledata = [
  last: "20211101",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
+{name: "IBT",
+ url: "https://github.com/pwnslinger/IBT",
+ src: "py",
+ last: "20170501",
+ vers: "6.95",
+ desc: "IDA Pro Back Tracer - Initial project toward automatic customized protocols structure extraction."},
+
 {name: "IDA2SQL",
  url: "https://github.com/zynamics/ida2sql-plugin-ida",
  src: "py",
@@ -803,6 +836,14 @@ var tabledata = [
  cats: "dev",
  last: "20100605",
  desc: "Scripting IDA with C#, download [here](https://files.cnblogs.com/nnhy/IDACSharp_20100605143116.rar). (All in Chinese)."},
+
+{name: "IDA cLEMENCy Tools",
+ url: "https://github.com/cseagle/ida_clemency",
+ src: "py",
+ cats: "loader, proc",
+ last: "20170731",
+ vers: "6.95",
+ desc: "Tools to work with the cLEMENCy architecture developed by LegitBS for use during the Defcon 25 Capture the Flag event."},
 
 {name: "ida-climacros",
  url: "https://github.com/0xeb/ida-climacros",
@@ -1031,6 +1072,14 @@ var tabledata = [
  last: "20141104",
  desc: "Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim."},
 
+{name: "IDAPerl",
+ url: "https://github.com/nlitsme/idaperl",
+ src: "c++",
+ cats: "dev",
+ last: "20160724",
+ vers: "6.5",
+ desc: "Adds perl scripting support to ida."},
+
 {name: "IDA Plugin Loader",
  url: "https://github.com/tmr232/ida-plugin-loader",
  src: "py",
@@ -1057,6 +1106,22 @@ var tabledata = [
  last: "20200905",
  desc: "idapm is IDA Plugin Manager. It works perfectly on macOS, it probably works on Windows and Linux."},
 
+{name: "idapro_m6502",
+ url: "https://github.com/LucienMP/idapro_m6502",
+ src: "py",
+ cats: "debug",
+ last: "20201110",
+ vers: "7.3",
+ desc: "Extends existing support in IDA Pro for the m6502 processor family by adding gdb XML support, and step-over and type information support. Aim was to debug NES roms."},
+
+{name: "idapro_m68k",
+ url: "https://github.com/LucienMP/idapro_m68k",
+ src: "py",
+ cats: "debug",
+ last: "20190714",
+ vers: "7.3",
+ desc: "Extends existing support in IDA for the Motorola m68k processor family by adding gdb step-over and type information support. Enable type information support so you can press \"y\" on functions and have the parameters propagate inside and back out of the function."},
+
 {name: "IDAPyHelper",
  url: "https://github.com/patois/IDAPyHelper",
  src: "py",
@@ -1067,12 +1132,16 @@ var tabledata = [
 
 {name: "IDA Python Embedded Toolkit",
  url: "https://github.com/maddiestone/IDAPythonEmbeddedToolkit",
+ src: "py",
  last: "20190814",
+ vers: "6.95",
  desc: "IDAPython scripts for automating analysis of firmware of embedded devices."},
 
 {name: "IDARay",
  url: "https://github.com/SouhailHammou/IDARay-Plugin",
+ src: "py",
  last: "20181116",
+ vers: "6.8",
  desc: "IDARay is an IDA Pro plugin that matches the database against multiple YARA files. Maybe your rules are scattered over multiple YARA files or you simply want to match against as much rules as possible, IDARay is here to help."},
 
 {name: "IdaRef",
@@ -1112,6 +1181,14 @@ var tabledata = [
  last: "20200813",
  vers: "7.0",
  desc: "IDAscope is an IDA Pro extension with the goal to ease the task of (malware) reverse engineering with a current focus on x86 Windows. It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations in the analysis target, seamless access to MSDN documentation of Windows API, and finding of potential crypto/compression algorithms."},
+
+{name: "idascripts",
+ url: "https://github.com/nlitsme/idascripts",
+ src: "py",
+ cats: "dev",
+ last: "20190911",
+ vers: "7.0",
+ desc: "IDC and idapython script collection. enumerators.py contains several iterators."},
 
 {name: "IDAShell",
  url: "https://github.com/namazso/IDAShell",
@@ -1225,6 +1302,22 @@ var tabledata = [
  vers: "6.2",
  desc: "IDB to Pat, fixed to work with IDA 6.2. Create patterns for IDA objects."},
 
+{name: "idbutil",
+ url: "https://github.com/nlitsme/idbutil",
+ src: "c++",
+ cats: "dev, int",
+ last: "20201127",
+ vers: "7.0",
+ desc: "IDBTOOL - Library and tool for reading IDApro databases. (See Python version 'pyidbutil')"},
+
+{name: "idcinternals",
+ url: "https://github.com/nlitsme/idcinternals",
+ src: "c++",
+ cats: "dev",
+ last: "20201127",
+ vers: "7.5",
+ desc: "IDA plugin investigating the internal representation of IDC scripts"},
+
 {name: "idenLib",
  url: "https://github.com/secrary/IDA-scripts/tree/master/idenLib",
  src: "py",
@@ -1312,7 +1405,9 @@ var tabledata = [
 
 {name: "Localxrefs",
  url: "https://github.com/devttys0/ida/tree/master/plugins/localxrefs",
+ src: "py",
  last: "20210602",
+ vers: "7.4",
  desc: "Finds references to any selected text from within the current function."},
 
 {name: "Lucid",
@@ -1346,11 +1441,6 @@ var tabledata = [
  last: "20220116",
  desc: "Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part."},
 
-{name: "MC68K Processor Model Extension",
- url: "https://github.com/LucienMP/idapro_m68k",
- last: "20190714",
- desc: "This is a sample plugin for extending gdb support for step-over for the M68K, and to enable type information support so you can press \"y\" on functions and have the parameters propagate inside and back out of the function."},
-
 {name: "MicroAVX",
  url: "https://github.com/gaasedelen/microavx",
  src: "py",
@@ -1361,13 +1451,17 @@ var tabledata = [
 
 {name: "mipslocalvars",
  url: "https://github.com/devttys0/ida/tree/master/plugins/mipslocalvars",
+ src: "py",
  last: "20210602",
- desc: "Names stack variables used by the compiler for storing registers on the stack, simplifying stack data analysis (MIPS only)"},
+ vers: "7.4",
+ desc: "Names stack variables used by the compiler for storing registers on the stack, simplifying stack data analysis (MIPS only)."},
 
 {name: "mipsrop",
  url: "https://github.com/devttys0/ida/tree/master/plugins/mipsrop",
+ src: "py",
  last: "20210602",
- desc: "* Allows you to search for suitable ROP gadgets in MIPS executable code\n* Built-in methods to search for common ROP gadgets"},
+ vers: "7.4",
+ desc: "* Allows you to search for suitable ROP gadgets in MIPS executable code\n* Built-in methods to search for common ROP gadgets."},
 
 {name: "mkYARA IDA Plugin",
  url: "https://github.com/fox-it/mkYARA",
@@ -1388,6 +1482,13 @@ var tabledata = [
  url: "https://github.com/Z-Rantom/IMH",
  last: "20160905",
  desc: "This tool will help you to get to Offline MSDN help while using IDA Pro."},
+
+{name: "msp430emu",
+ url: "https://github.com/cseagle/msp430emu",
+ src: "c++",
+ last: "20190322",
+ vers: "7.1",
+ desc: "An msp430 emulator plugin for Ida Pro."},
 
 {name: "MyNav",
  url: "https://code.google.com/p/mynav/",
@@ -1557,6 +1658,14 @@ var tabledata = [
  last: "20191015",
  desc: "A port of Rolf Rolles' HexRaysDeob to Python."},
 
+{name: "pyidbutil",
+ url: "https://github.com/nlitsme/pyidbutil",
+ src: "py",
+ cats: "dev, int",
+ last: "20210815",
+ vers: "7.0",
+ desc: "IDBTOOL - Library and tool for reading IDApro databases. (See C++ version 'idbutil')."},
+
 {name: "Python Editor",
  url: "https://github.com/techbliss/Python_editor",
  src: "py",
@@ -1635,6 +1744,13 @@ var tabledata = [
  vers: "6.1",
  desc: "A way of making almost-arbitrary changes to an executable when run under a debugger -- even changes that don't fit."},
 
+{name: "resourcer",
+ url: "https://github.com/cseagle/resourcer",
+ src: "c++",
+ last: "20190619",
+ vers: "7.3",
+ desc: "PE file resource enumeration plugin for IDA."},
+
 {name: "retdec",
  url: "https://github.com/avast/retdec-idaplugin",
  src: "c++",
@@ -1697,6 +1813,14 @@ var tabledata = [
  vers: "7.5",
  desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Updated to at least IDA 7.5"},
 
+{name: "ShannonRE",
+ url: "https://github.com/Comsecuris/shannonRE/tree/master/idapython",
+ src: "py",
+ cats: "loader",
+ last: "20160802",
+ vers: "6.9",
+ desc: "Helpful scripts for various tasks performed during reverse engineering the Shannon Baseband with the goal to exploit the Samsung Galaxy S6."},
+
 {name: "Sig Maker",
  url: "https://github.com/ajkhoury/SigMaker-x64",
  src: "c++",
@@ -1725,6 +1849,14 @@ var tabledata = [
  last: "20140902",
  vers: "6.4",
  desc: "IDASimulator is a plugin that extends IDA's conditional breakpoint support, making it easy to augment / replace complex executable code inside a debugged process with Python code."},
+
+{name: "Sk3wlDbg",
+ url: "https://github.com/cseagle/sk3wldbg",
+ src: "c++",
+ cats: "debug",
+ last: "20210726",
+ vers: "7.5",
+ desc: "Debugger plugin for IDA Pro. Front end for using the Unicorn Engine to emulate machine code that you are viewing with IDA."},
 
 {name: "Snippet Detector",
  url: "https://github.com/zaironne/SnippetDetector",
@@ -1819,8 +1951,10 @@ var tabledata = [
 
 {name: "UEFI_RETool",
  url: "https://github.com/yeggor/UEFI_RETool/tree/master/ida_plugin",
+ src: "py",
  last: "20210803",
- desc: "IDA Plugin for UEFI firmware executable images analysing"},
+ vers: "7.2",
+ desc: "IDA Plugin for UEFI firmware analysis. This plugin allows you to automatically analyse the input UEFI images, as well as search for dependencies between UEFI images in firmware."},
 
 {name: "uEmu",
  url: "https://github.com/alexhude/uEmu",
@@ -1878,8 +2012,12 @@ var tabledata = [
  desc: "An IDA Pro plugin which decodes a Windows Device I/O control code into DeviceType, FunctionCode, AccessType and MethodType."},
 
 {name: "X86Emu",
- url: "http://www.idabook.com/ida-x86emu/",
- desc: "Its purpose is to allow a reverse engineer the chance to step through x86 code while reverse engineering a binary.  The plugin can help you step through any x86 binary from any platform. For Windows binaries, many common library calls are trapped and emulated by the emulator, allowing for a higher fidelity emulation. I find it particularly useful for stepping through obfuscated code as it automatically reorganizes an IDA disassembly based on actual code paths."},
+ url: "https://github.com/cseagle/x86emu",
+ src: "c++",
+ cats: "debug",
+ last: "20201013",
+ vers: "7.5",
+ desc: "Embedded x86 emulator for Ida Pro. Its purpose is to allow a reverse engineer the chance to step through x86 code while reverse engineering a binary. The plugin can help you step through any x86 binary from any platform. For Windows binaries, many common library calls are trapped and emulated by the emulator, allowing for a higher fidelity emulation. I find it particularly useful for stepping through obfuscated code as it automatically reorganizes an IDA disassembly based on actual code paths."},
 
 {name: "xdeobf",
  url: "https://github.com/teapotd/xdeobf",
