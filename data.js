@@ -758,6 +758,13 @@ var tabledata = [
  vers: "7.4",
  desc: "* Assist in creation of new structure definitions / virtual calls detection\n* Jump directly to virtual function or structure member definition\n* Gives list of structures with given size, with given offset\n* Finds structures with same \"shape\" as is used.\n* convert function to __usercall or __userpurge\n* and more...."},
 
+{name: "hexviewjump",
+ url: "https://github.com/anic/hexviewjump",
+ src: "py",
+ last: "20190227",
+ vers: "7.0",
+ desc: "IDA 7.0 plugins that helps to jump at hexview and extends JumpAsk expression."},
+
 {name: "HRDEV",
  url: "https://github.com/ax330d/hrdev",
  src: "py",
@@ -786,6 +793,14 @@ var tabledata = [
  last: "20170501",
  vers: "6.95",
  desc: "IDA Pro Back Tracer - Initial project toward automatic customized protocols structure extraction."},
+
+{name: "ida2pwntools",
+ url: "https://github.com/anic/ida2pwntools",
+ src: "py",
+ cats: "debug, int",
+ last: "20190227",
+ vers: "7.0",
+ desc: "IDA 7.0 plugins that helps to attach process created by pwntools and debug pwn."},
 
 {name: "IDA2SQL",
  url: "https://github.com/zynamics/ida2sql-plugin-ida",
@@ -895,6 +910,13 @@ var tabledata = [
  last: "20190530",
  vers: "6.7",
  desc: "IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage."},
+
+{name: "idaConsonance",
+ url: "https://github.com/eugeneching/ida-consonance",
+ cats: "ui",
+ last: "20130219",
+ vers: "6.4",
+ desc: "Consonance, a dark color scheme for IDA."},
 
 {name: "IDACyber",
  url: "https://github.com/patois/IDACyber",
@@ -1462,6 +1484,14 @@ var tabledata = [
  last: "20220116",
  desc: "Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part."},
 
+{name: "Memory Loader",
+ url: "https://github.com/SentineLabs/Memloader",
+ src: "c++",
+ cats: "loader",
+ last: "20210326",
+ vers: "7.4",
+ desc: "IDA loader that allows loading malicious buffers to IDA without writing them to the disk.\n* UrlLoader - loads files from a URL.\n* MemZipLoader - loads files to encrypted / plain zip file.\n* So far only windows supported."},
+
 {name: "MicroAVX",
  url: "https://github.com/gaasedelen/microavx",
  src: "py",
@@ -1498,6 +1528,14 @@ var tabledata = [
  last: "20191218",
  vers: "7.3",
  desc: "An IDAPython decompiler script that helps auditing calls to the memcpy() and memmove() functions."},
+
+{name: "msdnGrab",
+ url: "https://github.com/eugeneching/msdn-grab",
+ src: "py",
+ cats: "int",
+ last: "20120722",
+ vers: "6.2",
+ desc: "Allows a user to grab documentation from online MSDN for a given function name in IDA, and import the documentation as a repeatable comment for that function. Handles queries for the Win32 API and C/C++."},
 
 {name: "MSDN Helper",
  url: "https://github.com/Z-Rantom/IMH",

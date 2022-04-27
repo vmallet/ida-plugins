@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-293 plugins
+298 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -349,6 +349,9 @@ _Updated: 2021 11 05 &nbsp;&nbsp; Language: Python_
   * and more....<br>
 _Updated: 2016 01 26 &nbsp;&nbsp; Language: Python_
 
+* [hexviewjump](https://github.com/anic/hexviewjump): IDA 7.0 plugins that helps to jump at hexview and extends JumpAsk expression.<br>
+_Updated: 2019 02 27 &nbsp;&nbsp; Language: Python_
+
 * [HRDEV](https://github.com/ax330d/hrdev): This is an IDA Pro Python plugin to make Hex-Rays Decompiler output bit more attractive. HRDEV plugin retrieves standard decompiler output, parses it with Python Clang bindings, does some magic, and puts back.<br>
 _Updated: 2018 09 21 &nbsp;&nbsp; Language: Python_
 
@@ -360,6 +363,9 @@ _Updated: 2021 11 01 &nbsp;&nbsp; Language: Python_
 
 * [IBT](https://github.com/pwnslinger/IBT): IDA Pro Back Tracer - Initial project toward automatic customized protocols structure extraction.<br>
 _Updated: 2017 05 01 &nbsp;&nbsp; Language: Python_
+
+* [ida2pwntools](https://github.com/anic/ida2pwntools): IDA 7.0 plugins that helps to attach process created by pwntools and debug pwn.<br>
+_Updated: 2019 02 27 &nbsp;&nbsp; Language: Python_
 
 * [IDA2SQL](https://github.com/zynamics/ida2sql-plugin-ida): As the name implies this plugin can be used to export information from IDA databases to SQL databases. This allows for further analysis of the collected data: statistical analysis, building graphs, finding similarities between programs, etc.<br>
 _Updated: 2012 01 10 &nbsp;&nbsp; Language: Python_
@@ -405,6 +411,9 @@ _Updated: 2019 01 05 &nbsp;&nbsp; Language: Python_
 
 * [IDA Compare](https://github.com/dzzie/IDACompare): IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage.<br>
 _Updated: 2019 05 30 &nbsp;&nbsp; Language: C++_
+
+* [idaConsonance](https://github.com/eugeneching/ida-consonance): Consonance, a dark color scheme for IDA.<br>
+_Updated: 2013 02 19_
 
 * [IDACyber](https://github.com/patois/IDACyber): IDACyber is a plugin that visualizes an IDA database's content.<br>
 _Updated: 2021 12 17 &nbsp;&nbsp; Language: Python_
@@ -662,6 +671,12 @@ _Updated: 2012 09 12 &nbsp;&nbsp; Language: C++_
 * [MazeWalker](https://github.com/0xPhoeniX/MazeWalker): Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part.<br>
 _Updated: 2022 01 16 &nbsp;&nbsp; Language: Python_
 
+* [Memory Loader](https://github.com/SentineLabs/Memloader): IDA loader that allows loading malicious buffers to IDA without writing them to the disk.
+  * UrlLoader - loads files from a URL.
+  * MemZipLoader - loads files to encrypted / plain zip file.
+  * So far only windows supported.<br>
+_Updated: 2021 03 26 &nbsp;&nbsp; Language: C++_
+
 * [MicroAVX](https://github.com/gaasedelen/microavx): An AVX Lifter for the Hex-Rays Decompiler. It adds partial support for a number of common instructions from Intel's Advanced Vector Extensions (AVX). This plugin demonstrates how the Hex-Rays microcode can be used to lift and decompile new or previously unsupported instructions.<br>
 _Updated: 2020 07 22 &nbsp;&nbsp; Language: Python_
 
@@ -678,6 +693,9 @@ _Updated: 2019 12 16 &nbsp;&nbsp; Language: Python_
 
 * [MrsPicky](https://github.com/patois/mrspicky): An IDAPython decompiler script that helps auditing calls to the memcpy() and memmove() functions.<br>
 _Updated: 2019 12 18 &nbsp;&nbsp; Language: Python_
+
+* [msdnGrab](https://github.com/eugeneching/msdn-grab): Allows a user to grab documentation from online MSDN for a given function name in IDA, and import the documentation as a repeatable comment for that function. Handles queries for the Win32 API and C/C++.<br>
+_Updated: 2012 07 22 &nbsp;&nbsp; Language: Python_
 
 * [MSDN Helper](https://github.com/Z-Rantom/IMH): This tool will help you to get to Offline MSDN help while using IDA Pro.<br>
 _Updated: 2016 09 05_
