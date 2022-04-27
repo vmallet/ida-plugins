@@ -181,7 +181,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220420",
+ last: "20220426",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -443,7 +443,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20220421",
+ last: "20220425",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1071,7 +1071,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220414",
+ last: "20220425",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
