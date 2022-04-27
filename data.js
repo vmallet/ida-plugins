@@ -682,12 +682,27 @@ var tabledata = [
  last: "20141120",
  desc: "Automated detection of inlined functions. It highlights similar groups of nodes and allows you to group them, simplifying complex functions. The authors provide an accompanying presentation which explains the algorithms behind the plugin and shows sample use cases."},
 
+{name: "HashDB IDA",
+ url: "https://github.com/OALabs/hashdb-ida",
+ src: "py",
+ cats: "int",
+ last: "20220317",
+ vers: "7.0",
+ desc: "Malware string hash lookup plugin for IDA Pro. This plugin connects to the OALABS HashDB Lookup Service."},
+
 {name: "HeapViewer",
  url: "https://github.com/danigargu/heap-viewer",
  src: "py",
  last: "20210713",
  vers: "7.4",
  desc: "An IDA Pro plugin to examine the heap, focused on exploit development."},
+
+{name: "HexCopy",
+ url: "https://github.com/OALabs/hexcopy-ida",
+ src: "py",
+ last: "20211011",
+ vers: "7.0",
+ desc: "IDA plugin for quickly copying disassembly as encoded hex bytes."},
 
 {name: "Hex-Rays Block Highlighter",
  url: "https://github.com/vmallet/ida-hex-highlighter",
@@ -1190,6 +1205,12 @@ var tabledata = [
  vers: "7.0",
  desc: "IDC and idapython script collection. enumerators.py contains several iterators."},
 
+{name: "ida-scripts",
+ url: "https://github.com/danigargu/ida-scripts",
+ src: "py",
+ last: "20161017",
+ desc: "Misc IDA Pro scripts: cyclomatic_complexity, go_stripped_helper."},
+
 {name: "IDAShell",
  url: "https://github.com/namazso/IDAShell",
  src: "c++",
@@ -1572,6 +1593,13 @@ var tabledata = [
  vers: "7.4",
  desc: "A plugin to automatically detect obfuscated code and state machines in binaries."},
 
+{name: "oldidc",
+ url: "https://github.com/joxeankoret/oldidc",
+ src: "py",
+ cats: "dev",
+ last: "20191011",
+ desc: "IDA Python's idc.py <= 7.3 compatibility module."},
+
 {name: "Optimice",
  url: "https://code.google.com/p/optimice/",
  src: "py",
@@ -1592,6 +1620,13 @@ var tabledata = [
  last: "20220210",
  vers: "7.6",
  desc: "Interactive Binary Patching for IDA Pro. This project extends the popular IDA Pro disassembler to create a more robust interactive binary patching workflow designed for rapid iteration."},
+
+{name: "Pigaios",
+ url: "https://github.com/joxeankoret/pigaios",
+ src: "py",
+ last: "20181217",
+ vers: "7.0",
+ desc: "Pigaios ('πηγαίος', Greek for 'source' as in 'source code') is a tool for diffing/matching source codes directly against binaries."},
 
 {name: "Plus22",
  url: "https://github.com/v0s/plus22",

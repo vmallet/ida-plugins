@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-288 plugins
+293 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -313,8 +313,14 @@ _Updated: 2017 11 20 &nbsp;&nbsp; Language: Python_
 * [Graph Slick](https://github.com/lallousx86/GraphSlick): Automated detection of inlined functions. It highlights similar groups of nodes and allows you to group them, simplifying complex functions. The authors provide an accompanying presentation which explains the algorithms behind the plugin and shows sample use cases.<br>
 _Updated: 2014 11 20 &nbsp;&nbsp; Language: C++_
 
+* [HashDB IDA](https://github.com/OALabs/hashdb-ida): Malware string hash lookup plugin for IDA Pro. This plugin connects to the OALABS HashDB Lookup Service.<br>
+_Updated: 2022 03 17 &nbsp;&nbsp; Language: Python_
+
 * [HeapViewer](https://github.com/danigargu/heap-viewer): An IDA Pro plugin to examine the heap, focused on exploit development.<br>
 _Updated: 2021 07 13 &nbsp;&nbsp; Language: Python_
+
+* [HexCopy](https://github.com/OALabs/hexcopy-ida): IDA plugin for quickly copying disassembly as encoded hex bytes.<br>
+_Updated: 2021 10 11 &nbsp;&nbsp; Language: Python_
 
 * [Hex-Rays Block Highlighter](https://github.com/vmallet/ida-hex-highlighter): Highlight code blocks in the Hex-Rays decompiler output. In some cases the decompilation output can be quite hairy with lots of nested blocks and it can be hard to follow where one ends and the other begins. This plugin will highlight blocks in a sticky way, allowing one to navigate within the window while keeping the block highlight around.<br>
 _Updated: 2022 04 17 &nbsp;&nbsp; Language: Python_
@@ -540,6 +546,9 @@ _Updated: 2020 08 13 &nbsp;&nbsp; Language: Python_
 * [idascripts](https://github.com/nlitsme/idascripts): IDC and idapython script collection. enumerators.py contains several iterators.<br>
 _Updated: 2019 09 11 &nbsp;&nbsp; Language: Python_
 
+* [ida-scripts](https://github.com/danigargu/ida-scripts): Misc IDA Pro scripts: cyclomatic_complexity, go_stripped_helper.<br>
+_Updated: 2016 10 17 &nbsp;&nbsp; Language: Python_
+
 * [IDAShell](https://github.com/namazso/IDAShell): IDAShell is a shell extension for launching IDA from the context menu of executables (Windows).<br>
 _Updated: 2021 07 29 &nbsp;&nbsp; Language: C++_
 
@@ -709,6 +718,9 @@ _Updated: 2018 05 19 &nbsp;&nbsp; Language: Python_
 * [obfDetect](https://github.com/mcdulltii/obfDetect): A plugin to automatically detect obfuscated code and state machines in binaries.<br>
 _Updated: 2022 03 20 &nbsp;&nbsp; Language: Python_
 
+* [oldidc](https://github.com/joxeankoret/oldidc): IDA Python's idc.py <= 7.3 compatibility module.<br>
+_Updated: 2019 10 11 &nbsp;&nbsp; Language: Python_
+
 * [Optimice](https://code.google.com/p/optimice/): This plugin enables you to remove some common obfuscations and rewrite code to a new segment. Currently supported optimizations are: Dead code removal, JMP merging, JCC opaque predicate removal, Pattern based deobfuscations<br>
 _Updated: 2012 08 05 &nbsp;&nbsp; Language: Python_
 
@@ -717,6 +729,9 @@ _Updated: 2020 04 06 &nbsp;&nbsp; Language: Python_
 
 * [Patching](https://github.com/gaasedelen/patching): Interactive Binary Patching for IDA Pro. This project extends the popular IDA Pro disassembler to create a more robust interactive binary patching workflow designed for rapid iteration.<br>
 _Updated: 2022 02 10 &nbsp;&nbsp; Language: Python_
+
+* [Pigaios](https://github.com/joxeankoret/pigaios): Pigaios ('πηγαίος', Greek for 'source' as in 'source code') is a tool for diffing/matching source codes directly against binaries.<br>
+_Updated: 2018 12 17 &nbsp;&nbsp; Language: Python_
 
 * [Plus22](https://github.com/v0s/plus22): Plus22 transforms x86_64 executables to be processed with 32-bit version of Hex-Rays Decompiler.<br>
 _Updated: 2015 01 11 &nbsp;&nbsp; Language: PHP_
