@@ -1212,6 +1212,14 @@ var tabledata = [
  vers: "7.5",
  desc: "IDArling is a collaborative reverse engineering plugin for IDA Pro and Hex-Rays. This is an actively maintained fork of the now-abandoned IDARling above."},
 
+{name: "ida-rpc",
+ url: "https://github.com/offlineJ/ida-rpc",
+ src: "c++",
+ cats: "int",
+ last: "20190426",
+ vers: "7.0",
+ desc: "Discord rich presence plugin for IDA Pro 7.0"},
+
 {name: "IDA Scope",
  url: "https://github.com/danielplohmann/idascope",
  src: "py",
@@ -1233,6 +1241,12 @@ var tabledata = [
  last: "20161017",
  desc: "Misc IDA Pro scripts: cyclomatic_complexity, go_stripped_helper."},
 
+{name: "ida-scripts (sam-b)",
+ url: "https://github.com/sam-b/ida-scripts",
+ src: "py",
+ last: "20161009",
+ desc: "Dumping ground for whatever IDA Pro scripts I write: call_graph, export2neo4j, find_device_name, mem_complexity, most_refs."},
+
 {name: "IDAShell",
  url: "https://github.com/namazso/IDAShell",
  src: "c++",
@@ -1246,6 +1260,14 @@ var tabledata = [
  last: "20180713",
  vers: "7.1",
  desc: "Tool for searching signatures inside files, extremely useful as help in reversing jobs like figuring or having an initial idea of what encryption/compression algorithm is used for a proprietary protocol or file. It can recognize tons of compression, multimedia and encryption algorithms and\nmany other things like known strings and anti-debugging code which can be also manually added since it's all based on a text signature file read at run-time and easy to modify."},
+
+{name: "idasix",
+ url: "https://github.com/nirizr/idasix",
+ src: "py",
+ cats: "dev",
+ last: "20180802",
+ vers: "6.95",
+ desc: "IDAPython compatibility library. idasix aims to create a smooth ida development process and allow a single codebase to function with multiple IDA/IDAPython versions."},
 
 {name: "IDA Skins",
  url: "https://github.com/zyantific/IDASkins",
@@ -1500,6 +1522,12 @@ var tabledata = [
  vers: "7.5",
  desc: "An AVX Lifter for the Hex-Rays Decompiler. It adds partial support for a number of common instructions from Intel's Advanced Vector Extensions (AVX). This plugin demonstrates how the Hex-Rays microcode can be used to lift and decompile new or previously unsupported instructions."},
 
+{name: "mipsAudit",
+ url: "https://github.com/giantbranch/mipsAudit",
+ src: "py",
+ last: "20211125",
+ desc: "Static scan script, assembly audit helper script (IDA MIPS静态扫描脚本，汇编审计辅助脚本)."},
+
 {name: "mipslocalvars",
  url: "https://github.com/devttys0/ida/tree/master/plugins/mipslocalvars",
  src: "py",
@@ -1739,6 +1767,13 @@ var tabledata = [
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See C++ version 'idbutil')."},
 
+{name: "pytest-idapro",
+ url: "https://github.com/nirizr/pytest-idapro",
+ src: "py",
+ cats: "dev",
+ last: "20181103",
+ desc: "A pytest module for The Interactive Disassembler and IDAPython; Record and Replay IDAPython API, execute inside IDA or use mockups of IDAPython API."},
+
 {name: "Python Editor",
  url: "https://github.com/techbliss/Python_editor",
  src: "py",
@@ -1796,6 +1831,13 @@ var tabledata = [
  last: "20160714",
  vers: "6.8",
  desc: "IDAPython plugin for finding Xrefs from a function."},
+
+{name: "RefHUnter",
+ url: "https://github.com/eternalklaus/RefHunter",
+ src: "py",
+ last: "20211001",
+ vers: "7.6",
+ desc: "User-friendly reference finder in IDA. RefHunter provides a summary of references for a function, which includes more information than the built-in “Function calls” widget."},
 
 {name: "REmatch",
  url: "https://github.com/nirizr/rematch",
@@ -1866,6 +1908,14 @@ var tabledata = [
  vers: "7.4",
  desc: "Sark, (named after the notorious Tron villain,) is an object-oriented scripting layer written on top of IDAPython. Sark is easy to use and provides tools for writing advanced scripts and plugins."},
 
+{name: "ScatterBee_Analysis",
+ url: "https://github.com/PwCUK-CTO/ScatterBee_Analysis",
+ src: "py",
+ cats: "deobf, loader, proc",
+ last: "20211208",
+ vers: "7.6",
+ desc: "IDA scripts to aid analysis of files obfuscated with ScatterBee."},
+
 {name: "ScratchABit",
  url: "https://github.com/pfalcon/ScratchABit",
  last: "20201125",
@@ -1930,6 +1980,13 @@ var tabledata = [
  last: "20210726",
  vers: "7.5",
  desc: "Debugger plugin for IDA Pro. Front end for using the Unicorn Engine to emulate machine code that you are viewing with IDA."},
+
+{name: "SmartJump",
+ url: "https://github.com/PwCUK-CTO/SmartJump",
+ src: "py",
+ last: "20200914",
+ vers: "7.2",
+ desc: "IDA Pro plugin to enhance the JumpAsk 'g' keyboard shortcut."},
 
 {name: "Snippet Detector",
  url: "https://github.com/zaironne/SnippetDetector",

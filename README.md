@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-298 plugins
+306 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -549,6 +549,9 @@ _Updated: 2021 02 17 &nbsp;&nbsp; Language: Python_
 * [IDArling (Fork)](https://github.com/fidgetingbits/IDArling): IDArling is a collaborative reverse engineering plugin for IDA Pro and Hex-Rays. This is an actively maintained fork of the now-abandoned IDARling above.<br>
 _Updated: 2022 01 10 &nbsp;&nbsp; Language: Python_
 
+* [ida-rpc](https://github.com/offlineJ/ida-rpc): Discord rich presence plugin for IDA Pro 7.0<br>
+_Updated: 2019 04 26 &nbsp;&nbsp; Language: C++_
+
 * [IDA Scope](https://github.com/danielplohmann/idascope): IDAscope is an IDA Pro extension with the goal to ease the task of (malware) reverse engineering with a current focus on x86 Windows. It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations in the analysis target, seamless access to MSDN documentation of Windows API, and finding of potential crypto/compression algorithms.<br>
 _Updated: 2020 08 13 &nbsp;&nbsp; Language: Python_
 
@@ -558,12 +561,18 @@ _Updated: 2019 09 11 &nbsp;&nbsp; Language: Python_
 * [ida-scripts](https://github.com/danigargu/ida-scripts): Misc IDA Pro scripts: cyclomatic_complexity, go_stripped_helper.<br>
 _Updated: 2016 10 17 &nbsp;&nbsp; Language: Python_
 
+* [ida-scripts (sam-b)](https://github.com/sam-b/ida-scripts): Dumping ground for whatever IDA Pro scripts I write: call_graph, export2neo4j, find_device_name, mem_complexity, most_refs.<br>
+_Updated: 2016 10 09 &nbsp;&nbsp; Language: Python_
+
 * [IDAShell](https://github.com/namazso/IDAShell): IDAShell is a shell extension for launching IDA from the context menu of executables (Windows).<br>
 _Updated: 2021 07 29 &nbsp;&nbsp; Language: C++_
 
 * [IDA Signature Matching Tool](http://sourceforge.net/projects/idasignsrch/): Tool for searching signatures inside files, extremely useful as help in reversing jobs like figuring or having an initial idea of what encryption/compression algorithm is used for a proprietary protocol or file. It can recognize tons of compression, multimedia and encryption algorithms and
 many other things like known strings and anti-debugging code which can be also manually added since it's all based on a text signature file read at run-time and easy to modify.<br>
 _Updated: 2018 07 13 &nbsp;&nbsp; Language: C++_
+
+* [idasix](https://github.com/nirizr/idasix): IDAPython compatibility library. idasix aims to create a smooth ida development process and allow a single codebase to function with multiple IDA/IDAPython versions.<br>
+_Updated: 2018 08 02 &nbsp;&nbsp; Language: Python_
 
 * [IDA Skins](https://github.com/zyantific/IDASkins): Plugin providing advanced skinning support for the Qt version of IDA Pro utilizing Qt stylesheets, similar to CSS.<br>
 _Updated: 2019 06 15 &nbsp;&nbsp; Language: Python_
@@ -680,6 +689,9 @@ _Updated: 2021 03 26 &nbsp;&nbsp; Language: C++_
 * [MicroAVX](https://github.com/gaasedelen/microavx): An AVX Lifter for the Hex-Rays Decompiler. It adds partial support for a number of common instructions from Intel's Advanced Vector Extensions (AVX). This plugin demonstrates how the Hex-Rays microcode can be used to lift and decompile new or previously unsupported instructions.<br>
 _Updated: 2020 07 22 &nbsp;&nbsp; Language: Python_
 
+* [mipsAudit](https://github.com/giantbranch/mipsAudit): Static scan script, assembly audit helper script (IDA MIPS静态扫描脚本，汇编审计辅助脚本).<br>
+_Updated: 2021 11 25 &nbsp;&nbsp; Language: Python_
+
 * [mipslocalvars](https://github.com/devttys0/ida/tree/master/plugins/mipslocalvars): Names stack variables used by the compiler for storing registers on the stack, simplifying stack data analysis (MIPS only).<br>
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 
@@ -781,6 +793,9 @@ _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_
 * [pyidbutil](https://github.com/nlitsme/pyidbutil): IDBTOOL - Library and tool for reading IDApro databases. (See C++ version 'idbutil').<br>
 _Updated: 2021 08 15 &nbsp;&nbsp; Language: Python_
 
+* [pytest-idapro](https://github.com/nirizr/pytest-idapro): A pytest module for The Interactive Disassembler and IDAPython; Record and Replay IDAPython API, execute inside IDA or use mockups of IDAPython API.<br>
+_Updated: 2018 11 03 &nbsp;&nbsp; Language: Python_
+
 * [Python Editor](https://github.com/techbliss/Python_editor): Python editor based IDA Pro. The plugin helps python devs with scripting and running python scripts, and creating them. IT have many functions, code recognition and more.<br>
 _Updated: 2020 12 25 &nbsp;&nbsp; Language: Python_
 
@@ -804,6 +819,9 @@ _Updated: 2017 06 16 &nbsp;&nbsp; Language: Python_
 
 * [Reef](https://github.com/darx0r/Reef): IDAPython plugin for finding Xrefs from a function.<br>
 _Updated: 2016 07 14 &nbsp;&nbsp; Language: Python_
+
+* [RefHUnter](https://github.com/eternalklaus/RefHunter): User-friendly reference finder in IDA. RefHunter provides a summary of references for a function, which includes more information than the built-in “Function calls” widget.<br>
+_Updated: 2021 10 01 &nbsp;&nbsp; Language: Python_
 
 * [REmatch](https://github.com/nirizr/rematch): REmatch, a complete binary diffing framework that works by revealing and identifying previously reverse engineered similar functions and migrating documentation and annotations to current IDB.<br>
 _Updated: 2018 11 28 &nbsp;&nbsp; Language: Python_
@@ -839,6 +857,9 @@ _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 * [Sark](https://github.com/tmr232/Sark/): Sark, (named after the notorious Tron villain,) is an object-oriented scripting layer written on top of IDAPython. Sark is easy to use and provides tools for writing advanced scripts and plugins.<br>
 _Updated: 2022 03 18 &nbsp;&nbsp; Language: Python_
 
+* [ScatterBee_Analysis](https://github.com/PwCUK-CTO/ScatterBee_Analysis): IDA scripts to aid analysis of files obfuscated with ScatterBee.<br>
+_Updated: 2021 12 08 &nbsp;&nbsp; Language: Python_
+
 * [ScratchABit](https://github.com/pfalcon/ScratchABit): ScratchABit is an interactive incremental disassembler with data/control flow analysis capabilities. ScratchABit is dedicated to the efforts of the OpenSource reverse engineering community (reverse engineering to produce OpenSource drivers/firmware for hardware not properly supported by vendors).<br>
 _Updated: 2020 11 25_
 
@@ -865,6 +886,9 @@ _Updated: 2014 09 02 &nbsp;&nbsp; Language: Python_
 
 * [Sk3wlDbg](https://github.com/cseagle/sk3wldbg): Debugger plugin for IDA Pro. Front end for using the Unicorn Engine to emulate machine code that you are viewing with IDA.<br>
 _Updated: 2021 07 26 &nbsp;&nbsp; Language: C++_
+
+* [SmartJump](https://github.com/PwCUK-CTO/SmartJump): IDA Pro plugin to enhance the JumpAsk 'g' keyboard shortcut.<br>
+_Updated: 2020 09 14 &nbsp;&nbsp; Language: Python_
 
 * [Snippet Detector](https://github.com/zaironne/SnippetDetector): Snippet Detector is an IDA Python scripts project used to detect snippets from 32bit disassembled files. snippet is the word used to identify a generic sequence of instructions (at the moment a snippet is indeed a defined function). The aim of the tool is to collect many disassembled snippets inside a database for the detection process.<br>
 _Updated: 2015 04 24 &nbsp;&nbsp; Language: Python_
