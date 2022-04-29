@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-306 plugins
+315 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -220,6 +220,9 @@ _Updated: 2014 05 05 &nbsp;&nbsp; Language: Python_
 * [EtherAnnotate](https://github.com/inositle/etherannotate_ida): Parses the specialized instruction trace files that are generated using the EtherAnnotate Xen modification (http://github.com/inositle/etherannotate_xen).  From the instruction trace, register values and code coverage of the run-time information are visualized in IDA Pro through instruction comments and line colorations.<br>
 _Updated: 2010 05 04 &nbsp;&nbsp; Language: C++_
 
+* [Exports+](https://github.com/ax330d/exports-plus): View Exports. The problem is that IDA for some reason sometimes does not show certain names in Exports or does not demangle them. This plugin fixes this problem.<br>
+_Updated: 2018 09 21 &nbsp;&nbsp; Language: Python_
+
 * [Extract Macho-O](https://github.com/gdbinit/ExtractMachO): This is a very simple IDA plugin to extract all Mach-O binaries contained anywhere in the disassembly.<br>
 _Updated: 2019 05 09 &nbsp;&nbsp; Language: C++_
 
@@ -228,6 +231,9 @@ _Updated: 2016 08 19 &nbsp;&nbsp; Language: Python_
 
 * [Findcrypt-yara](https://github.com/polymorf/findcrypt-yara): IDA pro plugin to find crypto constants (and more)<br>
 _Updated: 2022 01 05 &nbsp;&nbsp; Language: Python_
+
+* [findrpc](https://github.com/lucasg/findrpc): Ida script to extract RPC interface from binaries.<br>
+_Updated: 2022 01 25 &nbsp;&nbsp; Language: Python_
 
 * [FindYara](https://github.com/OALabs/findyara-ida): IDA python plugin to scan binary with Yara rules.<br>
 _Updated: 2021 12 28 &nbsp;&nbsp; Language: Python_
@@ -271,8 +277,8 @@ _Updated: 2016 03 04 &nbsp;&nbsp; Language: Python_
 * [FuncScanner](https://github.com/patois/FuncScanner): Collects extended function properties from IDA Pro databases. This is especially useful in reverse engineering code that comes with no or little symbolic information, as is often the case with embedded firmware.<br>
 _Updated: 2020 12 06 &nbsp;&nbsp; Language: Python_
 
-* [Functions+](https://github.com/nihilus/functions-plus): IDA Pro plugin to make functions tree view. Plugin parses function names and groups them by namespaces.<br>
-_Updated: 2018 12 25 &nbsp;&nbsp; Language: Python_
+* [Functions+](https://github.com/ax330d/functions-plus): IDA Pro plugin to make functions tree view. Plugin parses function names and groups them by namespaces.<br>
+_Updated: 2021 04 17 &nbsp;&nbsp; Language: Python_
 
 * [Function Tagger](https://github.com/alessandrogario/IDA-Function-Tagger): This IDAPython script tags subroutines according to their use of imported functions<br>
 _Updated: 2021 05 26 &nbsp;&nbsp; Language: Python_
@@ -507,6 +513,9 @@ _Updated: 2014 09 23 &nbsp;&nbsp; Language: Python_
 * [IDA Patchwork](https://bitbucket.org/daniel_plohmann/idapatchwork): Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim.<br>
 _Updated: 2014 11 04 &nbsp;&nbsp; Language: Python_
 
+* [IDA PDB Loader (IPL)](https://github.com/ax330d/ida_pdb_loader): Simple plugin to load PDB symbols. The problem is that sometimes IDA crashes for me when trying to load symbols, so I came up with this quick and dirty alternative.<br>
+_Updated: 2018 09 21 &nbsp;&nbsp; Language: Python_
+
 * [IDAPerl](https://github.com/nlitsme/idaperl): Adds perl scripting support to ida.<br>
 _Updated: 2016 07 24 &nbsp;&nbsp; Language: C++_
 
@@ -549,6 +558,9 @@ _Updated: 2021 02 17 &nbsp;&nbsp; Language: Python_
 * [IDArling (Fork)](https://github.com/fidgetingbits/IDArling): IDArling is a collaborative reverse engineering plugin for IDA Pro and Hex-Rays. This is an actively maintained fork of the now-abandoned IDARling above.<br>
 _Updated: 2022 01 10 &nbsp;&nbsp; Language: Python_
 
+* [Idarop](https://github.com/lucasg/idarop): ROP database plugin for IDA: list and store all the ROP gadgets presents within the opened binary. (inspired from idasploiter).<br>
+_Updated: 2018 06 05 &nbsp;&nbsp; Language: Python_
+
 * [ida-rpc](https://github.com/offlineJ/ida-rpc): Discord rich presence plugin for IDA Pro 7.0<br>
 _Updated: 2019 04 26 &nbsp;&nbsp; Language: C++_
 
@@ -563,6 +575,9 @@ _Updated: 2016 10 17 &nbsp;&nbsp; Language: Python_
 
 * [ida-scripts (sam-b)](https://github.com/sam-b/ida-scripts): Dumping ground for whatever IDA Pro scripts I write: call_graph, export2neo4j, find_device_name, mem_complexity, most_refs.<br>
 _Updated: 2016 10 09 &nbsp;&nbsp; Language: Python_
+
+* [idasetup](https://github.com/lucasg/idasetup): Custom setup.py file for IDA plugins<br>
+_Updated: 2017 10 28 &nbsp;&nbsp; Language: Python_
 
 * [IDAShell](https://github.com/namazso/IDAShell): IDAShell is a shell extension for launching IDA from the context menu of executables (Windows).<br>
 _Updated: 2021 07 29 &nbsp;&nbsp; Language: C++_
@@ -588,6 +603,12 @@ _Updated: 2021 12 27 &nbsp;&nbsp; Language: C++_
 
 * [IDA StringCluster](https://github.com/Comsecuris/ida_strcluster): This plugin extends IDA Pro's capabilities to display strings within the binary by clustering found strings on a per-function basis.<br>
 _Updated: 2018 03 14 &nbsp;&nbsp; Language: Python_
+
+* [IDA-String-Reference-Locator](https://github.com/praydog/IDA-String-Reference-Locator-Plugin): Finds all first occurring string references near another reference.<br>
+_Updated: 2021 12 16 &nbsp;&nbsp; Language: C++_
+
+* [IDATag](https://github.com/thalium/idatag): Tag explorer for IDA Pro. The plugin leverages IDA as a platform to map, explore, and visualize collected tags. Tags can come from multiple sources such as IDA itself or different other clients.<br>
+_Updated: 2019 07 19 &nbsp;&nbsp; Language: C++_
 
 * [IDA Toolbag](https://github.com/aaronportnoy/toolbag): The IDA Toolbag plugin provides many handy features, such as:
   * A 'History' view, that displays functions in the disassembly that you have decided are important, and the relationships between them.
@@ -811,6 +832,9 @@ _Updated: 2022 04 20 &nbsp;&nbsp; Language: C++_
 * [Qualcomm Loader](https://github.com/daxgr/qcom-mbn-ida-loader): IDA loader plugin for Qualcomm Bootloader Stages<br>
 _Updated: 2014 01 23 &nbsp;&nbsp; Language: C++_
 
+* [Rebased Comment](https://github.com/naim94a/rebasedcomment): Rebase comments when you rebase your IDA database, by searching for hexadecimal numbers that are within range of your program's segments, and fixing your comments after every rebase.<br>
+_Updated: 2020 04 06 &nbsp;&nbsp; Language: Python_
+
 * [Recompiler](https://github.com/bastkerg/Recomp): IDA recompiler, no docs no help.<br>
 _Updated: 2014 12 08 &nbsp;&nbsp; Language: Python_
 
@@ -946,6 +970,9 @@ _Updated: 2017 11 30 &nbsp;&nbsp; Language: Python_
 
 * [VT-IDA Plugin](https://github.com/VirusTotal/vt-ida-plugin): This is the official VirusTotal plugin for Hex-Rays IDA Pro. This plugin integrates functionality from VirusTotal web services into the IDA Pro's user interface.<br>
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
+
+* [wilhelm](https://github.com/zerotypic/wilhelm): Alternative API for IDA and Hex-Rays. wilhelm is an API for working with IDA, and in particular the Hex-Rays decompiler. It aims to wrap around the existing SDK's API, plus provide additional features and concepts that make reverse engineering easier.<br>
+_Updated: 2022 02 03 &nbsp;&nbsp; Language: Python_
 
 * [Win32 LST to Inline Assembly](https://github.com/binrapt/ida): Python script which extracts procedures from IDA Win32 LST files and converts them to correctly dynamically linked compilable Visual C++ inline assembly.<br>
 _Updated: 2009 07 10 &nbsp;&nbsp; Language: Python_

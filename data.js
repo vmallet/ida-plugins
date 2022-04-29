@@ -462,6 +462,12 @@ var tabledata = [
  last: "20100504",
  desc: "Parses the specialized instruction trace files that are generated using the EtherAnnotate Xen modification (http://github.com/inositle/etherannotate_xen).  From the instruction trace, register values and code coverage of the run-time information are visualized in IDA Pro through instruction comments and line colorations."},
 
+{name: "Exports+",
+ url: "https://github.com/ax330d/exports-plus",
+ src: "py",
+ last: "20180921",
+ desc: "View Exports. The problem is that IDA for some reason sometimes does not show certain names in Exports or does not demangle them. This plugin fixes this problem."},
+
 {name: "Extract Macho-O",
  url: "https://github.com/gdbinit/ExtractMachO",
  src: "c++",
@@ -481,6 +487,13 @@ var tabledata = [
  last: "20220105",
  vers: "7.4",
  desc: "IDA pro plugin to find crypto constants (and more)"},
+
+{name: "findrpc",
+ url: "https://github.com/lucasg/findrpc",
+ src: "py",
+ last: "20220125",
+ vers: "7.7",
+ desc: "Ida script to extract RPC interface from binaries."},
 
 {name: "FindYara",
  url: "https://github.com/OALabs/findyara-ida",
@@ -582,9 +595,9 @@ var tabledata = [
  desc: "Collects extended function properties from IDA Pro databases. This is especially useful in reverse engineering code that comes with no or little symbolic information, as is often the case with embedded firmware."},
 
 {name: "Functions+",
- url: "https://github.com/nihilus/functions-plus",
+ url: "https://github.com/ax330d/functions-plus",
  src: "py",
- last: "20181225",
+ last: "20210417",
  vers: "7.5",
  desc: "IDA Pro plugin to make functions tree view. Plugin parses function names and groups them by namespaces."},
 
@@ -1050,7 +1063,7 @@ var tabledata = [
  cats: "int",
  last: "20200410",
  vers: "7.4",
- desc: "A plugin for integrating MagnumDB requests within IDA. MagNumDB is a database that contains about 380,000 items. These items are constants, names, values all extracted from more than 6,000 header files (.h, .hxx, .hpp, .idl, etc.) provided by standard Windows and Visual Studio SDKs and WDKs. "},
+ desc: "A plugin for integrating MagnumDB requests within IDA. MagNumDB is a database that contains about 380,000 items. These items are constants, names, values all extracted from more than 6,000 header files (.h, .hxx, .hpp, .idl, etc.) provided by standard Windows and Visual Studio SDKs and WDKs."},
 
 {name: "ida_medigate",
  url: "https://github.com/medigate-io/ida_medigate",
@@ -1108,6 +1121,12 @@ var tabledata = [
  src: "py",
  last: "20141104",
  desc: "Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim."},
+
+{name: "IDA PDB Loader (IPL)",
+ url: "https://github.com/ax330d/ida_pdb_loader",
+ src: "py",
+ last: "20180921",
+ desc: "Simple plugin to load PDB symbols. The problem is that sometimes IDA crashes for me when trying to load symbols, so I came up with this quick and dirty alternative."},
 
 {name: "IDAPerl",
  url: "https://github.com/nlitsme/idaperl",
@@ -1212,6 +1231,13 @@ var tabledata = [
  vers: "7.5",
  desc: "IDArling is a collaborative reverse engineering plugin for IDA Pro and Hex-Rays. This is an actively maintained fork of the now-abandoned IDARling above."},
 
+{name: "Idarop",
+ url: "https://github.com/lucasg/idarop",
+ src: "py",
+ last: "20180605",
+ vers: "7.1",
+ desc: "ROP database plugin for IDA: list and store all the ROP gadgets presents within the opened binary. (inspired from idasploiter)."},
+
 {name: "ida-rpc",
  url: "https://github.com/offlineJ/ida-rpc",
  src: "c++",
@@ -1246,6 +1272,14 @@ var tabledata = [
  src: "py",
  last: "20161009",
  desc: "Dumping ground for whatever IDA Pro scripts I write: call_graph, export2neo4j, find_device_name, mem_complexity, most_refs."},
+
+{name: "idasetup",
+ url: "https://github.com/lucasg/idasetup",
+ src: "py",
+ cats: "dev",
+ last: "20171028",
+ vers: "7.0",
+ desc: "Custom setup.py file for IDA plugins."},
 
 {name: "IDAShell",
  url: "https://github.com/namazso/IDAShell",
@@ -1306,6 +1340,20 @@ var tabledata = [
  last: "20180314",
  vers: "6.9",
  desc: "This plugin extends IDA Pro's capabilities to display strings within the binary by clustering found strings on a per-function basis."},
+
+{name: "IDA-String-Reference-Locator",
+ url: "https://github.com/praydog/IDA-String-Reference-Locator-Plugin",
+ src: "c++",
+ last: "20211216",
+ vers: "7.0",
+ desc: "Finds all first occurring string references near another reference."},
+
+{name: "IDATag",
+ url: "https://github.com/thalium/idatag",
+ src: "c++",
+ last: "20190719",
+ vers: "7.3",
+ desc: "Tag explorer for IDA Pro. The plugin leverages IDA as a platform to map, explore, and visualize collected tags. Tags can come from multiple sources such as IDA itself or different other clients."},
 
 {name: "IDA Toolbag",
  url: "https://github.com/aaronportnoy/toolbag",
@@ -1811,6 +1859,13 @@ var tabledata = [
  last: "20140123",
  desc: "IDA loader plugin for Qualcomm Bootloader Stages"},
 
+{name: "Rebased Comment",
+ url: "https://github.com/naim94a/rebasedcomment",
+ src: "py",
+ last: "20200406",
+ vers: "7.0",
+ desc: "Rebase comments when you rebase your IDA database, by searching for hexadecimal numbers that are within range of your program's segments, and fixing your comments after every rebase."},
+
 {name: "Recompiler",
  url: "https://github.com/bastkerg/Recomp",
  src: "py",
@@ -2121,6 +2176,14 @@ var tabledata = [
  cats: "int",
  last: "20201005",
  desc: "This is the official VirusTotal plugin for Hex-Rays IDA Pro. This plugin integrates functionality from VirusTotal web services into the IDA Pro's user interface."},
+
+{name: "wilhelm",
+ url: "https://github.com/zerotypic/wilhelm",
+ src: "py",
+ cats: "decomp, dev",
+ last: "20220203",
+ vers: "7.0",
+ desc: "Alternative API for IDA and Hex-Rays. wilhelm is an API for working with IDA, and in particular the Hex-Rays decompiler. It aims to wrap around the existing SDK's API, plus provide additional features and concepts that make reverse engineering easier."},
 
 {name: "Win32 LST to Inline Assembly",
  url: "https://github.com/binrapt/ida",
