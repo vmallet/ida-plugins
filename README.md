@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-315 plugins
+318 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -208,8 +208,14 @@ _Updated: 2021 05 13 &nbsp;&nbsp; Language: Python_
 * [Dynlib](https://github.com/aerosoul94/dynlib): This is an IDA Pro plugin to aid in reverse engineering PS4 user mode elf's by loading the PS4 specific DYNLIBDATA segment.<br>
 _Updated: 2017 12 16 &nbsp;&nbsp; Language: C++_
 
-* [EFI Scripts](https://github.com/danse-macabre/ida-efitools): Some IDA scripts and tools to assist with reverse engineering EFI executables.<br>
+* [EFI Scripts (efitools)](https://github.com/danse-macabre/ida-efitools): Some IDA scripts and tools to assist with reverse engineering EFI executables.<br>
 _Updated: 2015 07 13 &nbsp;&nbsp; Language: Python_
+
+* [EFI Scripts (efitools2)](https://github.com/p-state/ida-efitools2): Plugin for extending UEFI reverse engineering capabilities. Based on ida-efitools (EFI Scripts) with a bunch of fixes and new features.<br>
+_Updated: 2020 10 19 &nbsp;&nbsp; Language: Python_
+
+* [EFI Scripts (efiutils)](https://github.com/snare/ida-efiutils): Some IDA scripts to assist with reverse engineering EFI executables.<br>
+_Updated: 2014 06 17 &nbsp;&nbsp; Language: Python_
 
 * [efiXplorer](https://github.com/binarly-io/efiXplorer): IDA plugin for UEFI firmware analysis and reverse engineering automation.<br>
 _Updated: 2022 04 28 &nbsp;&nbsp; Language: C++_
@@ -576,7 +582,7 @@ _Updated: 2016 10 17 &nbsp;&nbsp; Language: Python_
 * [ida-scripts (sam-b)](https://github.com/sam-b/ida-scripts): Dumping ground for whatever IDA Pro scripts I write: call_graph, export2neo4j, find_device_name, mem_complexity, most_refs.<br>
 _Updated: 2016 10 09 &nbsp;&nbsp; Language: Python_
 
-* [idasetup](https://github.com/lucasg/idasetup): Custom setup.py file for IDA plugins<br>
+* [idasetup](https://github.com/lucasg/idasetup): Custom setup.py file for IDA plugins.<br>
 _Updated: 2017 10 28 &nbsp;&nbsp; Language: Python_
 
 * [IDAShell](https://github.com/namazso/IDAShell): IDAShell is a shell extension for launching IDA from the context menu of executables (Windows).<br>
@@ -967,6 +973,9 @@ _Updated: 2015 05 26 &nbsp;&nbsp; Language: Python_
 
 * [VMAttack](https://github.com/anatolikalysch/VMAttack): Static and dynamic virtualization-based packed analysis and deobfuscation.<br>
 _Updated: 2017 11 30 &nbsp;&nbsp; Language: Python_
+
+* [Void](https://github.com/dove-zp/ida.plugin.void): A 'No Operation' Generator. Creates NOP'd areas though simple convenient actions to relevant right click menus.<br>
+_Updated: 2022 04 08 &nbsp;&nbsp; Language: Python_
 
 * [VT-IDA Plugin](https://github.com/VirusTotal/vt-ida-plugin): This is the official VirusTotal plugin for Hex-Rays IDA Pro. This plugin integrates functionality from VirusTotal web services into the IDA Pro's user interface.<br>
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_

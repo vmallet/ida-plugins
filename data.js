@@ -434,11 +434,25 @@ var tabledata = [
  vers: "7.0",
  desc: "This is an IDA Pro plugin to aid in reverse engineering PS4 user mode elf's by loading the PS4 specific DYNLIBDATA segment."},
 
-{name: "EFI Scripts",
+{name: "EFI Scripts (efitools)",
  url: "https://github.com/danse-macabre/ida-efitools",
  src: "py",
  last: "20150713",
  desc: "Some IDA scripts and tools to assist with reverse engineering EFI executables."},
+
+{name: "EFI Scripts (efitools2)",
+ url: "https://github.com/p-state/ida-efitools2",
+ src: "py",
+ last: "20201019",
+ desc: "Plugin for extending UEFI reverse engineering capabilities. Based on ida-efitools (EFI Scripts) with a bunch of fixes and new features."},
+
+{name: "EFI Scripts (efiutils)",
+ url: "https://github.com/snare/ida-efiutils",
+ src: "py",
+ cats: "loader",
+ last: "20140617",
+ vers: "6.3",
+ desc: "Some IDA scripts to assist with reverse engineering EFI executables."},
 
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
@@ -2169,6 +2183,13 @@ var tabledata = [
  last: "20171130",
  vers: "6.9",
  desc: "Static and dynamic virtualization-based packed analysis and deobfuscation."},
+
+{name: "Void",
+ url: "https://github.com/dove-zp/ida.plugin.void",
+ src: "py",
+ last: "20220408",
+ vers: "7.5",
+ desc: " A 'No Operation' Generator. Creates NOP'd areas though simple convenient actions to relevant right click menus."},
 
 {name: "VT-IDA Plugin",
  url: "https://github.com/VirusTotal/vt-ida-plugin",
