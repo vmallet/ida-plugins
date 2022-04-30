@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-318 plugins
+328 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -127,8 +127,14 @@ _Updated: 2021 09 01 &nbsp;&nbsp; Language: C++_
 * [CollaRE](https://github.com/Martyx00/CollaRE): Multi-tool reverse engineering collaboration solution. CollareRE is a tool for collaborative reverse engineering that aims to allow teams that do need to use more then one tool during a project to collaborate without the need to share the files on a separate locations.<br>
 _Updated: 2022 02 16 &nbsp;&nbsp; Language: Python_
 
+* [COMFinder](https://github.com/howmp/comfinder): IDA plugin for COM.<br>
+_Updated: 2020 04 08 &nbsp;&nbsp; Language: Python_
+
 * [Comida](https://github.com/airbus-cert/comida): Comida is a plugin which searches all the references of the GUID COM object (Common Object Model) and deduce the associated type using the Hexrays plugin to improve the readability of the code.<br>
 _Updated: 2020 05 13 &nbsp;&nbsp; Language: Python_
+
+* [Condstanta](https://github.com/Accenture/Condstanta): Search for constant values that are used in conditional statements such as if and switch-case or for functions that contain multiple specific constants.<br>
+_Updated: 2022 03 29 &nbsp;&nbsp; Language: Python_
 
 * [Continuum](https://github.com/zyantific/continuum): Continuum is an IDA Pro plugin adding multi-binary project support, allowing fast navigation in applications involving many shared libraries.<br>
 _Updated: 2016 09 13 &nbsp;&nbsp; Language: Python_
@@ -153,6 +159,9 @@ _Updated: 2015 09 17 &nbsp;&nbsp; Language: Python_
 
 * [DBGHider](https://github.com/iweizime/DBGHider): An IDA plugin aims to hide debugger from processes (Windows).<br>
 _Updated: 2018 06 19 &nbsp;&nbsp; Language: Python_
+
+* [DebugAutoPatch](https://github.com/scottmudge/debugautopatch): Patching system improvement plugin for IDA.<br>
+_Updated: 2019 09 06 &nbsp;&nbsp; Language: Python_
 
 * [Debugger](https://github.com/cseagle/sk3wldbg): Debugger plugin for IDA Pro backed by the Unicorn Engine<br>
 _Updated: 2021 07 26 &nbsp;&nbsp; Language: C++_
@@ -183,6 +192,9 @@ _Updated: 2017 02 02 &nbsp;&nbsp; Language: Python_
 
 * [DriverBuddy](https://github.com/nccgroup/DriverBuddy): DriverBuddy is an IDA Python script to assist with the reverse engineering of Windows kernel drivers.<br>
 _Updated: 2018 11 22 &nbsp;&nbsp; Language: Python_
+
+* [DriverBuddyReloaded](https://github.com/VoidSec/DriverBuddyReloaded): Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks.<br>
+_Updated: 2022 04 26 &nbsp;&nbsp; Language: Python_
 
 * [Drop](https://github.com/Riscure/DROP-IDA-plugin): An experimental IDA Pro plugin capable of detecting several types of opaque predicates in obfuscated binaries. It leverages the power of the symbolic execution engine angr and its components to reason about the opaqueness of predicates based on their symbolic context.<br>
 _Updated: 2017 12 22 &nbsp;&nbsp; Language: Python_
@@ -235,8 +247,14 @@ _Updated: 2019 05 09 &nbsp;&nbsp; Language: C++_
 * [FCatalog](https://github.com/xorpd/fcatalog_client): FCatalog (The functions catalog) is a mechanism for finding similarities between different binary blobs in an efficient manner. It is mostly useful for identifying a new binary blob is somewhat similar to a binary blob that have been encountered before. The client side of FCatalog is an IDA plugin that allows a group of reverse engineers to manage a pool of reversed functions. Whenever a new binary function is encountered, FCatalog can compare it to all the known and previously reversed binary functions.<br>
 _Updated: 2016 08 19 &nbsp;&nbsp; Language: Python_
 
+* [Fentanyl](https://github.com/osirislab/Fentanyl): DAPython script that makes patching significantly easier.<br>
+_Updated: 2015 10 02 &nbsp;&nbsp; Language: Python_
+
 * [Findcrypt-yara](https://github.com/polymorf/findcrypt-yara): IDA pro plugin to find crypto constants (and more)<br>
 _Updated: 2022 01 05 &nbsp;&nbsp; Language: Python_
+
+* [FindFunc](https://github.com/FelixBer/FindFunc): Advanced Filtering/Finding of Functions. FindFunc is an IDA PRO plugin to find code functions that contain a certain assembly or byte pattern, reference a certain name or string, or conform to various other constraints.<br>
+_Updated: 2022 04 29 &nbsp;&nbsp; Language: Python_
 
 * [findrpc](https://github.com/lucasg/findrpc): Ida script to extract RPC interface from binaries.<br>
 _Updated: 2022 01 25 &nbsp;&nbsp; Language: Python_
@@ -333,6 +351,9 @@ _Updated: 2021 07 13 &nbsp;&nbsp; Language: Python_
 
 * [HexCopy](https://github.com/OALabs/hexcopy-ida): IDA plugin for quickly copying disassembly as encoded hex bytes.<br>
 _Updated: 2021 10 11 &nbsp;&nbsp; Language: Python_
+
+* [HexExt](https://github.com/chrisps/Hexext): Improve the output of the hexrays decompiler through microcode manipulation.<br>
+_Updated: 2019 08 04 &nbsp;&nbsp; Language: C++_
 
 * [Hex-Rays Block Highlighter](https://github.com/vmallet/ida-hex-highlighter): Highlight code blocks in the Hex-Rays decompiler output. In some cases the decompilation output can be quite hairy with lots of nested blocks and it can be hard to follow where one ends and the other begins. This plugin will highlight blocks in a sticky way, allowing one to navigate within the window while keeping the block highlight around.<br>
 _Updated: 2022 04 17 &nbsp;&nbsp; Language: Python_
@@ -882,6 +903,9 @@ _Updated: 2015 01 03 &nbsp;&nbsp; Language: C++_
   * Call graphs (e.g., identification by association)<br>
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 
+* [RTTI Parser](https://github.com/MlsDmitry/better-rtti-parser): IDA script to parse RTTI information in executable.<br>
+_Updated: 2022 04 28 &nbsp;&nbsp; Language: Python_
+
 * [Samsung S4 Rom Loader](https://github.com/cycad/mbn_loader): IDA Pro Loader Plugin for Samsung Galaxy S4 ROMs
 
 * [Sark](https://github.com/tmr232/Sark/): Sark, (named after the notorious Tron villain,) is an object-oriented scripting layer written on top of IDAPython. Sark is easy to use and provides tools for writing advanced scripts and plugins.<br>
@@ -944,6 +968,9 @@ _Updated: 2007 04 05 &nbsp;&nbsp; Language: C++_
 * [Styler](https://github.com/techbliss/IDA-Styler): Small Plugin to change the style of Ida Pro.<br>
 _Updated: 2014 07 25 &nbsp;&nbsp; Language: Python_
 
+* [Swift Demangle](https://github.com/gsingh93/ida-swift-demangle): plugin to demangle Swift function names. It currently only works for ELF files.<br>
+_Updated: 2016 04 23 &nbsp;&nbsp; Language: Python_
+
 * [syms2elf](https://github.com/danigargu/syms2elf): A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.<br>
 _Updated: 2021 11 17 &nbsp;&nbsp; Language: Python_
 
@@ -979,6 +1006,9 @@ _Updated: 2022 04 08 &nbsp;&nbsp; Language: Python_
 
 * [VT-IDA Plugin](https://github.com/VirusTotal/vt-ida-plugin): This is the official VirusTotal plugin for Hex-Rays IDA Pro. This plugin integrates functionality from VirusTotal web services into the IDA Pro's user interface.<br>
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
+
+* [VulFi](https://github.com/Accenture/VulFi): The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.).<br>
+_Updated: 2022 04 11 &nbsp;&nbsp; Language: Python_
 
 * [wilhelm](https://github.com/zerotypic/wilhelm): Alternative API for IDA and Hex-Rays. wilhelm is an API for working with IDA, and in particular the Hex-Rays decompiler. It aims to wrap around the existing SDK's API, plus provide additional features and concepts that make reverse engineering easier.<br>
 _Updated: 2022 02 03 &nbsp;&nbsp; Language: Python_

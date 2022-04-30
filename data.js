@@ -241,12 +241,25 @@ var tabledata = [
  last: "20220216",
  desc: "Multi-tool reverse engineering collaboration solution. CollareRE is a tool for collaborative reverse engineering that aims to allow teams that do need to use more then one tool during a project to collaborate without the need to share the files on a separate locations."},
 
+{name: "COMFinder",
+ url: "https://github.com/howmp/comfinder",
+ src: "py",
+ last: "20200408",
+ desc: "IDA plugin for COM."},
+
 {name: "Comida",
  url: "https://github.com/airbus-cert/comida",
  src: "py",
  cats: "decomp",
  last: "20200513",
  desc: "Comida is a plugin which searches all the references of the GUID COM object (Common Object Model) and deduce the associated type using the Hexrays plugin to improve the readability of the code."},
+
+{name: "Condstanta",
+ url: "https://github.com/Accenture/Condstanta",
+ src: "py",
+ last: "20220329",
+ vers: "7.5",
+ desc: "Search for constant values that are used in conditional statements such as if and switch-case or for functions that contain multiple specific constants."},
 
 {name: "Continuum",
  url: "https://github.com/zyantific/continuum",
@@ -304,6 +317,12 @@ var tabledata = [
  last: "20180619",
  vers: "7.0",
  desc: "An IDA plugin aims to hide debugger from processes (Windows)."},
+
+{name: "DebugAutoPatch",
+ url: "https://github.com/scottmudge/debugautopatch",
+ src: "py",
+ last: "20190906",
+ desc: "Patching system improvement plugin for IDA."},
 
 {name: "Debugger",
  url: "https://github.com/cseagle/sk3wldbg",
@@ -375,6 +394,12 @@ var tabledata = [
  src: "py",
  last: "20181122",
  desc: "DriverBuddy is an IDA Python script to assist with the reverse engineering of Windows kernel drivers."},
+
+{name: "DriverBuddyReloaded",
+ url: "https://github.com/VoidSec/DriverBuddyReloaded",
+ src: "py",
+ last: "20220426",
+ desc: "Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks."},
 
 {name: "Drop",
  url: "https://github.com/Riscure/DROP-IDA-plugin",
@@ -495,12 +520,26 @@ var tabledata = [
  last: "20160819",
  desc: "FCatalog (The functions catalog) is a mechanism for finding similarities between different binary blobs in an efficient manner. It is mostly useful for identifying a new binary blob is somewhat similar to a binary blob that have been encountered before. The client side of FCatalog is an IDA plugin that allows a group of reverse engineers to manage a pool of reversed functions. Whenever a new binary function is encountered, FCatalog can compare it to all the known and previously reversed binary functions."},
 
+{name: "Fentanyl",
+ url: "https://github.com/osirislab/Fentanyl",
+ src: "py",
+ last: "20151002",
+ vers: "6.5",
+ desc: "DAPython script that makes patching significantly easier."},
+
 {name: "Findcrypt-yara",
  url: "https://github.com/polymorf/findcrypt-yara",
  src: "py",
  last: "20220105",
  vers: "7.4",
  desc: "IDA pro plugin to find crypto constants (and more)"},
+
+{name: "FindFunc",
+ url: "https://github.com/FelixBer/FindFunc",
+ src: "py",
+ last: "20220429",
+ vers: "7.7",
+ desc: "Advanced Filtering/Finding of Functions. FindFunc is an IDA PRO plugin to find code functions that contain a certain assembly or byte pattern, reference a certain name or string, or conform to various other constraints."},
 
 {name: "findrpc",
  url: "https://github.com/lucasg/findrpc",
@@ -730,6 +769,14 @@ var tabledata = [
  last: "20211011",
  vers: "7.0",
  desc: "IDA plugin for quickly copying disassembly as encoded hex bytes."},
+
+{name: "HexExt",
+ url: "https://github.com/chrisps/Hexext",
+ src: "c++",
+ cats: "decomp",
+ last: "20190804",
+ vers: "7.0",
+ desc: "Improve the output of the hexrays decompiler through microcode manipulation."},
 
 {name: "Hex-Rays Block Highlighter",
  url: "https://github.com/vmallet/ida-hex-highlighter",
@@ -1965,6 +2012,13 @@ var tabledata = [
  vers: "7.4",
  desc: "Identifies and re-names functions between two or more IDBs based on:\n* Formal signatures (i.e., exact function signatures)\n* References to unique string\n* References to unique constants\n* Fuzzy signatures (i.e., similar function signatures)\n* Call graphs (e.g., identification by association)"},
 
+{name: "RTTI Parser",
+ url: "https://github.com/MlsDmitry/better-rtti-parser",
+ src: "py",
+ last: "20220428",
+ vers: "7.6",
+ desc: "IDA script to parse RTTI information in executable."},
+
 {name: "Samsung S4 Rom Loader",
  url: "https://github.com/cycad/mbn_loader",
  desc: "IDA Pro Loader Plugin for Samsung Galaxy S4 ROMs"},
@@ -2112,6 +2166,12 @@ var tabledata = [
  vers: "6.5",
  desc: "Small Plugin to change the style of Ida Pro."},
 
+{name: "Swift Demangle",
+ url: "https://github.com/gsingh93/ida-swift-demangle",
+ src: "py",
+ last: "20160423",
+ desc: "Demangle Swift function names. It currently only works for ELF files."},
+
 {name: "syms2elf",
  url: "https://github.com/danigargu/syms2elf",
  src: "py",
@@ -2197,6 +2257,13 @@ var tabledata = [
  cats: "int",
  last: "20201005",
  desc: "This is the official VirusTotal plugin for Hex-Rays IDA Pro. This plugin integrates functionality from VirusTotal web services into the IDA Pro's user interface."},
+
+{name: "VulFi",
+ url: "https://github.com/Accenture/VulFi",
+ src: "py",
+ last: "20220411",
+ vers: "7.5",
+ desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
 {name: "wilhelm",
  url: "https://github.com/zerotypic/wilhelm",
