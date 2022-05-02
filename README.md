@@ -230,7 +230,7 @@ _Updated: 2020 10 19 &nbsp;&nbsp; Language: Python_
 _Updated: 2014 06 17 &nbsp;&nbsp; Language: Python_
 
 * [efiXplorer](https://github.com/binarly-io/efiXplorer): IDA plugin for UEFI firmware analysis and reverse engineering automation.<br>
-_Updated: 2022 04 28 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 05 02 &nbsp;&nbsp; Language: C++_
 
 * [epanos](https://github.com/drvink/epanos): ElectroPaint Automatic No-source Object reaSsembler (a MIPS to C decompiler). This is a very dumb MIPS to C static translator.<br>
 _Updated: 2014 05 05 &nbsp;&nbsp; Language: Python_
@@ -523,7 +523,7 @@ _Updated: 2021 02 15 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2022 04 25 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 02 &nbsp;&nbsp; Language: Python_
 
 * [IDAngr](https://github.com/andreafioraldi/IDAngr): Use angr in the ida debugger generating a state from the current debug session.<br>
 _Updated: 2020 07 22 &nbsp;&nbsp; Language: Python_
@@ -794,7 +794,7 @@ _Updated: 2021 09 15 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 05 19 &nbsp;&nbsp; Language: Python_
 
 * [obfDetect](https://github.com/mcdulltii/obfDetect): A plugin to automatically detect obfuscated code and state machines in binaries.<br>
-_Updated: 2022 03 20 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 04 29 &nbsp;&nbsp; Language: Python_
 
 * [oldidc](https://github.com/joxeankoret/oldidc): IDA Python's idc.py <= 7.3 compatibility module.<br>
 _Updated: 2019 10 11 &nbsp;&nbsp; Language: Python_
@@ -839,7 +839,7 @@ _Updated: 2022 04 28 &nbsp;&nbsp; Language: Python_
 _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_
 
 * [pyidbutil](https://github.com/nlitsme/pyidbutil): IDBTOOL - Library and tool for reading IDApro databases. (See C++ version 'idbutil').<br>
-_Updated: 2021 08 15 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 01 &nbsp;&nbsp; Language: Python_
 
 * [pytest-idapro](https://github.com/nirizr/pytest-idapro): A pytest module for The Interactive Disassembler and IDAPython; Record and Replay IDAPython API, execute inside IDA or use mockups of IDAPython API.<br>
 _Updated: 2018 11 03 &nbsp;&nbsp; Language: Python_
@@ -890,7 +890,7 @@ _Updated: 2019 06 19 &nbsp;&nbsp; Language: C++_
 _Updated: 2020 08 18 &nbsp;&nbsp; Language: C++_
 
 * [ret-sync](https://github.com/bootleg/ret-sync): ret-sync stands for Reverse-Engineering Tools synchronization. It's a set of plugins that help to synchronize a debugging session (WinDbg/GDB/LLDB/OllyDbg2/x64dbg) with IDA disassembler. The underlying idea is simple: take the best from both worlds (static and dynamic analysis).<br>
-_Updated: 2022 02 13 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 01 &nbsp;&nbsp; Language: Python_
 
 * [REtypedef](https://github.com/zyantific/REtypedef): REtypedef is an IDA PRO plugin that allows defining custom substitutions for function names. It comes with a default ruleset providing substitutions for many common STL types.<br>
 _Updated: 2015 01 03 &nbsp;&nbsp; Language: C++_
@@ -968,7 +968,7 @@ _Updated: 2007 04 05 &nbsp;&nbsp; Language: C++_
 * [Styler](https://github.com/techbliss/IDA-Styler): Small Plugin to change the style of Ida Pro.<br>
 _Updated: 2014 07 25 &nbsp;&nbsp; Language: Python_
 
-* [Swift Demangle](https://github.com/gsingh93/ida-swift-demangle): plugin to demangle Swift function names. It currently only works for ELF files.<br>
+* [Swift Demangle](https://github.com/gsingh93/ida-swift-demangle): Demangle Swift function names. It currently only works for ELF files.<br>
 _Updated: 2016 04 23 &nbsp;&nbsp; Language: Python_
 
 * [syms2elf](https://github.com/danigargu/syms2elf): A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.<br>

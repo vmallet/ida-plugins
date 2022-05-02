@@ -482,7 +482,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20220428",
+ last: "20220502",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1145,7 +1145,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220425",
+ last: "20220502",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1764,7 +1764,7 @@ var tabledata = [
  url: "https://github.com/mcdulltii/obfDetect",
  src: "py",
  cats: "deobf",
- last: "20220320",
+ last: "20220429",
  vers: "7.4",
  desc: "A plugin to automatically detect obfuscated code and state machines in binaries."},
 
@@ -1872,7 +1872,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/pyidbutil",
  src: "py",
  cats: "dev, int",
- last: "20210815",
+ last: "20220501",
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See C++ version 'idbutil')."},
 
@@ -1994,7 +1994,7 @@ var tabledata = [
  url: "https://github.com/bootleg/ret-sync",
  src: "py",
  cats: "debug, int",
- last: "20220213",
+ last: "20220501",
  vers: "7.4",
  desc: "ret-sync stands for Reverse-Engineering Tools synchronization. It's a set of plugins that help to synchronize a debugging session (WinDbg/GDB/LLDB/OllyDbg2/x64dbg) with IDA disassembler. The underlying idea is simple: take the best from both worlds (static and dynamic analysis)."},
 
