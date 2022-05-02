@@ -6,6 +6,12 @@ var tabledata = [
  last: "20211226",
  desc: "IDA PRO Loader for 3DSX files"},
 
+{name: "aarch64-sysreg-ida",
+ url: "https://github.com/TrungNguyen1909/aarch64-sysreg-ida",
+ src: "py",
+ last: "20220211",
+ desc: "IDA plugin to show ARM MSRs nicely."},
+
 {name: "abyss",
  url: "https://github.com/patois/abyss",
  src: "py",
@@ -99,6 +105,14 @@ var tabledata = [
  last: "20181218",
  vers: "4.9",
  desc: "Nintendo Entertainment System (NES) bank switcher: plugin for NES ROMs, simulates bank switching/paging."},
+
+{name: "Beautify",
+ url: "https://github.com/P4nda0s/IDABeautify",
+ src: "py",
+ cats: "decomp",
+ last: "20220201",
+ vers: "7.7",
+ desc: "An IDA plugin for making pseudocode better."},
 
 {name: "BinAuthor",
  url: "https://github.com/g4hsean/BinAuthor",
@@ -632,6 +646,14 @@ var tabledata = [
  vers: "7.0",
  desc: "Flexible Register/Instruction Extender aNd Documentation. FRIEND is an IDA plugin created to improve disassembly and bring register/instruction documentation right into IDA View. (see also: AMIE)"},
 
+{name: "Fugue FDB IDB exporter",
+ url: "https://github.com/fugue-re/fugue-idapro",
+ src: "C++",
+ cats: "int",
+ last: "20220214",
+ vers: "7.5",
+ desc: "Fugue database importer and exporter for IDA Pro."},
+
 {name: "Funcap",
  url: "https://github.com/deresz/funcap",
  src: "py",
@@ -714,6 +736,14 @@ var tabledata = [
  last: "20201216",
  vers: "7.4",
  desc: "GhIDA is an IDA Pro plugin that integrates the Ghidra decompiler in IDA."},
+
+{name: "GhidraDec",
+ url: "https://github.com/GregoryMorse/GhidraDec",
+ src: "c++",
+ cats: "decomp, int",
+ last: "20220315",
+ vers: "7.7",
+ desc: "Ghidra Decompiler Plugin for IDA Pro."},
 
 {name: "golang_loader_assist",
  url: "https://github.com/strazzere/golang_loader_assist",
@@ -1012,6 +1042,13 @@ var tabledata = [
  vers: "7.0",
  desc: "A set of exploitation/reversing aids for IDA. Provides a context viewer, instruction emulator, heap explorer, trace dumper, GDB integration, Styling"},
 
+{name: "IDA Embed arch disasm",
+ url: "https://github.com/a1ext/ida-embed-arch-disasm",
+ src: "py",
+ last: "20211227",
+ vers: "7.7",
+ desc: "Allows you to disassemble x86-64 code (like inlined WOW64 one) while you using 32-bit IDA database. This would be helpfull to analyze WOW64 mode switches."},
+
 {name: "idaemu",
  url: "https://github.com/36hours/idaemu",
  src: "py",
@@ -1046,6 +1083,13 @@ var tabledata = [
  src: "py",
  last: "20190920",
  desc: "IDA Python Script to Get All function names from Event Constructor (VCL)."},
+
+{name: "IDAFrida",
+ url: "https://github.com/P4nda0s/IDAFrida",
+ src: "py",
+ cats: "int, trace",
+ last: "20220328",
+ desc: "IDA Frida Plugin for tracing something interesting. Plugin to generate FRIDA script."},
 
 {name: "IDAFuzzy",
  url: "https://github.com/Ga-ryo/IDAFuzzy",
@@ -1104,6 +1148,13 @@ var tabledata = [
  vers: "6.9",
  desc: "This is a plugin to embed an IPython kernel in IDA Pro. The Python ecosystem has amazing libraries (and communities) for scientific computing. IPython itself is great for exploratory data analysis. Using tools such as the IPython notebook make it easy to share code and explanations with rich media. IPython makes using IDAPython and interacting with IDA programmatically really fun and easy."},
 
+{name: "IDAKern",
+ url: "https://github.com/NyaMisty/ida_kern",
+ src: "py",
+ cats: "dev",
+ last: "20220410",
+ desc: "Raw IDA Kernel API for IDAPython: An IDAPython wrapper for IDA Pro's kernel dll."},
+
 {name: "IDA Key Checker",
  url: "https://github.com/pr701/ida_key_checker",
  src: "c++",
@@ -1148,6 +1199,13 @@ var tabledata = [
  last: "20220502",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
+
+{name: "ida-netnode",
+ url: "https://github.com/williballenthin/ida-netnode",
+ src: "py",
+ cats: "dev",
+ last: "20200629",
+ desc: "Humane API for storing and accessing persistent data in IDA Pro databases."},
 
 {name: "IDAngr",
  url: "https://github.com/andreafioraldi/IDAngr",
@@ -1334,6 +1392,13 @@ var tabledata = [
  last: "20161009",
  desc: "Dumping ground for whatever IDA Pro scripts I write: call_graph, export2neo4j, find_device_name, mem_complexity, most_refs."},
 
+{name: "ida-settings",
+ url: "https://github.com/williballenthin/ida-settings",
+ src: "py",
+ cats: "dev",
+ last: "20200909",
+ desc: "Fetch and set configuration values from IDAPython scripts."},
+
 {name: "idasetup",
  url: "https://github.com/lucasg/idasetup",
  src: "py",
@@ -1445,6 +1510,12 @@ var tabledata = [
  vers: "7.1",
  desc: "These IDA Pro plugins add support for loading and disassembling WebAssembly modules.\n* control flow reconstruction and graph mode\n* code and data cross references\n* globals, function parameters, local variables, etc. can be renamed\n* auto-comment hint support"},
 
+{name: "idawilli",
+ url: "https://github.com/williballenthin/idawilli",
+ src: "py",
+ last: "20220121",
+ desc: "IDA Pro resources, scripts, and configurations."},
+
 {name: "idax",
  url: "https://github.com/0xeb/idax",
  src: "c++",
@@ -1452,6 +1523,13 @@ var tabledata = [
  last: "20211227",
  vers: "7.5",
  desc: "idax is a set of C++ extensions for the IDASDK. These extensions are a work in progress and are not meant to be used in production code yet. As of now, only my personal IDA plugins use idax."},
+
+{name: "IDA x64dbgExport",
+ url: "https://github.com/kweatherman/ida_x64dbgexport_plugin",
+ src: "c++",
+ cats: "debug, int",
+ last: "20220115",
+ desc: "A binary x64dbg debugger export plugin for IDA Pro. A binary plugin version of mrexodia's official Python version (x64dbgida) but only with an export, no 'import' option."},
 
 {name: "idaxex",
  url: "https://github.com/emoose/idaxex",
@@ -1568,6 +1646,13 @@ var tabledata = [
  last: "20220217",
  vers: "7.0",
  desc: "Lighthouse is a Code Coverage Plugin for IDA Pro. The plugin leverages IDA as a platform to map, explore, and visualize externally collected code coverage data when symbols or source may not be available for a given binary."},
+
+{name: "LLVMAnalyzer",
+ url: "https://github.com/cbwang505/llvmanalyzer",
+ src: "c++",
+ last: "20220406",
+ vers: "7.0",
+ desc: "Based on a retdec open source decompiler tool and on the LLVM compiler architecture, the author integrates the klee symbolic execution tool, and dynamically simulates the decompiled llvm ir (intermediate instruction set) operation through the Symbolic Execution engine. (Chinese)."},
 
 {name: "LoadProcConfig",
  url: "https://github.com/alexhude/LoadProcConfig",
@@ -1753,6 +1838,13 @@ var tabledata = [
  last: "20210915",
  desc: "IDA plugin to enable nanoMIPS processor support. This is not limited to simple disassembly, but fully supports decompilation and even fixes up the stack in certain functions using custom microcode optimizers. It also supports relocations and automatic ELF detection (even though the UI might not show it, it kinda works). Debugging also works thanks to GDB and it also does some other stuff, such as automatic switch detections."},
 
+{name: "NoVmpy",
+ url: "https://github.com/wallds/NoVmpy",
+ src: "py",
+ cats: "deobf, int",
+ last: "20220415",
+ desc: "Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL."},
+
 {name: "NSIS Reversing Suite",
  url: "https://github.com/isra17/nrs/",
  src: "py",
@@ -1767,6 +1859,14 @@ var tabledata = [
  last: "20220429",
  vers: "7.4",
  desc: "A plugin to automatically detect obfuscated code and state machines in binaries."},
+
+{name: "Obpo: Obfuscated Binary Pseudocode Optimizer",
+ url: "https://github.com/obpo-project/obpo-plugin",
+ src: "py",
+ cats: "decomp, deobf",
+ last: "20220501",
+ vers: "7.7",
+ desc: "Obpo is a microcode-based hex-rays optimizer, uses techniques such as static-program-analysis, dataflow-tracking, concolic-execution to rebuild the obfuscated control flow (such as: OLLVM)."},
 
 {name: "oldidc",
  url: "https://github.com/joxeankoret/oldidc",
@@ -2291,6 +2391,14 @@ var tabledata = [
  src: "py",
  last: "20150602",
  desc: "An IDA Pro plugin which decodes a Windows Device I/O control code into DeviceType, FunctionCode, AccessType and MethodType."},
+
+{name: "x64dbgida",
+ url: "https://github.com/x64dbg/x64dbgida",
+ src: "py",
+ cats: "debug, int",
+ last: "20220424",
+ vers: "7.0",
+ desc: "Official x64dbg plugin for IDA Pro."},
 
 {name: "X86Emu",
  url: "https://github.com/cseagle/x86emu",
