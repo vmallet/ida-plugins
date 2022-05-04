@@ -146,6 +146,13 @@ var tabledata = [
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
+{name: "Binkit",
+ url: "https://github.com/ohjeongwook/binkit/tree/master/src/plugin",
+ src: "py",
+ cats: "int",
+ last: "20201005",
+ desc: "Binkit Plugin For IDA. Use this plugin to load diffing result files (*.json)..."},
+
 {name: "BinNavi",
  url: "https://github.com/google/binnavi",
  cats: "trace",
@@ -515,6 +522,14 @@ var tabledata = [
  last: "20100504",
  desc: "Parses the specialized instruction trace files that are generated using the EtherAnnotate Xen modification (http://github.com/inositle/etherannotate_xen).  From the instruction trace, register values and code coverage of the run-time information are visualized in IDA Pro through instruction comments and line colorations."},
 
+{name: "etm_displayer",
+ url: "https://github.com/honeybadger1613/etm_displayer",
+ src: "py",
+ cats: "int, trace",
+ last: "20180904",
+ vers: "7.0",
+ desc: "Display the result of perf Coresight ETM tracing."},
+
 {name: "Exports+",
  url: "https://github.com/ax330d/exports-plus",
  src: "py",
@@ -752,6 +767,13 @@ var tabledata = [
  vers: "7.5",
  desc: "Making GO reversing easier in IDA Pro."},
 
+{name: "golang_struct_builder",
+ url: "https://github.com/spigwitmer/golang_struct_builder",
+ src: "py",
+ last: "20210822",
+ vers: "7.6",
+ desc: "Script that auto-generates structs and interfaces from runtime metadata found in golang binaries."},
+
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
@@ -777,6 +799,13 @@ var tabledata = [
  src: "c++",
  last: "20141120",
  desc: "Automated detection of inlined functions. It highlights similar groups of nodes and allows you to group them, simplifying complex functions. The authors provide an accompanying presentation which explains the algorithms behind the plugin and shows sample use cases."},
+
+{name: "GUID-Finder",
+ url: "https://github.com/nihilus/guid-finder",
+ src: "py",
+ last: "20160124",
+ vers: "6.8",
+ desc: "Find GUID/UUIDs. The COM side of RE'ing (at least with \"dead listing\") can be pretty elusive. With this you can at least partially glean what interfaces and classes a target is using."},
 
 {name: "HashDB IDA",
  url: "https://github.com/OALabs/hashdb-ida",
@@ -1148,6 +1177,12 @@ var tabledata = [
  vers: "6.9",
  desc: "This is a plugin to embed an IPython kernel in IDA Pro. The Python ecosystem has amazing libraries (and communities) for scientific computing. IPython itself is great for exploratory data analysis. Using tools such as the IPython notebook make it easy to share code and explanations with rich media. IPython makes using IDAPython and interacting with IDA programmatically really fun and easy."},
 
+{name: "ida-kallsyms",
+ url: "https://github.com/mephi42/ida-kallsyms",
+ src: "py",
+ last: "20201128",
+ desc: "IDA script for parsing kallsyms."},
+
 {name: "IDAKern",
  url: "https://github.com/NyaMisty/ida_kern",
  src: "py",
@@ -1161,6 +1196,14 @@ var tabledata = [
  last: "20210922",
  vers: "7.0",
  desc: "IDA Pro key checker tool, check IDA keys from the command line."},
+
+{name: "idalink",
+ url: "https://github.com/zardus/idalink",
+ src: "py",
+ cats: "dev, int",
+ last: "20200714",
+ vers: "7.4",
+ desc: "Some glue facilitating remote use of IDA Python API. idalink works by spawning an IDA CLI session in the background (in a detached screen session), and connects to it using RPyC."},
 
 {name: "IDAMagicStrings",
  url: "https://github.com/joxeankoret/idamagicstrings",
@@ -1184,6 +1227,13 @@ var tabledata = [
  last: "20210215",
  vers: "7.5",
  desc: "Medigate plugin for c++ reverse engineering and other utils. Two parts:\n* Implementation of C++ classes and polymorphism over IDA\n* A RTTI parser which rebuilds the classes hierarchy."},
+
+{name: "IDAMetrics",
+ url: "https://github.com/mxmssh/idametrics",
+ src: "py",
+ last: "20180104",
+ vers: "5.5",
+ desc: "IDA plugins for static software complexity metrics collection. Collects static software complexity metrics for binary executables of x86 architecture."},
 
 {name: "IDA Migrator",
  url: "https://github.com/giladreich/ida_migrator",
@@ -1474,6 +1524,13 @@ var tabledata = [
  vers: "7.0",
  desc: "Finds all first occurring string references near another reference."},
 
+{name: "IDA Taco",
+ url: "https://github.com/jjo-sec/idataco",
+ src: "py",
+ cats: "int",
+ last: "20160614",
+ desc: "Bring Cuckoo Sandbox-generated output into IDA Pro to assist in reverse engineering malware as well as combining some commonly used tools into one UI."},
+
 {name: "IDATag",
  url: "https://github.com/thalium/idatag",
  src: "c++",
@@ -1715,6 +1772,18 @@ var tabledata = [
  last: "20200722",
  vers: "7.5",
  desc: "An AVX Lifter for the Hex-Rays Decompiler. It adds partial support for a number of common instructions from Intel's Advanced Vector Extensions (AVX). This plugin demonstrates how the Hex-Rays microcode can be used to lift and decompile new or previously unsupported instructions."},
+
+{name: "mIDA",
+ url: "https://github.com/tenable/mida",
+ src: "c++",
+ last: "20180705",
+ desc: "MIDL Decompiler for IDA. Extracts RPC interfaces and recreates the associated IDL file. mIDA supports inline, interpreted and fully interpreted server stubs."},
+
+{name: "MILF",
+ url: "https://github.com/carlosgprado/milf",
+ src: "py",
+ last: "20130315",
+ desc: "An IDA Pro swiss army knife (with a sexy name!) MILF is an IDA Pro plugin which automates several typical tasks in a RE session."},
 
 {name: "mipsAudit",
  url: "https://github.com/giantbranch/mipsAudit",
@@ -2322,6 +2391,12 @@ var tabledata = [
  vers: "7.2",
  desc: "uEmu is a tiny cute emulator plugin for IDA based on unicorn engine. Supports following architectures out of the box: x86, x64, ARM, ARM64, MIPS, MIPS64"},
 
+{name: "unity_metadata_loader",
+ url: "https://github.com/nevermoe/unity_metadata_loader",
+ src: "py",
+ last: "20180718",
+ desc: "Load strings and method/class names in global-metadata.dat to IDA."},
+
 {name: "Virtuailor",
  url: "https://github.com/0xgalz/Virtuailor",
  src: "py",
@@ -2391,6 +2466,13 @@ var tabledata = [
  src: "py",
  last: "20150602",
  desc: "An IDA Pro plugin which decodes a Windows Device I/O control code into DeviceType, FunctionCode, AccessType and MethodType."},
+
+{name: "WWCD",
+ url: "https://github.com/sektioneins/wwcd",
+ src: "c++",
+ cats: "int",
+ last: "20161129",
+ desc: "What Would Capstone Decode - IDA plugin that implements a Capstone powered IDA view."},
 
 {name: "x64dbgida",
  url: "https://github.com/x64dbg/x64dbgida",
