@@ -59,6 +59,14 @@ var tabledata = [
  last: "20180426",
  desc: "Amnesia is an IDAPython module designed to use byte level heuristics to find ARM thumb instructions in undefined bytes in an IDA Pro database. Currently, the heuristics in this module find code in a few different ways. Some instructions identify and define new code by looking for comon byte sequences that correspond to particular ARM opcodes. Other functions in this module define new functions based on sequences of defined instructions."},
 
+{name: "Android/Linux vmlinux Loader",
+ url: "https://github.com/nforest/droidimg",
+ src: "py",
+ cats: "loader",
+ last: "20201122",
+ vers: "7.0",
+ desc: "vmlinux.py is a python script which can load vmlinux image in both IDA Pro"},
+
 {name: "Android Debugging",
  url: "https://github.com/techbliss/ADB_Helper_QT_Super_version",
  src: "py",
@@ -352,6 +360,12 @@ var tabledata = [
  last: "20210726",
  vers: "6.6",
  desc: "Debugger plugin for IDA Pro backed by the Unicorn Engine"},
+
+{name: "dec2struct",
+ url: "https://github.com/krystalgamer/dec2struct",
+ src: "py",
+ last: "20170906",
+ desc: "Easily setup vtables in IDA using declaration files."},
 
 {name: "deREferencing",
  url: "https://github.com/danigargu/deREferencing",
@@ -1135,12 +1149,26 @@ var tabledata = [
  vers: "6.8",
  desc: "A collection of IDA loaders for various game console ELF's: PS3, PSVita, WiiU."},
 
+{name: "IDA GCC RTTI",
+ url: "https://github.com/mwl4/ida_gcc_rtti",
+ src: "c++",
+ last: "20180304",
+ vers: "7.0",
+ desc: "Class informer plugin for IDA which supports parsing GCC RTTI."},
+
 {name: "ida-genesis",
  url: "https://github.com/zznop/ida-genesis",
  src: "py",
  cats: "loader",
  last: "20200216",
  desc: "Suite of IDA scripts for SEGA Genesis ROM hacking. ROM Loader, Branch Table Enumeration."},
+
+{name: "IDAGolangHelper",
+ url: "https://github.com/sibears/idagolanghelper",
+ src: "py",
+ last: "20210615",
+ vers: "7.4",
+ desc: "Set of IDA Pro scripts for parsing GoLang types information stored in compiled binary."},
 
 {name: "idahunt",
  url: "https://github.com/nccgroup/idahunt",
@@ -2335,6 +2363,12 @@ var tabledata = [
  vers: "6.5",
  desc: "Small Plugin to change the style of Ida Pro."},
 
+{name: "SusanRTTI",
+ url: "https://github.com/nccgroup/SusanRTTI",
+ src: "py",
+ last: "20201102",
+ desc: "Another RTTI Parsing IDA plugin (GCC/MSVC)."},
+
 {name: "Swift Demangle",
  url: "https://github.com/gsingh93/ida-swift-demangle",
  src: "py",
@@ -2425,6 +2459,12 @@ var tabledata = [
  last: "20220408",
  vers: "7.5",
  desc: " A 'No Operation' Generator. Creates NOP'd areas though simple convenient actions to relevant right click menus."},
+
+{name: "VTBL",
+ url: "https://github.com/nektra/vtbl-ida-pro-plugin",
+ src: "c++",
+ last: "20130327",
+ desc: "VTBL is an IDA script which identifies all the virtual tables found in any module of a native process. The virtual tables can be related to a COM or a C++ class."},
 
 {name: "VT-IDA Plugin",
  url: "https://github.com/VirusTotal/vt-ida-plugin",

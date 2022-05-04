@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-355 plugins
+361 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -42,6 +42,9 @@ _Updated: 2019 10 27 &nbsp;&nbsp; Language: Python_
 
 * [Amnesia](https://github.com/duo-labs/idapython): Amnesia is an IDAPython module designed to use byte level heuristics to find ARM thumb instructions in undefined bytes in an IDA Pro database. Currently, the heuristics in this module find code in a few different ways. Some instructions identify and define new code by looking for comon byte sequences that correspond to particular ARM opcodes. Other functions in this module define new functions based on sequences of defined instructions.<br>
 _Updated: 2018 04 26 &nbsp;&nbsp; Language: Python_
+
+* [Android/Linux vmlinux Loader](https://github.com/nforest/droidimg): vmlinux.py is a python script which can load vmlinux image in both IDA Pro<br>
+_Updated: 2020 11 22 &nbsp;&nbsp; Language: Python_
 
 * [Android Debugging](https://github.com/techbliss/ADB_Helper_QT_Super_version): This version have both support for native arm debugging via usb and sdk ADV manager.<br>
 _Updated: 2015 04 05 &nbsp;&nbsp; Language: Python_
@@ -174,6 +177,9 @@ _Updated: 2019 09 06 &nbsp;&nbsp; Language: Python_
 
 * [Debugger](https://github.com/cseagle/sk3wldbg): Debugger plugin for IDA Pro backed by the Unicorn Engine<br>
 _Updated: 2021 07 26 &nbsp;&nbsp; Language: C++_
+
+* [dec2struct](https://github.com/krystalgamer/dec2struct): Easily setup vtables in IDA using declaration files.<br>
+_Updated: 2017 09 06 &nbsp;&nbsp; Language: Python_
 
 * [deREferencing](https://github.com/danigargu/deREferencing): IDA Pro plugin that implements more user-friendly register and stack views.<br>
 _Updated: 2021 05 05 &nbsp;&nbsp; Language: Python_
@@ -508,8 +514,14 @@ _Updated: 2019 12 16 &nbsp;&nbsp; Language: Python_
 * [ida_game_elf_loaders (gel)](https://github.com/aerosoul94/ida_gel): A collection of IDA loaders for various game console ELF's: PS3, PSVita, WiiU.<br>
 _Updated: 2019 10 03 &nbsp;&nbsp; Language: C++_
 
+* [IDA GCC RTTI](https://github.com/mwl4/ida_gcc_rtti): Class informer plugin for IDA which supports parsing GCC RTTI.<br>
+_Updated: 2018 03 04 &nbsp;&nbsp; Language: C++_
+
 * [ida-genesis](https://github.com/zznop/ida-genesis): Suite of IDA scripts for SEGA Genesis ROM hacking. ROM Loader, Branch Table Enumeration.<br>
 _Updated: 2020 02 16 &nbsp;&nbsp; Language: Python_
+
+* [IDAGolangHelper](https://github.com/sibears/idagolanghelper): Set of IDA Pro scripts for parsing GoLang types information stored in compiled binary.<br>
+_Updated: 2021 06 15 &nbsp;&nbsp; Language: Python_
 
 * [idahunt](https://github.com/nccgroup/idahunt): idahunt is a framework to analyze binaries with IDA Pro and hunt for things in IDA Pro. It is command line tool to analyse all executable files recursively from a given folder. It executes IDA in the background so you don't have to open manually each file. It supports executing external IDA Python scripts.<br>
 _Updated: 2022 01 04 &nbsp;&nbsp; Language: Python_
@@ -1040,6 +1052,9 @@ _Updated: 2007 04 05 &nbsp;&nbsp; Language: C++_
 * [Styler](https://github.com/techbliss/IDA-Styler): Small Plugin to change the style of Ida Pro.<br>
 _Updated: 2014 07 25 &nbsp;&nbsp; Language: Python_
 
+* [SusanRTTI](https://github.com/nccgroup/SusanRTTI): Another RTTI Parsing IDA plugin (GCC/MSVC).<br>
+_Updated: 2020 11 02 &nbsp;&nbsp; Language: Python_
+
 * [Swift Demangle](https://github.com/gsingh93/ida-swift-demangle): Demangle Swift function names. It currently only works for ELF files.<br>
 _Updated: 2016 04 23 &nbsp;&nbsp; Language: Python_
 
@@ -1078,6 +1093,9 @@ _Updated: 2017 11 30 &nbsp;&nbsp; Language: Python_
 
 * [Void](https://github.com/dove-zp/ida.plugin.void): A 'No Operation' Generator. Creates NOP'd areas though simple convenient actions to relevant right click menus.<br>
 _Updated: 2022 04 08 &nbsp;&nbsp; Language: Python_
+
+* [VTBL](https://github.com/nektra/vtbl-ida-pro-plugin): VTBL is an IDA script which identifies all the virtual tables found in any module of a native process. The virtual tables can be related to a COM or a C++ class.<br>
+_Updated: 2013 03 27 &nbsp;&nbsp; Language: C++_
 
 * [VT-IDA Plugin](https://github.com/VirusTotal/vt-ida-plugin): This is the official VirusTotal plugin for Hex-Rays IDA Pro. This plugin integrates functionality from VirusTotal web services into the IDA Pro's user interface.<br>
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
