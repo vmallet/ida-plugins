@@ -110,7 +110,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 04 27 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 06 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -272,7 +272,7 @@ _Updated: 2015 10 02 &nbsp;&nbsp; Language: Python_
 _Updated: 2022 01 05 &nbsp;&nbsp; Language: Python_
 
 * [FindFunc](https://github.com/FelixBer/FindFunc): Advanced Filtering/Finding of Functions. FindFunc is an IDA PRO plugin to find code functions that contain a certain assembly or byte pattern, reference a certain name or string, or conform to various other constraints.<br>
-_Updated: 2022 04 29 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 06 &nbsp;&nbsp; Language: Python_
 
 * [findrpc](https://github.com/lucasg/findrpc): Ida script to extract RPC interface from binaries.<br>
 _Updated: 2022 01 25 &nbsp;&nbsp; Language: Python_
@@ -362,7 +362,7 @@ _Updated: 2021 08 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 07 29 &nbsp;&nbsp; Language: Python_
 
 * [grap](https://github.com/QuoSecGmbH/grap): Define and match graph patterns within binaries. grap takes patterns and binary files, uses a Casptone-based disassembler to obtain the control flow graphs from the binaries, then matches the patterns against them.<br>
-_Updated: 2022 03 16 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 05 &nbsp;&nbsp; Language: Python_
 
 * [GraphGrabber](https://github.com/tmr232/GraphGrabber): Grab full-resolution images of IDA graphs.<br>
 _Updated: 2017 11 20 &nbsp;&nbsp; Language: Python_
@@ -589,7 +589,7 @@ _Updated: 2020 07 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2019 06 25 &nbsp;&nbsp; Language: Python_
 
 * [IDAObjcTypes](https://github.com/PoomSmart/IDAObjcTypes): A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis.<br>
-_Updated: 2022 03 29 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 05 &nbsp;&nbsp; Language: Python_
 
 * [IDA Patcher](https://github.com/iphelix/ida-patcher): IDA Patcher is a plugin for Hex-Ray's IDA Pro disassembler designed to enhance IDA's ability to patch binary files and memory.<br>
 _Updated: 2014 09 23 &nbsp;&nbsp; Language: Python_
@@ -869,7 +869,7 @@ _Updated: 2018 09 24 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 09 15 &nbsp;&nbsp; Language: Python_
 
 * [NoVmpy](https://github.com/wallds/NoVmpy): Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL.<br>
-_Updated: 2022 04 15 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 06 &nbsp;&nbsp; Language: Python_
 
 * [NSIS Reversing Suite](https://github.com/isra17/nrs/): NRS is a set of Python libraries used to unpack and analysis NSIS installer's data. It also feature an IDA plugin used to disassembly the NSIS Script of an installer.<br>
 _Updated: 2018 05 19 &nbsp;&nbsp; Language: Python_

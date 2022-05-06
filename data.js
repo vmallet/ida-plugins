@@ -210,7 +210,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220427",
+ last: "20220506",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -580,7 +580,7 @@ var tabledata = [
 {name: "FindFunc",
  url: "https://github.com/FelixBer/FindFunc",
  src: "py",
- last: "20220429",
+ last: "20220506",
  vers: "7.7",
  desc: "Advanced Filtering/Finding of Functions. FindFunc is an IDA PRO plugin to find code functions that contain a certain assembly or byte pattern, reference a certain name or string, or conform to various other constraints."},
 
@@ -797,7 +797,7 @@ var tabledata = [
 {name: "grap",
  url: "https://github.com/QuoSecGmbH/grap",
  src: "py",
- last: "20220316",
+ last: "20220505",
  vers: "7.1",
  desc: "Define and match graph patterns within binaries. grap takes patterns and binary files, uses a Casptone-based disassembler to obtain the control flow graphs from the binaries, then matches the patterns against them."},
 
@@ -1303,7 +1303,7 @@ var tabledata = [
 {name: "IDAObjcTypes",
  url: "https://github.com/PoomSmart/IDAObjcTypes",
  src: "py",
- last: "20220329",
+ last: "20220505",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
@@ -1939,7 +1939,7 @@ var tabledata = [
  url: "https://github.com/wallds/NoVmpy",
  src: "py",
  cats: "deobf, int",
- last: "20220415",
+ last: "20220506",
  desc: "Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL."},
 
 {name: "NSIS Reversing Suite",
