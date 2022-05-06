@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-361 plugins
+368 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -66,6 +66,9 @@ _Updated: 2021 08 09 &nbsp;&nbsp; Language: Python_
 
 * [bankswitch](https://github.com/patois/bankswitch): Nintendo Entertainment System (NES) bank switcher: plugin for NES ROMs, simulates bank switching/paging.<br>
 _Updated: 2018 12 18 &nbsp;&nbsp; Language: C++_
+
+* [BAP IDA Python](https://github.com/binaryanalysisplatform/bap-ida-python): Integrate BAP (Binary Analysis Platform) with IDA, providing functionality such as function info augmentation, taint propagation, BIR attribute tagging, and more.<br>
+_Updated: 2020 02 12 &nbsp;&nbsp; Language: Python_
 
 * [Beautify](https://github.com/P4nda0s/IDABeautify): An IDA plugin for making pseudocode better.<br>
 _Updated: 2022 02 01 &nbsp;&nbsp; Language: Python_
@@ -475,6 +478,9 @@ _Updated: 2019 01 05 &nbsp;&nbsp; Language: Python_
 * [IDA Compare](https://github.com/dzzie/IDACompare): IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage.<br>
 _Updated: 2019 05 30 &nbsp;&nbsp; Language: C++_
 
+* [IDACompare](https://github.com/dzzie/idacompare): IDA disassembly level diffing tool, helps you line up functions across two separate disassemblies.<br>
+_Updated: 2019 05 30 &nbsp;&nbsp; Language: C++_
+
 * [idaConsonance](https://github.com/eugeneching/ida-consonance): Consonance, a dark color scheme for IDA.<br>
 _Updated: 2013 02 19_
 
@@ -660,6 +666,9 @@ _Updated: 2016 10 17 &nbsp;&nbsp; Language: Python_
 * [ida-scripts (sam-b)](https://github.com/sam-b/ida-scripts): Dumping ground for whatever IDA Pro scripts I write: call_graph, export2neo4j, find_device_name, mem_complexity, most_refs.<br>
 _Updated: 2016 10 09 &nbsp;&nbsp; Language: Python_
 
+* [idasec](https://github.com/robindavid/idasec): IDA plugin for reverse-engineering and dynamic interactions with the Binsec platform.<br>
+_Updated: 2017 11 19 &nbsp;&nbsp; Language: Python_
+
 * [ida-settings](https://github.com/williballenthin/ida-settings): Fetch and set configuration values from IDAPython scripts.<br>
 _Updated: 2020 09 09 &nbsp;&nbsp; Language: Python_
 
@@ -735,6 +744,12 @@ _Updated: 2022 02 18 &nbsp;&nbsp; Language: C++_
 
 * [IDA Xtensa](https://github.com/themadinventor/ida-xtensa): This is a processor plugin for IDA, to support the Xtensa core found in Espressif ESP8266. It does not support other configurations of the Xtensa architecture, but that is probably (hopefully) easy to implement.<br>
 _Updated: 2019 08 20 &nbsp;&nbsp; Language: Python_
+
+* [ida_yara](https://github.com/alexander-hanel/ida_yara): A python script that can be used to scan data within in an IDB using Yara.<br>
+_Updated: 2018 09 04 &nbsp;&nbsp; Language: Python_
+
+* [ida-yara-processor](https://github.com/bnbdr/ida-yara-processor): Compiled YARA Rules Processor for IDA.<br>
+_Updated: 2019 01 22 &nbsp;&nbsp; Language: Python_
 
 * [idb2pat](https://github.com/alexander-pick/idb2pat): IDB to Pat, fixed to work with IDA 6.2. Create patterns for IDA objects.<br>
 _Updated: 2011 10 08 &nbsp;&nbsp; Language: C++_
@@ -889,8 +904,14 @@ _Updated: 2012 08 05 &nbsp;&nbsp; Language: Python_
 * [Oregami](https://github.com/shemesh999/oregami): A plugin analyzing the current function to find the usage frame of registers. Oregami eases the work when tracking the use of a register within a function, by limiting the search to occurrences related to the one currently highlighted instead of the whole function. It also allows localized renaming of the registers, and batch type giving to multiple opcodes using the registers.<br>
 _Updated: 2020 04 06 &nbsp;&nbsp; Language: Python_
 
+* [patchdiff2](https://github.com/filcab/patchdiff2): IDA binary differ.<br>
+_Updated: 2015 04 09 &nbsp;&nbsp; Language: C++_
+
 * [Patching](https://github.com/gaasedelen/patching): Interactive Binary Patching for IDA Pro. This project extends the popular IDA Pro disassembler to create a more robust interactive binary patching workflow designed for rapid iteration.<br>
 _Updated: 2022 02 10 &nbsp;&nbsp; Language: Python_
+
+* [PE Tree](https://github.com/blackberry/pe_tree): Python module for viewing Portable Executable (PE) files in a tree-view using pefile and PyQt5.<br>
+_Updated: 2021 05 17 &nbsp;&nbsp; Language: Python_
 
 * [Pigaios](https://github.com/joxeankoret/pigaios): Pigaios ('πηγαίος', Greek for 'source' as in 'source code') is a tool for diffing/matching source codes directly against binaries.<br>
 _Updated: 2018 12 17 &nbsp;&nbsp; Language: Python_

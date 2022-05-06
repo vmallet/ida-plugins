@@ -114,6 +114,14 @@ var tabledata = [
  vers: "4.9",
  desc: "Nintendo Entertainment System (NES) bank switcher: plugin for NES ROMs, simulates bank switching/paging."},
 
+{name: "BAP IDA Python",
+ url: "https://github.com/binaryanalysisplatform/bap-ida-python",
+ src: "py",
+ cats: "int",
+ last: "20200212",
+ vers: "7.3",
+ desc: "Integrate BAP (Binary Analysis Platform) with IDA, providing functionality such as function info augmentation, taint propagation, BIR attribute tagging, and more."},
+
 {name: "Beautify",
  url: "https://github.com/P4nda0s/IDABeautify",
  src: "py",
@@ -1058,6 +1066,13 @@ var tabledata = [
  vers: "6.7",
  desc: "IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage."},
 
+{name: "IDACompare",
+ url: "https://github.com/dzzie/idacompare",
+ src: "c++",
+ last: "20190530",
+ vers: "6.7",
+ desc: "IDA disassembly level diffing tool, helps you line up functions across two separate disassemblies."},
+
 {name: "idaConsonance",
  url: "https://github.com/eugeneching/ida-consonance",
  cats: "ui",
@@ -1470,6 +1485,13 @@ var tabledata = [
  last: "20161009",
  desc: "Dumping ground for whatever IDA Pro scripts I write: call_graph, export2neo4j, find_device_name, mem_complexity, most_refs."},
 
+{name: "idasec",
+ url: "https://github.com/robindavid/idasec",
+ src: "py",
+ cats: "int",
+ last: "20171119",
+ desc: "IDA plugin for reverse-engineering and dynamic interactions with the Binsec platform."},
+
 {name: "ida-settings",
  url: "https://github.com/williballenthin/ida-settings",
  src: "py",
@@ -1631,6 +1653,21 @@ var tabledata = [
  last: "20190820",
  vers: "7.0",
  desc: "This is a processor plugin for IDA, to support the Xtensa core found in Espressif ESP8266. It does not support other configurations of the Xtensa architecture, but that is probably (hopefully) easy to implement."},
+
+{name: "ida_yara",
+ url: "https://github.com/alexander-hanel/ida_yara",
+ src: "py",
+ last: "20180904",
+ vers: "7.0",
+ desc: "A python script that can be used to scan data within in an IDB using Yara."},
+
+{name: "ida-yara-processor",
+ url: "https://github.com/bnbdr/ida-yara-processor",
+ src: "py",
+ cats: "loader, proc",
+ last: "20190122",
+ vers: "7.0",
+ desc: "Compiled YARA Rules Processor for IDA."},
 
 {name: "idb2pat",
  url: "https://github.com/alexander-pick/idb2pat",
@@ -1986,12 +2023,26 @@ var tabledata = [
  last: "20200406",
  desc: "A plugin analyzing the current function to find the usage frame of registers. Oregami eases the work when tracking the use of a register within a function, by limiting the search to occurrences related to the one currently highlighted instead of the whole function. It also allows localized renaming of the registers, and batch type giving to multiple opcodes using the registers."},
 
+{name: "patchdiff2",
+ url: "https://github.com/filcab/patchdiff2",
+ src: "c++",
+ last: "20150409",
+ vers: "6.3",
+ desc: "IDA binary differ."},
+
 {name: "Patching",
  url: "https://github.com/gaasedelen/patching",
  src: "py",
  last: "20220210",
  vers: "7.6",
  desc: "Interactive Binary Patching for IDA Pro. This project extends the popular IDA Pro disassembler to create a more robust interactive binary patching workflow designed for rapid iteration."},
+
+{name: "PE Tree",
+ url: "https://github.com/blackberry/pe_tree",
+ src: "py",
+ last: "20210517",
+ vers: "7.4",
+ desc: "Python module for viewing Portable Executable (PE) files in a tree-view using pefile and PyQt5."},
 
 {name: "Pigaios",
  url: "https://github.com/joxeankoret/pigaios",
