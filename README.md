@@ -77,7 +77,7 @@ _Updated: 2022 02 01 &nbsp;&nbsp; Language: Python_
 _Updated: 2020 05 04 &nbsp;&nbsp; Language: Python_
 
 * [BinCAT](https://github.com/airbus-seclab/bincat): BinCAT is a static Binary Code Analysis Toolkit, designed to help reverse engineers, directly from IDA.<br>
-_Updated: 2021 12 15 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 11 &nbsp;&nbsp; Language: Python_
 
 * [BinClone](https://github.com/BinSigma/BinClone): BinClone: detecting code clones in malware [SERE 2014]<br>
 _Updated: 2015 04 04 &nbsp;&nbsp; Language: C++_
@@ -113,7 +113,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 05 06 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 12 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -215,7 +215,7 @@ _Updated: 2017 02 02 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 11 22 &nbsp;&nbsp; Language: Python_
 
 * [DriverBuddyReloaded](https://github.com/VoidSec/DriverBuddyReloaded): Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks.<br>
-_Updated: 2022 05 07 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 11 &nbsp;&nbsp; Language: Python_
 
 * [Drop](https://github.com/Riscure/DROP-IDA-plugin): An experimental IDA Pro plugin capable of detecting several types of opaque predicates in obfuscated binaries. It leverages the power of the symbolic execution engine angr and its components to reason about the opaqueness of predicates based on their symbolic context.<br>
 _Updated: 2017 12 22 &nbsp;&nbsp; Language: Python_
@@ -284,7 +284,7 @@ _Updated: 2015 10 02 &nbsp;&nbsp; Language: Python_
 _Updated: 2022 01 05 &nbsp;&nbsp; Language: Python_
 
 * [FindFunc](https://github.com/FelixBer/FindFunc): Advanced Filtering/Finding of Functions. FindFunc is an IDA PRO plugin to find code functions that contain a certain assembly or byte pattern, reference a certain name or string, or conform to various other constraints.<br>
-_Updated: 2022 05 06 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 10 &nbsp;&nbsp; Language: Python_
 
 * [findrpc](https://github.com/lucasg/findrpc): Ida script to extract RPC interface from binaries.<br>
 _Updated: 2022 01 25 &nbsp;&nbsp; Language: Python_
@@ -598,7 +598,7 @@ _Updated: 2018 01 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2022 05 03 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 10 &nbsp;&nbsp; Language: Python_
 
 * [ida-netnode](https://github.com/williballenthin/ida-netnode): Humane API for storing and accessing persistent data in IDA Pro databases.<br>
 _Updated: 2020 06 29 &nbsp;&nbsp; Language: Python_

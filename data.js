@@ -139,7 +139,7 @@ var tabledata = [
 {name: "BinCAT",
  url: "https://github.com/airbus-seclab/bincat",
  src: "py",
- last: "20211215",
+ last: "20220511",
  vers: "7.4",
  desc: "BinCAT is a static Binary Code Analysis Toolkit, designed to help reverse engineers, directly from IDA."},
 
@@ -218,7 +218,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220506",
+ last: "20220512",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -448,7 +448,7 @@ var tabledata = [
 {name: "DriverBuddyReloaded",
  url: "https://github.com/VoidSec/DriverBuddyReloaded",
  src: "py",
- last: "20220507",
+ last: "20220511",
  desc: "Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks."},
 
 {name: "Drop",
@@ -609,7 +609,7 @@ var tabledata = [
 {name: "FindFunc",
  url: "https://github.com/FelixBer/FindFunc",
  src: "py",
- last: "20220506",
+ last: "20220510",
  vers: "7.7",
  desc: "Advanced Filtering/Finding of Functions. FindFunc is an IDA PRO plugin to find code functions that contain a certain assembly or byte pattern, reference a certain name or string, or conform to various other constraints."},
 
@@ -1325,7 +1325,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220503",
+ last: "20220510",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
