@@ -756,6 +756,12 @@ var tabledata = [
  vers: "5.2",
  desc: "This is a Gekko CPU Paired Single extension instructions plug-in for IDA Pro 5.2"},
 
+{name: "GandCrab String Decryptor",
+ url: "https://github.com/lacike/gandcrab_string_decryptor",
+ src: "idc",
+ last: "20190424",
+ desc: "IDC script for decrypting strings in the GandCrab v5.1-5.3"},
+
 {name: "garmin-ida-loader",
  url: "https://sourceforge.net/projects/garminidaloader/",
  src: "c++",
@@ -778,6 +784,13 @@ var tabledata = [
  last: "20210115",
  vers: "7.3",
  desc: "Genmc is an IDAPython script/plugin hybrid that displays Hexrays decompiler microcode, which can help in developing microcode plugins."},
+
+{name: "genpatch",
+ url: "https://github.com/tkmru/genpatch",
+ src: "py",
+ last: "20190504",
+ vers: "7.2",
+ desc: "Plugin that generates a python script for patching binary from Patched Byte on IDA."},
 
 {name: "Geolocator",
  url: "https://github.com/techbliss/ida_pro_http_ip_geolocator",
@@ -1358,6 +1371,13 @@ var tabledata = [
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
+{name: "idapatch",
+ url: "https://github.com/mrexodia/idapatch",
+ src: "c++",
+ last: "20160903",
+ vers: "6.8",
+ desc: "IDA plugin to patch IDA Pro in memory."},
+
 {name: "IDA Patcher",
  url: "https://github.com/iphelix/ida-patcher",
  src: "py",
@@ -1438,6 +1458,13 @@ var tabledata = [
  last: "20190714",
  vers: "7.3",
  desc: "Extends existing support in IDA for the Motorola m68k processor family by adding gdb step-over and type information support. Enable type information support so you can press \"y\" on functions and have the parameters propagate inside and back out of the function."},
+
+{name: "IDA Pro Translator",
+ url: "https://github.com/kyrus/ida-translator",
+ src: "py",
+ last: "20150209",
+ vers: "6.3",
+ desc: "Assists in decoding arbitrary character sets in an IDA Pro database into Unicode, then automatically invoking a web-based translation service (currently Google Translate) to translate that foreign text into English."},
 
 {name: "IDAPyHelper",
  url: "https://github.com/patois/IDAPyHelper",
@@ -2224,6 +2251,12 @@ var tabledata = [
  last: "20140123",
  desc: "IDA loader plugin for Qualcomm Bootloader Stages"},
 
+{name: "quicksec",
+ url: "https://github.com/coldheat/quicksec",
+ src: "py",
+ last: "20140510",
+ desc: "IDAPython script for quick vulnerability analysis."},
+
 {name: "Rebased Comment",
  url: "https://github.com/naim94a/rebasedcomment",
  src: "py",
@@ -2523,6 +2556,14 @@ var tabledata = [
  last: "20150813",
  vers: "6.7",
  desc: "Tarkus is a plugin manager for IDA Pro, modelled after Python's pip."},
+
+{name: "Tenet",
+ url: "https://github.com/gaasedelen/tenet",
+ src: "py",
+ cats: "trace",
+ last: "20210914",
+ vers: "7.5",
+ desc: "A Trace Explorer for Reverse Engineers. Provide more natural, human controls for navigating execution traces against a given binary."},
 
 {name: "TurboDiff",
  url: "http://www.coresecurity.com/corelabs-research/open-source-tools/turbodiff",

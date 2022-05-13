@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-378 plugins
+384 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -346,6 +346,9 @@ _Updated: 2014 12 13 &nbsp;&nbsp; Language: Python_
 * [Gamecube Extension](https://github.com/hyperiris/gekkoPS): This is a Gekko CPU Paired Single extension instructions plug-in for IDA Pro 5.2<br>
 _Updated: 2018 04 25 &nbsp;&nbsp; Language: C++_
 
+* [GandCrab String Decryptor](https://github.com/lacike/gandcrab_string_decryptor): IDC script for decrypting strings in the GandCrab v5.1-5.3<br>
+_Updated: 2019 04 24 &nbsp;&nbsp; Language: idc_
+
 * [garmin-ida-loader](https://sourceforge.net/projects/garminidaloader/): IDA loader for Garmin firmwares.<br>
 _Updated: 2013 05 30 &nbsp;&nbsp; Language: C++_
 
@@ -354,6 +357,9 @@ _Updated: 2018 04 23 &nbsp;&nbsp; Language: Python_
 
 * [genmc](https://github.com/patois/genmc): Genmc is an IDAPython script/plugin hybrid that displays Hexrays decompiler microcode, which can help in developing microcode plugins.<br>
 _Updated: 2021 01 15 &nbsp;&nbsp; Language: Python_
+
+* [genpatch](https://github.com/tkmru/genpatch): Plugin that generates a python script for patching binary from Patched Byte on IDA.<br>
+_Updated: 2019 05 04 &nbsp;&nbsp; Language: Python_
 
 * [Geolocator](https://github.com/techbliss/ida_pro_http_ip_geolocator): Lookup (geolocate) IP's and http/https addresses, using google maps, and MaxMind databases.<br>
 _Updated: 2019 03 10 &nbsp;&nbsp; Language: Python_
@@ -612,6 +618,9 @@ _Updated: 2019 06 25 &nbsp;&nbsp; Language: Python_
 * [IDAObjcTypes](https://github.com/PoomSmart/IDAObjcTypes): A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis.<br>
 _Updated: 2022 05 05 &nbsp;&nbsp; Language: Python_
 
+* [idapatch](https://github.com/mrexodia/idapatch): IDA plugin to patch IDA Pro in memory.<br>
+_Updated: 2016 09 03 &nbsp;&nbsp; Language: C++_
+
 * [IDA Patcher](https://github.com/iphelix/ida-patcher): IDA Patcher is a plugin for Hex-Ray's IDA Pro disassembler designed to enhance IDA's ability to patch binary files and memory.<br>
 _Updated: 2014 09 23 &nbsp;&nbsp; Language: Python_
 
@@ -647,6 +656,9 @@ _Updated: 2020 11 10 &nbsp;&nbsp; Language: Python_
 
 * [idapro_m68k](https://github.com/LucienMP/idapro_m68k): Extends existing support in IDA for the Motorola m68k processor family by adding gdb step-over and type information support. Enable type information support so you can press "y" on functions and have the parameters propagate inside and back out of the function.<br>
 _Updated: 2019 07 14 &nbsp;&nbsp; Language: Python_
+
+* [IDA Pro Translator](https://github.com/kyrus/ida-translator): Assists in decoding arbitrary character sets in an IDA Pro database into Unicode, then automatically invoking a web-based translation service (currently Google Translate) to translate that foreign text into English.<br>
+_Updated: 2015 02 09 &nbsp;&nbsp; Language: Python_
 
 * [IDAPyHelper](https://github.com/patois/IDAPyHelper): IDAPyHelper is a script for the Interactive Disassembler that helps writing IDAPython scripts and plugins.<br>
 _Updated: 2019 11 23 &nbsp;&nbsp; Language: Python_
@@ -988,6 +1000,9 @@ _Updated: 2022 04 20 &nbsp;&nbsp; Language: C++_
 * [Qualcomm Loader](https://github.com/daxgr/qcom-mbn-ida-loader): IDA loader plugin for Qualcomm Bootloader Stages<br>
 _Updated: 2014 01 23 &nbsp;&nbsp; Language: C++_
 
+* [quicksec](https://github.com/coldheat/quicksec): IDAPython script for quick vulnerability analysis.<br>
+_Updated: 2014 05 10 &nbsp;&nbsp; Language: Python_
+
 * [Rebased Comment](https://github.com/naim94a/rebasedcomment): Rebase comments when you rebase your IDA database, by searching for hexadecimal numbers that are within range of your program's segments, and fixing your comments after every rebase.<br>
 _Updated: 2020 04 06 &nbsp;&nbsp; Language: Python_
 
@@ -1120,6 +1135,9 @@ _Updated: 2015 01 28 &nbsp;&nbsp; Language: Python_
 
 * [Tarkus](https://github.com/tmr232/Tarkus): Tarkus is a plugin manager for IDA Pro, modelled after Python's pip.<br>
 _Updated: 2015 08 13 &nbsp;&nbsp; Language: Python_
+
+* [Tenet](https://github.com/gaasedelen/tenet): A Trace Explorer for Reverse Engineers. Provide more natural, human controls for navigating execution traces against a given binary.<br>
+_Updated: 2021 09 14 &nbsp;&nbsp; Language: Python_
 
 * [TurboDiff](http://www.coresecurity.com/corelabs-research/open-source-tools/turbodiff): Turbodiff is a binary diffing tool developed as an IDA plugin. It discovers and analyzes differences between the functions of two binaries.<br>
 _Updated: 2011 12 13 &nbsp;&nbsp; Language: C++_
