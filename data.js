@@ -529,6 +529,13 @@ var tabledata = [
  vers: "6.3",
  desc: "Some IDA scripts to assist with reverse engineering EFI executables."},
 
+{name: "EFI Swiss Knife",
+ url: "https://github.com/gdbinit/EFISwissKnife",
+ src: "c++",
+ last: "20170613",
+ vers: "6.95",
+ desc: "An IDA plugin to improve (U)EFI reversing."},
+
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
@@ -982,6 +989,13 @@ var tabledata = [
  last: "20170501",
  vers: "6.95",
  desc: "IDA Pro Back Tracer - Initial project toward automatic customized protocols structure extraction."},
+
+{name: "IDA2Obj",
+ url: "https://github.com/jhftss/IDA2Obj",
+ src: "py",
+ last: "20210924",
+ vers: "7.0",
+ desc: "IDA2Obj is a tool to implement SBI (Static Binary Instrumentation)."},
 
 {name: "ida2pwntools",
  url: "https://github.com/anic/ida2pwntools",
@@ -1437,6 +1451,10 @@ var tabledata = [
  vers: "6.7",
  desc: "Plugins for IDA: Plugin Proxy, Function Strings, LCA Graph, Autoenum, Autostruct, Function Flow, Quick Copy."},
 
+{name: "ida-plugins",
+ url: "https://vmallet.github.io/ida-plugins/",
+ desc: "Interactive IDA Plugin List: a great list of plugins for IDA which can be sorted and filtered dynamically to make it easier to find plugins of interest. Worth checking out! :)"},
+
 {name: "idapm",
  url: "https://github.com/tkmru/idapm",
  src: "py",
@@ -1480,6 +1498,14 @@ var tabledata = [
  last: "20190814",
  vers: "6.95",
  desc: "IDAPython scripts for automating analysis of firmware of embedded devices."},
+
+{name: "idapython_virtualenv",
+ url: "https://github.com/gaasedelen/idapython_virtualenv",
+ src: "py",
+ cats: "dev",
+ last: "20201111",
+ vers: "7.5",
+ desc: "Multiples virtual envs support for IDAPython. Enable Virtualenv or Conda in IDAPython."},
 
 {name: "IDARay",
  url: "https://github.com/SouhailHammou/IDARay-Plugin",
@@ -2105,6 +2131,13 @@ var tabledata = [
  src: "py",
  last: "20200406",
  desc: "A plugin analyzing the current function to find the usage frame of registers. Oregami eases the work when tracking the use of a register within a function, by limiting the search to occurrences related to the one currently highlighted instead of the whole function. It also allows localized renaming of the registers, and batch type giving to multiple opcodes using the registers."},
+
+{name: "Package Manager",
+ url: "https://github.com/Jinmo/idapkg",
+ src: "py",
+ last: "20210104",
+ vers: "7.5",
+ desc: "Packages for IDA Pro (written in python but supports all)."},
 
 {name: "patchdiff2",
  url: "https://github.com/filcab/patchdiff2",

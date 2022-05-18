@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-384 plugins
+389 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -250,6 +250,9 @@ _Updated: 2020 10 19 &nbsp;&nbsp; Language: Python_
 * [EFI Scripts (efiutils)](https://github.com/snare/ida-efiutils): Some IDA scripts to assist with reverse engineering EFI executables.<br>
 _Updated: 2014 06 17 &nbsp;&nbsp; Language: Python_
 
+* [EFI Swiss Knife](https://github.com/gdbinit/EFISwissKnife): An IDA plugin to improve (U)EFI reversing.<br>
+_Updated: 2017 06 13 &nbsp;&nbsp; Language: C++_
+
 * [efiXplorer](https://github.com/binarly-io/efiXplorer): IDA plugin for UEFI firmware analysis and reverse engineering automation.<br>
 _Updated: 2022 05 02 &nbsp;&nbsp; Language: C++_
 
@@ -444,6 +447,9 @@ _Updated: 2021 11 01 &nbsp;&nbsp; Language: Python_
 
 * [IBT](https://github.com/pwnslinger/IBT): IDA Pro Back Tracer - Initial project toward automatic customized protocols structure extraction.<br>
 _Updated: 2017 05 01 &nbsp;&nbsp; Language: Python_
+
+* [IDA2Obj](https://github.com/jhftss/IDA2Obj): IDA2Obj is a tool to implement SBI (Static Binary Instrumentation).<br>
+_Updated: 2021 09 24 &nbsp;&nbsp; Language: Python_
 
 * [ida2pwntools](https://github.com/anic/ida2pwntools): IDA 7.0 plugins that helps to attach process created by pwntools and debug pwn.<br>
 _Updated: 2019 02 27 &nbsp;&nbsp; Language: Python_
@@ -648,6 +654,8 @@ _Updated: 2017 02 05 &nbsp;&nbsp; Language: C++_
 * [idaplugins](https://github.com/tmr232/ida-plugins): Plugins for IDA: Plugin Proxy, Function Strings, LCA Graph, Autoenum, Autostruct, Function Flow, Quick Copy.<br>
 _Updated: 2015 05 31 &nbsp;&nbsp; Language: Python_
 
+* [ida-plugins](https://vmallet.github.io/ida-plugins/): Interactive IDA Plugin List: a great list of plugins for IDA which can be sorted and filtered dynamically to make it easier to find plugins of interest. Worth checking out! :)
+
 * [idapm](https://github.com/tkmru/idapm): idapm is IDA Plugin Manager. It works perfectly on macOS, it probably works on Windows and Linux.<br>
 _Updated: 2020 09 05 &nbsp;&nbsp; Language: Python_
 
@@ -665,6 +673,9 @@ _Updated: 2019 11 23 &nbsp;&nbsp; Language: Python_
 
 * [IDA Python Embedded Toolkit](https://github.com/maddiestone/IDAPythonEmbeddedToolkit): IDAPython scripts for automating analysis of firmware of embedded devices.<br>
 _Updated: 2019 08 14 &nbsp;&nbsp; Language: Python_
+
+* [idapython_virtualenv](https://github.com/gaasedelen/idapython_virtualenv): Multiples virtual envs support for IDAPython. Enable Virtualenv or Conda in IDAPython.<br>
+_Updated: 2020 11 11 &nbsp;&nbsp; Language: Python_
 
 * [IDARay](https://github.com/SouhailHammou/IDARay-Plugin): IDARay is an IDA Pro plugin that matches the database against multiple YARA files. Maybe your rules are scattered over multiple YARA files or you simply want to match against as much rules as possible, IDARay is here to help.<br>
 _Updated: 2018 11 16 &nbsp;&nbsp; Language: Python_
@@ -939,6 +950,9 @@ _Updated: 2012 08 05 &nbsp;&nbsp; Language: Python_
 
 * [Oregami](https://github.com/shemesh999/oregami): A plugin analyzing the current function to find the usage frame of registers. Oregami eases the work when tracking the use of a register within a function, by limiting the search to occurrences related to the one currently highlighted instead of the whole function. It also allows localized renaming of the registers, and batch type giving to multiple opcodes using the registers.<br>
 _Updated: 2020 04 06 &nbsp;&nbsp; Language: Python_
+
+* [Package Manager](https://github.com/Jinmo/idapkg): Packages for IDA Pro (written in python but supports all).<br>
+_Updated: 2021 01 04 &nbsp;&nbsp; Language: Python_
 
 * [patchdiff2](https://github.com/filcab/patchdiff2): IDA binary differ.<br>
 _Updated: 2015 04 09 &nbsp;&nbsp; Language: C++_
