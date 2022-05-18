@@ -35,7 +35,7 @@ _Language: C++_
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 
 * [AlphaGolang](https://github.com/SentineLabs/AlphaGolang): IDApython Scripts for Analyzing Golang Binaries.<br>
-_Updated: 2022 05 02 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 17 &nbsp;&nbsp; Language: Python_
 
 * [AMIE](https://github.com/NeatMonster/AMIE): A Minimalist Instruction Extender. AMIE is a Python rework of FRIEND that focuses solely on the ARM architecture (only AArch32 and AArch64 are supported). It is both lightweight and dependency-free, and provides the most relevant and up-to-date information about the ARM system registers and instructions.<br>
 _Updated: 2019 10 27 &nbsp;&nbsp; Language: Python_
@@ -302,7 +302,7 @@ _Updated: 2021 04 19 &nbsp;&nbsp; Language: Python_
 _Updated: 2022 02 08 &nbsp;&nbsp; Language: Python_
 
 * [FLARE Plugins](https://github.com/fireeye/flare-ida): Shellcode Hashes, Struct Typer, StackStrings, MSDN Annotations, ApplyCalleType<br>
-_Updated: 2021 12 14_
+_Updated: 2022 05 16_
 
 * [FLIRTDB](https://github.com/Maktm/FLIRTDB): A community driven collection of IDA FLIRT signature files.<br>
 _Updated: 2020 05 23_
@@ -604,7 +604,7 @@ _Updated: 2018 01 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2022 05 10 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 17 &nbsp;&nbsp; Language: Python_
 
 * [ida-netnode](https://github.com/williballenthin/ida-netnode): Humane API for storing and accessing persistent data in IDA Pro databases.<br>
 _Updated: 2020 06 29 &nbsp;&nbsp; Language: Python_
