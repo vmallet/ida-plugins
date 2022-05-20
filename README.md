@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-389 plugins
+391 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -282,6 +282,9 @@ _Updated: 2016 08 19 &nbsp;&nbsp; Language: Python_
 
 * [Fentanyl](https://github.com/osirislab/Fentanyl): DAPython script that makes patching significantly easier.<br>
 _Updated: 2015 10 02 &nbsp;&nbsp; Language: Python_
+
+* [FindCrypt2](https://hex-rays.com/blog/findcrypt2/): Search for constants known to be associated with cryptographic algorithms.<br>
+_Updated: 2006 01 30 &nbsp;&nbsp; Language: C++_
 
 * [Findcrypt-yara](https://github.com/polymorf/findcrypt-yara): IDA pro plugin to find crypto constants (and more)<br>
 _Updated: 2022 01 05 &nbsp;&nbsp; Language: Python_
@@ -610,7 +613,7 @@ _Updated: 2018 01 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2022 05 17 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 18 &nbsp;&nbsp; Language: Python_
 
 * [ida-netnode](https://github.com/williballenthin/ida-netnode): Humane API for storing and accessing persistent data in IDA Pro databases.<br>
 _Updated: 2020 06 29 &nbsp;&nbsp; Language: Python_
@@ -698,7 +701,7 @@ _Updated: 2018 06 05 &nbsp;&nbsp; Language: Python_
 * [ida-rpc](https://github.com/offlineJ/ida-rpc): Discord rich presence plugin for IDA Pro 7.0<br>
 _Updated: 2019 04 26 &nbsp;&nbsp; Language: C++_
 
-* [IDA Scope](https://github.com/danielplohmann/idascope): IDAscope is an IDA Pro extension with the goal to ease the task of (malware) reverse engineering with a current focus on x86 Windows. It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations in the analysis target, seamless access to MSDN documentation of Windows API, and finding of potential crypto/compression algorithms.<br>
+* [IDAscope](https://github.com/danielplohmann/idascope): IDAscope is an IDA Pro extension with the goal to ease the task of (malware) reverse engineering with a current focus on x86 Windows. It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations in the analysis target, seamless access to MSDN documentation of Windows API, and finding of potential crypto/compression algorithms.<br>
 _Updated: 2020 08 13 &nbsp;&nbsp; Language: Python_
 
 * [idascripts](https://github.com/nlitsme/idascripts): IDC and idapython script collection. enumerators.py contains several iterators.<br>
@@ -931,7 +934,7 @@ _Updated: 2018 09 24 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 09 15 &nbsp;&nbsp; Language: Python_
 
 * [NoVmpy](https://github.com/wallds/NoVmpy): Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL.<br>
-_Updated: 2022 05 06 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 20 &nbsp;&nbsp; Language: Python_
 
 * [NSIS Reversing Suite](https://github.com/isra17/nrs/): NRS is a set of Python libraries used to unpack and analysis NSIS installer's data. It also feature an IDA plugin used to disassembly the NSIS Script of an installer.<br>
 _Updated: 2018 05 19 &nbsp;&nbsp; Language: Python_
@@ -1185,6 +1188,9 @@ _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
 
 * [VulFi](https://github.com/Accenture/VulFi): The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.).<br>
 _Updated: 2022 04 11 &nbsp;&nbsp; Language: Python_
+
+* [WakaTime](https://github.com/es3n1n/ida-wakatime-py): WakaTime integration for IDA Pro: time tracking plugin showing the time you spend using IDA.<br>
+_Updated: 2022 05 18 &nbsp;&nbsp; Language: Python_
 
 * [wilhelm](https://github.com/zerotypic/wilhelm): Alternative API for IDA and Hex-Rays. wilhelm is an API for working with IDA, and in particular the Hex-Rays decompiler. It aims to wrap around the existing SDK's API, plus provide additional features and concepts that make reverse engineering easier.<br>
 _Updated: 2022 02 03 &nbsp;&nbsp; Language: Python_

@@ -606,6 +606,13 @@ var tabledata = [
  vers: "6.5",
  desc: "DAPython script that makes patching significantly easier."},
 
+{name: "FindCrypt2",
+ url: "https://hex-rays.com/blog/findcrypt2/",
+ src: "c++",
+ last: "20060130",
+ vers: "4.9",
+ desc: "Search for constants known to be associated with cryptographic algorithms."},
+
 {name: "Findcrypt-yara",
  url: "https://github.com/polymorf/findcrypt-yara",
  src: "py",
@@ -1352,7 +1359,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220517",
+ last: "20220518",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1560,7 +1567,7 @@ var tabledata = [
  vers: "7.0",
  desc: "Discord rich presence plugin for IDA Pro 7.0"},
 
-{name: "IDA Scope",
+{name: "IDAscope",
  url: "https://github.com/danielplohmann/idascope",
  src: "py",
  last: "20200813",
@@ -2085,7 +2092,7 @@ var tabledata = [
  url: "https://github.com/wallds/NoVmpy",
  src: "py",
  cats: "deobf, int",
- last: "20220506",
+ last: "20220520",
  desc: "Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL."},
 
 {name: "NSIS Reversing Suite",
@@ -2673,6 +2680,14 @@ var tabledata = [
  last: "20220411",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
+
+{name: "WakaTime",
+ url: "https://github.com/es3n1n/ida-wakatime-py",
+ src: "py",
+ cats: "int",
+ last: "20220518",
+ vers: "7.7",
+ desc: "WakaTime integration for IDA Pro: time tracking plugin showing the time you spend using IDA."},
 
 {name: "wilhelm",
  url: "https://github.com/zerotypic/wilhelm",
