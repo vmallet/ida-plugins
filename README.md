@@ -101,7 +101,7 @@ _Updated: 2015 02 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2020 09 09 &nbsp;&nbsp; Language: Python_
 
 * [blc: Binary Lifting Contraption](https://github.com/cseagle/blc): Integrate Ghidra's decompiler as an Ida plugin.<br>
-_Updated: 2021 04 24 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 05 22 &nbsp;&nbsp; Language: C++_
 
 * [Bootroom Analysis Library](https://github.com/digitalbond/IBAL): IBAL is the IDA Pro Bootrom Analysis Library, which contains a number of useful functions for analyzing embedded ROMs.<br>
 _Updated: 2015 02 12 &nbsp;&nbsp; Language: Python_
@@ -113,7 +113,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 05 12 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 20 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -625,7 +625,7 @@ _Updated: 2020 07 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2019 06 25 &nbsp;&nbsp; Language: Python_
 
 * [IDAObjcTypes](https://github.com/PoomSmart/IDAObjcTypes): A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis.<br>
-_Updated: 2022 05 05 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 22 &nbsp;&nbsp; Language: Python_
 
 * [idapatch](https://github.com/mrexodia/idapatch): IDA plugin to patch IDA Pro in memory.<br>
 _Updated: 2016 09 03 &nbsp;&nbsp; Language: C++_
