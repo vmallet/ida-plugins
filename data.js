@@ -741,6 +741,13 @@ var tabledata = [
  vers: "7.3",
  desc: "Collects extended function properties from IDA Pro databases. This is especially useful in reverse engineering code that comes with no or little symbolic information, as is often the case with embedded firmware."},
 
+{name: "FunctionInliner",
+ url: "https://github.com/cellebrite-labs/FunctionInliner",
+ src: "py",
+ last: "20220509",
+ vers: "7.6",
+ desc: "An IDA plugin that eases reversing of binaries that have been code-size-optimized with function outlining."},
+
 {name: "Functions+",
  url: "https://github.com/ax330d/functions-plus",
  src: "py",
@@ -1028,6 +1035,13 @@ var tabledata = [
  vers: "7.0",
  desc: "This is a sample Visual Studio 2017 (Community Edition) project for IDA 7.x plugins on Windows."},
 
+{name: "IDA7-SegmentSelect",
+ url: "https://github.com/rcx/IDA7-SegmentSelect",
+ src: "c++",
+ last: "20180108",
+ vers: "7.0",
+ desc: "IDA-SegmentSelect library by sirmabus, ported to IDA 7: A memory segment dialog to allow user to select one or more for processing."},
+
 {name: "ida-arm-system-highlight",
  url: "https://github.com/gdelugre/ida-arm-system-highlight",
  src: "py",
@@ -1302,6 +1316,20 @@ var tabledata = [
  cats: "dev",
  last: "20220410",
  desc: "Raw IDA Kernel API for IDAPython: An IDAPython wrapper for IDA Pro's kernel dll."},
+
+{name: "ida_kernelcache",
+ url: "https://github.com/bazad/ida_kernelcache",
+ src: "py",
+ last: "20181130",
+ vers: "7.2",
+ desc: "An IDA Toolkit for analyzing iOS kernelcaches."},
+
+{name: "ida_kernelcache 7.5",
+ url: "https://github.com/cellebrite-labs/ida_kernelcache",
+ src: "py",
+ last: "20201004",
+ vers: "7.5",
+ desc: "An IDA Toolkit for analyzing iOS kernelcaches. This fork was updated to work on IDA7.5/Python3/iOS 14.0.1."},
 
 {name: "IDA Key Checker",
  url: "https://github.com/pr701/ida_key_checker",
@@ -2145,6 +2173,13 @@ var tabledata = [
  last: "20210104",
  vers: "7.5",
  desc: "Packages for IDA Pro (written in python but supports all)."},
+
+{name: "PacXplorer",
+ url: "https://github.com/cellebrite-labs/PacXplorer",
+ src: "py",
+ last: "20220316",
+ vers: "7.7",
+ desc: "IDA plugin to find code cross references to virtual functions using PAC codes in ARM64e binaries."},
 
 {name: "patchdiff2",
  url: "https://github.com/filcab/patchdiff2",

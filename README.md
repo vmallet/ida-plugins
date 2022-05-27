@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-391 plugins
+396 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -340,6 +340,9 @@ _Updated: 2016 03 04 &nbsp;&nbsp; Language: Python_
 * [FuncScanner](https://github.com/patois/FuncScanner): Collects extended function properties from IDA Pro databases. This is especially useful in reverse engineering code that comes with no or little symbolic information, as is often the case with embedded firmware.<br>
 _Updated: 2020 12 06 &nbsp;&nbsp; Language: Python_
 
+* [FunctionInliner](https://github.com/cellebrite-labs/FunctionInliner): An IDA plugin that eases reversing of binaries that have been code-size-optimized with function outlining.<br>
+_Updated: 2022 05 09 &nbsp;&nbsp; Language: Python_
+
 * [Functions+](https://github.com/ax330d/functions-plus): IDA Pro plugin to make functions tree view. Plugin parses function names and groups them by namespaces.<br>
 _Updated: 2021 04 17 &nbsp;&nbsp; Language: Python_
 
@@ -463,6 +466,9 @@ _Updated: 2012 01 10 &nbsp;&nbsp; Language: Python_
 * [IDA 7.x VS2017 Sample Project](https://github.com/patois/ida_vs2017): This is a sample Visual Studio 2017 (Community Edition) project for IDA 7.x plugins on Windows.<br>
 _Updated: 2018 05 10 &nbsp;&nbsp; Language: C++_
 
+* [IDA7-SegmentSelect](https://github.com/rcx/IDA7-SegmentSelect): IDA-SegmentSelect library by sirmabus, ported to IDA 7: A memory segment dialog to allow user to select one or more for processing.<br>
+_Updated: 2018 01 08 &nbsp;&nbsp; Language: C++_
+
 * [ida-arm-system-highlight](https://github.com/gdelugre/ida-arm-system-highlight): This script will give you the list of ARM system instructions used in your IDA database. This is useful for locating specific low-level pieces of code (setting up the MMU, caches, fault handlers, etc.).<br>
 _Updated: 2021 09 28 &nbsp;&nbsp; Language: Python_
 
@@ -579,6 +585,12 @@ _Updated: 2020 11 28 &nbsp;&nbsp; Language: Python_
 
 * [IDAKern](https://github.com/NyaMisty/ida_kern): Raw IDA Kernel API for IDAPython: An IDAPython wrapper for IDA Pro's kernel dll.<br>
 _Updated: 2022 04 10 &nbsp;&nbsp; Language: Python_
+
+* [ida_kernelcache](https://github.com/bazad/ida_kernelcache): An IDA Toolkit for analyzing iOS kernelcaches.<br>
+_Updated: 2018 11 30 &nbsp;&nbsp; Language: Python_
+
+* [ida_kernelcache 7.5](https://github.com/cellebrite-labs/ida_kernelcache): An IDA Toolkit for analyzing iOS kernelcaches. This fork was updated to work on IDA7.5/Python3/iOS 14.0.1.<br>
+_Updated: 2020 10 04 &nbsp;&nbsp; Language: Python_
 
 * [IDA Key Checker](https://github.com/pr701/ida_key_checker): IDA Pro key checker tool, check IDA keys from the command line.<br>
 _Updated: 2021 09 22 &nbsp;&nbsp; Language: C++_
@@ -956,6 +968,9 @@ _Updated: 2020 04 06 &nbsp;&nbsp; Language: Python_
 
 * [Package Manager](https://github.com/Jinmo/idapkg): Packages for IDA Pro (written in python but supports all).<br>
 _Updated: 2021 01 04 &nbsp;&nbsp; Language: Python_
+
+* [PacXplorer](https://github.com/cellebrite-labs/PacXplorer): IDA plugin to find code cross references to virtual functions using PAC codes in ARM64e binaries.<br>
+_Updated: 2022 03 16 &nbsp;&nbsp; Language: Python_
 
 * [patchdiff2](https://github.com/filcab/patchdiff2): IDA binary differ.<br>
 _Updated: 2015 04 09 &nbsp;&nbsp; Language: C++_
