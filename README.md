@@ -86,7 +86,7 @@ _Updated: 2015 04 04 &nbsp;&nbsp; Language: C++_
 _Updated: 2021 06 07_
 
 * [BinExport](https://github.com/google/binexport): Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires.<br>
-_Updated: 2022 04 21 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 06 03 &nbsp;&nbsp; Language: C++_
 
 * [Binkit](https://github.com/ohjeongwook/binkit/tree/master/src/plugin): Binkit Plugin For IDA. Use this plugin to load diffing result files (*.json)...<br>
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
@@ -113,7 +113,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 06 01 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 06 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -215,7 +215,7 @@ _Updated: 2017 02 02 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 11 22 &nbsp;&nbsp; Language: Python_
 
 * [DriverBuddyReloaded](https://github.com/VoidSec/DriverBuddyReloaded): Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks.<br>
-_Updated: 2022 05 11 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 08 &nbsp;&nbsp; Language: Python_
 
 * [Drop](https://github.com/Riscure/DROP-IDA-plugin): An experimental IDA Pro plugin capable of detecting several types of opaque predicates in obfuscated binaries. It leverages the power of the symbolic execution engine angr and its components to reason about the opaqueness of predicates based on their symbolic context.<br>
 _Updated: 2017 12 22 &nbsp;&nbsp; Language: Python_
@@ -254,7 +254,7 @@ _Updated: 2014 06 17 &nbsp;&nbsp; Language: Python_
 _Updated: 2017 06 13 &nbsp;&nbsp; Language: C++_
 
 * [efiXplorer](https://github.com/binarly-io/efiXplorer): IDA plugin for UEFI firmware analysis and reverse engineering automation.<br>
-_Updated: 2022 05 02 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 06 08 &nbsp;&nbsp; Language: C++_
 
 * [epanos](https://github.com/drvink/epanos): ElectroPaint Automatic No-source Object reaSsembler (a MIPS to C decompiler). This is a very dumb MIPS to C static translator.<br>
 _Updated: 2014 05 05 &nbsp;&nbsp; Language: Python_
