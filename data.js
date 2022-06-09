@@ -158,7 +158,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20220421",
+ last: "20220603",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -218,7 +218,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220526",
+ last: "20220606",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -448,7 +448,7 @@ var tabledata = [
 {name: "DriverBuddyReloaded",
  url: "https://github.com/VoidSec/DriverBuddyReloaded",
  src: "py",
- last: "20220511",
+ last: "20220608",
  desc: "Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks."},
 
 {name: "Drop",
@@ -539,7 +539,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20220502",
+ last: "20220608",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -641,6 +641,13 @@ var tabledata = [
  vers: "7.0",
  desc: "IDA python plugin to scan binary with Yara rules."},
 
+{name: "FingerMatch",
+ url: "https://github.com/jendabenda/fingermatch",
+ src: "py",
+ last: "20201230",
+ vers: "7.4",
+ desc: "IDA plugin for collecting functions, data, types and comments from analysed binaries and fuzzy matching them in another binaries."},
+
 {name: "FIRST",
  url: "https://github.com/Cisco-Talos/FIRST-plugin-ida",
  src: "py",
@@ -662,9 +669,10 @@ var tabledata = [
  desc: "A sane API for IDA Pro's decompiler."},
 
 {name: "FLARE Plugins",
- url: "https://github.com/fireeye/flare-ida",
+ url: "https://github.com/mandiant/flare-ida",
+ src: "py",
  last: "20220516",
- desc: "Shellcode Hashes, Struct Typer, StackStrings, MSDN Annotations, ApplyCalleType"},
+ desc: "FLARE Team Reversing Repository plugin collection: Shellcode Hashes, Struct Typer, StackStrings, MSDN Annotations, ApplyCalleeType, idb2pat, argtracker, objc2_analyzer, ironstrings, Code Grafter"},
 
 {name: "FLIRTDB",
  url: "https://github.com/Maktm/FLIRTDB",
@@ -975,6 +983,14 @@ var tabledata = [
  vers: "7.0",
  desc: "IDA 7.0 plugins that helps to jump at hexview and extends JumpAsk expression."},
 
+{name: "HightLight",
+ url: "https://github.com/RevSpBird/HightLight",
+ src: "c++",
+ cats: "decomp, ui",
+ last: "20190826",
+ vers: "7.2",
+ desc: "A plugin for ida of version 7.2 to help know F5 window codes better."},
+
 {name: "HRDEV",
  url: "https://github.com/ax330d/hrdev",
  src: "py",
@@ -1133,14 +1149,7 @@ var tabledata = [
  src: "c++",
  last: "20190530",
  vers: "6.7",
- desc: "IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage."},
-
-{name: "IDACompare",
- url: "https://github.com/dzzie/idacompare",
- src: "c++",
- last: "20190530",
- vers: "6.7",
- desc: "IDA disassembly level diffing tool, helps you line up functions across two separate disassemblies."},
+ desc: "IDA disassembly level diffing tool, find patches and modifications between malware variants. Helps you line up functions across two separate disassemblies. See mydoom A/B sample database and video trainer for usage."},
 
 {name: "idaConsonance",
  url: "https://github.com/eugeneching/ida-consonance",
@@ -1304,6 +1313,14 @@ var tabledata = [
  vers: "5.7",
  desc: "Java integration for Hex-Rays IDA Pro. IdaJava is to Java like IDAPython is to Python: write IDA plugins in Java."},
 
+{name: "IDA JScript",
+ url: "https://github.com/dzzie/IDA_JScript",
+ src: "c++",
+ cats: "dev, int",
+ last: "20220519",
+ vers: "7.5",
+ desc: "Javascript IDE for IDA with Debugger, Syntax highlighting & Intellisense. Write plugins in Javascript."},
+
 {name: "ida-kallsyms",
  url: "https://github.com/mephi42/ida-kallsyms",
  src: "py",
@@ -1387,7 +1404,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220526",
+ last: "20220528",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1438,6 +1455,12 @@ var tabledata = [
  src: "py",
  last: "20141104",
  desc: "Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim."},
+
+{name: "IDA Pattern Search",
+ url: "https://github.com/david-lazar/IDAPatternSearch",
+ src: "py",
+ last: "20210914",
+ desc: "IDAPatternSearch adds a capability of finding functions according to bit-patterns into the well-known IDA Pro disassembler based on Ghidra’s function patterns format."},
 
 {name: "IDA P-Code",
  url: "https://github.com/binarly-io/idapcode",
@@ -1855,6 +1878,13 @@ var tabledata = [
  last: "20220423",
  vers: "7.6",
  desc: "PyIDA is a python-only solution to use a IPython console in the context of IDA Pro. It spawns an IPython kernel that you can connect to with `ipython console --existing` in your shell or by opening a *QT Console* window in IDA Pro with `<Shift-.>`"},
+
+{name: "J.A.R.V.I.S.",
+ url: "https://github.com/carlosgprado/JARVIS",
+ src: "py",
+ cats: "trace",
+ last: "20181019",
+ desc: "Just Another ReVersIng Suite: a small bughunting suite comprising three elements: a fuzzer, a tracer based on INTEL PIN, a plugin for IDA Pro thought to assist you with the most common reversing tasks. It integrates with the tracer."},
 
 {name: "JNIDA",
  url: "https://github.com/applicazza/JNIDA",
@@ -2315,7 +2345,7 @@ var tabledata = [
  url: "https://github.com/0xeb/ida-qscripts",
  src: "c++",
  cats: "dev",
- last: "20220526",
+ last: "20220531",
  vers: "7.7",
  desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
@@ -2385,6 +2415,12 @@ var tabledata = [
  cats: "int",
  last: "20161028",
  desc: "RePEconstruct is a tool for automatically unpacking binaries and rebuild the binaries in a manner well-suited for further analysis, specially focused on further manual analysis in IDA pro."},
+
+{name: "RE Plugins",
+ url: "https://github.com/dzzie/RE_Plugins",
+ src: "c++",
+ last: "20201027",
+ desc: "Misc reverse engineering plugins released over the year: IDA_Jscript, IDA_JScript_w_DukDbg, IDASrvr, IDASRVR2, uGrapher, IdaVbScript, IdaUdpBridge, Wingraph32, gleegraph."},
 
 {name: "REProgram",
  url: "https://github.com/jkoppel/REProgram",

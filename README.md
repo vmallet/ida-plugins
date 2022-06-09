@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-397 plugins
+401 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -86,7 +86,7 @@ _Updated: 2015 04 04 &nbsp;&nbsp; Language: C++_
 _Updated: 2021 06 07_
 
 * [BinExport](https://github.com/google/binexport): Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires.<br>
-_Updated: 2022 04 21 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 06 03 &nbsp;&nbsp; Language: C++_
 
 * [Binkit](https://github.com/ohjeongwook/binkit/tree/master/src/plugin): Binkit Plugin For IDA. Use this plugin to load diffing result files (*.json)...<br>
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
@@ -113,7 +113,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 05 26 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 06 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -215,7 +215,7 @@ _Updated: 2017 02 02 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 11 22 &nbsp;&nbsp; Language: Python_
 
 * [DriverBuddyReloaded](https://github.com/VoidSec/DriverBuddyReloaded): Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks.<br>
-_Updated: 2022 05 11 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 08 &nbsp;&nbsp; Language: Python_
 
 * [Drop](https://github.com/Riscure/DROP-IDA-plugin): An experimental IDA Pro plugin capable of detecting several types of opaque predicates in obfuscated binaries. It leverages the power of the symbolic execution engine angr and its components to reason about the opaqueness of predicates based on their symbolic context.<br>
 _Updated: 2017 12 22 &nbsp;&nbsp; Language: Python_
@@ -254,7 +254,7 @@ _Updated: 2014 06 17 &nbsp;&nbsp; Language: Python_
 _Updated: 2017 06 13 &nbsp;&nbsp; Language: C++_
 
 * [efiXplorer](https://github.com/binarly-io/efiXplorer): IDA plugin for UEFI firmware analysis and reverse engineering automation.<br>
-_Updated: 2022 05 02 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 06 08 &nbsp;&nbsp; Language: C++_
 
 * [epanos](https://github.com/drvink/epanos): ElectroPaint Automatic No-source Object reaSsembler (a MIPS to C decompiler). This is a very dumb MIPS to C static translator.<br>
 _Updated: 2014 05 05 &nbsp;&nbsp; Language: Python_
@@ -298,6 +298,9 @@ _Updated: 2022 01 25 &nbsp;&nbsp; Language: Python_
 * [FindYara](https://github.com/OALabs/findyara-ida): IDA python plugin to scan binary with Yara rules.<br>
 _Updated: 2021 12 28 &nbsp;&nbsp; Language: Python_
 
+* [FingerMatch](https://github.com/jendabenda/fingermatch): IDA plugin for collecting functions, data, types and comments from analysed binaries and fuzzy matching them in another binaries.<br>
+_Updated: 2020 12 30 &nbsp;&nbsp; Language: Python_
+
 * [FIRST](https://github.com/Cisco-Talos/FIRST-plugin-ida): Function Identification and Recovery Signature Tool (FIRST) is a plugin for IDA Pro that allows users to automatically search for and apply function metadata (the function name, parameter names, parameter types, comments, etc.) submitted from different IDBs / users. This functionality is similar to IDA's Lumina feature, which was introduced in IDA 7.2, although with FIRST the function metadata server address is configurable and the FIRST server code is open source, which means the user can set up a private metadata server for internal use if desired. A community database is also maintained by Cisco Talos and available to use free-of-charge. FIRST supports IDA 6.9 SP1 and above.<br>
 _Updated: 2020 01 31 &nbsp;&nbsp; Language: Python_
 
@@ -307,8 +310,8 @@ _Updated: 2021 04 19 &nbsp;&nbsp; Language: Python_
 * [FLARE IDA Decompiler Library (FIDL)](https://github.com/fireeye/FIDL): A sane API for IDA Pro's decompiler.<br>
 _Updated: 2022 02 08 &nbsp;&nbsp; Language: Python_
 
-* [FLARE Plugins](https://github.com/fireeye/flare-ida): Shellcode Hashes, Struct Typer, StackStrings, MSDN Annotations, ApplyCalleType<br>
-_Updated: 2022 05 16_
+* [FLARE Plugins](https://github.com/mandiant/flare-ida): FLARE Team Reversing Repository plugin collection: Shellcode Hashes, Struct Typer, StackStrings, MSDN Annotations, ApplyCalleeType, idb2pat, argtracker, objc2_analyzer, ironstrings, Code Grafter<br>
+_Updated: 2022 05 16 &nbsp;&nbsp; Language: Python_
 
 * [FLIRTDB](https://github.com/Maktm/FLIRTDB): A community driven collection of IDA FLIRT signature files.<br>
 _Updated: 2020 05 23_
@@ -442,6 +445,9 @@ _Updated: 2016 01 26 &nbsp;&nbsp; Language: Python_
 * [hexviewjump](https://github.com/anic/hexviewjump): IDA 7.0 plugins that helps to jump at hexview and extends JumpAsk expression.<br>
 _Updated: 2019 02 27 &nbsp;&nbsp; Language: Python_
 
+* [HightLight](https://github.com/RevSpBird/HightLight): A plugin for ida of version 7.2 to help know F5 window codes better.<br>
+_Updated: 2019 08 26 &nbsp;&nbsp; Language: C++_
+
 * [HRDEV](https://github.com/ax330d/hrdev): This is an IDA Pro Python plugin to make Hex-Rays Decompiler output bit more attractive. HRDEV plugin retrieves standard decompiler output, parses it with Python Clang bindings, does some magic, and puts back.<br>
 _Updated: 2018 09 21 &nbsp;&nbsp; Language: Python_
 
@@ -505,10 +511,7 @@ _Updated: 2017 09 02_
 * [IDA Color Schemer](https://github.com/tmr232/IDAColorSchemer): tool to easily design IDA color schemes outside IDA. This will hopefully allow simplifying & automating the generation of color schemes and help create colorblind-friendly settings.<br>
 _Updated: 2019 01 05 &nbsp;&nbsp; Language: Python_
 
-* [IDA Compare](https://github.com/dzzie/IDACompare): IDA disassembly level diffing tool, find patches and modifications between malware variants. See mydoom A/B sample database and video trainer for usage.<br>
-_Updated: 2019 05 30 &nbsp;&nbsp; Language: C++_
-
-* [IDACompare](https://github.com/dzzie/idacompare): IDA disassembly level diffing tool, helps you line up functions across two separate disassemblies.<br>
+* [IDA Compare](https://github.com/dzzie/IDACompare): IDA disassembly level diffing tool, find patches and modifications between malware variants. Helps you line up functions across two separate disassemblies. See mydoom A/B sample database and video trainer for usage.<br>
 _Updated: 2019 05 30 &nbsp;&nbsp; Language: C++_
 
 * [idaConsonance](https://github.com/eugeneching/ida-consonance): Consonance, a dark color scheme for IDA.<br>
@@ -580,6 +583,9 @@ _Updated: 2017 08 05 &nbsp;&nbsp; Language: C++_
 * [IdaJava](https://github.com/cblichmann/idajava): Java integration for Hex-Rays IDA Pro. IdaJava is to Java like IDAPython is to Python: write IDA plugins in Java.<br>
 _Updated: 2017 02 15 &nbsp;&nbsp; Language: C++_
 
+* [IDA JScript](https://github.com/dzzie/IDA_JScript): Javascript IDE for IDA with Debugger, Syntax highlighting & Intellisense. Write plugins in Javascript.<br>
+_Updated: 2022 05 19 &nbsp;&nbsp; Language: C++_
+
 * [ida-kallsyms](https://github.com/mephi42/ida-kallsyms): IDA script for parsing kallsyms.<br>
 _Updated: 2020 11 28 &nbsp;&nbsp; Language: Python_
 
@@ -625,7 +631,7 @@ _Updated: 2018 01 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2022 05 26 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 05 28 &nbsp;&nbsp; Language: Python_
 
 * [ida-netnode](https://github.com/williballenthin/ida-netnode): Humane API for storing and accessing persistent data in IDA Pro databases.<br>
 _Updated: 2020 06 29 &nbsp;&nbsp; Language: Python_
@@ -647,6 +653,9 @@ _Updated: 2014 09 23 &nbsp;&nbsp; Language: Python_
 
 * [IDA Patchwork](https://bitbucket.org/daniel_plohmann/idapatchwork): Stitching against malware families with IDA Pro (tool for the talk at Spring9, https://spring2014.gdata.de/spring2014/programm.html). In essence, I use a somewhat fixed / refurbished version of PyEmu along IDA to demonstrate deobfuscation of the different patterns found in the malware family Nymaim.<br>
 _Updated: 2014 11 04 &nbsp;&nbsp; Language: Python_
+
+* [IDA Pattern Search](https://github.com/david-lazar/IDAPatternSearch): IDAPatternSearch adds a capability of finding functions according to bit-patterns into the well-known IDA Pro disassembler based on Ghidra’s function patterns format.<br>
+_Updated: 2021 09 14 &nbsp;&nbsp; Language: Python_
 
 * [IDA P-Code](https://github.com/binarly-io/idapcode): IDA plugin displaying the P-Code for the current function.<br>
 _Updated: 2021 07 20 &nbsp;&nbsp; Language: Python_
@@ -830,6 +839,9 @@ _Updated: 2022 03 08 &nbsp;&nbsp; Language: C++_
 
 * [IPyIDA](https://github.com/eset/ipyida): PyIDA is a python-only solution to use a IPython console in the context of IDA Pro. It spawns an IPython kernel that you can connect to with `ipython console --existing` in your shell or by opening a *QT Console* window in IDA Pro with `<Shift-.>`<br>
 _Updated: 2022 04 23 &nbsp;&nbsp; Language: Python_
+
+* [J.A.R.V.I.S.](https://github.com/carlosgprado/JARVIS): Just Another ReVersIng Suite: a small bughunting suite comprising three elements: a fuzzer, a tracer based on INTEL PIN, a plugin for IDA Pro thought to assist you with the most common reversing tasks. It integrates with the tracer.<br>
+_Updated: 2018 10 19 &nbsp;&nbsp; Language: Python_
 
 * [JNIDA](https://github.com/applicazza/JNIDA): Helps to rename JNI native methods and restore their C signatures<br>
 _Updated: 2019 11 18 &nbsp;&nbsp; Language: Python_
@@ -1027,7 +1039,7 @@ _Updated: 2021 08 06 &nbsp;&nbsp; Language: Python_
 _Updated: 2015 07 13 &nbsp;&nbsp; Language: Python_
 
 * [QScripts](https://github.com/0xeb/ida-qscripts): An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script.<br>
-_Updated: 2022 05 26 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 05 31 &nbsp;&nbsp; Language: C++_
 
 * [Qualcomm Loader](https://github.com/daxgr/qcom-mbn-ida-loader): IDA loader plugin for Qualcomm Bootloader Stages<br>
 _Updated: 2014 01 23 &nbsp;&nbsp; Language: C++_
@@ -1058,6 +1070,9 @@ _Updated: 2018 04 26 &nbsp;&nbsp; Language: Python_
 
 * [RePEconstruct](https://github.com/davidkorczynski/repeconstruct): RePEconstruct is a tool for automatically unpacking binaries and rebuild the binaries in a manner well-suited for further analysis, specially focused on further manual analysis in IDA pro.<br>
 _Updated: 2016 10 28_
+
+* [RE Plugins](https://github.com/dzzie/RE_Plugins): Misc reverse engineering plugins released over the year: IDA_Jscript, IDA_JScript_w_DukDbg, IDASrvr, IDASRVR2, uGrapher, IdaVbScript, IdaUdpBridge, Wingraph32, gleegraph.<br>
+_Updated: 2020 10 27 &nbsp;&nbsp; Language: C++_
 
 * [REProgram](https://github.com/jkoppel/REProgram): A way of making almost-arbitrary changes to an executable when run under a debugger -- even changes that don't fit.<br>
 _Updated: 2011 12 27 &nbsp;&nbsp; Language: C++_
