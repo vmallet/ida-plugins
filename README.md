@@ -1174,6 +1174,9 @@ _Updated: 2016 04 23 &nbsp;&nbsp; Language: Python_
 * [syms2elf](https://github.com/danigargu/syms2elf): A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.<br>
 _Updated: 2021 11 17 &nbsp;&nbsp; Language: Python_
 
+* [doelf](https://github.com/antonpasm/doelf): A plugin for IDA Pro to export the symbols recognized to the ELF symbol table. It can create an ELF with debug information from any dump file.<br>
+_Updated: 2022 05 31 &nbsp;&nbsp; Language: Python_
+
 * [SyncReven](https://github.com/riskeco/SyncReven): Reven integration plugin: synchronize the Axion current analysis window with some code opened in IDA.<br>
 _Updated: 2021 09 15 &nbsp;&nbsp; Language: Python_
 
