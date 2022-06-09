@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-402 plugins
+403 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -1161,6 +1161,9 @@ _Updated: 2021 11 08 &nbsp;&nbsp; Language: Python_
 
 * [Stingray](https://github.com/darx0r/Stingray): Stingray is an IDAPython plugin for finding function strings. The search is from the current position onwards in the current function. It can do it recursively also with configurable search depth. The results order is the natural order of strings in the BFS search graph.<br>
 _Updated: 2021 03 19 &nbsp;&nbsp; Language: Python_
+
+* [Stm8Ida](https://github.com/EgorKin/Stm8Ida): STM8 Ida Pro processor module. Support for STMicroelectronics' STM8 series of microcontrollers.<br>
+_Updated: 2019 10 31 &nbsp;&nbsp; Language: C++_
 
 * [Structure Dump](http://www.openrce.org/downloads/details/227/Structure_Dump): StructDump is an IDA plugin, allowing you to export IDA types into high-level language definitions. Currently, C++ is supported.<br>
 _Updated: 2007 04 05 &nbsp;&nbsp; Language: C++_

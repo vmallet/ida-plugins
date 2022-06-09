@@ -2620,6 +2620,14 @@ var tabledata = [
  vers: "7.2",
  desc: "Stingray is an IDAPython plugin for finding function strings. The search is from the current position onwards in the current function. It can do it recursively also with configurable search depth. The results order is the natural order of strings in the BFS search graph."},
 
+{name: "Stm8Ida",
+ url: "https://github.com/EgorKin/Stm8Ida",
+ src: "c++",
+ cats: "proc",
+ last: "20191031",
+ vers: "7.0",
+ desc: "STM8 Ida Pro processor module. Support for STMicroelectronics' STM8 series of microcontrollers."},
+
 {name: "Structure Dump",
  url: "http://www.openrce.org/downloads/details/227/Structure_Dump",
  src: "c++",
