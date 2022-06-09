@@ -411,6 +411,13 @@ var tabledata = [
  vers: "6.9",
  desc: "Run IDA Pro disassembler in Docker containers for automating, scaling and distributing the use of IDAPython scripts."},
 
+{name: "doelf",
+ url: "https://github.com/antonpasm/doelf",
+ src: "py",
+ last: "20220531",
+ vers: "7.5",
+ desc: " A plugin for IDA Pro to export the symbols recognized to the ELF symbol table. It can create an ELF with debug information from any dump file."},
+
 {name: "dotNIET",
  url: "https://github.com/synacktiv/dotNIET",
  src: "py",
@@ -2645,13 +2652,6 @@ var tabledata = [
  last: "20211117",
  vers: "7.5",
  desc: "A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table."},
-
-{name: "doelf",
- url: "https://github.com/antonpasm/doelf",
- src: "py",
- last: "20220531",
- vers: "7.5",
- desc: " A plugin for IDA Pro to export the symbols recognized to the ELF symbol table. It can create an ELF with debug information from any dump file."},
 
 {name: "SyncReven",
  url: "https://github.com/riskeco/SyncReven",
