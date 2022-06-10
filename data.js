@@ -1277,6 +1277,12 @@ var tabledata = [
  vers: "6.95",
  desc: "Search strings in a specified range of addresses and map it to a C struct."},
 
+{name: "IDAGraphity",
+ url: "https://github.com/GuillaumeOrlando/IDAGraphity",
+ src: "py",
+ last: "20220505",
+ desc: "An Interactive Binary Data Visualization Plugin for IDA Pro"},
+
 {name: "idahunt",
  url: "https://github.com/nccgroup/idahunt",
  src: "py",
@@ -1443,6 +1449,13 @@ var tabledata = [
  last: "20220522",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
+
+{name: "IDA-Operand-Analysis",
+ url: "https://github.com/Learner0x5a/IDA-Operand-Analysis",
+ src: "py",
+ last: "20220605",
+ vers: "7.6",
+ desc: "Operand Analysis with IDA Pro: per-operand read/write status, operand type, operand id."},
 
 {name: "idapatch",
  url: "https://github.com/mrexodia/idapatch",
@@ -2273,6 +2286,14 @@ var tabledata = [
  vers: "7.6",
  desc: "Taint analysis and symbolic execution over binaries in an easy and intuitive fashion."},
 
+{name: "Post HexRays ANalysis Kit",
+ url: "https://github.com/Mizari/phrank",
+ src: "py",
+ cats: "decomp",
+ last: "20220607",
+ vers: "7.5",
+ desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
+
 {name: "Prefix",
  url: "https://github.com/gaasedelen/prefix",
  src: "py",
@@ -2287,6 +2308,13 @@ var tabledata = [
  last: "20140811",
  vers: "6.5",
  desc: "Change processor without restarting IDA."},
+
+{name: "proc_mem_ida_loader",
+ url: "https://github.com/gamozolabs/proc_mem_ida_loader",
+ src: "py",
+ cats: "loader",
+ last: "20220526",
+ desc: "A /proc/mem IDA loader to snapshot a running process. This IDA loader can snapshot a running 32-bit or 64-bit Linux process, as well as 32-bit and 64-bit WINE processes on Linux, load it into IDA with the actual processes memory permissions, and then apply DWARF symbols using IDA's built-in DWARF loader for each loaded binary (that has DWARF symbols)!"},
 
 {name: "PSIDA",
  url: "https://github.com/soggysec/psida",

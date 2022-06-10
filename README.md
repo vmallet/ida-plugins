@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-403 plugins
+407 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -568,6 +568,9 @@ _Updated: 2021 06 15 &nbsp;&nbsp; Language: Python_
 * [IdaGrabStrings](https://github.com/andreafioraldi/IdaGrabStrings): Search strings in a specified range of addresses and map it to a C struct.<br>
 _Updated: 2017 05 12 &nbsp;&nbsp; Language: Python_
 
+* [IDAGraphity](https://github.com/GuillaumeOrlando/IDAGraphity): An Interactive Binary Data Visualization Plugin for IDA Pro<br>
+_Updated: 2022 05 05 &nbsp;&nbsp; Language: Python_
+
 * [idahunt](https://github.com/nccgroup/idahunt): idahunt is a framework to analyze binaries with IDA Pro and hunt for things in IDA Pro. It is command line tool to analyse all executable files recursively from a given folder. It executes IDA in the background so you don't have to open manually each file. It supports executing external IDA Python scripts.<br>
 _Updated: 2022 01 04 &nbsp;&nbsp; Language: Python_
 
@@ -647,6 +650,9 @@ _Updated: 2019 06 25 &nbsp;&nbsp; Language: Python_
 
 * [IDAObjcTypes](https://github.com/PoomSmart/IDAObjcTypes): A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis.<br>
 _Updated: 2022 05 22 &nbsp;&nbsp; Language: Python_
+
+* [IDA-Operand-Analysis](https://github.com/Learner0x5a/IDA-Operand-Analysis): Operand Analysis with IDA Pro: per-operand read/write status, operand type, operand id.<br>
+_Updated: 2022 06 05 &nbsp;&nbsp; Language: Python_
 
 * [idapatch](https://github.com/mrexodia/idapatch): IDA plugin to patch IDA Pro in memory.<br>
 _Updated: 2016 09 03 &nbsp;&nbsp; Language: C++_
@@ -1011,11 +1017,17 @@ _Updated: 2014 09 23 &nbsp;&nbsp; Language: Python_
 * [Ponce](https://github.com/illera88/Ponce): Taint analysis and symbolic execution over binaries in an easy and intuitive fashion.<br>
 _Updated: 2022 04 25 &nbsp;&nbsp; Language: C++_
 
+* [Post HexRays ANalysis Kit](https://github.com/Mizari/phrank): Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees.<br>
+_Updated: 2022 06 07 &nbsp;&nbsp; Language: Python_
+
 * [Prefix](https://github.com/gaasedelen/prefix): Prefix is a small function prefixing plugin for IDA Pro. The plugin augments IDA's function renaming capabilities by adding a handful of convenient prefixing actions to relevant right click menus.<br>
 _Updated: 2020 04 24 &nbsp;&nbsp; Language: Python_
 
 * [Processor changer](https://github.com/techbliss/Processor-Changer): Change processor without restarting IDA.<br>
 _Updated: 2014 08 11 &nbsp;&nbsp; Language: Python_
+
+* [proc_mem_ida_loader](https://github.com/gamozolabs/proc_mem_ida_loader): A /proc/mem IDA loader to snapshot a running process. This IDA loader can snapshot a running 32-bit or 64-bit Linux process, as well as 32-bit and 64-bit WINE processes on Linux, load it into IDA with the actual processes memory permissions, and then apply DWARF symbols using IDA's built-in DWARF loader for each loaded binary (that has DWARF symbols)!<br>
+_Updated: 2022 05 26 &nbsp;&nbsp; Language: Python_
 
 * [PSIDA](https://github.com/soggysec/psida): PSIDA is a collection of useful Python scripts for IDA. At this point, PSIDA focuses on collaborative reverse engineering in two models.<br>
 _Updated: 2018 08 03 &nbsp;&nbsp; Language: Python_
