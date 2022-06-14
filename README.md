@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-407 plugins
+412 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -54,6 +54,9 @@ _Updated: 2020 05 03 &nbsp;&nbsp; Language: Python_
 
 * [Andromeda-payload](https://github.com/0xEBFE/Andromeda-payload): IDAPython script for decryption payload of Andromeda malware.<br>
 _Updated: 2013 03 30 &nbsp;&nbsp; Language: Python_
+
+* [Apihashes v2](https://github.com/KasperskyLab/Apihashes): Automatically identify and mark known hash values for API function names.<br>
+_Updated: 2022 05 12 &nbsp;&nbsp; Language: Python_
 
 * [APIScout](https://github.com/danielplohmann/apiscout): This project aims at simplifying Windows API import recovery. As input, arbitrary memory dumps for a known environment can be processed (please note: a reference DB has to be built first, using apiscout/db_builder). The output is an ordered list of identified Windows API references with some meta information, and an ApiVector fingerprint. Includes a convenience GUI wrapper for use in IDA.<br>
 _Updated: 2022 01 17 &nbsp;&nbsp; Language: Python_
@@ -113,7 +116,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 06 06 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 13 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -172,6 +175,9 @@ _Updated: 2021 02 25 &nbsp;&nbsp; Language: Python_
 * [Dalvik Header](https://github.com/strazzere/dalvik-header-plugin): This is a simple Dalvik header plugin for IDA Pro<br>
 _Updated: 2013 01 22 &nbsp;&nbsp; Language: C++_
 
+* [DataFlowAnalysis-miasm](https://github.com/Learner0x5a/DataFlowAnalysis-miasm): Generate data-flow graph and def-use graph for a function based on miasm and IDA Pro.<br>
+_Updated: 2022 05 17 &nbsp;&nbsp; Language: Python_
+
 * [Data Xref Counter](https://github.com/onethawt/idapyscripts): Enumerates all of the the x-references in a specific segment and counts the frequency of usage. The plugin displays the data in QtTableWidget and lets the user filter and sort the references. You can also export the data to a CSV file.<br>
 _Updated: 2015 09 17 &nbsp;&nbsp; Language: Python_
 
@@ -198,6 +204,9 @@ _Updated: 2021 12 17 &nbsp;&nbsp; Language: Python_
 
 * [Docker IDA](https://github.com/intezer/docker-ida): Run IDA Pro disassembler in Docker containers for automating, scaling and distributing the use of IDAPython scripts.<br>
 _Updated: 2017 11 19 &nbsp;&nbsp; Language: Python_
+
+* [docker-idapro](https://github.com/blacktop/docker-idapro): IDA Pro Docker Image (For use as an ipsw pipeline).<br>
+_Updated: 2022 04 16_
 
 * [doelf](https://github.com/antonpasm/doelf): A plugin for IDA Pro to export the symbols recognized to the ELF symbol table. It can create an ELF with debug information from any dump file.<br>
 _Updated: 2022 05 31 &nbsp;&nbsp; Language: Python_
@@ -361,6 +370,9 @@ _Updated: 2014 12 13 &nbsp;&nbsp; Language: Python_
 * [Gamecube Extension](https://github.com/hyperiris/gekkoPS): This is a Gekko CPU Paired Single extension instructions plug-in for IDA Pro 5.2<br>
 _Updated: 2018 04 25 &nbsp;&nbsp; Language: C++_
 
+* [GameCube REL Loader](https://github.com/oct0xor/ida_pro_gamecube_rel_loader): IDA Pro loader for Nintendo GameCube's .rel files. Based on rso_ida_loader.<br>
+_Updated: 2022 06 10 &nbsp;&nbsp; Language: Python_
+
 * [GandCrab String Decryptor](https://github.com/lacike/gandcrab_string_decryptor): IDC script for decrypting strings in the GandCrab v5.1-5.3<br>
 _Updated: 2019 04 24 &nbsp;&nbsp; Language: idc_
 
@@ -458,7 +470,7 @@ _Updated: 2018 09 21 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 11 04 &nbsp;&nbsp; Language: Python_
 
 * [Hyara](https://github.com/hyuunnn/Hyara): A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary.<br>
-_Updated: 2021 11 01 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 13 &nbsp;&nbsp; Language: Python_
 
 * [IBT](https://github.com/pwnslinger/IBT): IDA Pro Back Tracer - Initial project toward automatic customized protocols structure extraction.<br>
 _Updated: 2017 05 01 &nbsp;&nbsp; Language: Python_
@@ -861,7 +873,7 @@ _Updated: 2022 02 13 &nbsp;&nbsp; Language: Python_
 * [Karta](https://github.com/CheckPointSW/Karta): "Karta" (Russian for "Map") is a source code assisted fast binary matching plugin for IDA. Karta identifies and matches open-sourced libraries in a given binary using a unique technique that enables it to support huge binaries (> 200,000 functions) with almost no impact on the overall performance.<br>
 _Updated: 2022 03 15 &nbsp;&nbsp; Language: Python_
 
-* [Keypatch](https://github.com/keystone-engine/keypatch): A multi-architeture assembler for IDA. Keypatch allows you enter assembly instructions to directly patch the binary under analysis. Powered by [Keystone engine](http://keystone-engine.org).<br>
+* [Keypatch](https://github.com/keystone-engine/keypatch): A multi-architecture assembler for IDA. Keypatch allows you enter assembly instructions to directly patch the binary under analysis. Powered by [Keystone engine](http://keystone-engine.org).<br>
 _Updated: 2021 02 18 &nbsp;&nbsp; Language: Python_
 
 * [Labeless](https://github.com/a1ext/labeless): Labeless is a plugin system for dynamic, seamless and realtime synchronization between IDA Database and Olly. Labels, function names and global variables synchronization is supported.
@@ -1112,6 +1124,9 @@ _Updated: 2015 01 03 &nbsp;&nbsp; Language: C++_
   * Call graphs (e.g., identification by association)<br>
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 
+* [rso_ida_loader](https://github.com/Megazig/rso_ida_loader): First step at Nintendo GameCube RSO/REL loading in IDA.<br>
+_Updated: 2013 09 02 &nbsp;&nbsp; Language: C++_
+
 * [RTTI Parser](https://github.com/MlsDmitry/better-rtti-parser): IDA script to parse RTTI information in executable.<br>
 _Updated: 2022 04 28 &nbsp;&nbsp; Language: Python_
 
@@ -1235,7 +1250,7 @@ _Updated: 2013 03 27 &nbsp;&nbsp; Language: C++_
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
 
 * [VulFi](https://github.com/Accenture/VulFi): The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.).<br>
-_Updated: 2022 04 11 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 14 &nbsp;&nbsp; Language: Python_
 
 * [WakaTime](https://github.com/es3n1n/ida-wakatime-py): WakaTime integration for IDA Pro: time tracking plugin showing the time you spend using IDA.<br>
 _Updated: 2022 05 18 &nbsp;&nbsp; Language: Python_

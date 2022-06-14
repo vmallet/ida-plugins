@@ -87,6 +87,12 @@ var tabledata = [
  vers: "6.4",
  desc: "IDAPython script for decryption payload of Andromeda malware."},
 
+{name: "Apihashes v2",
+ url: "https://github.com/KasperskyLab/Apihashes",
+ src: "py",
+ last: "20220512",
+ desc: "Automatically identify and mark known hash values for API function names."},
+
 {name: "APIScout",
  url: "https://github.com/danielplohmann/apiscout",
  src: "py",
@@ -218,7 +224,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220606",
+ last: "20220613",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -348,6 +354,13 @@ var tabledata = [
  last: "20130122",
  desc: "This is a simple Dalvik header plugin for IDA Pro"},
 
+{name: "DataFlowAnalysis-miasm",
+ url: "https://github.com/Learner0x5a/DataFlowAnalysis-miasm",
+ src: "py",
+ last: "20220517",
+ vers: "7.6",
+ desc: "Generate data-flow graph and def-use graph for a function based on miasm and IDA Pro."},
+
 {name: "Data Xref Counter",
  url: "https://github.com/onethawt/idapyscripts",
  src: "py",
@@ -410,6 +423,12 @@ var tabledata = [
  last: "20171119",
  vers: "6.9",
  desc: "Run IDA Pro disassembler in Docker containers for automating, scaling and distributing the use of IDAPython scripts."},
+
+{name: "docker-idapro",
+ url: "https://github.com/blacktop/docker-idapro",
+ last: "20220416",
+ vers: "7.7",
+ desc: "IDA Pro Docker Image (For use as an ipsw pipeline)."},
 
 {name: "doelf",
  url: "https://github.com/antonpasm/doelf",
@@ -792,6 +811,13 @@ var tabledata = [
  vers: "5.2",
  desc: "This is a Gekko CPU Paired Single extension instructions plug-in for IDA Pro 5.2"},
 
+{name: "GameCube REL Loader",
+ url: "https://github.com/oct0xor/ida_pro_gamecube_rel_loader",
+ src: "py",
+ cats: "loader",
+ last: "20220610",
+ desc: "IDA Pro loader for Nintendo GameCube's .rel files. Based on rso_ida_loader."},
+
 {name: "GandCrab String Decryptor",
  url: "https://github.com/lacike/gandcrab_string_decryptor",
  src: "idc",
@@ -1017,7 +1043,7 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20211101",
+ last: "20220613",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "IBT",
@@ -1932,7 +1958,7 @@ var tabledata = [
  src: "py",
  last: "20210218",
  vers: "7.5",
- desc: "A multi-architeture assembler for IDA. Keypatch allows you enter assembly instructions to directly patch the binary under analysis. Powered by [Keystone engine](http://keystone-engine.org)."},
+ desc: "A multi-architecture assembler for IDA. Keypatch allows you enter assembly instructions to directly patch the binary under analysis. Powered by [Keystone engine](http://keystone-engine.org)."},
 
 {name: "Labeless",
  url: "https://github.com/a1ext/labeless",
@@ -2501,6 +2527,13 @@ var tabledata = [
  vers: "7.4",
  desc: "Identifies and re-names functions between two or more IDBs based on:\n* Formal signatures (i.e., exact function signatures)\n* References to unique string\n* References to unique constants\n* Fuzzy signatures (i.e., similar function signatures)\n* Call graphs (e.g., identification by association)"},
 
+{name: "rso_ida_loader",
+ url: "https://github.com/Megazig/rso_ida_loader",
+ src: "c++",
+ cats: "loader",
+ last: "20130902",
+ desc: "First step at Nintendo GameCube RSO/REL loading in IDA."},
+
 {name: "RTTI Parser",
  url: "https://github.com/MlsDmitry/better-rtti-parser",
  src: "py",
@@ -2791,7 +2824,7 @@ var tabledata = [
 {name: "VulFi",
  url: "https://github.com/Accenture/VulFi",
  src: "py",
- last: "20220411",
+ last: "20220614",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
