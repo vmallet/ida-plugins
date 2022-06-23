@@ -224,7 +224,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220613",
+ last: "20220623",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -1043,7 +1043,7 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20220613",
+ last: "20220619",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "IBT",
@@ -1139,6 +1139,13 @@ var tabledata = [
  cats: "dev",
  last: "20100605",
  desc: "Scripting IDA with C#, download [here](https://files.cnblogs.com/nnhy/IDACSharp_20100605143116.rar). (All in Chinese)."},
+
+{name: "IDAChristmas",
+ url: "https://github.com/eternalklaus/IDAChristmas",
+ src: "py",
+ cats: "ui",
+ last: "20220315",
+ desc: "IDA pro Christmas Plugin: coloring plugin brings christmas mood into IDA-View."},
 
 {name: "IDA cLEMENCy Tools",
  url: "https://github.com/cseagle/ida_clemency",
@@ -1443,7 +1450,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220528",
+ last: "20220623",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1564,6 +1571,12 @@ var tabledata = [
  src: "py",
  last: "20200905",
  desc: "idapm is IDA Plugin Manager. It works perfectly on macOS, it probably works on Windows and Linux."},
+
+{name: "IDA-Pro-Dark-Theme",
+ url: "https://github.com/BresoDEV/IDA-Pro-Dark-Theme",
+ cats: "ui",
+ last: "20220320",
+ desc: "Dark theme for IDA Pro <V7."},
 
 {name: "idapro_m6502",
  url: "https://github.com/LucienMP/idapro_m6502",
@@ -1799,6 +1812,13 @@ var tabledata = [
  src: "py",
  last: "20150130",
  desc: "The IDA Toolbag plugin provides many handy features, such as:\n* A 'History' view, that displays functions in the disassembly that you have decided are important, and the relationships between them.\n* A code path-searching tool, that lets you find what functions (or blocks) are forming a path between two locations.\n* Manage and run your IDC/Python scripts\n* Something that's also of considerable importance is that the IDA Toolbag lets you collaborate with other IDA users: one can publish his 'History', or import another user's history & even merge them!\n* See the official documentation for an extensive feature list."},
+
+{name: "idatrace2tree",
+ url: "https://github.com/haltarkon/idatrace2tree",
+ src: "c++",
+ cats: "trace",
+ last: "20220623",
+ desc: "A tool for converting a trace obtained from IDA PRO to a text tree view."},
 
 {name: "IDAtropy",
  url: "https://github.com/danigargu/IDAtropy",

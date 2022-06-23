@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-412 plugins
+415 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -116,7 +116,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 06 13 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 23 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -470,7 +470,7 @@ _Updated: 2018 09 21 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 11 04 &nbsp;&nbsp; Language: Python_
 
 * [Hyara](https://github.com/hyuunnn/Hyara): A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary.<br>
-_Updated: 2022 06 13 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 19 &nbsp;&nbsp; Language: Python_
 
 * [IBT](https://github.com/pwnslinger/IBT): IDA Pro Back Tracer - Initial project toward automatic customized protocols structure extraction.<br>
 _Updated: 2017 05 01 &nbsp;&nbsp; Language: Python_
@@ -510,6 +510,9 @@ _Updated: 2017 09 17 &nbsp;&nbsp; Language: Python_
 
 * [IDA C#](https://blog.karatos.in/a?ID=01000-69f2f124-560e-47a5-bb0c-93052d9763af): Scripting IDA with C#, download [here](https://files.cnblogs.com/nnhy/IDACSharp_20100605143116.rar). (All in Chinese).<br>
 _Updated: 2010 06 05_
+
+* [IDAChristmas](https://github.com/eternalklaus/IDAChristmas): IDA pro Christmas Plugin: coloring plugin brings christmas mood into IDA-View.<br>
+_Updated: 2022 03 15 &nbsp;&nbsp; Language: Python_
 
 * [IDA cLEMENCy Tools](https://github.com/cseagle/ida_clemency): Tools to work with the cLEMENCy architecture developed by LegitBS for use during the Defcon 25 Capture the Flag event.<br>
 _Updated: 2017 07 31 &nbsp;&nbsp; Language: Python_
@@ -649,7 +652,7 @@ _Updated: 2018 01 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2022 05 28 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 06 23 &nbsp;&nbsp; Language: Python_
 
 * [ida-netnode](https://github.com/williballenthin/ida-netnode): Humane API for storing and accessing persistent data in IDA Pro databases.<br>
 _Updated: 2020 06 29 &nbsp;&nbsp; Language: Python_
@@ -703,6 +706,9 @@ _Updated: 2015 05 31 &nbsp;&nbsp; Language: Python_
 
 * [idapm](https://github.com/tkmru/idapm): idapm is IDA Plugin Manager. It works perfectly on macOS, it probably works on Windows and Linux.<br>
 _Updated: 2020 09 05 &nbsp;&nbsp; Language: Python_
+
+* [IDA-Pro-Dark-Theme](https://github.com/BresoDEV/IDA-Pro-Dark-Theme): Dark theme for IDA Pro <V7.<br>
+_Updated: 2022 03 20_
 
 * [idapro_m6502](https://github.com/LucienMP/idapro_m6502): Extends existing support in IDA Pro for the m6502 processor family by adding gdb XML support, and step-over and type information support. Aim was to debug NES roms.<br>
 _Updated: 2020 11 10 &nbsp;&nbsp; Language: Python_
@@ -805,6 +811,9 @@ _Updated: 2019 07 19 &nbsp;&nbsp; Language: C++_
   * Something that's also of considerable importance is that the IDA Toolbag lets you collaborate with other IDA users: one can publish his 'History', or import another user's history & even merge them!
   * See the official documentation for an extensive feature list.<br>
 _Updated: 2015 01 30 &nbsp;&nbsp; Language: Python_
+
+* [idatrace2tree](https://github.com/haltarkon/idatrace2tree): A tool for converting a trace obtained from IDA PRO to a text tree view.<br>
+_Updated: 2022 06 23 &nbsp;&nbsp; Language: C++_
 
 * [IDAtropy](https://github.com/danigargu/IDAtropy): IDAtropy is a plugin for Hex-Ray's IDA Pro designed to generate charts of entropy and histograms using the power of idapython and matplotlib.<br>
 _Updated: 2021 04 16 &nbsp;&nbsp; Language: Python_
