@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-416 plugins
+418 plugins
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
 
@@ -35,7 +35,7 @@ _Language: C++_
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 
 * [AlphaGolang](https://github.com/SentineLabs/AlphaGolang): IDApython Scripts for Analyzing Golang Binaries.<br>
-_Updated: 2022 05 17 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 07 01 &nbsp;&nbsp; Language: Python_
 
 * [AMIE](https://github.com/NeatMonster/AMIE): A Minimalist Instruction Extender. AMIE is a Python rework of FRIEND that focuses solely on the ARM architecture (only AArch32 and AArch64 are supported). It is both lightweight and dependency-free, and provides the most relevant and up-to-date information about the ARM system registers and instructions.<br>
 _Updated: 2019 10 27 &nbsp;&nbsp; Language: Python_
@@ -116,7 +116,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 06 29 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 07 08 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -550,6 +550,9 @@ _Updated: 2017 11 28 &nbsp;&nbsp; Language: Python_
 * [IDA Embed arch disasm](https://github.com/a1ext/ida-embed-arch-disasm): Allows you to disassemble x86-64 code (like inlined WOW64 one) while you using 32-bit IDA database. This would be helpfull to analyze WOW64 mode switches.<br>
 _Updated: 2021 12 27 &nbsp;&nbsp; Language: Python_
 
+* [ida-emotionengine](https://github.com/oct0xor/ida-emotionengine): Plugin that implements disassembly of PlayStation 2 COP2 MIPS instructions.<br>
+_Updated: 2022 07 05 &nbsp;&nbsp; Language: Python_
+
 * [idaemu](https://github.com/36hours/idaemu): Emulate code in IDA Pro. it is based on unicorn-engine.<br>
 _Updated: 2016 12 15 &nbsp;&nbsp; Language: Python_
 
@@ -655,7 +658,7 @@ _Updated: 2018 01 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2022 06 29 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 07 04 &nbsp;&nbsp; Language: Python_
 
 * [ida-netnode](https://github.com/williballenthin/ida-netnode): Humane API for storing and accessing persistent data in IDA Pro databases.<br>
 _Updated: 2020 06 29 &nbsp;&nbsp; Language: Python_
@@ -944,6 +947,9 @@ _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
   * Allows you to search for suitable ROP gadgets in MIPS executable code
   * Built-in methods to search for common ROP gadgets.<br>
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
+
+* [Mizari's scripts](https://github.com/Mizari/scripts): Various scripts for IDA Pro: const_adder, demangler, detect_offset, fastclear, recolour_calls, remove_spaces_from_structs.<br>
+_Updated: 2022 07 07 &nbsp;&nbsp; Language: Python_
 
 * [mkYARA IDA Plugin](https://github.com/fox-it/mkYARA): IDA plugin to easily create YARA signatures with mkYARA.<br>
 _Updated: 2019 12 16 &nbsp;&nbsp; Language: Python_

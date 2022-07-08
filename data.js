@@ -42,7 +42,7 @@ var tabledata = [
 {name: "AlphaGolang",
  url: "https://github.com/SentineLabs/AlphaGolang",
  src: "py",
- last: "20220517",
+ last: "20220701",
  vers: "7.6",
  desc: "IDApython Scripts for Analyzing Golang Binaries."},
 
@@ -224,7 +224,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220629",
+ last: "20220708",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -1231,6 +1231,12 @@ var tabledata = [
  vers: "7.7",
  desc: "Allows you to disassemble x86-64 code (like inlined WOW64 one) while you using 32-bit IDA database. This would be helpfull to analyze WOW64 mode switches."},
 
+{name: "ida-emotionengine",
+ url: "https://github.com/oct0xor/ida-emotionengine",
+ src: "py",
+ last: "20220705",
+ desc: "Plugin that implements disassembly of PlayStation 2 COP2 MIPS instructions."},
+
 {name: "idaemu",
  url: "https://github.com/36hours/idaemu",
  src: "py",
@@ -1456,7 +1462,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220629",
+ last: "20220704",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -2108,6 +2114,12 @@ var tabledata = [
  last: "20210602",
  vers: "7.4",
  desc: "* Allows you to search for suitable ROP gadgets in MIPS executable code\n* Built-in methods to search for common ROP gadgets."},
+
+{name: "Mizari's scripts",
+ url: "https://github.com/Mizari/scripts",
+ src: "py",
+ last: "20220707",
+ desc: "Various scripts for IDA Pro: const_adder, demangler, detect_offset, fastclear, recolour_calls, remove_spaces_from_structs."},
 
 {name: "mkYARA IDA Plugin",
  url: "https://github.com/fox-it/mkYARA",
