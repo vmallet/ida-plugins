@@ -128,6 +128,12 @@ var tabledata = [
  vers: "7.3",
  desc: "Integrate BAP (Binary Analysis Platform) with IDA, providing functionality such as function info augmentation, taint propagation, BIR attribute tagging, and more."},
 
+{name: "BDSDevHelper",
+ url: "https://github.com/Redbeanw44602/BDSDevHelper",
+ src: "py",
+ last: "20220626",
+ desc: "An IDA plugin to help you develop bedrock dedicated server."},
+
 {name: "Beautify",
  url: "https://github.com/P4nda0s/IDABeautify",
  src: "py",
@@ -187,6 +193,14 @@ var tabledata = [
  last: "20150204",
  desc: "BinSourcerer (a.k.a RE-Source Online) is an assembly to source code matching framework for binary auditing and malware analysis."},
 
+{name: "BinSync",
+ url: "https://github.com/angr/binsync",
+ src: "py",
+ cats: "collab",
+ last: "20220712",
+ vers: "7.3",
+ desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
+
 {name: "Bip",
  url: "https://github.com/synacktiv/bip",
  src: "py",
@@ -224,7 +238,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220708",
+ last: "20220712",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -289,7 +303,7 @@ var tabledata = [
  src: "py",
  cats: "collab",
  last: "20220216",
- desc: "Multi-tool reverse engineering collaboration solution. CollareRE is a tool for collaborative reverse engineering that aims to allow teams that do need to use more then one tool during a project to collaborate without the need to share the files on a separate locations."},
+ desc: "Multi-tool reverse engineering collaboration solution. CollaRE is a tool for collaborative reverse engineering that aims to allow teams that do need to use more then one tool during a project to collaborate without the need to share the files on a separate locations."},
 
 {name: "COMFinder",
  url: "https://github.com/howmp/comfinder",
@@ -588,7 +602,7 @@ var tabledata = [
  src: "c++",
  cats: "trace",
  last: "20100504",
- desc: "Parses the specialized instruction trace files that are generated using the EtherAnnotate Xen modification (http://github.com/inositle/etherannotate_xen).  From the instruction trace, register values and code coverage of the run-time information are visualized in IDA Pro through instruction comments and line colorations."},
+ desc: "Parses the specialized instruction trace files that are generated using the EtherAnnotate Xen modification (https://github.com/inositle/etherannotate_xen).  From the instruction trace, register values and code coverage of the run-time information are visualized in IDA Pro through instruction comments and line colorations."},
 
 {name: "EtherAnnotate IDA Plugin",
  url: "https://github.com/jeads-sec/etherannotate_ida",
@@ -1050,7 +1064,7 @@ var tabledata = [
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
  last: "20220629",
- desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool direcly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
+ desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool directly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "IBT",
  url: "https://github.com/pwnslinger/IBT",
@@ -1182,6 +1196,14 @@ var tabledata = [
  vers: "7.0",
  desc: "CMake build scripts and a Python helper allowing compilation of C++ IDA plugins for Windows, macOS and Linux without much user effort."},
 
+{name: "IDACode",
+ url: "https://github.com/ioncodes/idacode",
+ src: "py",
+ cats: "dev, int",
+ last: "20220713",
+ vers: "7.5",
+ desc: "An integration for IDA and VS Code which connects both to easily execute and debug IDAPython scripts."},
+
 {name: "IDA Color Schemer",
  url: "https://github.com/tmr232/IDAColorSchemer",
  src: "py",
@@ -1234,7 +1256,7 @@ var tabledata = [
 {name: "ida-emotionengine",
  url: "https://github.com/oct0xor/ida-emotionengine",
  src: "py",
- last: "20220705",
+ last: "20220708",
  desc: "Plugin that implements disassembly of PlayStation 2 COP2 MIPS instructions."},
 
 {name: "idaemu",
@@ -1327,6 +1349,12 @@ var tabledata = [
  src: "py",
  last: "20220505",
  desc: "An Interactive Binary Data Visualization Plugin for IDA Pro"},
+
+{name: "ida-helpers",
+ url: "https://github.com/VoidSec/ida-helpers",
+ src: "py",
+ last: "20211220",
+ desc: "Collection of IDA helpers: Heap Viewer, Segment Dumper, Base Address, P/P/R (find pop/pop/ret gadgets), Func Complexity."},
 
 {name: "idahunt",
  url: "https://github.com/nccgroup/idahunt",
@@ -1421,6 +1449,13 @@ var tabledata = [
  vers: "7.4",
  desc: "Some glue facilitating remote use of IDA Python API. idalink works by spawning an IDA CLI session in the background (in a detached screen session), and connects to it using RPyC."},
 
+{name: "ida-linux-alternatives",
+ url: "https://github.com/opensrcsec/ida-linux-alternatives",
+ src: "py",
+ last: "20211214",
+ vers: "7.0",
+ desc: "Analyze and annotate Linux kernel alternatives (content of .altinstructions and .altinstr_replacement sections)."},
+
 {name: "IDAMagicStrings",
  url: "https://github.com/joxeankoret/idamagicstrings",
  src: "py",
@@ -1462,7 +1497,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220704",
+ last: "20220717",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1491,7 +1526,7 @@ var tabledata = [
 {name: "IDAObjcTypes",
  url: "https://github.com/PoomSmart/IDAObjcTypes",
  src: "py",
- last: "20220626",
+ last: "20220716",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
@@ -2118,7 +2153,7 @@ var tabledata = [
 {name: "Mizari's scripts",
  url: "https://github.com/Mizari/scripts",
  src: "py",
- last: "20220707",
+ last: "20220714",
  desc: "Various scripts for IDA Pro: const_adder, demangler, detect_offset, fastclear, recolour_calls, remove_spaces_from_structs."},
 
 {name: "mkYARA IDA Plugin",
@@ -2392,7 +2427,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20220524",
+ last: "20220716",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2962,5 +2997,13 @@ var tabledata = [
  last: "20211220",
  vers: "7.6",
  desc: "Yet Another Ghidra Integration for IDA. Yagi intends to include the wonderful Ghidra decompiler into both IDA pro and IDA Free."},
+
+{name: "YARA for IDA",
+ url: "https://github.com/kweatherman/yara4ida",
+ src: "c++",
+ cats: "int",
+ last: "20220619",
+ vers: "7.7",
+ desc: "Unofficial YARA IDA Pro plugin, along with an unparalleled crypto/hash/compression rule set based on Luigi Auriemma's signsrch signatures."},
 
 ];
