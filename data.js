@@ -1,4 +1,12 @@
 var tabledata = [
+{name: "3DS-Code-Loader",
+ url: "https://github.com/SinaMegapolis/3DS-Code-Loader",
+ src: "c++",
+ cats: "loader",
+ last: "20220801",
+ vers: "7.6",
+ desc: "IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files."},
+
 {name: "3DSX Loader",
  url: "https://github.com/0xEBFE/3DSX-IDA-PRO-Loader",
  src: "py",
@@ -96,7 +104,7 @@ var tabledata = [
 {name: "APIScout",
  url: "https://github.com/danielplohmann/apiscout",
  src: "py",
- last: "20220117",
+ last: "20220801",
  vers: "7.5",
  desc: "This project aims at simplifying Windows API import recovery. As input, arbitrary memory dumps for a known environment can be processed (please note: a reference DB has to be built first, using apiscout/db_builder). The output is an ordered list of identified Windows API references with some meta information, and an ApiVector fingerprint. Includes a convenience GUI wrapper for use in IDA."},
 
@@ -131,7 +139,7 @@ var tabledata = [
 {name: "BDSDevHelper",
  url: "https://github.com/Redbeanw44602/BDSDevHelper",
  src: "py",
- last: "20220626",
+ last: "20220803",
  desc: "An IDA plugin to help you develop bedrock dedicated server."},
 
 {name: "Beautify",
@@ -170,7 +178,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20220603",
+ last: "20220728",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -197,7 +205,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20220712",
+ last: "20220802",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -238,7 +246,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220712",
+ last: "20220801",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -302,7 +310,7 @@ var tabledata = [
  url: "https://github.com/Martyx00/CollaRE",
  src: "py",
  cats: "collab",
- last: "20220216",
+ last: "20220719",
  desc: "Multi-tool reverse engineering collaboration solution. CollaRE is a tool for collaborative reverse engineering that aims to allow teams that do need to use more then one tool during a project to collaborate without the need to share the files on a separate locations."},
 
 {name: "COMFinder",
@@ -349,7 +357,7 @@ var tabledata = [
 {name: "CTO: Call Tree Overviewer",
  url: "https://github.com/herosi/CTO",
  src: "py",
- last: "20220624",
+ last: "20220720",
  vers: "7.4",
  desc: "IDA plugin for creating a simple and efficient function call tree graph. It can also summarize function information such as internal function calls, API calls, static linked library function calls, unresolved indirect function calls, string references, structure member accesses, specific comments."},
 
@@ -427,7 +435,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20211217",
+ last: "20220801",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -494,7 +502,7 @@ var tabledata = [
 {name: "DriverBuddyReloaded",
  url: "https://github.com/VoidSec/DriverBuddyReloaded",
  src: "py",
- last: "20220628",
+ last: "20220729",
  desc: "Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks."},
 
 {name: "Drop",
@@ -585,7 +593,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20220629",
+ last: "20220730",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -704,7 +712,7 @@ var tabledata = [
 {name: "flare-emu",
  url: "https://github.com/fireeye/flare-emu",
  src: "py",
- last: "20210419",
+ last: "20220722",
  desc: "flare-emu marries a supported binary analysis framework, such as IDA Pro or Radare2, with Unicorn’s emulation framework to provide the user with an easy to use and flexible interface for scripting emulation tasks. It is designed to handle all the housekeeping of setting up a flexible and robust emulator for its supported architectures so that you can focus on solving your code analysis problems. Currently, flare-emu supports the x86, x86_64, ARM, and ARM64 architectures."},
 
 {name: "FLARE IDA Decompiler Library (FIDL)",
@@ -915,7 +923,7 @@ var tabledata = [
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
- last: "20210729",
+ last: "20220727",
  desc: "Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro."},
 
 {name: "grap",
@@ -956,7 +964,7 @@ var tabledata = [
 {name: "HeapViewer",
  url: "https://github.com/danigargu/heap-viewer",
  src: "py",
- last: "20210713",
+ last: "20220725",
  vers: "7.4",
  desc: "An IDA Pro plugin to examine the heap, focused on exploit development."},
 
@@ -1333,7 +1341,7 @@ var tabledata = [
 {name: "IDAGolangHelper",
  url: "https://github.com/sibears/idagolanghelper",
  src: "py",
- last: "20210615",
+ last: "20220729",
  vers: "7.4",
  desc: "Set of IDA Pro scripts for parsing GoLang types information stored in compiled binary."},
 
@@ -1353,7 +1361,7 @@ var tabledata = [
 {name: "ida-helpers",
  url: "https://github.com/VoidSec/ida-helpers",
  src: "py",
- last: "20211220",
+ last: "20220725",
  desc: "Collection of IDA helpers: Heap Viewer, Segment Dumper, Base Address, P/P/R (find pop/pop/ret gadgets), Func Complexity."},
 
 {name: "idahunt",
@@ -1497,7 +1505,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220717",
+ last: "20220802",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1705,7 +1713,7 @@ var tabledata = [
  url: "https://github.com/fidgetingbits/IDArling",
  src: "py",
  cats: "collab",
- last: "20220110",
+ last: "20220802",
  vers: "7.5",
  desc: "IDArling is a collaborative reverse engineering plugin for IDA Pro and Hex-Rays. This is an actively maintained fork of the now-abandoned IDARling above."},
 
@@ -1727,7 +1735,7 @@ var tabledata = [
 {name: "IDAscope",
  url: "https://github.com/danielplohmann/idascope",
  src: "py",
- last: "20200813",
+ last: "20220802",
  vers: "7.0",
  desc: "IDAscope is an IDA Pro extension with the goal to ease the task of (malware) reverse engineering with a current focus on x86 Windows. It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations in the analysis target, seamless access to MSDN documentation of Windows API, and finding of potential crypto/compression algorithms."},
 
@@ -1802,6 +1810,13 @@ var tabledata = [
  last: "20190615",
  vers: "7.2",
  desc: "Plugin providing advanced skinning support for the Qt version of IDA Pro utilizing Qt stylesheets, similar to CSS."},
+
+{name: "idasm",
+ url: "https://github.com/lyciumlee/idasm",
+ src: "py",
+ cats: "dev",
+ last: "20220802",
+ desc: "A Python Assembler Script Tool for IDA Pro based on \"patching\"."},
 
 {name: "IDA Sploiter",
  url: "https://github.com/iphelix/ida-sploiter",
@@ -2087,6 +2102,13 @@ var tabledata = [
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
+{name: "lumina-go",
+ url: "https://github.com/zhangyoufu/lumina",
+ src: "go",
+ cats: "int",
+ last: "20220801",
+ desc: "A Go library speaking (IDA Pro) lumina protocol, and a proxy server that may help if you have any privacy concerns using the Hex-Rays' official lumina server."},
+
 {name: "MadNES",
  url: "https://github.com/patois/MadNES",
  src: "c++",
@@ -2276,7 +2298,7 @@ var tabledata = [
  url: "https://github.com/isra17/nrs/",
  src: "py",
  cats: "loader",
- last: "20180519",
+ last: "20220720",
  desc: "NRS is a set of Python libraries used to unpack and analysis NSIS installer's data. It also feature an IDA plugin used to disassembly the NSIS Script of an installer."},
 
 {name: "obfDetect",
@@ -2354,7 +2376,7 @@ var tabledata = [
 {name: "Pigaios",
  url: "https://github.com/joxeankoret/pigaios",
  src: "py",
- last: "20181217",
+ last: "20220719",
  vers: "7.0",
  desc: "Pigaios ('πηγαίος', Greek for 'source' as in 'source code') is a tool for diffing/matching source codes directly against binaries."},
 
@@ -2427,7 +2449,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20220716",
+ last: "20220522",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2442,7 +2464,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/pyidbutil",
  src: "py",
  cats: "dev, int",
- last: "20220501",
+ last: "20220727",
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See C++ version 'idbutil')."},
 
@@ -2947,7 +2969,7 @@ var tabledata = [
  url: "https://github.com/x64dbg/x64dbgida",
  src: "py",
  cats: "debug, int",
- last: "20220424",
+ last: "20220801",
  vers: "7.0",
  desc: "Official x64dbg plugin for IDA Pro."},
 
