@@ -139,7 +139,7 @@ var tabledata = [
 {name: "BDSDevHelper",
  url: "https://github.com/Redbeanw44602/BDSDevHelper",
  src: "py",
- last: "20220803",
+ last: "20220806",
  desc: "An IDA plugin to help you develop bedrock dedicated server."},
 
 {name: "Beautify",
@@ -205,7 +205,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20220802",
+ last: "20220807",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -448,7 +448,7 @@ var tabledata = [
 
 {name: "docker-idapro",
  url: "https://github.com/blacktop/docker-idapro",
- last: "20220416",
+ last: "20220805",
  vers: "7.7",
  desc: "IDA Pro Docker Image (For use as an ipsw pipeline)."},
 
@@ -563,6 +563,13 @@ var tabledata = [
  vers: "7.0",
  desc: "This is an IDA Pro plugin to aid in reverse engineering PS4 user mode elf's by loading the PS4 specific DYNLIBDATA segment."},
 
+{name: "EasyRE",
+ url: "https://github.com/AntoineBlaud/EasyRe",
+ src: "py",
+ cats: "trace",
+ last: "20220807",
+ desc: "Plugin to make your RE life easier. Trace execution and save code/memory for detailed exploration."},
+
 {name: "EFI Scripts (efitools)",
  url: "https://github.com/danse-macabre/ida-efitools",
  src: "py",
@@ -646,6 +653,13 @@ var tabledata = [
  last: "20220426",
  vers: "7.0",
  desc: "FA stands for Firmware Analysis and intended For Humans. FA allows one to easily perform code exploration, symbol searching and other functionality with ease."},
+
+{name: "FakePDB",
+ url: "https://github.com/Mixaill/FakePDB",
+ src: "py",
+ last: "20210925",
+ vers: "7.4",
+ desc: "Tool for PDB generation from IDA Pro database."},
 
 {name: "FCatalog",
  url: "https://github.com/xorpd/fcatalog_client",
@@ -923,7 +937,7 @@ var tabledata = [
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
- last: "20220727",
+ last: "20220805",
  desc: "Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro."},
 
 {name: "grap",
@@ -1071,8 +1085,16 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20220629",
+ last: "20220805",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool directly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
+
+{name: "iBoot64helper",
+ url: "https://github.com/argp/iBoot64helper",
+ src: "py",
+ cats: "loader",
+ last: "20220221",
+ vers: "7.7",
+ desc: "IDAPython loader to help with AArch64 iBoot, iBEC, and SecureROM reverse engineering."},
 
 {name: "IBT",
  url: "https://github.com/pwnslinger/IBT",
@@ -1505,7 +1527,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220802",
+ last: "20220806",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1685,6 +1707,13 @@ var tabledata = [
  last: "20181116",
  vers: "6.8",
  desc: "IDARay is an IDA Pro plugin that matches the database against multiple YARA files. Maybe your rules are scattered over multiple YARA files or you simply want to match against as much rules as possible, IDARay is here to help."},
+
+{name: "IDARE",
+ url: "https://github.com/twisted-fun/IDARE",
+ src: "py",
+ last: "20210907",
+ vers: "7.5",
+ desc: "Automation plugins for various reversing tasks in IDA: JumpTableFuncRename, VulnCandidateFinder."},
 
 {name: "IdaRef",
  url: "https://github.com/nologic/idaref",
@@ -1888,6 +1917,14 @@ var tabledata = [
  last: "20210416",
  vers: "7.4",
  desc: "IDAtropy is a plugin for Hex-Ray's IDA Pro designed to generate charts of entropy and histograms using the power of idapython and matplotlib."},
+
+{name: "IDAVSCode",
+ url: "https://github.com/Cirn09/idavscode",
+ src: "py",
+ cats: "dev, int",
+ last: "20220805",
+ vers: "7.0",
+ desc: "Debug IDAPython in VSCode. (docs in Chinese)."},
 
 {name: "IdaVSHelp",
  url: "https://github.com/andreafioraldi/IdaVSHelp",
@@ -2106,7 +2143,7 @@ var tabledata = [
  url: "https://github.com/zhangyoufu/lumina",
  src: "go",
  cats: "int",
- last: "20220801",
+ last: "20220803",
  desc: "A Go library speaking (IDA Pro) lumina protocol, and a proxy server that may help if you have any privacy concerns using the Hex-Rays' official lumina server."},
 
 {name: "MadNES",
@@ -2175,7 +2212,7 @@ var tabledata = [
 {name: "Mizari's scripts",
  url: "https://github.com/Mizari/scripts",
  src: "py",
- last: "20220714",
+ last: "20220804",
  desc: "Various scripts for IDA Pro: const_adder, demangler, detect_offset, fastclear, recolour_calls, remove_spaces_from_structs."},
 
 {name: "mkYARA IDA Plugin",
@@ -2411,7 +2448,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20220607",
+ last: "20220804",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -2449,7 +2486,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20220522",
+ last: "20220806",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2687,14 +2724,14 @@ var tabledata = [
 {name: "Sig Maker",
  url: "https://github.com/ajkhoury/SigMaker-x64",
  src: "c++",
- last: "20210728",
+ last: "20220716",
  vers: "7.0",
  desc: "Can create sigs automatically and has a wide variety of functions."},
 
 {name: "SigMakerEx",
  url: "https://github.com/kweatherman/sigmakerex",
  src: "c++",
- last: "20220216",
+ last: "20220807",
  vers: "7.6",
  desc: "Enhanced IDA Pro signature generator plugin."},
 
@@ -3016,7 +3053,7 @@ var tabledata = [
  url: "https://github.com/airbus-cert/Yagi",
  src: "c++",
  cats: "decomp, int",
- last: "20211220",
+ last: "20220804",
  vers: "7.6",
  desc: "Yet Another Ghidra Integration for IDA. Yagi intends to include the wonderful Ghidra decompiler into both IDA pro and IDA Free."},
 
