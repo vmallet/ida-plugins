@@ -205,7 +205,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20220807",
+ last: "20220814",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -246,7 +246,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220801",
+ last: "20220815",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -502,7 +502,7 @@ var tabledata = [
 {name: "DriverBuddyReloaded",
  url: "https://github.com/VoidSec/DriverBuddyReloaded",
  src: "py",
- last: "20220729",
+ last: "20220809",
  desc: "Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks."},
 
 {name: "Drop",
@@ -567,7 +567,7 @@ var tabledata = [
  url: "https://github.com/AntoineBlaud/EasyRe",
  src: "py",
  cats: "trace",
- last: "20220807",
+ last: "20220808",
  desc: "Plugin to make your RE life easier. Trace execution and save code/memory for detailed exploration."},
 
 {name: "EFI Scripts (efitools)",
@@ -657,7 +657,7 @@ var tabledata = [
 {name: "FakePDB",
  url: "https://github.com/Mixaill/FakePDB",
  src: "py",
- last: "20210925",
+ last: "20220808",
  vers: "7.4",
  desc: "Tool for PDB generation from IDA Pro database."},
 
@@ -739,7 +739,7 @@ var tabledata = [
 {name: "FLARE Plugins",
  url: "https://github.com/mandiant/flare-ida",
  src: "py",
- last: "20220516",
+ last: "20220810",
  desc: "FLARE Team Reversing Repository plugin collection: Shellcode Hashes, Struct Typer, StackStrings, MSDN Annotations, ApplyCalleeType, idb2pat, argtracker, objc2_analyzer, ironstrings, Code Grafter"},
 
 {name: "FLIRTDB",
@@ -1170,6 +1170,13 @@ var tabledata = [
  last: "20220424",
  desc: "A simple IDA Pro plugin to make bitfields and bitflags in them easier to reason about."},
 
+{name: "ida_bochs_windows",
+ url: "https://github.com/therealdreg/ida_bochs_windows",
+ src: "py",
+ last: "20220731",
+ vers: "7.4",
+ desc: "Helper script for Windows kernel debugging with IDA Pro on native Bochs debugger (including PDB symbols)."},
+
 {name: "IDA BPF Processor",
  url: "https://github.com/bnbdr/ida-bpf-processor",
  src: "py",
@@ -1527,7 +1534,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220806",
+ last: "20220814",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1670,6 +1677,13 @@ var tabledata = [
  last: "20190714",
  vers: "7.3",
  desc: "Extends existing support in IDA for the Motorola m68k processor family by adding gdb step-over and type information support. Enable type information support so you can press \"y\" on functions and have the parameters propagate inside and back out of the function."},
+
+{name: "IDA Pro Solarized Theme",
+ url: "https://github.com/blue-devil/IDA-Pro-Solarized-Theme",
+ cats: "ui",
+ last: "20220814",
+ vers: "7.3",
+ desc: "Solarized Theme for IDA Pro 7.3 and above."},
 
 {name: "IDA Pro Translator",
  url: "https://github.com/kyrus/ida-translator",
@@ -1918,6 +1932,13 @@ var tabledata = [
  vers: "7.4",
  desc: "IDAtropy is a plugin for Hex-Ray's IDA Pro designed to generate charts of entropy and histograms using the power of idapython and matplotlib."},
 
+{name: "ida_vmware_windows_gdb",
+ url: "https://github.com/therealdreg/ida_vmware_windows_gdb",
+ src: "py",
+ last: "20220731",
+ vers: "7.4",
+ desc: "Helper script for Windows kernel debugging with IDA Pro on VMware + GDB stub (including PDB symbols)."},
+
 {name: "IDAVSCode",
  url: "https://github.com/Cirn09/idavscode",
  src: "py",
@@ -2101,6 +2122,13 @@ var tabledata = [
  vers: "7.0",
  desc: "Lighthouse is a Code Coverage Plugin for IDA Pro. The plugin leverages IDA as a platform to map, explore, and visualize externally collected code coverage data when symbols or source may not be available for a given binary."},
 
+{name: "linux_kernel_debug_disassemble_ida_vmware",
+ url: "https://github.com/therealdreg/linux_kernel_debug_disassemble_ida_vmware",
+ src: "py",
+ last: "20220731",
+ vers: "7.7",
+ desc: "Helper script for Linux kernel disassemble or debugging with IDA Pro on VMware + GDB stub (including some symbols helpers)."},
+
 {name: "LLVMAnalyzer",
  url: "https://github.com/cbwang505/llvmanalyzer",
  src: "c++",
@@ -2212,7 +2240,7 @@ var tabledata = [
 {name: "Mizari's scripts",
  url: "https://github.com/Mizari/scripts",
  src: "py",
- last: "20220804",
+ last: "20220815",
  desc: "Various scripts for IDA Pro: const_adder, demangler, detect_offset, fastclear, recolour_calls, remove_spaces_from_structs."},
 
 {name: "mkYARA IDA Plugin",
@@ -2486,7 +2514,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20220806",
+ last: "20220814",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2853,6 +2881,13 @@ var tabledata = [
  last: "20211117",
  vers: "7.5",
  desc: "A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table."},
+
+{name: "symseghelper",
+ url: "https://github.com/therealdreg/symseghelper",
+ src: "py",
+ last: "20220731",
+ vers: "7.4",
+ desc: "Helper scripts for windows debugging with symbols for Bochs and IDA Pro (PDB files). Very handy for user mode <--> kernel mode."},
 
 {name: "SyncReven",
  url: "https://github.com/riskeco/SyncReven",
