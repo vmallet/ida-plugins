@@ -178,7 +178,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20220728",
+ last: "20220822",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -205,7 +205,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20220814",
+ last: "20220822",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -246,7 +246,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220815",
+ last: "20220824",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -569,6 +569,14 @@ var tabledata = [
  cats: "trace",
  last: "20220808",
  desc: "Plugin to make your RE life easier. Trace execution and save code/memory for detailed exploration."},
+
+{name: "E-Decompiler",
+ url: "https://github.com/fjqisba/E-Decompiler",
+ src: "c++",
+ cats: "decomp",
+ last: "20220824",
+ vers: "7.5",
+ desc: "IDA 7.5 plug-in used to assist in the analysis of decompiled programs, experimental project (Chinese)."},
 
 {name: "EFI Scripts (efitools)",
  url: "https://github.com/danse-macabre/ida-efitools",
@@ -1085,7 +1093,7 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20220805",
+ last: "20220823",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool directly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "iBoot64helper",
@@ -1173,7 +1181,7 @@ var tabledata = [
 {name: "ida_bochs_windows",
  url: "https://github.com/therealdreg/ida_bochs_windows",
  src: "py",
- last: "20220731",
+ last: "20220822",
  vers: "7.4",
  desc: "Helper script for Windows kernel debugging with IDA Pro on native Bochs debugger (including PDB symbols)."},
 
@@ -1248,6 +1256,13 @@ var tabledata = [
  last: "20190105",
  vers: "7.2",
  desc: "tool to easily design IDA color schemes outside IDA. This will hopefully allow simplifying & automating the generation of color schemes and help create colorblind-friendly settings."},
+
+{name: "ida-comment-view",
+ url: "https://github.com/helloobaby/ida-comment-view",
+ src: "c++",
+ last: "20220823",
+ vers: "7.5",
+ desc: "A list of all the comments throughout the project in one convenient window (Chinese)."},
 
 {name: "IDA Compare",
  url: "https://github.com/dzzie/IDACompare",
@@ -1447,7 +1462,7 @@ var tabledata = [
 {name: "ida-kallsyms",
  url: "https://github.com/mephi42/ida-kallsyms",
  src: "py",
- last: "20201128",
+ last: "20220818",
  desc: "IDA script for parsing kallsyms."},
 
 {name: "IDAKern",
@@ -1534,7 +1549,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220814",
+ last: "20220824",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1699,6 +1714,14 @@ var tabledata = [
  last: "20191123",
  vers: "7.0",
  desc: "IDAPyHelper is a script for the Interactive Disassembler that helps writing IDAPython scripts and plugins."},
+
+{name: "IDAPython",
+ url: "https://github.com/idapython/src",
+ src: "c++",
+ cats: "dev, int",
+ last: "20220822",
+ vers: "8.0",
+ desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
 {name: "IDA Python Embedded Toolkit",
  url: "https://github.com/maddiestone/IDAPythonEmbeddedToolkit",
@@ -2125,7 +2148,7 @@ var tabledata = [
 {name: "linux_kernel_debug_disassemble_ida_vmware",
  url: "https://github.com/therealdreg/linux_kernel_debug_disassemble_ida_vmware",
  src: "py",
- last: "20220731",
+ last: "20220822",
  vers: "7.7",
  desc: "Helper script for Linux kernel disassemble or debugging with IDA Pro on VMware + GDB stub (including some symbols helpers)."},
 
@@ -2514,7 +2537,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20220814",
+ last: "20220823",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2661,7 +2684,7 @@ var tabledata = [
  url: "https://github.com/avast/retdec-idaplugin",
  src: "c++",
  cats: "decomp",
- last: "20200818",
+ last: "20220824",
  vers: "7.5",
  desc: "IDA plugin for retdec - a retargetable machine-code decompiler based on LLVM."},
 
@@ -2885,7 +2908,7 @@ var tabledata = [
 {name: "symseghelper",
  url: "https://github.com/therealdreg/symseghelper",
  src: "py",
- last: "20220731",
+ last: "20220822",
  vers: "7.4",
  desc: "Helper scripts for windows debugging with symbols for Bochs and IDA Pro (PDB files). Very handy for user mode <--> kernel mode."},
 
@@ -2991,7 +3014,7 @@ var tabledata = [
 {name: "VulFi",
  url: "https://github.com/Accenture/VulFi",
  src: "py",
- last: "20220614",
+ last: "20220819",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
