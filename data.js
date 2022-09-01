@@ -24,7 +24,7 @@ var tabledata = [
  url: "https://github.com/patois/abyss",
  src: "py",
  cats: "decomp",
- last: "20220130",
+ last: "20220827",
  desc: "Postprocess Hexrays Decompiler Output"},
 
 {name: "ActionScript 3",
@@ -50,7 +50,7 @@ var tabledata = [
 {name: "AlphaGolang",
  url: "https://github.com/SentineLabs/AlphaGolang",
  src: "py",
- last: "20220701",
+ last: "20220825",
  vers: "7.6",
  desc: "IDApython Scripts for Analyzing Golang Binaries."},
 
@@ -95,11 +95,26 @@ var tabledata = [
  vers: "6.4",
  desc: "IDAPython script for decryption payload of Andromeda malware."},
 
+{name: "antiVM",
+ url: "https://github.com/Hipepper/antiVM",
+ src: "py",
+ last: "20220901",
+ vers: "7.0",
+ desc: "antiVM aims to quickly identify anti-virtual machine and anti-sandbox behavior. This can speed up malware analysis."},
+
 {name: "Apihashes v2",
  url: "https://github.com/KasperskyLab/Apihashes",
  src: "py",
  last: "20220512",
  desc: "Automatically identify and mark known hash values for API function names."},
+
+{name: "api_palette",
+ url: "https://github.com/0xKira/api_palette",
+ src: "py",
+ cats: "dev",
+ last: "20220824",
+ vers: "7.5",
+ desc: "A code-searching/completion tool, for IDA APIs. It will be useful for those who write scripts for IDA (in the CLI or the script snippets window)."},
 
 {name: "APIScout",
  url: "https://github.com/danielplohmann/apiscout",
@@ -107,6 +122,12 @@ var tabledata = [
  last: "20220801",
  vers: "7.5",
  desc: "This project aims at simplifying Windows API import recovery. As input, arbitrary memory dumps for a known environment can be processed (please note: a reference DB has to be built first, using apiscout/db_builder). The output is an ordered list of identified Windows API references with some meta information, and an ApiVector fingerprint. Includes a convenience GUI wrapper for use in IDA."},
+
+{name: "Appcut",
+ url: "https://github.com/desperadosec/appcut",
+ src: "py",
+ last: "20220826",
+ desc: "A helper tool to grab binary blobs from IDA-analyzed binaries and wrap them via Python."},
 
 {name: "AutoRE",
  url: "https://github.com/a1ext/auto_re",
@@ -178,7 +199,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20220822",
+ last: "20220829",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -205,7 +226,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20220822",
+ last: "20220826",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -246,7 +267,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220824",
+ last: "20220829",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -574,7 +595,7 @@ var tabledata = [
  url: "https://github.com/fjqisba/E-Decompiler",
  src: "c++",
  cats: "decomp",
- last: "20220824",
+ last: "20220901",
  vers: "7.5",
  desc: "IDA 7.5 plug-in used to assist in the analysis of decompiled programs, experimental project (Chinese)."},
 
@@ -611,6 +632,13 @@ var tabledata = [
  last: "20220730",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
+
+{name: "Enhanced PDB Plugin",
+ url: "https://github.com/sonyps5201314/pdb",
+ src: "c++",
+ last: "20220813",
+ vers: "8.0",
+ desc: "IDA PDB plugin with enhancements and bugfixes (Chinese)."},
 
 {name: "epanos",
  url: "https://github.com/drvink/epanos",
@@ -665,7 +693,7 @@ var tabledata = [
 {name: "FakePDB",
  url: "https://github.com/Mixaill/FakePDB",
  src: "py",
- last: "20220808",
+ last: "20220830",
  vers: "7.4",
  desc: "Tool for PDB generation from IDA Pro database."},
 
@@ -699,7 +727,7 @@ var tabledata = [
 {name: "FindFunc",
  url: "https://github.com/FelixBer/FindFunc",
  src: "py",
- last: "20220510",
+ last: "20220901",
  vers: "7.7",
  desc: "Advanced Filtering/Finding of Functions. FindFunc is an IDA PRO plugin to find code functions that contain a certain assembly or byte pattern, reference a certain name or string, or conform to various other constraints."},
 
@@ -716,6 +744,13 @@ var tabledata = [
  last: "20211228",
  vers: "7.0",
  desc: "IDA python plugin to scan binary with Yara rules."},
+
+{name: "Finger",
+ url: "https://github.com/aliyunav/Finger",
+ src: "py",
+ last: "20211014",
+ vers: "7.0",
+ desc: "Function symbol recognition engine for binary programs, which aims to help security researchers identify unknown library functions in a given binary file.."},
 
 {name: "FingerMatch",
  url: "https://github.com/jendabenda/fingermatch",
@@ -1093,7 +1128,7 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20220823",
+ last: "20220830",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool directly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "iBoot64helper",
@@ -1285,6 +1320,13 @@ var tabledata = [
  vers: "7.4",
  desc: "IDACyber is a plugin that visualizes an IDA database's content."},
 
+{name: "IDA Debug Bridge",
+ url: "https://github.com/Byaidu/ida_debug_bridge",
+ src: "c++",
+ cats: "debug",
+ last: "20211110",
+ desc: "IDA Debugger Module to Dynamically Synchronize Memory and Registers with third-party Backends (Tenet, Unicorn, GDB, etc.)"},
+
 {name: "idadiff",
  url: "https://github.com/0x00ach/idadiff",
  src: "py",
@@ -1418,7 +1460,7 @@ var tabledata = [
  url: "https://github.com/matteyeux/ida-iboot-loader",
  src: "py",
  cats: "loader",
- last: "20211219",
+ last: "20220901",
  desc: "IDA loader for Apple's 64 bits iBoot, SecureROM and AVPBooter."},
 
 {name: "idaidle",
@@ -1549,7 +1591,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220824",
+ last: "20220825",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1921,6 +1963,13 @@ var tabledata = [
  vers: "7.0",
  desc: "Finds all first occurring string references near another reference."},
 
+{name: "IDASync",
+ url: "https://github.com/Nomad-Group/IDASync",
+ src: "c++",
+ cats: "collab",
+ last: "20181102",
+ desc: "A lovely IDA collaboration plugin for IDA 6.8 (x86 & x64) by @Freeeaky."},
+
 {name: "IDA Taco",
  url: "https://github.com/jjo-sec/idataco",
  src: "py",
@@ -2084,7 +2133,7 @@ var tabledata = [
  url: "https://github.com/eset/ipyida",
  src: "py",
  cats: "dev, int",
- last: "20220423",
+ last: "20220829",
  vers: "7.6",
  desc: "PyIDA is a python-only solution to use a IPython console in the context of IDA Pro. It spawns an IPython kernel that you can connect to with `ipython console --existing` in your shell or by opening a *QT Console* window in IDA Pro with `<Shift-.>`"},
 
@@ -2186,7 +2235,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20220121",
+ last: "20220831",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2537,7 +2586,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20220823",
+ last: "20220831",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2684,7 +2733,7 @@ var tabledata = [
  url: "https://github.com/avast/retdec-idaplugin",
  src: "c++",
  cats: "decomp",
- last: "20220824",
+ last: "20220901",
  vers: "7.5",
  desc: "IDA plugin for retdec - a retargetable machine-code decompiler based on LLVM."},
 
