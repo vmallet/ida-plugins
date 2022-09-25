@@ -119,7 +119,7 @@ var tabledata = [
 {name: "APIScout",
  url: "https://github.com/danielplohmann/apiscout",
  src: "py",
- last: "20220801",
+ last: "20220920",
  vers: "7.5",
  desc: "This project aims at simplifying Windows API import recovery. As input, arbitrary memory dumps for a known environment can be processed (please note: a reference DB has to be built first, using apiscout/db_builder). The output is an ordered list of identified Windows API references with some meta information, and an ApiVector fingerprint. Includes a convenience GUI wrapper for use in IDA."},
 
@@ -134,6 +134,13 @@ var tabledata = [
  src: "py",
  last: "20210804",
  desc: "Auto-renaming plugin with tagging support."},
+
+{name: "AutoResolv",
+ url: "https://github.com/0xMirasio/AutoResolv",
+ src: "py",
+ last: "20220915",
+ vers: "7.0",
+ desc: "Resolve custom libraries in main project. Refactor call type and code."},
 
 {name: "Back 2 The Future",
  url: "https://github.com/SafeBreach-Labs/Back2TheFuture",
@@ -199,7 +206,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20220905",
+ last: "20220916",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -226,7 +233,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20220826",
+ last: "20220918",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -267,7 +274,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220906",
+ last: "20220920",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -629,7 +636,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20220730",
+ last: "20220915",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -706,9 +713,9 @@ var tabledata = [
 {name: "Fentanyl",
  url: "https://github.com/osirislab/Fentanyl",
  src: "py",
- last: "20151002",
- vers: "6.5",
- desc: "DAPython script that makes patching significantly easier."},
+ last: "20220924",
+ vers: "7.0",
+ desc: "IDAPython script that makes patching significantly easier."},
 
 {name: "FindCrypt2",
  url: "https://hex-rays.com/blog/findcrypt2/",
@@ -1014,7 +1021,7 @@ var tabledata = [
  url: "https://github.com/OALabs/hashdb-ida",
  src: "py",
  cats: "int",
- last: "20220317",
+ last: "20220912",
  vers: "7.0",
  desc: "Malware string hash lookup plugin for IDA Pro. This plugin connects to the OALABS HashDB Lookup Service."},
 
@@ -1024,6 +1031,14 @@ var tabledata = [
  last: "20220725",
  vers: "7.4",
  desc: "An IDA Pro plugin to examine the heap, focused on exploit development."},
+
+{name: "herast",
+ url: "https://github.com/Mizari/herast",
+ src: "py",
+ cats: "decomp, dev",
+ last: "20220918",
+ vers: "7.4",
+ desc: "Framework to automate working with AST in IDA Pro."},
 
 {name: "HexCopy",
  url: "https://github.com/OALabs/hexcopy-ida",
@@ -1128,7 +1143,7 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20220904",
+ last: "20220923",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool directly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "iBoot64helper",
@@ -1385,7 +1400,7 @@ var tabledata = [
 {name: "IDA-For-Delphi",
  url: "https://github.com/Coldzer0/IDA-For-Delphi",
  src: "py",
- last: "20190920",
+ last: "20220916",
  desc: "IDA Python Script to Get All function names from Event Constructor (VCL)."},
 
 {name: "IDAFrida",
@@ -1473,7 +1488,7 @@ var tabledata = [
 {name: "IDA Images",
  url: "https://github.com/rr-/ida-images",
  src: "py",
- last: "20201107",
+ last: "20220917",
  vers: "7.0",
  desc: "Image preview plugin for IDA disassembler."},
 
@@ -1524,7 +1539,7 @@ var tabledata = [
 {name: "ida_kernelcache 7.5",
  url: "https://github.com/cellebrite-labs/ida_kernelcache",
  src: "py",
- last: "20201004",
+ last: "20220914",
  vers: "7.5",
  desc: "An IDA Toolkit for analyzing iOS kernelcaches. This fork was updated to work on IDA7.5/Python3/iOS 14.0.1."},
 
@@ -1591,9 +1606,17 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220904",
+ last: "20220921",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
+
+{name: "IDA-names",
+ url: "https://github.com/archercreat/ida_names",
+ src: "py",
+ cats: "ui",
+ last: "20220914",
+ vers: "7.0",
+ desc: "IDA-names automatically renames pseudocode windows with the current function name."},
 
 {name: "ida-netnode",
  url: "https://github.com/williballenthin/ida-netnode",
@@ -2148,7 +2171,7 @@ var tabledata = [
  url: "https://github.com/eset/ipyida",
  src: "py",
  cats: "dev, int",
- last: "20220829",
+ last: "20220914",
  vers: "7.6",
  desc: "PyIDA is a python-only solution to use a IPython console in the context of IDA Pro. It spawns an IPython kernel that you can connect to with `ipython console --existing` in your shell or by opening a *QT Console* window in IDA Pro with `<Shift-.>`"},
 
@@ -2250,7 +2273,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20220903",
+ last: "20220919",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2563,7 +2586,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20220804",
+ last: "20220915",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -2601,7 +2624,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20220906",
+ last: "20220924",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2824,9 +2847,15 @@ var tabledata = [
  url: "https://github.com/lab313ru/smd_ida_tools2",
  src: "c++",
  cats: "debug, loader",
- last: "20210625",
+ last: "20220909",
  vers: "7.5",
  desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Updated to at least IDA 7.5"},
+
+{name: "Seida",
+ url: "https://github.com/sandin/seida",
+ src: "py",
+ last: "20220915",
+ desc: "Symbolic Execution plugin for IDA."},
 
 {name: "ShannonRE",
  url: "https://github.com/Comsecuris/shannonRE/tree/master/idapython",
@@ -3183,7 +3212,7 @@ var tabledata = [
  url: "https://github.com/kweatherman/yara4ida",
  src: "c++",
  cats: "int",
- last: "20220619",
+ last: "20220917",
  vers: "7.7",
  desc: "Unofficial YARA IDA Pro plugin, along with an unparalleled crypto/hash/compression rule set based on Luigi Auriemma's signsrch signatures."},
 
