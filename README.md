@@ -77,7 +77,7 @@ _Updated: 2022 09 06 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 08 04 &nbsp;&nbsp; Language: Python_
 
 * [AutoResolv](https://github.com/0xMirasio/AutoResolv): Resolve custom libraries in main project. Refactor call type and code.<br>
-_Updated: 2022 09 15 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 09 27 &nbsp;&nbsp; Language: Python_
 
 * [Back 2 The Future](https://github.com/SafeBreach-Labs/Back2TheFuture): Find patterns of vulnerabilities on Windows in order to find 0-day and write exploits of 1-days. We use Microsoft security updates in order to find the patterns.<br>
 _Updated: 2021 08 09 &nbsp;&nbsp; Language: Python_
@@ -107,7 +107,7 @@ _Updated: 2015 04 04 &nbsp;&nbsp; Language: C++_
 _Updated: 2021 06 07_
 
 * [BinExport](https://github.com/google/binexport): Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires.<br>
-_Updated: 2022 09 16 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 10 05 &nbsp;&nbsp; Language: C++_
 
 * [Binkit](https://github.com/ohjeongwook/binkit/tree/master/src/plugin): Binkit Plugin For IDA. Use this plugin to load diffing result files (*.json)...<br>
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
@@ -137,7 +137,7 @@ _Updated: 2018 01 22 &nbsp;&nbsp; Language: C++_
 _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2022 09 20 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 10 03 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -170,7 +170,7 @@ _Updated: 2021 09 01 &nbsp;&nbsp; Language: C++_
 _Updated: 2022 07 19 &nbsp;&nbsp; Language: Python_
 
 * [COMFinder](https://github.com/howmp/comfinder): IDA plugin for COM.<br>
-_Updated: 2020 04 08 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 09 30 &nbsp;&nbsp; Language: Python_
 
 * [Comida](https://github.com/airbus-cert/comida): Comida is a plugin which searches all the references of the GUID COM object (Common Object Model) and deduce the associated type using the Hexrays plugin to improve the readability of the code.<br>
 _Updated: 2020 05 13 &nbsp;&nbsp; Language: Python_
@@ -227,7 +227,7 @@ _Updated: 2022 08 01 &nbsp;&nbsp; Language: Python_
 _Updated: 2017 11 19 &nbsp;&nbsp; Language: Python_
 
 * [docker-idapro](https://github.com/blacktop/docker-idapro): IDA Pro Docker Image (For use as an ipsw pipeline).<br>
-_Updated: 2022 08 05_
+_Updated: 2022 09 26_
 
 * [doelf](https://github.com/antonpasm/doelf): A plugin for IDA Pro to export the symbols recognized to the ELF symbol table. It can create an ELF with debug information from any dump file.<br>
 _Updated: 2022 05 31 &nbsp;&nbsp; Language: Python_
@@ -296,7 +296,7 @@ _Updated: 2014 06 17 &nbsp;&nbsp; Language: Python_
 _Updated: 2017 06 13 &nbsp;&nbsp; Language: C++_
 
 * [efiXplorer](https://github.com/binarly-io/efiXplorer): IDA plugin for UEFI firmware analysis and reverse engineering automation.<br>
-_Updated: 2022 09 15 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 10 03 &nbsp;&nbsp; Language: C++_
 
 * [Enhanced PDB Plugin](https://github.com/sonyps5201314/pdb): IDA PDB plugin with enhancements and bugfixes (Chinese).<br>
 _Updated: 2022 08 13 &nbsp;&nbsp; Language: C++_
@@ -386,7 +386,7 @@ _Updated: 2015 02 07 &nbsp;&nbsp; Language: Python_
 _Updated: 2015 04 05 &nbsp;&nbsp; Language: Python_
 
 * [FRIEND](https://github.com/alexhude/FRIEND): Flexible Register/Instruction Extender aNd Documentation. FRIEND is an IDA plugin created to improve disassembly and bring register/instruction documentation right into IDA View. (see also: AMIE)<br>
-_Updated: 2021 07 26 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 09 27 &nbsp;&nbsp; Language: C++_
 
 * [Fugue FDB IDB exporter](https://github.com/fugue-re/fugue-idapro): Fugue database importer and exporter for IDA Pro.<br>
 _Updated: 2022 02 14 &nbsp;&nbsp; Language: C++_
@@ -446,7 +446,7 @@ _Updated: 2020 06 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 08 22 &nbsp;&nbsp; Language: Python_
 
 * [go_parser](https://github.com/0xjiayu/go_parser): Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro.<br>
-_Updated: 2022 08 05 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 10 02 &nbsp;&nbsp; Language: Python_
 
 * [grap](https://github.com/QuoSecGmbH/grap): Define and match graph patterns within binaries. grap takes patterns and binary files, uses a Casptone-based disassembler to obtain the control flow graphs from the binaries, then matches the patterns against them.<br>
 _Updated: 2022 05 05 &nbsp;&nbsp; Language: Python_
@@ -724,7 +724,7 @@ _Updated: 2018 01 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2022 09 21 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 09 27 &nbsp;&nbsp; Language: Python_
 
 * [IDA-names](https://github.com/archercreat/ida_names): IDA-names automatically renames pseudocode windows with the current function name.<br>
 _Updated: 2022 09 14 &nbsp;&nbsp; Language: Python_
@@ -783,7 +783,7 @@ _Updated: 2015 05 31 &nbsp;&nbsp; Language: Python_
 _Updated: 2020 09 05 &nbsp;&nbsp; Language: Python_
 
 * [IDA Pro Auto Decompile](https://github.com/koharin/idapro_auto_decompile): Get Decompile code without executing IDA Pro GUI using IDAPython and idat.exe or ida.exe.<br>
-_Updated: 2022 09 06 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 10 05 &nbsp;&nbsp; Language: Python_
 
 * [IDA-Pro-Dark-Theme](https://github.com/BresoDEV/IDA-Pro-Dark-Theme): Dark theme for IDA Pro <V7.<br>
 _Updated: 2022 03 20_
@@ -1004,7 +1004,7 @@ _Updated: 2022 08 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2022 04 06 &nbsp;&nbsp; Language: C++_
 
 * [LoadProcConfig](https://github.com/alexhude/LoadProcConfig): LoadProcConfig is an IDA plugin to load processor configuration files.<br>
-_Updated: 2017 09 21 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 09 27 &nbsp;&nbsp; Language: C++_
 
 * [Localxrefs](https://github.com/devttys0/ida/tree/master/plugins/localxrefs): Finds references to any selected text from within the current function.<br>
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
@@ -1165,7 +1165,7 @@ _Updated: 2022 05 26 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 08 03 &nbsp;&nbsp; Language: Python_
 
 * [pwndbg](https://github.com/pwndbg/pwndbg): GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server.<br>
-_Updated: 2022 09 24 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 10 06 &nbsp;&nbsp; Language: Python_
 
 * [pyhexraysdeob](https://github.com/idapython/pyhexraysdeob): A port of Rolf Rolles' HexRaysDeob to Python.<br>
 _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_
@@ -1358,7 +1358,7 @@ _Updated: 2011 12 13 &nbsp;&nbsp; Language: C++_
 _Updated: 2021 08 03 &nbsp;&nbsp; Language: Python_
 
 * [uEmu](https://github.com/alexhude/uEmu): uEmu is a tiny cute emulator plugin for IDA based on unicorn engine. Supports following architectures out of the box: x86, x64, ARM, ARM64, MIPS, MIPS64<br>
-_Updated: 2021 10 13 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 09 27 &nbsp;&nbsp; Language: Python_
 
 * [unity_metadata_loader](https://github.com/nevermoe/unity_metadata_loader): Load strings and method/class names in global-metadata.dat to IDA.<br>
 _Updated: 2018 07 18 &nbsp;&nbsp; Language: Python_

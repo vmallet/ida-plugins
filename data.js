@@ -138,7 +138,7 @@ var tabledata = [
 {name: "AutoResolv",
  url: "https://github.com/0xMirasio/AutoResolv",
  src: "py",
- last: "20220915",
+ last: "20220927",
  vers: "7.0",
  desc: "Resolve custom libraries in main project. Refactor call type and code."},
 
@@ -206,7 +206,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20220916",
+ last: "20221005",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -274,7 +274,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20220920",
+ last: "20221003",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -344,7 +344,7 @@ var tabledata = [
 {name: "COMFinder",
  url: "https://github.com/howmp/comfinder",
  src: "py",
- last: "20200408",
+ last: "20220930",
  desc: "IDA plugin for COM."},
 
 {name: "Comida",
@@ -476,7 +476,7 @@ var tabledata = [
 
 {name: "docker-idapro",
  url: "https://github.com/blacktop/docker-idapro",
- last: "20220805",
+ last: "20220926",
  vers: "7.7",
  desc: "IDA Pro Docker Image (For use as an ipsw pipeline)."},
 
@@ -636,7 +636,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20220915",
+ last: "20221003",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -847,7 +847,7 @@ var tabledata = [
 {name: "FRIEND",
  url: "https://github.com/alexhude/FRIEND",
  src: "c++",
- last: "20210726",
+ last: "20220927",
  vers: "7.0",
  desc: "Flexible Register/Instruction Extender aNd Documentation. FRIEND is an IDA plugin created to improve disassembly and bring register/instruction documentation right into IDA View. (see also: AMIE)"},
 
@@ -994,7 +994,7 @@ var tabledata = [
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
- last: "20220805",
+ last: "20221002",
  desc: "Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro."},
 
 {name: "grap",
@@ -1620,7 +1620,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220921",
+ last: "20220927",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1754,7 +1754,7 @@ var tabledata = [
  url: "https://github.com/koharin/idapro_auto_decompile",
  src: "py",
  cats: "decomp",
- last: "20220906",
+ last: "20221005",
  vers: "7.7",
  desc: "Get Decompile code without executing IDA Pro GUI using IDAPython and idat.exe or ida.exe."},
 
@@ -2264,7 +2264,7 @@ var tabledata = [
  url: "https://github.com/alexhude/LoadProcConfig",
  src: "c++",
  cats: "proc",
- last: "20170921",
+ last: "20220927",
  vers: "7.0",
  desc: "LoadProcConfig is an IDA plugin to load processor configuration files."},
 
@@ -2638,7 +2638,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20220924",
+ last: "20221006",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3080,7 +3080,7 @@ var tabledata = [
 {name: "uEmu",
  url: "https://github.com/alexhude/uEmu",
  src: "py",
- last: "20211013",
+ last: "20220927",
  vers: "7.2",
  desc: "uEmu is a tiny cute emulator plugin for IDA based on unicorn engine. Supports following architectures out of the box: x86, x64, ARM, ARM64, MIPS, MIPS64"},
 
