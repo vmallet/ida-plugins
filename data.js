@@ -24,7 +24,7 @@ var tabledata = [
  url: "https://github.com/patois/abyss",
  src: "py",
  cats: "decomp",
- last: "20220827",
+ last: "20221008",
  desc: "Postprocess Hexrays Decompiler Output"},
 
 {name: "ActionScript 3",
@@ -206,7 +206,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20221005",
+ last: "20221007",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -274,7 +274,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20221003",
+ last: "20221007",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -318,6 +318,12 @@ var tabledata = [
  last: "20210602",
  desc: "\n* Defines ASCII strings that IDA's auto analysis missed\n*  Defines functions/code that IDA's auto analysis missed\n*  Converts all undefined bytes in the data segment into DWORDs (thus allowing IDA to resolve function and jump table pointers)"},
 
+{name: "Codatify (IDC)",
+ url: "https://github.com/tin-z/codatify",
+ src: "idc",
+ last: "20220918",
+ desc: "IDC version of codatify IDAPython script."},
+
 {name: "Codemap",
  url: "https://github.com/c0demap/codemap",
  src: "py",
@@ -360,6 +366,13 @@ var tabledata = [
  last: "20220329",
  vers: "7.5",
  desc: "Search for constant values that are used in conditional statements such as if and switch-case or for functions that contain multiple specific constants."},
+
+{name: "ConfuserEx Unflattening",
+ url: "https://github.com/govcert-ch/ConfuserEx_IDAPython",
+ src: "py",
+ cats: "deobf",
+ last: "20220915",
+ desc: "IDA Python deobfuscation script for ConfuserEx binaries."},
 
 {name: "Continuum",
  url: "https://github.com/zyantific/continuum",
@@ -677,6 +690,12 @@ var tabledata = [
  vers: "7.0",
  desc: "Display the result of perf Coresight ETM tracing."},
 
+{name: "ExportQml",
+ url: "https://github.com/Redbeanw44602/ExportQml",
+ src: "py",
+ last: "20220910",
+ desc: "Export all Qml from the Qt program. (IDA script)."},
+
 {name: "Exports+",
  url: "https://github.com/ax330d/exports-plus",
  src: "py",
@@ -977,6 +996,14 @@ var tabledata = [
  vers: "7.7",
  desc: "Ghidra Decompiler Plugin for IDA Pro."},
 
+{name: "GoFastAnalyzer",
+ url: "https://github.com/harelon/GoFastAnalyzer",
+ src: "py",
+ cats: "decomp",
+ last: "20220919",
+ vers: "7.0",
+ desc: "Go fastcall analysis for ida decompiler."},
+
 {name: "golang_loader_assist",
  url: "https://github.com/strazzere/golang_loader_assist",
  src: "py",
@@ -1143,7 +1170,7 @@ var tabledata = [
  url: "https://github.com/patois/HRDevHelper",
  src: "py",
  cats: "decomp, dev",
- last: "20211104",
+ last: "20221008",
  vers: "7.3",
  desc: "HexRays decompiler plugin that visualizes the ctree of decompiled functions using IDA's graph engine."},
 
@@ -1416,6 +1443,13 @@ var tabledata = [
  cats: "int, trace",
  last: "20220328",
  desc: "IDA Frida Plugin for tracing something interesting. Plugin to generate FRIDA script."},
+
+{name: "IDAFunctionsDecompiler",
+ url: "https://github.com/JCGdev/IDAFunctionsDecompiler",
+ src: "py",
+ cats: "decomp",
+ last: "20220913",
+ desc: "An IDAPython script to decompile all the functions of an executable and dump the pseudocode."},
 
 {name: "IDAFuzzy",
  url: "https://github.com/Ga-ryo/IDAFuzzy",
@@ -1713,6 +1747,14 @@ var tabledata = [
  vers: "6.5",
  desc: "Adds perl scripting support to ida."},
 
+{name: "idapin",
+ url: "https://github.com/Rupan/idapin",
+ src: "c++",
+ cats: "debug, int",
+ last: "20220924",
+ vers: "8.0",
+ desc: "A debugger backend for IDA Pro built on top of of Intel’s PIN framework."},
+
 {name: "IDAPinLogger",
  url: "https://github.com/wirepair/idapinlogger",
  src: "c++",
@@ -1905,6 +1947,12 @@ var tabledata = [
  src: "py",
  last: "20161017",
  desc: "Misc IDA Pro scripts: cyclomatic_complexity, go_stripped_helper."},
+
+{name: "idascripts (maiyao1988)",
+ url: "https://github.com/maiyao1988/IDAScripts",
+ src: "py",
+ last: "20220912",
+ desc: "Common IDA scripts for effective Reverse Engineering: comment-trace, dbg-loc-off, deopt, findsvc, get_all_code, get_all_svc, ida_trace, trace."},
 
 {name: "ida-scripts (sam-b)",
  url: "https://github.com/sam-b/ida-scripts",
@@ -2112,7 +2160,7 @@ var tabledata = [
  url: "https://github.com/emoose/idaxex",
  src: "c++",
  cats: "loader",
- last: "20220218",
+ last: "20221005",
  vers: "7.5",
  desc: "Xbox360/Xenon loader plugin for IDA 7.2+, supporting most known Xbox360/Xenon .XEX executable file formats."},
 
@@ -2235,7 +2283,7 @@ var tabledata = [
 {name: "LazyIDA",
  url: "https://github.com/L4ys/LazyIDA",
  src: "py",
- last: "20220225",
+ last: "20221008",
  vers: "7.0",
  desc: "LazyIDA lets you perform many tasks simply and quickly (e.g., remove function return type in Hex-Rays, convert data into different formats, scan for format string vulnerabilities and a variety of shortcuts)"},
 
@@ -2265,7 +2313,7 @@ var tabledata = [
  src: "c++",
  cats: "proc",
  last: "20220927",
- vers: "7.0",
+ vers: "8.0",
  desc: "LoadProcConfig is an IDA plugin to load processor configuration files."},
 
 {name: "Localxrefs",
@@ -2638,7 +2686,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20221006",
+ last: "20221008",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2711,7 +2759,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20220930",
+ last: "20221006",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "Rebased Comment",
@@ -3060,7 +3108,7 @@ var tabledata = [
  url: "https://github.com/airbus-cert/ttddbg",
  src: "c++",
  cats: "debug, int",
- last: "20220725",
+ last: "20221007",
  desc: "Time Travel Debugging IDA plugin. Adds a new debugger to IDA which can read TTD traces generated by WinDBG or Visual Studio."},
 
 {name: "TurboDiff",
