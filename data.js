@@ -24,7 +24,7 @@ var tabledata = [
  url: "https://github.com/patois/abyss",
  src: "py",
  cats: "decomp",
- last: "20221008",
+ last: "20221014",
  desc: "Postprocess Hexrays Decompiler Output"},
 
 {name: "ActionScript 3",
@@ -206,7 +206,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20221007",
+ last: "20221010",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -233,7 +233,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20220918",
+ last: "20221010",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -274,7 +274,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20221007",
+ last: "20221013",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -458,6 +458,13 @@ var tabledata = [
  last: "20170906",
  desc: "Easily setup vtables in IDA using declaration files."},
 
+{name: "Deep Winter",
+ url: "https://github.com/evil33333333/deep-winter",
+ cats: "ui",
+ last: "20221013",
+ vers: "7.0",
+ desc: "Black IDA pro theme for darkness enthusiasts."},
+
 {name: "deREferencing",
  url: "https://github.com/danigargu/deREferencing",
  src: "py",
@@ -476,7 +483,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20220801",
+ last: "20221013",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -528,6 +535,14 @@ var tabledata = [
  last: "20220630",
  desc: "Dark theme for IDA Pro."},
 
+{name: "Dragodis",
+ url: "https://github.com/dod-cyber-crime-center/Dragodis",
+ src: "py",
+ cats: "dev, int",
+ last: "20221004",
+ vers: "7.0",
+ desc: "Python framework which allows for the creation of universal disassembler scripts. Supports IDA and Ghidra."},
+
 {name: "DrGadget",
  url: "https://github.com/patois/DrGadget",
  src: "py",
@@ -543,7 +558,7 @@ var tabledata = [
 {name: "DriverBuddyReloaded",
  url: "https://github.com/VoidSec/DriverBuddyReloaded",
  src: "py",
- last: "20220809",
+ last: "20221009",
  desc: "Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks."},
 
 {name: "Drop",
@@ -732,7 +747,7 @@ var tabledata = [
 {name: "Fentanyl",
  url: "https://github.com/osirislab/Fentanyl",
  src: "py",
- last: "20220924",
+ last: "20221012",
  vers: "7.0",
  desc: "IDAPython script that makes patching significantly easier."},
 
@@ -1170,7 +1185,7 @@ var tabledata = [
  url: "https://github.com/patois/HRDevHelper",
  src: "py",
  cats: "decomp, dev",
- last: "20221008",
+ last: "20221014",
  vers: "7.3",
  desc: "HexRays decompiler plugin that visualizes the ctree of decompiled functions using IDA's graph engine."},
 
@@ -1516,7 +1531,7 @@ var tabledata = [
  url: "https://github.com/matteyeux/ida-iboot-loader",
  src: "py",
  cats: "loader",
- last: "20220901",
+ last: "20221012",
  desc: "IDA loader for Apple's 64 bits iBoot, SecureROM and AVPBooter."},
 
 {name: "idaidle",
@@ -1590,6 +1605,13 @@ var tabledata = [
  last: "20220914",
  vers: "7.5",
  desc: "An IDA Toolkit for analyzing iOS kernelcaches. This fork was updated to work on IDA7.5/Python3/iOS 14.0.1."},
+
+{name: "ida_kern_til",
+ url: "https://github.com/NyaMisty/ida_kern_til",
+ src: "py",
+ last: "20221009",
+ vers: "8.1",
+ desc: "Tools for building TIL for IDA SDK & exporting them to python wrapper"},
 
 {name: "IDA Key Checker",
  url: "https://github.com/pr701/ida_key_checker",
@@ -1796,7 +1818,7 @@ var tabledata = [
  url: "https://github.com/koharin/idapro_auto_decompile",
  src: "py",
  cats: "decomp",
- last: "20221005",
+ last: "20221015",
  vers: "7.7",
  desc: "Get Decompile code without executing IDA Pro GUI using IDAPython and idat.exe or ida.exe."},
 
@@ -1848,7 +1870,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20220822",
+ last: "20221010",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -1947,6 +1969,12 @@ var tabledata = [
  src: "py",
  last: "20161017",
  desc: "Misc IDA Pro scripts: cyclomatic_complexity, go_stripped_helper."},
+
+{name: "ida-scripts (cra0)",
+ url: "https://github.com/cra0/ida-scripts",
+ src: "py",
+ last: "20221011",
+ desc: "Various IDA scripts for Reverse Engineering: Cra0 Signature Definition File Importer, Cra0 VTable Definition File Importer, cvutils-getoffset, cvutils-gotooffset."},
 
 {name: "idascripts (maiyao1988)",
  url: "https://github.com/maiyao1988/IDAScripts",
@@ -2048,6 +2076,13 @@ var tabledata = [
  last: "20180314",
  vers: "6.9",
  desc: "This plugin extends IDA Pro's capabilities to display strings within the binary by clustering found strings on a per-function basis."},
+
+{name: "IDAStringFindNet",
+ url: "https://github.com/luodaoyi/IDAStringFindNet",
+ src: "c++",
+ last: "20220917",
+ vers: "7.6",
+ desc: "String search plugin (Chinese)."},
 
 {name: "IDA-String-Reference-Locator",
  url: "https://github.com/praydog/IDA-String-Reference-Locator-Plugin",
@@ -2160,7 +2195,7 @@ var tabledata = [
  url: "https://github.com/emoose/idaxex",
  src: "c++",
  cats: "loader",
- last: "20221005",
+ last: "20221012",
  vers: "7.5",
  desc: "Xbox360/Xenon loader plugin for IDA 7.2+, supporting most known Xbox360/Xenon .XEX executable file formats."},
 
@@ -2335,7 +2370,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20220919",
+ last: "20221012",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2343,7 +2378,7 @@ var tabledata = [
  url: "https://github.com/zhangyoufu/lumina",
  src: "go",
  cats: "int",
- last: "20220803",
+ last: "20221009",
  desc: "A Go library speaking (IDA Pro) lumina protocol, and a proxy server that may help if you have any privacy concerns using the Hex-Rays' official lumina server."},
 
 {name: "MadNES",
@@ -2686,7 +2721,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20221008",
+ last: "20221007",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
