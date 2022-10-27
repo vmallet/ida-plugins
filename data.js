@@ -24,7 +24,7 @@ var tabledata = [
  url: "https://github.com/patois/abyss",
  src: "py",
  cats: "decomp",
- last: "20221014",
+ last: "20221026",
  desc: "Postprocess Hexrays Decompiler Output"},
 
 {name: "ActionScript 3",
@@ -206,7 +206,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20221010",
+ last: "20221026",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -233,7 +233,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20221010",
+ last: "20221026",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -274,7 +274,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20221013",
+ last: "20221024",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -664,7 +664,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20221003",
+ last: "20221019",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -768,7 +768,7 @@ var tabledata = [
 {name: "FindFunc",
  url: "https://github.com/FelixBer/FindFunc",
  src: "py",
- last: "20220901",
+ last: "20221025",
  vers: "7.7",
  desc: "Advanced Filtering/Finding of Functions. FindFunc is an IDA PRO plugin to find code functions that contain a certain assembly or byte pattern, reference a certain name or string, or conform to various other constraints."},
 
@@ -1085,7 +1085,7 @@ var tabledata = [
  url: "https://github.com/Mizari/herast",
  src: "py",
  cats: "decomp, dev",
- last: "20220918",
+ last: "20221026",
  vers: "7.4",
  desc: "Framework to automate working with AST in IDA Pro."},
 
@@ -1185,7 +1185,7 @@ var tabledata = [
  url: "https://github.com/patois/HRDevHelper",
  src: "py",
  cats: "decomp, dev",
- last: "20221014",
+ last: "20221021",
  vers: "7.3",
  desc: "HexRays decompiler plugin that visualizes the ctree of decompiled functions using IDA's graph engine."},
 
@@ -1676,7 +1676,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20220927",
+ last: "20221020",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1818,7 +1818,7 @@ var tabledata = [
  url: "https://github.com/koharin/idapro_auto_decompile",
  src: "py",
  cats: "decomp",
- last: "20221015",
+ last: "20221019",
  vers: "7.7",
  desc: "Get Decompile code without executing IDA Pro GUI using IDAPython and idat.exe or ida.exe."},
 
@@ -1862,7 +1862,7 @@ var tabledata = [
  url: "https://github.com/patois/IDAPyHelper",
  src: "py",
  cats: "dev",
- last: "20191123",
+ last: "20221018",
  vers: "7.0",
  desc: "IDAPyHelper is a script for the Interactive Disassembler that helps writing IDAPython scripts and plugins."},
 
@@ -2173,7 +2173,7 @@ var tabledata = [
 {name: "idawilli",
  url: "https://github.com/williballenthin/idawilli",
  src: "py",
- last: "20220121",
+ last: "20221026",
  desc: "IDA Pro resources, scripts, and configurations."},
 
 {name: "idax",
@@ -2675,7 +2675,7 @@ var tabledata = [
 {name: "Ponce",
  url: "https://github.com/illera88/Ponce",
  src: "c++",
- last: "20220425",
+ last: "20221024",
  vers: "7.6",
  desc: "Taint analysis and symbolic execution over binaries in an easy and intuitive fashion."},
 
@@ -2721,7 +2721,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20221007",
+ last: "20221026",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3218,7 +3218,7 @@ var tabledata = [
 {name: "VulFi",
  url: "https://github.com/Accenture/VulFi",
  src: "py",
- last: "20220819",
+ last: "20221024",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
@@ -3299,7 +3299,7 @@ var tabledata = [
  url: "https://github.com/patois/xray",
  src: "py",
  cats: "decomp, ui",
- last: "20220129",
+ last: "20221018",
  vers: "7.4",
  desc: "Hexrays decompiler plugin that colorizes and filters the decompiler's output based on regular expressions"},
 
