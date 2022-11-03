@@ -50,7 +50,7 @@ var tabledata = [
 {name: "AlphaGolang",
  url: "https://github.com/SentineLabs/AlphaGolang",
  src: "py",
- last: "20220825",
+ last: "20221030",
  vers: "7.6",
  desc: "IDApython Scripts for Analyzing Golang Binaries."},
 
@@ -187,7 +187,7 @@ var tabledata = [
 {name: "BinCAT",
  url: "https://github.com/airbus-seclab/bincat",
  src: "py",
- last: "20220511",
+ last: "20221028",
  vers: "7.4",
  desc: "BinCAT is a static Binary Code Analysis Toolkit, designed to help reverse engineers, directly from IDA."},
 
@@ -206,7 +206,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20221026",
+ last: "20221031",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -664,7 +664,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20221019",
+ last: "20221102",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1036,7 +1036,7 @@ var tabledata = [
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
- last: "20221002",
+ last: "20221102",
  desc: "Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro."},
 
 {name: "grap",
@@ -1085,7 +1085,7 @@ var tabledata = [
  url: "https://github.com/Mizari/herast",
  src: "py",
  cats: "decomp, dev",
- last: "20221026",
+ last: "20221028",
  vers: "7.4",
  desc: "Framework to automate working with AST in IDA Pro."},
 
@@ -1139,7 +1139,7 @@ var tabledata = [
 {name: "hexrays_scripts",
  url: "https://github.com/patois/hexrays_scripts",
  src: "py",
- last: "20220407",
+ last: "20221030",
  desc: "Various scripts for the Hexrays decompiler (kloppy, shuffle, arachno, IDA coffee, screenrecorder, ricky)."},
 
 {name: "Hexrays Toolbox",
@@ -1359,7 +1359,7 @@ var tabledata = [
 {name: "ida-comment-view",
  url: "https://github.com/helloobaby/ida-comment-view",
  src: "c++",
- last: "20220823",
+ last: "20221101",
  vers: "7.5",
  desc: "A list of all the comments throughout the project in one convenient window (Chinese)."},
 
@@ -2721,7 +2721,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20221026",
+ last: "20221101",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3218,7 +3218,7 @@ var tabledata = [
 {name: "VulFi",
  url: "https://github.com/Accenture/VulFi",
  src: "py",
- last: "20221024",
+ last: "20221031",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
