@@ -178,6 +178,13 @@ var tabledata = [
  vers: "7.7",
  desc: "An IDA plugin for making pseudocode better."},
 
+{name: "bextr-helper",
+ url: "https://github.com/Goatman13/bextr-helper",
+ src: "py",
+ last: "20221130",
+ vers: "7.5",
+ desc: "Create comment for bextr opcode with easy to read operation."},
+
 {name: "BinAuthor",
  url: "https://github.com/g4hsean/BinAuthor",
  src: "py",
@@ -206,7 +213,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20221031",
+ last: "20221122",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -233,7 +240,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20221115",
+ last: "20221122",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -274,7 +281,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20221108",
+ last: "20221122",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -483,7 +490,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20221013",
+ last: "20221124",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -611,6 +618,14 @@ var tabledata = [
  last: "20210513",
  vers: "7.2",
  desc: "DIE is an IDA python plugin designed to enrich IDA`s static analysis with dynamic data. This is done using the IDA Debugger API, by placing breakpoints in key locations and saving the current system context once those breakpoints are hit."},
+
+{name: "Dynapstalker",
+ url: "https://github.com/joswr1ght/dynapstalker",
+ src: "py",
+ cats: "int, ui",
+ last: "20221124",
+ vers: "7.0",
+ desc: "Colorize Reached Blocks in IDA Pro using DynamoRIO drcov Output."},
 
 {name: "Dynlib",
  url: "https://github.com/aerosoul94/dynlib",
@@ -1185,7 +1200,7 @@ var tabledata = [
  url: "https://github.com/patois/HRDevHelper",
  src: "py",
  cats: "decomp, dev",
- last: "20221104",
+ last: "20221122",
  vers: "7.3",
  desc: "HexRays decompiler plugin that visualizes the ctree of decompiled functions using IDA's graph engine."},
 
@@ -1432,6 +1447,13 @@ var tabledata = [
  vers: "7.0",
  desc: "IDA Processor Module for the Ethereum Virtual Machine (EVM)."},
 
+{name: "ida-extends",
+ url: "https://github.com/loyaltypollution/ida-extends",
+ src: "py",
+ cats: "dev",
+ last: "20221009",
+ desc: "An extension module for IDAPython API focused on ease of development."},
+
 {name: "IDA Extrapass",
  url: "http://sourceforge.net/projects/idaextrapassplugin/",
  src: "c++",
@@ -1449,7 +1471,7 @@ var tabledata = [
 {name: "IDA-For-Delphi",
  url: "https://github.com/Coldzer0/IDA-For-Delphi",
  src: "py",
- last: "20220916",
+ last: "20221127",
  desc: "IDA Python Script to Get All function names from Event Constructor (VCL)."},
 
 {name: "IDAFrida",
@@ -1638,7 +1660,7 @@ var tabledata = [
 {name: "IDAMagicStrings",
  url: "https://github.com/joxeankoret/idamagicstrings",
  src: "py",
- last: "20191108",
+ last: "20221124",
  vers: "7.4",
  desc: "An IDA Python plugin to extract information from string constants. The current version of the plugin is able to:\n* Display functions to source files relationships (in a tree and in a plain list, a chooser in IDA language).\n* Display guessed function names for functions.\n* Rename functions according to the source code file their belong + address (for example, memory_mgmt_0x401050).\n* Rename functions according to the guessed function name."},
 
@@ -2022,6 +2044,14 @@ var tabledata = [
  cats: "int",
  last: "20210729",
  desc: "IDAShell is a shell extension for launching IDA from the context menu of executables (Windows)."},
+
+{name: "IDA_ShowCallStack",
+ url: "https://github.com/radkum/IDA_ShowCallStack",
+ src: "py",
+ cats: "debug",
+ last: "20221002",
+ vers: "7.6",
+ desc: "Display call stacks during debugging."},
 
 {name: "IDA Signature Matching Tool",
  url: "http://sourceforge.net/projects/idasignsrch/",
@@ -2421,7 +2451,7 @@ var tabledata = [
 {name: "mIDA",
  url: "https://github.com/tenable/mida",
  src: "c++",
- last: "20180705",
+ last: "20221129",
  desc: "MIDL Decompiler for IDA. Extracts RPC interfaces and recreates the associated IDL file. mIDA supports inline, interpreted and fully interpreted server stubs."},
 
 {name: "MILF",
@@ -2569,7 +2599,7 @@ var tabledata = [
  url: "https://github.com/wallds/NoVmpy",
  src: "py",
  cats: "deobf, int",
- last: "20220520",
+ last: "20221125",
  desc: "Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL."},
 
 {name: "NSIS Reversing Suite",
@@ -2591,7 +2621,7 @@ var tabledata = [
  url: "https://github.com/obpo-project/obpo-plugin",
  src: "py",
  cats: "decomp, deobf",
- last: "20220501",
+ last: "20221122",
  vers: "7.7",
  desc: "Obpo is a microcode-based hex-rays optimizer, uses techniques such as static-program-analysis, dataflow-tracking, concolic-execution to rebuild the obfuscated control flow (such as: OLLVM)."},
 
@@ -2685,6 +2715,13 @@ var tabledata = [
  vers: "7.6",
  desc: "Taint analysis and symbolic execution over binaries in an easy and intuitive fashion."},
 
+{name: "PopPySig",
+ url: "https://github.com/sub1to/PopPySig",
+ src: "py",
+ last: "20221127",
+ vers: "7.0",
+ desc: "Make byte signatures and scan for byte signatures."},
+
 {name: "Post HexRays ANalysis Kit",
  url: "https://github.com/Mizari/phrank",
  src: "py",
@@ -2733,7 +2770,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20221119",
+ last: "20221130",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2751,6 +2788,13 @@ var tabledata = [
  last: "20220727",
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See C++ version 'idbutil')."},
+
+{name: "pySigMaker",
+ url: "https://github.com/therealzoomgod/pySigMaker",
+ src: "py",
+ last: "20221003",
+ vers: "7.6",
+ desc: "Port of IDA plugin SigMaker-x64 to IDAPython: plugin to make creating code signatures quick and simple."},
 
 {name: "pytest-idapro",
  url: "https://github.com/nirizr/pytest-idapro",
@@ -2806,7 +2850,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20221119",
+ last: "20221129",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "Rebased Comment",
@@ -3073,6 +3117,12 @@ var tabledata = [
  cats: "deobf",
  last: "20211108",
  desc: "Stadeo is a set of tools primarily developed to facilitate analysis of Stantinko, which is a botnet performing click fraud, ad injection, social network fraud, password stealing attacks and cryptomining, using IDA."},
+
+{name: "static-analysis-plugin",
+ url: "https://github.com/TheComputeGuy/static-analysis-plugin",
+ src: "py",
+ last: "20221025",
+ desc: "An IDA Python plugin for CFG generation and data flow analysis on x86 binaries."},
 
 {name: "Stingray",
  url: "https://github.com/darx0r/Stingray",
