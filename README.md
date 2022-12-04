@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-480 plugins
+487 plugins
 * [3DS-Code-Loader](https://github.com/SinaMegapolis/3DS-Code-Loader): IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files.<br>
 _Updated: 2022 08 01 &nbsp;&nbsp; Language: C++_
 
@@ -173,7 +173,7 @@ _Updated: 2016 07 01 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 09 01 &nbsp;&nbsp; Language: C++_
 
 * [CollaRE](https://github.com/Martyx00/CollaRE): Multi-tool reverse engineering collaboration solution. CollaRE is a tool for collaborative reverse engineering that aims to allow teams that do need to use more then one tool during a project to collaborate without the need to share the files on a separate locations.<br>
-_Updated: 2022 07 19 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 11 30 &nbsp;&nbsp; Language: Python_
 
 * [COMFinder](https://github.com/howmp/comfinder): IDA plugin for COM.<br>
 _Updated: 2022 09 30 &nbsp;&nbsp; Language: Python_
@@ -436,6 +436,9 @@ _Updated: 2018 04 25 &nbsp;&nbsp; Language: C++_
 * [GameCube REL Loader](https://github.com/oct0xor/ida_pro_gamecube_rel_loader): IDA Pro loader for Nintendo GameCube's .rel files. Based on rso_ida_loader.<br>
 _Updated: 2022 06 10 &nbsp;&nbsp; Language: Python_
 
+* [Gamma](https://github.com/neoni/gamma): IDA Hexrays plugin for highlighting your interesting variables or struct members.<br>
+_Updated: 2020 07 31 &nbsp;&nbsp; Language: Python_
+
 * [GandCrab String Decryptor](https://github.com/lacike/gandcrab_string_decryptor): IDC script for decrypting strings in the GandCrab v5.1-5.3<br>
 _Updated: 2019 04 24 &nbsp;&nbsp; Language: idc_
 
@@ -453,6 +456,9 @@ _Updated: 2019 05 04 &nbsp;&nbsp; Language: Python_
 
 * [Geolocator](https://github.com/techbliss/ida_pro_http_ip_geolocator): Lookup (geolocate) IP's and http/https addresses, using google maps, and MaxMind databases.<br>
 _Updated: 2019 03 10 &nbsp;&nbsp; Language: Python_
+
+* [Gepetto](https://github.com/JusticeRage/Gepetto): Query OpenAI's ChatGPT to explain decompiled functions.<br>
+_Updated: 2022 12 04 &nbsp;&nbsp; Language: Python_
 
 * [GhIDA](https://github.com/Cisco-Talos/GhIDA): GhIDA is an IDA Pro plugin that integrates the Ghidra decompiler in IDA.<br>
 _Updated: 2020 12 16 &nbsp;&nbsp; Language: Python_
@@ -507,6 +513,12 @@ _Updated: 2022 03 09 &nbsp;&nbsp; Language: C++_
 
 * [HexRaysDeob](https://github.com/RolfRolles/HexRaysDeob): A Hex-Rays microcode API plugin breaking an obfuscating compiler used to create an in-the-wild malware family. The plugin is fully automatic and requires no user intervention; upon installation, the decompilation listings presented to the user will be free of obfuscation.<br>
 _Updated: 2019 08 27 &nbsp;&nbsp; Language: C++_
+
+* [hexrays_hlight3](https://github.com/p1ay8y3ar/hexrays_hlight3): Port of HexLight (by Milan Bohacek) to Python 3: highlight matching curly brace in the pseudocode view and let/ you jump from one brace to the other.<br>
+_Updated: 2022 02 10 &nbsp;&nbsp; Language: Python_
+
+* [hexraysIDAplus](https://github.com/Byzero512/hexraysIDAplus): Fold decompiled code.<br>
+_Updated: 2021 11 26 &nbsp;&nbsp; Language: C++_
 
 * [HexRaysPyTools](https://github.com/igogo-x86/HexRaysPyTools): Plugin assists in creation classes/structures and detection virtual tables. Best to use with Class Informer plugin, because it helps to automatically get original classes names.<br>
 _Updated: 2020 02 15 &nbsp;&nbsp; Language: Python_
@@ -772,7 +784,7 @@ _Updated: 2020 07 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2019 06 25 &nbsp;&nbsp; Language: Python_
 
 * [IDAObjcTypes](https://github.com/PoomSmart/IDAObjcTypes): A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis.<br>
-_Updated: 2022 07 16 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 12 03 &nbsp;&nbsp; Language: Python_
 
 * [IDA-Operand-Analysis](https://github.com/Learner0x5a/IDA-Operand-Analysis): Operand Analysis with IDA Pro: per-operand read/write status, operand type, operand id.<br>
 _Updated: 2022 06 05 &nbsp;&nbsp; Language: Python_
@@ -1006,7 +1018,7 @@ _Updated: 2019 01 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2011 10 08 &nbsp;&nbsp; Language: C++_
 
 * [idbutil](https://github.com/nlitsme/idbutil): IDBTOOL - Library and tool for reading IDApro databases. (See Python version 'pyidbutil')<br>
-_Updated: 2020 11 27 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 11 30 &nbsp;&nbsp; Language: C++_
 
 * [idcinternals](https://github.com/nlitsme/idcinternals): IDA plugin investigating the internal representation of IDC scripts<br>
 _Updated: 2020 11 27 &nbsp;&nbsp; Language: C++_
@@ -1150,7 +1162,7 @@ _Updated: 2018 09 24 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 09 15 &nbsp;&nbsp; Language: Python_
 
 * [NoVmpy](https://github.com/wallds/NoVmpy): Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL.<br>
-_Updated: 2022 11 25 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 12 01 &nbsp;&nbsp; Language: Python_
 
 * [NSIS Reversing Suite](https://github.com/isra17/nrs/): NRS is a set of Python libraries used to unpack and analysis NSIS installer's data. It also feature an IDA plugin used to disassembly the NSIS Script of an installer.<br>
 _Updated: 2022 07 20 &nbsp;&nbsp; Language: Python_
@@ -1198,7 +1210,7 @@ _Updated: 2014 11 25 &nbsp;&nbsp; Language: Python_
 _Updated: 2014 09 23 &nbsp;&nbsp; Language: Python_
 
 * [Ponce](https://github.com/illera88/Ponce): Taint analysis and symbolic execution over binaries in an easy and intuitive fashion.<br>
-_Updated: 2022 10 24 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 12 01 &nbsp;&nbsp; Language: C++_
 
 * [PopPySig](https://github.com/sub1to/PopPySig): Make byte signatures and scan for byte signatures.<br>
 _Updated: 2022 11 27 &nbsp;&nbsp; Language: Python_
@@ -1222,7 +1234,7 @@ _Updated: 2022 06 27 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 08 03 &nbsp;&nbsp; Language: Python_
 
 * [pwndbg](https://github.com/pwndbg/pwndbg): GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server.<br>
-_Updated: 2022 11 30 &nbsp;&nbsp; Language: Python_
+_Updated: 2022 12 04 &nbsp;&nbsp; Language: Python_
 
 * [pyhexraysdeob](https://github.com/idapython/pyhexraysdeob): A port of Rolf Rolles' HexRaysDeob to Python.<br>
 _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_
@@ -1255,7 +1267,7 @@ _Updated: 2014 01 23 &nbsp;&nbsp; Language: C++_
 _Updated: 2014 05 10 &nbsp;&nbsp; Language: Python_
 
 * [Quokka](https://github.com/quarkslab/quokka): A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler.<br>
-_Updated: 2022 11 29 &nbsp;&nbsp; Language: C++_
+_Updated: 2022 12 02 &nbsp;&nbsp; Language: C++_
 
 * [Rebased Comment](https://github.com/naim94a/rebasedcomment): Rebase comments when you rebase your IDA database, by searching for hexadecimal numbers that are within range of your program's segments, and fixing your comments after every rebase.<br>
 _Updated: 2020 04 06 &nbsp;&nbsp; Language: Python_
@@ -1384,6 +1396,9 @@ _Updated: 2021 03 19 &nbsp;&nbsp; Language: Python_
 * [Stm8Ida](https://github.com/EgorKin/Stm8Ida): STM8 Ida Pro processor module. Support for STMicroelectronics' STM8 series of microcontrollers.<br>
 _Updated: 2019 10 31 &nbsp;&nbsp; Language: C++_
 
+* [structo](https://github.com/dcbz/structo): Tool to merge structs generated with hexrays, or insert elements into pad.<br>
+_Updated: 2021 02 01 &nbsp;&nbsp; Language: Python_
+
 * [Structure Dump](http://www.openrce.org/downloads/details/227/Structure_Dump): StructDump is an IDA plugin, allowing you to export IDA types into high-level language definitions. Currently, C++ is supported.<br>
 _Updated: 2007 04 05 &nbsp;&nbsp; Language: C++_
 
@@ -1453,6 +1468,9 @@ _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
 * [VulFi](https://github.com/Accenture/VulFi): The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.).<br>
 _Updated: 2022 10 31 &nbsp;&nbsp; Language: Python_
 
+* [Waffda](https://github.com/OmriLevy888/Waffda): IDA HexRays decompiler wrapper library.<br>
+_Updated: 2021 06 17 &nbsp;&nbsp; Language: Python_
+
 * [WakaTime](https://github.com/es3n1n/ida-wakatime-py): WakaTime integration for IDA Pro: time tracking plugin showing the time you spend using IDA.<br>
 _Updated: 2022 11 10 &nbsp;&nbsp; Language: Python_
 
@@ -1485,6 +1503,9 @@ _Updated: 2013 09 23_
 
 * [xray](https://github.com/patois/xray): Hexrays decompiler plugin that colorizes and filters the decompiler's output based on regular expressions<br>
 _Updated: 2022 10 18 &nbsp;&nbsp; Language: Python_
+
+* [XRaysComments](https://github.com/MrNox/XRaysComments): A simple IDA Pro plugin to show all HexRays decompiler comments written by user.<br>
+_Updated: 2021 09 03 &nbsp;&nbsp; Language: Python_
 
 * [YaCo](https://github.com/DGA-MI-SSI/YaCo): Collaborative Reverse-Engineering for IDA. When enabled, an unlimited number of users can work simultaneously on the same binary. Any modification done by any user is synchronized through git version control. It has been initially released at [SSTIC 2017](https://www.sstic.org/2017/presentation/YaCo/)<br>
 _Updated: 2018 11 14 &nbsp;&nbsp; Language: Python_

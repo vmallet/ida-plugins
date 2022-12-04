@@ -351,7 +351,7 @@ var tabledata = [
  url: "https://github.com/Martyx00/CollaRE",
  src: "py",
  cats: "collab",
- last: "20220719",
+ last: "20221130",
  desc: "Multi-tool reverse engineering collaboration solution. CollaRE is a tool for collaborative reverse engineering that aims to allow teams that do need to use more then one tool during a project to collaborate without the need to share the files on a separate locations."},
 
 {name: "COMFinder",
@@ -966,6 +966,14 @@ var tabledata = [
  last: "20220610",
  desc: "IDA Pro loader for Nintendo GameCube's .rel files. Based on rso_ida_loader."},
 
+{name: "Gamma",
+ url: "https://github.com/neoni/gamma",
+ src: "py",
+ cats: "decomp",
+ last: "20200731",
+ vers: "7.2",
+ desc: "IDA Hexrays plugin for highlighting your interesting variables or struct members."},
+
 {name: "GandCrab String Decryptor",
  url: "https://github.com/lacike/gandcrab_string_decryptor",
  src: "idc",
@@ -1009,6 +1017,14 @@ var tabledata = [
  last: "20190310",
  vers: "7.0",
  desc: "Lookup (geolocate) IP's and http/https addresses, using google maps, and MaxMind databases."},
+
+{name: "Gepetto",
+ url: "https://github.com/JusticeRage/Gepetto",
+ src: "py",
+ cats: "decomp, int",
+ last: "20221204",
+ vers: "7.7",
+ desc: "Query OpenAI's ChatGPT to explain decompiled functions."},
 
 {name: "GhIDA",
  url: "https://github.com/Cisco-Talos/GhIDA",
@@ -1142,6 +1158,22 @@ var tabledata = [
  last: "20190827",
  vers: "7.3",
  desc: "A Hex-Rays microcode API plugin breaking an obfuscating compiler used to create an in-the-wild malware family. The plugin is fully automatic and requires no user intervention; upon installation, the decompilation listings presented to the user will be free of obfuscation."},
+
+{name: "hexrays_hlight3",
+ url: "https://github.com/p1ay8y3ar/hexrays_hlight3",
+ src: "py",
+ cats: "decomp",
+ last: "20220210",
+ vers: "7.6",
+ desc: "Port of HexLight (by Milan Bohacek) to Python 3: highlight matching curly brace in the pseudocode view and let/ you jump from one brace to the other."},
+
+{name: "hexraysIDAplus",
+ url: "https://github.com/Byzero512/hexraysIDAplus",
+ src: "c++",
+ cats: "decomp",
+ last: "20211126",
+ vers: "7.5",
+ desc: "Fold decompiled code."},
 
 {name: "HexRaysPyTools",
  url: "https://github.com/igogo-x86/HexRaysPyTools",
@@ -1735,7 +1767,7 @@ var tabledata = [
 {name: "IDAObjcTypes",
  url: "https://github.com/PoomSmart/IDAObjcTypes",
  src: "py",
- last: "20220716",
+ last: "20221203",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
@@ -2269,7 +2301,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/idbutil",
  src: "c++",
  cats: "dev, int",
- last: "20201127",
+ last: "20221130",
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See Python version 'pyidbutil')"},
 
@@ -2599,7 +2631,7 @@ var tabledata = [
  url: "https://github.com/wallds/NoVmpy",
  src: "py",
  cats: "deobf, int",
- last: "20221125",
+ last: "20221201",
  desc: "Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL."},
 
 {name: "NSIS Reversing Suite",
@@ -2711,7 +2743,7 @@ var tabledata = [
 {name: "Ponce",
  url: "https://github.com/illera88/Ponce",
  src: "c++",
- last: "20221024",
+ last: "20221201",
  vers: "7.6",
  desc: "Taint analysis and symbolic execution over binaries in an easy and intuitive fashion."},
 
@@ -2770,7 +2802,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20221130",
+ last: "20221204",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2850,7 +2882,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20221129",
+ last: "20221202",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "Rebased Comment",
@@ -3139,6 +3171,13 @@ var tabledata = [
  vers: "7.0",
  desc: "STM8 Ida Pro processor module. Support for STMicroelectronics' STM8 series of microcontrollers."},
 
+{name: "structo",
+ url: "https://github.com/dcbz/structo",
+ src: "py",
+ cats: "decomp",
+ last: "20210201",
+ desc: "Tool to merge structs generated with hexrays, or insert elements into pad."},
+
 {name: "Structure Dump",
  url: "http://www.openrce.org/downloads/details/227/Structure_Dump",
  src: "c++",
@@ -3298,6 +3337,13 @@ var tabledata = [
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
+{name: "Waffda",
+ url: "https://github.com/OmriLevy888/Waffda",
+ src: "py",
+ cats: "decomp, dev",
+ last: "20210617",
+ desc: "IDA HexRays decompiler wrapper library."},
+
 {name: "WakaTime",
  url: "https://github.com/es3n1n/ida-wakatime-py",
  src: "py",
@@ -3378,6 +3424,13 @@ var tabledata = [
  last: "20221018",
  vers: "7.4",
  desc: "Hexrays decompiler plugin that colorizes and filters the decompiler's output based on regular expressions"},
+
+{name: "XRaysComments",
+ url: "https://github.com/MrNox/XRaysComments",
+ src: "py",
+ cats: "decomp",
+ last: "20210903",
+ desc: "A simple IDA Pro plugin to show all HexRays decompiler comments written by user."},
 
 {name: "YaCo",
  url: "https://github.com/DGA-MI-SSI/YaCo",
