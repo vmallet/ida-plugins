@@ -142,6 +142,14 @@ var tabledata = [
  vers: "7.0",
  desc: "Resolve custom libraries in main project. Refactor call type and code."},
 
+{name: "Away_From_Sub_Function_IN_IDA",
+ url: "https://github.com/H4lo/Away_From_Sub_Function_IN_IDA",
+ src: "py",
+ cats: "int",
+ last: "20221209",
+ vers: "7.5",
+ desc: "Use OpenAI to help you better translate function meanings and restore symbol tables from sub_xxxx functions in IDA Pro."},
+
 {name: "Back 2 The Future",
  url: "https://github.com/SafeBreach-Labs/Back2TheFuture",
  src: "py",
@@ -240,7 +248,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20221122",
+ last: "20221211",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -254,7 +262,7 @@ var tabledata = [
  url: "https://github.com/cseagle/blc",
  src: "c++",
  cats: "decomp, int",
- last: "20220522",
+ last: "20221210",
  vers: "7.5",
  desc: "Integrate Ghidra's decompiler as an Ida plugin."},
 
@@ -281,7 +289,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20221122",
+ last: "20221208",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -490,7 +498,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20221124",
+ last: "20221208",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -1022,9 +1030,17 @@ var tabledata = [
  url: "https://github.com/JusticeRage/Gepetto",
  src: "py",
  cats: "decomp, int",
- last: "20221204",
+ last: "20221207",
  vers: "7.7",
- desc: "Query OpenAI's ChatGPT to explain decompiled functions."},
+ desc: "Query OpenAI's davinci-003 language model to speed up reverse-engineering."},
+
+{name: "Gepetto-ChatGPT",
+ url: "https://github.com/burpheart/Gepetto-ChatGPT",
+ src: "py",
+ cats: "int",
+ last: "20221208",
+ vers: "7.5",
+ desc: "IDA plugin which queries OpenAI's ChatGPT model to speed up reverse-engineering (based on JusticeRage/Gepetto) (Chinese)."},
 
 {name: "GhIDA",
  url: "https://github.com/Cisco-Talos/GhIDA",
@@ -1067,7 +1083,7 @@ var tabledata = [
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
- last: "20221116",
+ last: "20221205",
  desc: "Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro."},
 
 {name: "grap",
@@ -1427,7 +1443,7 @@ var tabledata = [
 {name: "IDACyber",
  url: "https://github.com/patois/IDACyber",
  src: "py",
- last: "20221117",
+ last: "20221206",
  vers: "7.4",
  desc: "IDACyber is a plugin that visualizes an IDA database's content."},
 
@@ -1555,6 +1571,13 @@ var tabledata = [
  last: "20220729",
  vers: "7.4",
  desc: "Set of IDA Pro scripts for parsing GoLang types information stored in compiled binary."},
+
+{name: "ida_gpt",
+ url: "https://github.com/MayerDaniel/ida_gpt",
+ src: "py",
+ cats: "int",
+ last: "20221204",
+ desc: "Basic idapython script to get you started with analyzing disassembly with GPT (OpenAI)."},
 
 {name: "IdaGrabStrings",
  url: "https://github.com/andreafioraldi/IdaGrabStrings",
@@ -1692,7 +1715,7 @@ var tabledata = [
 {name: "IDAMagicStrings",
  url: "https://github.com/joxeankoret/idamagicstrings",
  src: "py",
- last: "20221124",
+ last: "20221209",
  vers: "7.4",
  desc: "An IDA Python plugin to extract information from string constants. The current version of the plugin is able to:\n* Display functions to source files relationships (in a tree and in a plain list, a chooser in IDA language).\n* Display guessed function names for functions.\n* Rename functions according to the source code file their belong + address (for example, memory_mgmt_0x401050).\n* Rename functions according to the guessed function name."},
 
@@ -1730,7 +1753,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20221119",
+ last: "20221207",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1767,7 +1790,7 @@ var tabledata = [
 {name: "IDAObjcTypes",
  url: "https://github.com/PoomSmart/IDAObjcTypes",
  src: "py",
- last: "20221203",
+ last: "20221210",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
@@ -1897,6 +1920,13 @@ var tabledata = [
  last: "20190714",
  vers: "7.3",
  desc: "Extends existing support in IDA for the Motorola m68k processor family by adding gdb step-over and type information support. Enable type information support so you can press \"y\" on functions and have the parameters propagate inside and back out of the function."},
+
+{name: "IDA Pro SigMaker",
+ url: "https://github.com/A200K/IDA-Pro-SigMaker",
+ src: "c++",
+ last: "20221205",
+ vers: "8.1",
+ desc: "Signature Maker Plugin for IDA Pro 8.1."},
 
 {name: "IDA Pro Solarized Theme",
  url: "https://github.com/blue-devil/IDA-Pro-Solarized-Theme",
@@ -2033,7 +2063,7 @@ var tabledata = [
 {name: "ida-scripts (cra0)",
  url: "https://github.com/cra0/ida-scripts",
  src: "py",
- last: "20221011",
+ last: "20221206",
  desc: "Various IDA scripts for Reverse Engineering: Cra0 Signature Definition File Importer, Cra0 VTable Definition File Importer, cvutils-getoffset, cvutils-gotooffset."},
 
 {name: "idascripts (maiyao1988)",
@@ -2802,7 +2832,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20221204",
+ last: "20221212",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
