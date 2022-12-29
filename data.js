@@ -221,7 +221,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20221122",
+ last: "20221222",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -248,7 +248,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20221211",
+ last: "20221214",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -289,7 +289,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20221208",
+ last: "20221229",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -498,7 +498,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20221208",
+ last: "20221224",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -554,7 +554,7 @@ var tabledata = [
  url: "https://github.com/dod-cyber-crime-center/Dragodis",
  src: "py",
  cats: "dev, int",
- last: "20221004",
+ last: "20221215",
  vers: "7.0",
  desc: "Python framework which allows for the creation of universal disassembler scripts. Supports IDA and Ghidra."},
 
@@ -687,7 +687,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20221111",
+ last: "20221227",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1030,7 +1030,7 @@ var tabledata = [
  url: "https://github.com/JusticeRage/Gepetto",
  src: "py",
  cats: "decomp, int",
- last: "20221207",
+ last: "20221212",
  vers: "7.7",
  desc: "Query OpenAI's davinci-003 language model to speed up reverse-engineering."},
 
@@ -1117,7 +1117,7 @@ var tabledata = [
  url: "https://github.com/OALabs/hashdb-ida",
  src: "py",
  cats: "int",
- last: "20220912",
+ last: "20221212",
  vers: "7.0",
  desc: "Malware string hash lookup plugin for IDA Pro. This plugin connects to the OALABS HashDB Lookup Service."},
 
@@ -1392,7 +1392,7 @@ var tabledata = [
 {name: "ida-cmake",
  url: "https://github.com/0xeb/ida-cmake",
  cats: "dev",
- last: "20220527",
+ last: "20221215",
  vers: "7.6",
  desc: "This is not an IDA plugin but a CMake project generator for IDA plugins development."},
 
@@ -1407,7 +1407,7 @@ var tabledata = [
  url: "https://github.com/ioncodes/idacode",
  src: "py",
  cats: "dev, int",
- last: "20220713",
+ last: "20221227",
  vers: "7.5",
  desc: "An integration for IDA and VS Code which connects both to easily execute and debug IDAPython scripts."},
 
@@ -1499,7 +1499,7 @@ var tabledata = [
  url: "https://github.com/loyaltypollution/ida-extends",
  src: "py",
  cats: "dev",
- last: "20221009",
+ last: "20221216",
  desc: "An extension module for IDAPython API focused on ease of development."},
 
 {name: "IDA Extrapass",
@@ -1526,7 +1526,7 @@ var tabledata = [
  url: "https://github.com/P4nda0s/IDAFrida",
  src: "py",
  cats: "int, trace",
- last: "20221116",
+ last: "20221218",
  desc: "IDA Frida Plugin for tracing something interesting. Plugin to generate FRIDA script."},
 
 {name: "IDAFunctionsDecompiler",
@@ -1601,7 +1601,7 @@ var tabledata = [
 {name: "idahunt",
  url: "https://github.com/nccgroup/idahunt",
  src: "py",
- last: "20220104",
+ last: "20221219",
  desc: "idahunt is a framework to analyze binaries with IDA Pro and hunt for things in IDA Pro. It is command line tool to analyse all executable files recursively from a given folder. It executes IDA in the background so you don't have to open manually each file. It supports executing external IDA Python scripts."},
 
 {name: "IDA iBoot Loader",
@@ -1753,7 +1753,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20221207",
+ last: "20221213",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1761,7 +1761,7 @@ var tabledata = [
  url: "https://github.com/archercreat/ida_names",
  src: "py",
  cats: "ui",
- last: "20220914",
+ last: "20221224",
  vers: "7.0",
  desc: "IDA-names automatically renames pseudocode windows with the current function name."},
 
@@ -1790,7 +1790,7 @@ var tabledata = [
 {name: "IDAObjcTypes",
  url: "https://github.com/PoomSmart/IDAObjcTypes",
  src: "py",
- last: "20221210",
+ last: "20221229",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
@@ -1924,7 +1924,7 @@ var tabledata = [
 {name: "IDA Pro SigMaker",
  url: "https://github.com/A200K/IDA-Pro-SigMaker",
  src: "c++",
- last: "20221205",
+ last: "20221220",
  vers: "8.1",
  desc: "Signature Maker Plugin for IDA Pro 8.1."},
 
@@ -1954,7 +1954,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20221010",
+ last: "20221219",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2063,7 +2063,7 @@ var tabledata = [
 {name: "ida-scripts (cra0)",
  url: "https://github.com/cra0/ida-scripts",
  src: "py",
- last: "20221206",
+ last: "20221214",
  desc: "Various IDA scripts for Reverse Engineering: Cra0 Signature Definition File Importer, Cra0 VTable Definition File Importer, cvutils-getoffset, cvutils-gotooffset."},
 
 {name: "idascripts (maiyao1988)",
@@ -2359,14 +2359,14 @@ var tabledata = [
 {name: "ifred",
  url: "https://github.com/Jinmo/ifred",
  src: "c++",
- last: "20220308",
+ last: "20221222",
  desc: "IDA command palette & more (Ctrl+Shift+P, Ctrl+P)."},
 
 {name: "IPyIDA",
  url: "https://github.com/eset/ipyida",
  src: "py",
  cats: "dev, int",
- last: "20220914",
+ last: "20221223",
  vers: "7.6",
  desc: "PyIDA is a python-only solution to use a IPython console in the context of IDA Pro. It spawns an IPython kernel that you can connect to with `ipython console --existing` in your shell or by opening a *QT Console* window in IDA Pro with `<Shift-.>`"},
 
@@ -2468,7 +2468,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20221104",
+ last: "20221229",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2476,7 +2476,7 @@ var tabledata = [
  url: "https://github.com/zhangyoufu/lumina",
  src: "go",
  cats: "int",
- last: "20221009",
+ last: "20221216",
  desc: "A Go library speaking (IDA Pro) lumina protocol, and a proxy server that may help if you have any privacy concerns using the Hex-Rays' official lumina server."},
 
 {name: "MadNES",
@@ -2832,7 +2832,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20221212",
+ last: "20221228",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2891,7 +2891,7 @@ var tabledata = [
  url: "https://github.com/0xeb/ida-qscripts",
  src: "c++",
  cats: "dev",
- last: "20220531",
+ last: "20221219",
  vers: "7.7",
  desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
@@ -2946,7 +2946,7 @@ var tabledata = [
 {name: "RefHUnter",
  url: "https://github.com/eternalklaus/RefHunter",
  src: "py",
- last: "20211001",
+ last: "20221217",
  vers: "7.6",
  desc: "User-friendly reference finder in IDA. RefHunter provides a summary of references for a function, which includes more information than the built-in “Function calls” widget."},
 
@@ -3282,7 +3282,7 @@ var tabledata = [
  url: "https://github.com/airbus-cert/ttddbg",
  src: "c++",
  cats: "debug, int",
- last: "20221007",
+ last: "20221221",
  desc: "Time Travel Debugging IDA plugin. Adds a new debugger to IDA which can read TTD traces generated by WinDBG or Visual Studio."},
 
 {name: "TurboDiff",
