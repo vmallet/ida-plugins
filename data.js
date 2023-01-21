@@ -47,6 +47,12 @@ var tabledata = [
  last: "20210602",
  desc: "*  Finds paths to a given code block inside a function\n*  Finds paths between two or more functions\n*  Generates interactive call graphs\n*  Fully scriptable"},
 
+{name: "ALLirt",
+ url: "https://github.com/push0ebp/ALLirt",
+ src: "py",
+ last: "20190209",
+ desc: "Converts All of libc to signatures for IDA Pro FLIRT Plugin. and utility make sig with FLAIR easily."},
+
 {name: "AlphaGolang",
  url: "https://github.com/SentineLabs/AlphaGolang",
  src: "py",
@@ -221,7 +227,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230103",
+ last: "20230116",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -248,7 +254,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230107",
+ last: "20230109",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -262,7 +268,7 @@ var tabledata = [
  url: "https://github.com/cseagle/blc",
  src: "c++",
  cats: "decomp, int",
- last: "20221210",
+ last: "20230113",
  vers: "7.5",
  desc: "Integrate Ghidra's decompiler as an Ida plugin."},
 
@@ -289,7 +295,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230106",
+ last: "20230120",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -313,6 +319,13 @@ var tabledata = [
  last: "20180714",
  vers: "7.1",
  desc: "Scans an MSVC 32bit target IDB for vftables with C++ RTTI, and MFC RTCI type data. Places structure defs, names, labels, and comments to make more sense of class vftables (\"Virtual Function Table\") and make them read easier as an aid to reverse engineering. Creates a list window with found vftables for browsing."},
+
+{name: "classinformer-ida8",
+ url: "https://github.com/herosi/classinformer-ida8",
+ src: "c++",
+ last: "20230118",
+ vers: "8.2",
+ desc: "IDA Class Informer plugin for IDA 8.x (see Class Informer)."},
 
 {name: "Classy",
  url: "https://github.com/RicBent/Classy",
@@ -342,7 +355,7 @@ var tabledata = [
 {name: "CodeCut",
  url: "https://github.com/JHUAPL/CodeCut",
  src: "py",
- last: "20221223",
+ last: "20230112",
  vers: "7.0",
  desc: "Locating Object File Boundaries in IDA Pro with LFA and MaxCut algorithms. Datasets for testing CodeCut solutions."},
 
@@ -420,7 +433,7 @@ var tabledata = [
 {name: "CTO: Call Tree Overviewer",
  url: "https://github.com/herosi/CTO",
  src: "py",
- last: "20220720",
+ last: "20230112",
  vers: "7.4",
  desc: "IDA plugin for creating a simple and efficient function call tree graph. It can also summarize function information such as internal function calls, API calls, static linked library function calls, unresolved indirect function calls, string references, structure member accesses, specific comments."},
 
@@ -694,9 +707,16 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20221227",
+ last: "20230119",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
+
+{name: "ElfDumper",
+ url: "https://github.com/WPeace-HcH/ElfDumper",
+ src: "py",
+ last: "20230104",
+ vers: "7.4",
+ desc: "A plugin for IDA that can dump the ELF file easily."},
 
 {name: "EmuIt",
  url: "https://github.com/AzzOnFire/emuit",
@@ -740,6 +760,13 @@ var tabledata = [
  last: "20180904",
  vers: "7.0",
  desc: "Display the result of perf Coresight ETM tracing."},
+
+{name: "EWS",
+ url: "https://github.com/deadeert/EWS",
+ src: "py",
+ cats: "debug, int",
+ last: "20230116",
+ desc: "Emulation Wrapper Solution is a IDA Pro plugin that brings emulator to provide features such as debugging an mocking."},
 
 {name: "ExportQml",
  url: "https://github.com/Redbeanw44602/ExportQml",
@@ -1621,7 +1648,7 @@ var tabledata = [
  url: "https://github.com/matteyeux/ida-iboot-loader",
  src: "py",
  cats: "loader",
- last: "20221012",
+ last: "20230109",
  desc: "IDA loader for Apple's 64 bits iBoot, SecureROM and AVPBooter."},
 
 {name: "idaidle",
@@ -1766,7 +1793,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20221213",
+ last: "20230118",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1937,7 +1964,7 @@ var tabledata = [
 {name: "IDA Pro SigMaker",
  url: "https://github.com/A200K/IDA-Pro-SigMaker",
  src: "c++",
- last: "20221220",
+ last: "20230110",
  vers: "8.1",
  desc: "Signature Maker Plugin for IDA Pro 8.1."},
 
@@ -1967,7 +1994,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20230108",
+ last: "20230118",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2051,6 +2078,12 @@ var tabledata = [
  src: "py",
  last: "20221031",
  desc: "IDA Pro plugin with a shortcut to run the most previously used script."},
+
+{name: "IDA-RustFunDemangle",
+ url: "https://github.com/0xMirasio/IDA-RustFunDemangle",
+ src: "py",
+ last: "20221227",
+ desc: "Auto RUST function demangler plugin."},
 
 {name: "IDAscope",
  url: "https://github.com/danielplohmann/idascope",
@@ -2481,7 +2514,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20230107",
+ last: "20230119",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2852,7 +2885,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230108",
+ last: "20230119",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2911,7 +2944,7 @@ var tabledata = [
  url: "https://github.com/0xeb/ida-qscripts",
  src: "c++",
  cats: "dev",
- last: "20230108",
+ last: "20230114",
  vers: "7.7",
  desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
@@ -3029,7 +3062,7 @@ var tabledata = [
  url: "https://github.com/bootleg/ret-sync",
  src: "py",
  cats: "debug, int",
- last: "20220501",
+ last: "20230110",
  vers: "7.4",
  desc: "ret-sync stands for Reverse-Engineering Tools synchronization. It's a set of plugins that help to synchronize a debugging session (WinDbg/GDB/LLDB/OllyDbg2/x64dbg) with IDA disassembler. The underlying idea is simple: take the best from both worlds (static and dynamic analysis)."},
 
@@ -3105,7 +3138,7 @@ var tabledata = [
  url: "https://github.com/lab313ru/smd_ida_tools2",
  src: "c++",
  cats: "debug, loader",
- last: "20220909",
+ last: "20230119",
  vers: "7.5",
  desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Updated to at least IDA 7.5"},
 
@@ -3406,13 +3439,13 @@ var tabledata = [
  url: "https://github.com/ke0z/VulChatGPT",
  src: "py",
  cats: "decomp, int",
- last: "20230107",
+ last: "20230118",
  desc: "Use IDA PRO HexRays decompiler with OpenAI(ChatGPT) to find possible vulnerabilities in binaries."},
 
 {name: "VulFi",
  url: "https://github.com/Accenture/VulFi",
  src: "py",
- last: "20221031",
+ last: "20230111",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
@@ -3469,7 +3502,7 @@ var tabledata = [
  url: "https://github.com/x64dbg/x64dbgida",
  src: "py",
  cats: "debug, int",
- last: "20220801",
+ last: "20230116",
  vers: "7.0",
  desc: "Official x64dbg plugin for IDA Pro."},
 
