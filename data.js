@@ -135,6 +135,13 @@ var tabledata = [
  last: "20220906",
  desc: "A helper tool to grab binary blobs from IDA-analyzed binaries and wrap them via Python."},
 
+{name: "AutoLibcFlags",
+ url: "https://github.com/0xMirasio/IDALibcAutoFlags",
+ src: "py",
+ cats: "decomp",
+ last: "20230214",
+ desc: "Simple plugin to replace decimals flags with enums on standard libc functions."},
+
 {name: "AutoRE",
  url: "https://github.com/a1ext/auto_re",
  src: "py",
@@ -227,7 +234,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230116",
+ last: "20230206",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -254,7 +261,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230109",
+ last: "20230213",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -268,7 +275,7 @@ var tabledata = [
  url: "https://github.com/cseagle/blc",
  src: "c++",
  cats: "decomp, int",
- last: "20230113",
+ last: "20230129",
  vers: "7.5",
  desc: "Integrate Ghidra's decompiler as an Ida plugin."},
 
@@ -291,11 +298,17 @@ var tabledata = [
  vers: "7.3",
  desc: "Block Redo & Undo To Achieve Legacy IDA."},
 
+{name: "caesar",
+ url: "https://github.com/head47/caesar",
+ src: "py",
+ last: "20230217",
+ desc: "IDA plugin that uses called function lists to recognize functions. (Archived)."},
+
 {name: "Capa Explorer",
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230120",
+ last: "20230216",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -433,7 +446,7 @@ var tabledata = [
 {name: "CTO: Call Tree Overviewer",
  url: "https://github.com/herosi/CTO",
  src: "py",
- last: "20230112",
+ last: "20230216",
  vers: "7.4",
  desc: "IDA plugin for creating a simple and efficient function call tree graph. It can also summarize function information such as internal function calls, API calls, static linked library function calls, unresolved indirect function calls, string references, structure member accesses, specific comments."},
 
@@ -483,7 +496,7 @@ var tabledata = [
  url: "https://github.com/cseagle/sk3wldbg",
  src: "c++",
  cats: "debug",
- last: "20210726",
+ last: "20230205",
  vers: "6.6",
  desc: "Debugger plugin for IDA Pro backed by the Unicorn Engine"},
 
@@ -574,7 +587,7 @@ var tabledata = [
  url: "https://github.com/dod-cyber-crime-center/Dragodis",
  src: "py",
  cats: "dev, int",
- last: "20221215",
+ last: "20230207",
  vers: "7.0",
  desc: "Python framework which allows for the creation of universal disassembler scripts. Supports IDA and Ghidra."},
 
@@ -707,7 +720,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20230119",
+ last: "20230218",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1123,7 +1136,7 @@ var tabledata = [
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
- last: "20221205",
+ last: "20230214",
  desc: "Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro."},
 
 {name: "grap",
@@ -1168,11 +1181,18 @@ var tabledata = [
  vers: "7.4",
  desc: "An IDA Pro plugin to examine the heap, focused on exploit development."},
 
+{name: "heimdallr-ida",
+ url: "https://github.com/interruptlabs/heimdallr-ida",
+ src: "py",
+ cats: "int",
+ last: "20230215",
+ desc: "Plugin to enable linking to locations in an IDB with a ida:// URI (using the Heimdallr client)."},
+
 {name: "herast",
  url: "https://github.com/Mizari/herast",
  src: "py",
  cats: "decomp, dev",
- last: "20221028",
+ last: "20230216",
  vers: "7.4",
  desc: "Framework to automate working with AST in IDA Pro."},
 
@@ -1203,7 +1223,7 @@ var tabledata = [
  url: "https://github.com/REhints/HexRaysCodeXplorer",
  src: "c++",
  cats: "decomp",
- last: "20220309",
+ last: "20230214",
  vers: "7.7",
  desc: "The Hex-Rays Decompiler plugin for better code navigation in RE process. CodeXplorer automates code REconstruction of C++ applications or modern malware like Stuxnet, Flame, Equation, Animal Farm ..."},
 
@@ -1432,7 +1452,7 @@ var tabledata = [
 {name: "ida-cmake",
  url: "https://github.com/0xeb/ida-cmake",
  cats: "dev",
- last: "20221215",
+ last: "20230210",
  vers: "7.6",
  desc: "This is not an IDA plugin but a CMake project generator for IDA plugins development."},
 
@@ -1526,6 +1546,14 @@ var tabledata = [
  last: "20161215",
  vers: "6.9",
  desc: "Emulate code in IDA Pro. it is based on unicorn-engine."},
+
+{name: "idaenv",
+ url: "https://github.com/deactivated/idaenv",
+ src: "py",
+ cats: "int",
+ last: "20230123",
+ vers: "7.4",
+ desc: "IDAPython Plugin Management. It is a plugin manager which bridges the gap between IDA Pro and the greater Python ecosystem of setuptools/virtualenv."},
 
 {name: "IDA-EVM",
  url: "https://github.com/crytic/ida-evm",
@@ -1793,7 +1821,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20230118",
+ last: "20230215",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1830,7 +1858,7 @@ var tabledata = [
 {name: "IDAObjcTypes",
  url: "https://github.com/PoomSmart/IDAObjcTypes",
  src: "py",
- last: "20221229",
+ last: "20230209",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
@@ -1964,7 +1992,7 @@ var tabledata = [
 {name: "IDA Pro SigMaker",
  url: "https://github.com/A200K/IDA-Pro-SigMaker",
  src: "c++",
- last: "20230110",
+ last: "20230124",
  vers: "8.1",
  desc: "Signature Maker Plugin for IDA Pro 8.1."},
 
@@ -1994,7 +2022,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20230118",
+ last: "20230207",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2115,7 +2143,7 @@ var tabledata = [
 {name: "idascripts (maiyao1988)",
  url: "https://github.com/maiyao1988/IDAScripts",
  src: "py",
- last: "20220912",
+ last: "20230215",
  desc: "Common IDA scripts for effective Reverse Engineering: comment-trace, dbg-loc-off, deopt, findsvc, get_all_code, get_all_svc, ida_trace, trace."},
 
 {name: "ida-scripts (sam-b)",
@@ -2150,7 +2178,7 @@ var tabledata = [
  url: "https://github.com/namazso/IDAShell",
  src: "c++",
  cats: "int",
- last: "20210729",
+ last: "20230217",
  desc: "IDAShell is a shell extension for launching IDA from the context menu of executables (Windows)."},
 
 {name: "IDA_ShowCallStack",
@@ -2317,7 +2345,7 @@ var tabledata = [
 {name: "idawilli",
  url: "https://github.com/williballenthin/idawilli",
  src: "py",
- last: "20221026",
+ last: "20230215",
  desc: "IDA Pro resources, scripts, and configurations."},
 
 {name: "idax",
@@ -2514,7 +2542,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20230119",
+ last: "20230217",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2591,7 +2619,7 @@ var tabledata = [
 {name: "Mizari's scripts",
  url: "https://github.com/Mizari/scripts",
  src: "py",
- last: "20220905",
+ last: "20230213",
  desc: "Various scripts for IDA Pro: const_adder, demangler, detect_offset, fastclear, recolour_calls, remove_spaces_from_structs."},
 
 {name: "mkYARA IDA Plugin",
@@ -2841,7 +2869,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20220915",
+ last: "20230209",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -2885,7 +2913,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230119",
+ last: "20230213",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -2944,7 +2972,7 @@ var tabledata = [
  url: "https://github.com/0xeb/ida-qscripts",
  src: "c++",
  cats: "dev",
- last: "20230114",
+ last: "20230206",
  vers: "7.7",
  desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
@@ -3138,7 +3166,7 @@ var tabledata = [
  url: "https://github.com/lab313ru/smd_ida_tools2",
  src: "c++",
  cats: "debug, loader",
- last: "20230119",
+ last: "20230212",
  vers: "7.5",
  desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Updated to at least IDA 7.5"},
 
@@ -3189,7 +3217,7 @@ var tabledata = [
  url: "https://github.com/cseagle/sk3wldbg",
  src: "c++",
  cats: "debug",
- last: "20210726",
+ last: "20230205",
  vers: "7.5",
  desc: "Debugger plugin for IDA Pro. Front end for using the Unicorn Engine to emulate machine code that you are viewing with IDA."},
 
@@ -3369,7 +3397,7 @@ var tabledata = [
 {name: "uEmu",
  url: "https://github.com/alexhude/uEmu",
  src: "py",
- last: "20220927",
+ last: "20230208",
  vers: "7.2",
  desc: "uEmu is a tiny cute emulator plugin for IDA based on unicorn engine. Supports following architectures out of the box: x86, x64, ARM, ARM64, MIPS, MIPS64"},
 
@@ -3510,7 +3538,7 @@ var tabledata = [
  url: "https://github.com/cseagle/x86emu",
  src: "c++",
  cats: "debug",
- last: "20201013",
+ last: "20230123",
  vers: "7.5",
  desc: "Embedded x86 emulator for Ida Pro. Its purpose is to allow a reverse engineer the chance to step through x86 code while reverse engineering a binary. The plugin can help you step through any x86 binary from any platform. For Windows binaries, many common library calls are trapped and emulated by the emulator, allowing for a higher fidelity emulation. I find it particularly useful for stepping through obfuscated code as it automatically reorganizes an IDA disassembly based on actual code paths."},
 
