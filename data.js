@@ -139,7 +139,7 @@ var tabledata = [
  url: "https://github.com/0xMirasio/IDALibcAutoFlags",
  src: "py",
  cats: "decomp",
- last: "20230214",
+ last: "20230304",
  desc: "Simple plugin to replace decimals flags with enums on standard libc functions."},
 
 {name: "AutoRE",
@@ -261,7 +261,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230227",
+ last: "20230304",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -308,7 +308,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230227",
+ last: "20230302",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -531,7 +531,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20221224",
+ last: "20230305",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -587,7 +587,7 @@ var tabledata = [
  url: "https://github.com/dod-cyber-crime-center/Dragodis",
  src: "py",
  cats: "dev, int",
- last: "20230207",
+ last: "20230221",
  vers: "7.0",
  desc: "Python framework which allows for the creation of universal disassembler scripts. Supports IDA and Ghidra."},
 
@@ -1089,7 +1089,7 @@ var tabledata = [
  url: "https://github.com/JusticeRage/Gepetto",
  src: "py",
  cats: "decomp, int",
- last: "20230225",
+ last: "20230302",
  vers: "7.7",
  desc: "Query OpenAI's davinci-003 language model to speed up reverse-engineering."},
 
@@ -1198,7 +1198,7 @@ var tabledata = [
  url: "https://github.com/Mizari/herast",
  src: "py",
  cats: "decomp, dev",
- last: "20230227",
+ last: "20230303",
  vers: "7.4",
  desc: "Framework to automate working with AST in IDA Pro."},
 
@@ -1834,7 +1834,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20230227",
+ last: "20230304",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -1871,7 +1871,7 @@ var tabledata = [
 {name: "IDAObjcTypes",
  url: "https://github.com/PoomSmart/IDAObjcTypes",
  src: "py",
- last: "20230226",
+ last: "20230305",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
@@ -2471,6 +2471,13 @@ var tabledata = [
  vers: "7.4",
  desc: "Helps to rename JNI native methods and restore their C signatures"},
 
+{name: "jni_helper",
+ url: "https://github.com/evilpan/jni_helper",
+ src: "py",
+ last: "20230201",
+ vers: "7.4",
+ desc: "Find JNI function signatures in APK, Load JNI function signatures and apply to IDA-Pro"},
+
 {name: "Kam1n0",
  url: "https://github.com/McGill-DMaS/Kam1n0-Plugin-IDA-Pro",
  src: "py",
@@ -2934,7 +2941,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230227",
+ last: "20230306",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3595,7 +3602,7 @@ var tabledata = [
 {name: "Xorstr Decryption Plugin",
  url: "https://github.com/yubie-re/ida-jm-xorstr-decrypt-plugin",
  src: "py",
- last: "20230223",
+ last: "20230304",
  vers: "8.0",
  desc: "Attempts to decrypt JM Xorstr obfuscated strings in some x64 binaries."},
 
@@ -3641,6 +3648,7 @@ var tabledata = [
 {name: "YaraScan",
  url: "https://github.com/n1wz/yarascan-ida",
  src: "py",
+ cats: "int",
  last: "20230220",
  desc: "Scan file with Yara rules."},
 
