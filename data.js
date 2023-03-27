@@ -308,7 +308,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230317",
+ last: "20230326",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -505,6 +505,14 @@ var tabledata = [
  src: "py",
  last: "20170906",
  desc: "Easily setup vtables in IDA using declaration files."},
+
+{name: "decomp2dbg",
+ url: "https://github.com/mahaloz/decomp2dbg",
+ src: "py",
+ cats: "decomp, debug, int",
+ last: "20230227",
+ vers: "7.0",
+ desc: "Plugin to introduce interactive symbols into your debugger from your decompiler."},
 
 {name: "Deep Winter",
  url: "https://github.com/evil33333333/deep-winter",
@@ -720,7 +728,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20230314",
+ last: "20230326",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -792,6 +800,12 @@ var tabledata = [
  src: "py",
  last: "20180921",
  desc: "View Exports. The problem is that IDA for some reason sometimes does not show certain names in Exports or does not demangle them. This plugin fixes this problem."},
+
+{name: "export_source_path",
+ url: "https://github.com/Humenger/export_source_path",
+ src: "py",
+ last: "20230106",
+ desc: "Export source path to dir for IDA plugin."},
 
 {name: "Extract Macho-O",
  url: "https://github.com/gdbinit/ExtractMachO",
@@ -1010,6 +1024,12 @@ var tabledata = [
  last: "20210526",
  vers: "7.6",
  desc: "This IDAPython script tags subroutines according to their use of imported functions"},
+
+{name: "FunctionTrapperKeeper",
+ url: "https://github.com/alexander-hanel/FunctionTrapperKeeper",
+ src: "py",
+ last: "20230304",
+ desc: "Plugin for writing and storing notes related to functions. Text is entered in the Editor window and displayed in the Preview window."},
 
 {name: "Gamecube DSP",
  url: "https://github.com/dolphin-emu/gcdsp-ida",
@@ -1533,6 +1553,14 @@ var tabledata = [
  last: "20170517",
  desc: "IDAPython script to auto-rename subs using the MACHOC algorithm."},
 
+{name: "IDADiscord",
+ url: "https://github.com/bakablaze/IDADiscord",
+ src: "c++",
+ cats: "int",
+ last: "20220822",
+ vers: "7.6",
+ desc: "Discord RPC plugin for IDA 7.x."},
+
 {name: "IDA EA",
  url: "https://github.com/1111joe1111/ida_ea",
  src: "py",
@@ -2031,11 +2059,17 @@ var tabledata = [
  vers: "7.0",
  desc: "IDAPyHelper is a script for the Interactive Disassembler that helps writing IDAPython scripts and plugins."},
 
+{name: "ida-py-plugin-fix-function-tails",
+ url: "https://github.com/youselfcan/ida-py-plugin-fix-function-tails",
+ src: "py",
+ last: "20230311",
+ desc: "Plugin for fixing function tails."},
+
 {name: "IDAPython",
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20230317",
+ last: "20230322",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2114,17 +2148,39 @@ var tabledata = [
  vers: "7.0",
  desc: "Discord rich presence plugin for IDA Pro 7.0"},
 
+{name: "IDA-RPyC",
+ url: "https://github.com/HyperSine/ida-rpyc",
+ src: "py",
+ cats: "int",
+ last: "20230325",
+ desc: "IDA plugin that allows you call IDA python APIs from remote."},
+
 {name: "IDA-RunLastScript",
  url: "https://github.com/Scags/IDA-RunLastScript",
  src: "py",
  last: "20221031",
  desc: "IDA Pro plugin with a shortcut to run the most previously used script."},
 
+{name: "IDARustDemangler",
+ url: "https://github.com/timetravelthree/IDARustDemangler",
+ src: "py",
+ cats: "decomp",
+ last: "20230323",
+ vers: "7.0",
+ desc: "Rust Demangler & Normalizer plugin for IDA, makes it easier to read and understand the code."},
+
 {name: "IDA-RustFunDemangle",
  url: "https://github.com/0xMirasio/IDA-RustFunDemangle",
  src: "py",
  last: "20221227",
  desc: "Auto RUST function demangler plugin."},
+
+{name: "ida_rust_plugin",
+ url: "https://github.com/wINfOG/ida_rust_plugin/tree/main",
+ src: "rs",
+ cats: "dev",
+ last: "20221003",
+ desc: "Write IDA-Plugin with rust language."},
 
 {name: "IDAscope",
  url: "https://github.com/danielplohmann/idascope",
@@ -2361,6 +2417,12 @@ var tabledata = [
  last: "20230306",
  desc: "IDA Pro resources, scripts, and configurations."},
 
+{name: "IdaWorkSpace",
+ url: "https://github.com/wlingze/IdaWorkspace",
+ src: "py",
+ last: "20220806",
+ desc: "IDA structure build plugin. Assist the reversing of multiple files, handles interdependencies."},
+
 {name: "idax",
  url: "https://github.com/0xeb/idax",
  src: "c++",
@@ -2562,7 +2624,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20230217",
+ last: "20230325",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2763,7 +2825,7 @@ var tabledata = [
  url: "https://github.com/wallds/NoVmpy",
  src: "py",
  cats: "deobf, int",
- last: "20221201",
+ last: "20230321",
  desc: "Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL."},
 
 {name: "NSIS Reversing Suite",
@@ -2901,6 +2963,13 @@ var tabledata = [
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
+{name: "PPLorer",
+ url: "https://github.com/cellebrite-labs/PPLorer",
+ src: "py",
+ last: "20230228",
+ vers: "8.0",
+ desc: "Plugin that resolves PPL calls to the actual underlying PPL function."},
+
 {name: "Prefix",
  url: "https://github.com/gaasedelen/prefix",
  src: "py",
@@ -2941,7 +3010,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230319",
+ last: "20230325",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3331,6 +3400,13 @@ var tabledata = [
  vers: "7.0",
  desc: "STM8 Ida Pro processor module. Support for STMicroelectronics' STM8 series of microcontrollers."},
 
+{name: "StrAnnotate",
+ url: "https://github.com/OALabs/StrAnnotate-IDA",
+ src: "py",
+ last: "20220929",
+ vers: "7.0",
+ desc: "Simple string annotation plugin for IDA. Annotate your IDB with externally decrypted strings tables. A few lines of python to make a tedious task into a click."},
+
 {name: "structo",
  url: "https://github.com/dcbz/structo",
  src: "py",
@@ -3364,6 +3440,14 @@ var tabledata = [
  last: "20160423",
  desc: "Demangle Swift function names. It currently only works for ELF files."},
 
+{name: "SwitchIDAProLoader",
+ url: "https://github.com/pgarba/switchidaproloader",
+ src: "c++",
+ cats: "loader",
+ last: "20220221",
+ vers: "7.6",
+ desc: "Loader for IDA Pro to support the Nintendo Switch NRO binaries."},
+
 {name: "syms2elf",
  url: "https://github.com/danigargu/syms2elf",
  src: "py",
@@ -3396,7 +3480,7 @@ var tabledata = [
 {name: "SysNR-FuncFinder",
  url: "https://github.com/WPeace-HcH/SysNR-FuncFinder",
  src: "py",
- last: "20230214",
+ last: "20230322",
  vers: "7.4",
  desc: "Rename functions by system call numbers."},
 
@@ -3419,7 +3503,7 @@ var tabledata = [
  url: "https://github.com/airbus-cert/ttddbg",
  src: "c++",
  cats: "debug, int",
- last: "20221221",
+ last: "20230324",
  desc: "Time Travel Debugging IDA plugin. Adds a new debugger to IDA which can read TTD traces generated by WinDBG or Visual Studio."},
 
 {name: "TurboDiff",
@@ -3560,6 +3644,13 @@ var tabledata = [
  src: "py",
  last: "20150602",
  desc: "An IDA Pro plugin which decodes a Windows Device I/O control code into DeviceType, FunctionCode, AccessType and MethodType."},
+
+{name: "WPeChatGPT",
+ url: "https://github.com/WPeace-HcH/WPeChatGPT",
+ src: "py",
+ cats: "decomp",
+ last: "20230322",
+ desc: "Plugin that can help to analyze binary files using OpenAI's ChatGPT training API."},
 
 {name: "WWCD",
  url: "https://github.com/sektioneins/wwcd",
