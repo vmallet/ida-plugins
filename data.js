@@ -269,7 +269,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230416",
+ last: "20230419",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -316,7 +316,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230412",
+ last: "20230421",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -2028,6 +2028,13 @@ var tabledata = [
  last: "20220320",
  desc: "Dark theme for IDA Pro <V7."},
 
+{name: "ida-pro-loadmap",
+ url: "https://github.com/mefistotelis/ida-pro-loadmap",
+ src: "c++",
+ last: "20230420",
+ vers: "7.0",
+ desc: "Plugin for IDA Pro disassembler which allows loading .map files."},
+
 {name: "idapro_m6502",
  url: "https://github.com/LucienMP/idapro_m6502",
  src: "py",
@@ -2083,7 +2090,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20230407",
+ last: "20230423",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2179,7 +2186,7 @@ var tabledata = [
  url: "https://github.com/timetravelthree/IDARustDemangler",
  src: "py",
  cats: "decomp",
- last: "20230327",
+ last: "20230419",
  vers: "7.0",
  desc: "Rust Demangler & Normalizer plugin for IDA, makes it easier to read and understand the code."},
 
@@ -2489,6 +2496,13 @@ var tabledata = [
  last: "20111008",
  vers: "6.2",
  desc: "IDB to Pat, fixed to work with IDA 6.2. Create patterns for IDA objects."},
+
+{name: "idb-import-plugin",
+ url: "https://github.com/Vector35/idb-import-plugin",
+ src: "rs",
+ cats: "int",
+ last: "20230418",
+ desc: "IDA Database Importer plugin for Binary Ninja, written in Rust."},
 
 {name: "idbutil",
  url: "https://github.com/nlitsme/idbutil",
@@ -2845,7 +2859,7 @@ var tabledata = [
  url: "https://github.com/wallds/NoVmpy",
  src: "py",
  cats: "deobf, int",
- last: "20230402",
+ last: "20230422",
  desc: "Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL."},
 
 {name: "NSIS Reversing Suite",
@@ -2979,7 +2993,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230414",
+ last: "20230424",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3030,7 +3044,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230414",
+ last: "20230424",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3669,7 +3683,7 @@ var tabledata = [
  url: "https://github.com/WPeace-HcH/WPeChatGPT",
  src: "py",
  cats: "decomp",
- last: "20230322",
+ last: "20230423",
  desc: "Plugin that can help to analyze binary files using OpenAI's ChatGPT training API."},
 
 {name: "WWCD",
