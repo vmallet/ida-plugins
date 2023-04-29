@@ -206,6 +206,13 @@ var tabledata = [
  vers: "7.5",
  desc: "Create comment for bextr opcode with easy to read operation."},
 
+{name: "Binary2Name IDA Client",
+ url: "https://github.com/snirgreen-debug/binary2name",
+ src: "py",
+ cats: "int",
+ last: "20230404",
+ desc: "IDA client to Binary2Name which predicts common functions names in binary files."},
+
 {name: "BinaryAI Plugin",
  url: "https://github.com/binaryai/plugins",
  src: "py",
@@ -316,7 +323,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230421",
+ last: "20230425",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -794,7 +801,7 @@ var tabledata = [
  url: "https://github.com/deadeert/EWS",
  src: "py",
  cats: "debug, int",
- last: "20230116",
+ last: "20230425",
  desc: "Emulation Wrapper Solution is a IDA Pro plugin that brings emulator to provide features such as debugging an mocking."},
 
 {name: "ExportQml",
@@ -1117,7 +1124,7 @@ var tabledata = [
  url: "https://github.com/JusticeRage/Gepetto",
  src: "py",
  cats: "decomp, int",
- last: "20230310",
+ last: "20230427",
  vers: "7.7",
  desc: "Query OpenAI's davinci-003 language model to speed up reverse-engineering."},
 
@@ -1702,6 +1709,13 @@ var tabledata = [
  last: "20170512",
  vers: "6.95",
  desc: "Search strings in a specified range of addresses and map it to a C struct."},
+
+{name: "IDA Graph Exporter",
+ url: "https://github.com/kirschju/ida-graph-exporter",
+ src: "c++",
+ last: "20230424",
+ vers: "8.2",
+ desc: "Layout-preserving graph view exporter plugin for IDA Pro (SVG/JSON)."},
 
 {name: "IDAGraphity",
  url: "https://github.com/GuillaumeOrlando/IDAGraphity",
@@ -2993,7 +3007,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230424",
+ last: "20230427",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3044,7 +3058,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230424",
+ last: "20230429",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3683,7 +3697,7 @@ var tabledata = [
  url: "https://github.com/WPeace-HcH/WPeChatGPT",
  src: "py",
  cats: "decomp",
- last: "20230423",
+ last: "20230424",
  desc: "Plugin that can help to analyze binary files using OpenAI's ChatGPT training API."},
 
 {name: "WWCD",

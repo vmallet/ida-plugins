@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-534 plugins
+536 plugins
 * [3DS-Code-Loader](https://github.com/SinaMegapolis/3DS-Code-Loader): IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files.<br>
 _Updated: 2022 08 01 &nbsp;&nbsp; Language: C++_
 
@@ -106,6 +106,9 @@ _Updated: 2022 02 01 &nbsp;&nbsp; Language: Python_
 * [bextr-helper](https://github.com/Goatman13/bextr-helper): Create comment for bextr opcode with easy to read operation.<br>
 _Updated: 2022 11 30 &nbsp;&nbsp; Language: Python_
 
+* [Binary2Name IDA Client](https://github.com/snirgreen-debug/binary2name): IDA client to Binary2Name which predicts common functions names in binary files.<br>
+_Updated: 2023 04 04 &nbsp;&nbsp; Language: Python_
+
 * [BinaryAI Plugin](https://github.com/binaryai/plugins): Ghidra/IDA Pro plugins to load similarity result from binaryai.net.<br>
 _Updated: 2023 04 11 &nbsp;&nbsp; Language: Python_
 
@@ -155,7 +158,7 @@ _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 02 17 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2023 04 21 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 04 25 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -362,7 +365,7 @@ _Updated: 2010 05 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 09 04 &nbsp;&nbsp; Language: Python_
 
 * [EWS](https://github.com/deadeert/EWS): Emulation Wrapper Solution is a IDA Pro plugin that brings emulator to provide features such as debugging an mocking.<br>
-_Updated: 2023 01 16 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 04 25 &nbsp;&nbsp; Language: Python_
 
 * [ExportQml](https://github.com/Redbeanw44602/ExportQml): Export all Qml from the Qt program. (IDA script).<br>
 _Updated: 2022 09 10 &nbsp;&nbsp; Language: Python_
@@ -500,7 +503,7 @@ _Updated: 2019 05 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2019 03 10 &nbsp;&nbsp; Language: Python_
 
 * [Gepetto](https://github.com/JusticeRage/Gepetto): Query OpenAI's davinci-003 language model to speed up reverse-engineering.<br>
-_Updated: 2023 03 10 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 04 27 &nbsp;&nbsp; Language: Python_
 
 * [Gepetto-ChatGPT](https://github.com/burpheart/Gepetto-ChatGPT): IDA plugin which queries OpenAI's ChatGPT model to speed up reverse-engineering (based on JusticeRage/Gepetto) (Chinese).<br>
 _Updated: 2022 12 08 &nbsp;&nbsp; Language: Python_
@@ -747,6 +750,9 @@ _Updated: 2022 12 04 &nbsp;&nbsp; Language: Python_
 
 * [IdaGrabStrings](https://github.com/andreafioraldi/IdaGrabStrings): Search strings in a specified range of addresses and map it to a C struct.<br>
 _Updated: 2017 05 12 &nbsp;&nbsp; Language: Python_
+
+* [IDA Graph Exporter](https://github.com/kirschju/ida-graph-exporter): Layout-preserving graph view exporter plugin for IDA Pro (SVG/JSON).<br>
+_Updated: 2023 04 24 &nbsp;&nbsp; Language: C++_
 
 * [IDAGraphity](https://github.com/GuillaumeOrlando/IDAGraphity): An Interactive Binary Data Visualization Plugin for IDA Pro<br>
 _Updated: 2022 05 05 &nbsp;&nbsp; Language: Python_
@@ -1318,7 +1324,7 @@ _Updated: 2022 12 01 &nbsp;&nbsp; Language: C++_
 _Updated: 2022 11 27 &nbsp;&nbsp; Language: Python_
 
 * [Post HexRays ANalysis Kit](https://github.com/Mizari/phrank): Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees.<br>
-_Updated: 2023 04 24 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 04 27 &nbsp;&nbsp; Language: Python_
 
 * [PPLorer](https://github.com/cellebrite-labs/PPLorer): Plugin that resolves PPL calls to the actual underlying PPL function.<br>
 _Updated: 2023 02 28 &nbsp;&nbsp; Language: Python_
@@ -1339,7 +1345,7 @@ _Updated: 2022 06 27 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 08 03 &nbsp;&nbsp; Language: Python_
 
 * [pwndbg](https://github.com/pwndbg/pwndbg): GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server.<br>
-_Updated: 2023 04 24 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 04 29 &nbsp;&nbsp; Language: Python_
 
 * [pyhexraysdeob](https://github.com/idapython/pyhexraysdeob): A port of Rolf Rolles' HexRaysDeob to Python.<br>
 _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_
@@ -1616,7 +1622,7 @@ _Updated: 2018 08 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2015 06 02 &nbsp;&nbsp; Language: Python_
 
 * [WPeChatGPT](https://github.com/WPeace-HcH/WPeChatGPT): Plugin that can help to analyze binary files using OpenAI's ChatGPT training API.<br>
-_Updated: 2023 04 23 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 04 24 &nbsp;&nbsp; Language: Python_
 
 * [WWCD](https://github.com/sektioneins/wwcd): What Would Capstone Decode - IDA plugin that implements a Capstone powered IDA view.<br>
 _Updated: 2016 11 29 &nbsp;&nbsp; Language: C++_
