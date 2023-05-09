@@ -323,7 +323,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230425",
+ last: "20230504",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -797,6 +797,14 @@ var tabledata = [
  vers: "7.0",
  desc: "Display the result of perf Coresight ETM tracing."},
 
+{name: "etwbreaker",
+ url: "https://github.com/airbus-cert/etwbreaker",
+ src: "py",
+ cats: "debug",
+ last: "20220708",
+ vers: "7.4",
+ desc: "Deal with Event Tracing for Windows (ETW). Statically find ETW events in a PE file and generate a Conditional Breakpoint to facilitate Security Research."},
+
 {name: "EWS",
  url: "https://github.com/deadeert/EWS",
  src: "py",
@@ -839,7 +847,7 @@ var tabledata = [
 {name: "FakePDB",
  url: "https://github.com/Mixaill/FakePDB",
  src: "py",
- last: "20220830",
+ last: "20230502",
  vers: "7.4",
  desc: "Tool for PDB generation from IDA Pro database."},
 
@@ -921,7 +929,7 @@ var tabledata = [
 {name: "FIRST",
  url: "https://github.com/Cisco-Talos/FIRST-plugin-ida",
  src: "py",
- last: "20200131",
+ last: "20230503",
  vers: "7.3",
  desc: "Function Identification and Recovery Signature Tool (FIRST) is a plugin for IDA Pro that allows users to automatically search for and apply function metadata (the function name, parameter names, parameter types, comments, etc.) submitted from different IDBs / users. This functionality is similar to IDA's Lumina feature, which was introduced in IDA 7.2, although with FIRST the function metadata server address is configurable and the FIRST server code is open source, which means the user can set up a private metadata server for internal use if desired. A community database is also maintained by Cisco Talos and available to use free-of-charge. FIRST supports IDA 6.9 SP1 and above."},
 
@@ -1739,7 +1747,7 @@ var tabledata = [
  url: "https://github.com/matteyeux/ida-iboot-loader",
  src: "py",
  cats: "loader",
- last: "20230109",
+ last: "20230507",
  desc: "IDA loader for Apple's 64 bits iBoot, SecureROM and AVPBooter."},
 
 {name: "idaidle",
@@ -2104,7 +2112,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20230423",
+ last: "20230506",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2603,6 +2611,14 @@ var tabledata = [
  vers: "7.5",
  desc: "A multi-architecture assembler for IDA. Keypatch allows you enter assembly instructions to directly patch the binary under analysis. Powered by [Keystone engine](http://keystone-engine.org)."},
 
+{name: "kpwd",
+ url: "https://github.com/lzyddf/kpwd",
+ src: "py",
+ cats: "debug",
+ last: "20220601",
+ vers: "7.5",
+ desc: "Keep the pseudo-code interface display while debugging."},
+
 {name: "Labeless",
  url: "https://github.com/a1ext/labeless",
  src: "c++",
@@ -2684,6 +2700,14 @@ var tabledata = [
  last: "20120912",
  vers: "4.9",
  desc: "This plugin exports IDA names to FCEUXD SP symbols. These can be loaded by FCEUXD SP to allow symbolic debugging."},
+
+{name: "mark_executed_code",
+ url: "https://github.com/lzyddf/mark_executed_code",
+ src: "py",
+ cats: "debug",
+ last: "20220601",
+ vers: "7.5",
+ desc: "Mark the code which is executed while debugging, including pseudo-code and assembly code."},
 
 {name: "MazeWalker",
  url: "https://github.com/0xPhoeniX/MazeWalker",
@@ -2877,11 +2901,12 @@ var tabledata = [
  desc: "Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL."},
 
 {name: "NSIS Reversing Suite",
- url: "https://github.com/isra17/nrs/",
+ url: "https://github.com/isra17/nrs",
  src: "py",
  cats: "loader",
  last: "20220720",
- desc: "NRS is a set of Python libraries used to unpack and analysis NSIS installer's data. It also feature an IDA plugin used to disassembly the NSIS Script of an installer."},
+ vers: "7.0",
+ desc: "NRS is a set of Python libraries used to unpack and analyse NSIS installer's data. It also features an IDA plugin used to disassemble the NSIS Script of an installer."},
 
 {name: "obfDetect",
  url: "https://github.com/mcdulltii/obfDetect",
@@ -3007,7 +3032,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230427",
+ last: "20230505",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3046,6 +3071,14 @@ var tabledata = [
  last: "20220627",
  desc: "IDA plugin for reconstructing original .proto files from binary."},
 
+{name: "PS5 .elf",
+ url: "https://github.com/flatz/ida_ps5_elf_plugin",
+ src: "py",
+ cats: "loader",
+ last: "20220528",
+ vers: "7.5",
+ desc: "PS5 elf loader for IDA 7.5"},
+
 {name: "PSIDA",
  url: "https://github.com/soggysec/psida",
  src: "py",
@@ -3058,7 +3091,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230429",
+ last: "20230508",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 

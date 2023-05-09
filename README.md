@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-536 plugins
+540 plugins
 * [3DS-Code-Loader](https://github.com/SinaMegapolis/3DS-Code-Loader): IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files.<br>
 _Updated: 2022 08 01 &nbsp;&nbsp; Language: C++_
 
@@ -158,7 +158,7 @@ _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 02 17 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2023 04 25 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 05 04 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -364,6 +364,9 @@ _Updated: 2010 05 04 &nbsp;&nbsp; Language: Python_
 * [etm_displayer](https://github.com/honeybadger1613/etm_displayer): Display the result of perf Coresight ETM tracing.<br>
 _Updated: 2018 09 04 &nbsp;&nbsp; Language: Python_
 
+* [etwbreaker](https://github.com/airbus-cert/etwbreaker): Deal with Event Tracing for Windows (ETW). Statically find ETW events in a PE file and generate a Conditional Breakpoint to facilitate Security Research.<br>
+_Updated: 2022 07 08 &nbsp;&nbsp; Language: Python_
+
 * [EWS](https://github.com/deadeert/EWS): Emulation Wrapper Solution is a IDA Pro plugin that brings emulator to provide features such as debugging an mocking.<br>
 _Updated: 2023 04 25 &nbsp;&nbsp; Language: Python_
 
@@ -383,7 +386,7 @@ _Updated: 2019 05 09 &nbsp;&nbsp; Language: C++_
 _Updated: 2022 04 26 &nbsp;&nbsp; Language: Python_
 
 * [FakePDB](https://github.com/Mixaill/FakePDB): Tool for PDB generation from IDA Pro database.<br>
-_Updated: 2022 08 30 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 05 02 &nbsp;&nbsp; Language: Python_
 
 * [FCatalog](https://github.com/xorpd/fcatalog_client): FCatalog (The functions catalog) is a mechanism for finding similarities between different binary blobs in an efficient manner. It is mostly useful for identifying a new binary blob is somewhat similar to a binary blob that have been encountered before. The client side of FCatalog is an IDA plugin that allows a group of reverse engineers to manage a pool of reversed functions. Whenever a new binary function is encountered, FCatalog can compare it to all the known and previously reversed binary functions.<br>
 _Updated: 2016 08 19 &nbsp;&nbsp; Language: Python_
@@ -419,7 +422,7 @@ _Updated: 2022 11 11 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 04 11 &nbsp;&nbsp; Language: Python_
 
 * [FIRST](https://github.com/Cisco-Talos/FIRST-plugin-ida): Function Identification and Recovery Signature Tool (FIRST) is a plugin for IDA Pro that allows users to automatically search for and apply function metadata (the function name, parameter names, parameter types, comments, etc.) submitted from different IDBs / users. This functionality is similar to IDA's Lumina feature, which was introduced in IDA 7.2, although with FIRST the function metadata server address is configurable and the FIRST server code is open source, which means the user can set up a private metadata server for internal use if desired. A community database is also maintained by Cisco Talos and available to use free-of-charge. FIRST supports IDA 6.9 SP1 and above.<br>
-_Updated: 2020 01 31 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 05 03 &nbsp;&nbsp; Language: Python_
 
 * [flare-emu](https://github.com/fireeye/flare-emu): flare-emu marries a supported binary analysis framework, such as IDA Pro or Radare2, with Unicorn’s emulation framework to provide the user with an easy to use and flexible interface for scripting emulation tasks. It is designed to handle all the housekeeping of setting up a flexible and robust emulator for its supported architectures so that you can focus on solving your code analysis problems. Currently, flare-emu supports the x86, x86_64, ARM, and ARM64 architectures.<br>
 _Updated: 2023 02 20 &nbsp;&nbsp; Language: Python_
@@ -764,7 +767,7 @@ _Updated: 2022 07 25 &nbsp;&nbsp; Language: Python_
 _Updated: 2022 12 19 &nbsp;&nbsp; Language: Python_
 
 * [IDA iBoot Loader](https://github.com/matteyeux/ida-iboot-loader): IDA loader for Apple's 64 bits iBoot, SecureROM and AVPBooter.<br>
-_Updated: 2023 01 09 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 05 07 &nbsp;&nbsp; Language: Python_
 
 * [idaidle](https://github.com/google/idaidle): idaidle is a plugin for the commercial IDA Pro disassembler that warns users if they leave their instance idling for too long. After a predetermined amount of idle time, the plugin first warns and later then saves the current disassemlby database and closes IDA.<br>
 _Updated: 2021 02 17 &nbsp;&nbsp; Language: C++_
@@ -930,7 +933,7 @@ _Updated: 2022 10 18 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 03 11 &nbsp;&nbsp; Language: Python_
 
 * [IDAPython](https://github.com/idapython/src): IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA.<br>
-_Updated: 2023 04 23 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 05 06 &nbsp;&nbsp; Language: C++_
 
 * [IDA Python Embedded Toolkit](https://github.com/maddiestone/IDAPythonEmbeddedToolkit): IDAPython scripts for automating analysis of firmware of embedded devices.<br>
 _Updated: 2019 08 14 &nbsp;&nbsp; Language: Python_
@@ -1149,6 +1152,9 @@ _Updated: 2022 03 15 &nbsp;&nbsp; Language: Python_
 * [Keypatch](https://github.com/keystone-engine/keypatch): A multi-architecture assembler for IDA. Keypatch allows you enter assembly instructions to directly patch the binary under analysis. Powered by [Keystone engine](http://keystone-engine.org).<br>
 _Updated: 2021 02 18 &nbsp;&nbsp; Language: Python_
 
+* [kpwd](https://github.com/lzyddf/kpwd): Keep the pseudo-code interface display while debugging.<br>
+_Updated: 2022 06 01 &nbsp;&nbsp; Language: Python_
+
 * [Labeless](https://github.com/a1ext/labeless): Labeless is a plugin system for dynamic, seamless and realtime synchronization between IDA Database and Olly. Labels, function names and global variables synchronization is supported.
 Labeless provides easy to use dynamic dumping tool, which supports automatic on-the-fly imports fixing as well as convenient tool for IDA-Olly Python scripting synergy.<br>
 _Updated: 2022 03 25 &nbsp;&nbsp; Language: C++_
@@ -1182,6 +1188,9 @@ _Updated: 2022 12 16 &nbsp;&nbsp; Language: go_
 
 * [MadNES](https://github.com/patois/MadNES): This plugin exports IDA names to FCEUXD SP symbols. These can be loaded by FCEUXD SP to allow symbolic debugging.<br>
 _Updated: 2012 09 12 &nbsp;&nbsp; Language: C++_
+
+* [mark_executed_code](https://github.com/lzyddf/mark_executed_code): Mark the code which is executed while debugging, including pseudo-code and assembly code.<br>
+_Updated: 2022 06 01 &nbsp;&nbsp; Language: Python_
 
 * [MazeWalker](https://github.com/0xPhoeniX/MazeWalker): Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part.<br>
 _Updated: 2022 01 16 &nbsp;&nbsp; Language: Python_
@@ -1269,7 +1278,7 @@ _Updated: 2023 04 07 &nbsp;&nbsp; Language: Python_
 * [NoVmpy](https://github.com/wallds/NoVmpy): Proof of Concept, IDA integration of a static devirtualizer for VMProtect x64 3.x. powered by VTIL.<br>
 _Updated: 2023 04 22 &nbsp;&nbsp; Language: Python_
 
-* [NSIS Reversing Suite](https://github.com/isra17/nrs/): NRS is a set of Python libraries used to unpack and analysis NSIS installer's data. It also feature an IDA plugin used to disassembly the NSIS Script of an installer.<br>
+* [NSIS Reversing Suite](https://github.com/isra17/nrs): NRS is a set of Python libraries used to unpack and analyse NSIS installer's data. It also features an IDA plugin used to disassemble the NSIS Script of an installer.<br>
 _Updated: 2022 07 20 &nbsp;&nbsp; Language: Python_
 
 * [obfDetect](https://github.com/mcdulltii/obfDetect): A plugin to automatically detect obfuscated code and state machines in binaries.<br>
@@ -1324,7 +1333,7 @@ _Updated: 2022 12 01 &nbsp;&nbsp; Language: C++_
 _Updated: 2022 11 27 &nbsp;&nbsp; Language: Python_
 
 * [Post HexRays ANalysis Kit](https://github.com/Mizari/phrank): Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees.<br>
-_Updated: 2023 04 27 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 05 05 &nbsp;&nbsp; Language: Python_
 
 * [PPLorer](https://github.com/cellebrite-labs/PPLorer): Plugin that resolves PPL calls to the actual underlying PPL function.<br>
 _Updated: 2023 02 28 &nbsp;&nbsp; Language: Python_
@@ -1341,11 +1350,14 @@ _Updated: 2022 05 26 &nbsp;&nbsp; Language: Python_
 * [Protobuf Finder](https://github.com/Accenture/protobuf-finder): IDA plugin for reconstructing original .proto files from binary.<br>
 _Updated: 2022 06 27 &nbsp;&nbsp; Language: Python_
 
+* [PS5 .elf](https://github.com/flatz/ida_ps5_elf_plugin): PS5 elf loader for IDA 7.5<br>
+_Updated: 2022 05 28 &nbsp;&nbsp; Language: Python_
+
 * [PSIDA](https://github.com/soggysec/psida): PSIDA is a collection of useful Python scripts for IDA. At this point, PSIDA focuses on collaborative reverse engineering in two models.<br>
 _Updated: 2018 08 03 &nbsp;&nbsp; Language: Python_
 
 * [pwndbg](https://github.com/pwndbg/pwndbg): GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server.<br>
-_Updated: 2023 04 29 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 05 08 &nbsp;&nbsp; Language: Python_
 
 * [pyhexraysdeob](https://github.com/idapython/pyhexraysdeob): A port of Rolf Rolles' HexRaysDeob to Python.<br>
 _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_
