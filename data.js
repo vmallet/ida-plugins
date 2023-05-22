@@ -108,6 +108,14 @@ var tabledata = [
  vers: "7.0",
  desc: "antiVM aims to quickly identify anti-virtual machine and anti-sandbox behavior. This can speed up malware analysis."},
 
+{name: "AntiXorstr",
+ url: "https://github.com/lstaroth/AntiXorstr",
+ src: "py",
+ cats: "deobf",
+ last: "20230514",
+ vers: "7.0",
+ desc: "Enumerate and automatically decrypt encrypted strings implemented using C++ template techniques without concerning about the algorithmic implementation of the encrypted strings."},
+
 {name: "Apihashes v2",
  url: "https://github.com/KasperskyLab/Apihashes",
  src: "py",
@@ -249,7 +257,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230314",
+ last: "20230517",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -323,7 +331,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230504",
+ last: "20230519",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -450,6 +458,12 @@ var tabledata = [
  last: "20180426",
  desc: "The Cortex M Firmware module grooms an IDA Pro database containing firmware from an ARM Cortex M microcontroller. This module will annotate the firmware vector table, which contains a number of function pointers. This vector table annotation will cause IDA Pro to perform auto analysis against the functions these pointers point to. "},
 
+{name: "cranalyzer",
+ url: "https://github.com/ep1h/cranalyzer",
+ src: "py",
+ last: "20230517",
+ desc: "IDA plugin for searching functions by specific filters."},
+
 {name: "CrowdDetox",
  url: "https://github.com/CrowdStrike/CrowdDetox",
  src: "c++",
@@ -525,7 +539,7 @@ var tabledata = [
  url: "https://github.com/mahaloz/decomp2dbg",
  src: "py",
  cats: "decomp, debug, int",
- last: "20230227",
+ last: "20230522",
  vers: "7.0",
  desc: "Plugin to introduce interactive symbols into your debugger from your decompiler."},
 
@@ -743,7 +757,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20230326",
+ last: "20230512",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -757,7 +771,7 @@ var tabledata = [
 {name: "EmuIt",
  url: "https://github.com/AzzOnFire/emuit",
  src: "py",
- last: "20221228",
+ last: "20230509",
  desc: "Easy-to-use IDA plugin for code emulation."},
 
 {name: "Enhanced PDB Plugin",
@@ -809,7 +823,7 @@ var tabledata = [
  url: "https://github.com/deadeert/EWS",
  src: "py",
  cats: "debug, int",
- last: "20230425",
+ last: "20230515",
  desc: "Emulation Wrapper Solution is a IDA Pro plugin that brings emulator to provide features such as debugging an mocking."},
 
 {name: "ExportQml",
@@ -1501,14 +1515,14 @@ var tabledata = [
 {name: "ida-climacros",
  url: "https://github.com/0xeb/ida-climacros",
  src: "c++",
- last: "20210105",
+ last: "20230515",
  vers: "7.5",
  desc: "`ida-climacros` is a productivity plugin that allows you to define macros that will be expanded when interfacing with IDA's command line interpreter (in the output window)."},
 
 {name: "ida-cmake",
  url: "https://github.com/0xeb/ida-cmake",
  cats: "dev",
- last: "20230409",
+ last: "20230511",
  vers: "7.6",
  desc: "This is not an IDA plugin but a CMake project generator for IDA plugins development."},
 
@@ -1747,7 +1761,7 @@ var tabledata = [
  url: "https://github.com/matteyeux/ida-iboot-loader",
  src: "py",
  cats: "loader",
- last: "20230507",
+ last: "20230514",
  desc: "IDA loader for Apple's 64 bits iBoot, SecureROM and AVPBooter."},
 
 {name: "idaidle",
@@ -2112,7 +2126,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20230506",
+ last: "20230520",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2523,7 +2537,7 @@ var tabledata = [
  url: "https://github.com/Vector35/idb-import-plugin",
  src: "rs",
  cats: "int",
- last: "20230418",
+ last: "20230422",
  desc: "IDA Database Importer plugin for Binary Ninja, written in Rust."},
 
 {name: "idbutil",
@@ -2682,7 +2696,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20230413",
+ last: "20230512",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2904,7 +2918,7 @@ var tabledata = [
  url: "https://github.com/isra17/nrs",
  src: "py",
  cats: "loader",
- last: "20220720",
+ last: "20230515",
  vers: "7.0",
  desc: "NRS is a set of Python libraries used to unpack and analyse NSIS installer's data. It also features an IDA plugin used to disassemble the NSIS Script of an installer."},
 
@@ -3017,7 +3031,7 @@ var tabledata = [
 {name: "Ponce",
  url: "https://github.com/illera88/Ponce",
  src: "c++",
- last: "20221201",
+ last: "20230511",
  vers: "7.6",
  desc: "Taint analysis and symbolic execution over binaries in an easy and intuitive fashion."},
 
@@ -3032,7 +3046,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230505",
+ last: "20230521",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3091,7 +3105,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230508",
+ last: "20230520",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3158,7 +3172,7 @@ var tabledata = [
  url: "https://github.com/fjqisba/QtMetaParser",
  src: "c++",
  cats: "dev",
- last: "20230330",
+ last: "20230516",
  desc: "IDA plugin to parse qt meta data."},
 
 {name: "Qualcomm Loader",
@@ -3730,7 +3744,7 @@ var tabledata = [
  url: "https://github.com/WPeace-HcH/WPeChatGPT",
  src: "py",
  cats: "decomp",
- last: "20230424",
+ last: "20230512",
  desc: "Plugin that can help to analyze binary files using OpenAI's ChatGPT training API."},
 
 {name: "WWCD",
