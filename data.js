@@ -116,6 +116,12 @@ var tabledata = [
  vers: "7.0",
  desc: "Enumerate and automatically decrypt encrypted strings implemented using C++ template techniques without concerning about the algorithmic implementation of the encrypted strings."},
 
+{name: "AphroditeF5",
+ url: "https://github.com/leommxj/AphroditeF5",
+ src: "py",
+ last: "20230530",
+ desc: "IDA Pro collapse plugin"},
+
 {name: "Apihashes v2",
  url: "https://github.com/KasperskyLab/Apihashes",
  src: "py",
@@ -147,7 +153,7 @@ var tabledata = [
  url: "https://github.com/0xMirasio/IDALibcAutoFlags",
  src: "py",
  cats: "decomp",
- last: "20230304",
+ last: "20230610",
  desc: "Simple plugin to replace decimals flags with enums on standard libc functions."},
 
 {name: "AutoRE",
@@ -196,7 +202,7 @@ var tabledata = [
 {name: "BDSDevHelper",
  url: "https://github.com/Redbeanw44602/BDSDevHelper",
  src: "py",
- last: "20220806",
+ last: "20230609",
  desc: "An IDA plugin to help you develop bedrock dedicated server."},
 
 {name: "Beautify",
@@ -257,7 +263,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230529",
+ last: "20230607",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -284,7 +290,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230602",
+ last: "20230607",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -331,7 +337,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230531",
+ last: "20230608",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -487,11 +493,11 @@ var tabledata = [
  desc: "IDA plugin for creating a simple and efficient function call tree graph. It can also summarize function information such as internal function calls, API calls, static linked library function calls, unresolved indirect function calls, string references, structure member accesses, specific comments."},
 
 {name: "D-810",
- url: "https://github.com/joydo/d810",
+ url: "https://gitlab.com/eshard/d810",
  src: "py",
- cats: "deobf",
- last: "20210225",
- vers: "7.5",
+ cats: "decomp, deobf",
+ last: "20220805",
+ vers: "8.0",
  desc: "D-810 is an IDA Pro plugin which can be used to deobfuscate code at decompilation time by modifying IDA Pro microcode."},
 
 {name: "Dalvik Header",
@@ -671,7 +677,7 @@ var tabledata = [
 {name: "dubRE",
  url: "https://github.com/michal-kapala/dubRE",
  src: "py",
- last: "20230601",
+ last: "20230610",
  vers: "7.0",
  desc: "ML-driven function symbol extraction plugin for IDA Pro."},
 
@@ -771,7 +777,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20230526",
+ last: "20230606",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1160,7 +1166,7 @@ var tabledata = [
  url: "https://github.com/JusticeRage/Gepetto",
  src: "py",
  cats: "decomp, int",
- last: "20230531",
+ last: "20230602",
  vers: "7.7",
  desc: "Query OpenAI's davinci-003 language model to speed up reverse-engineering."},
 
@@ -2257,7 +2263,7 @@ var tabledata = [
  url: "https://github.com/cxiao/ida-rust-untangler",
  src: "py",
  cats: "decomp",
- last: "20230531",
+ last: "20230607",
  vers: "7.0",
  desc: "An IDA plugin for demangling Rust function names."},
 
@@ -2718,7 +2724,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20230512",
+ last: "20230603",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2726,7 +2732,7 @@ var tabledata = [
  url: "https://github.com/zhangyoufu/lumina",
  src: "go",
  cats: "int",
- last: "20221216",
+ last: "20230602",
  desc: "A Go library speaking (IDA Pro) lumina protocol, and a proxy server that may help if you have any privacy concerns using the Hex-Rays' official lumina server."},
 
 {name: "MadNES",
@@ -2811,7 +2817,7 @@ var tabledata = [
 {name: "Mizari's scripts",
  url: "https://github.com/Mizari/scripts",
  src: "py",
- last: "20230411",
+ last: "20230608",
  desc: "Various scripts for IDA Pro: const_adder, demangler, detect_offset, fastclear, recolour_calls, remove_spaces_from_structs."},
 
 {name: "mkYARA IDA Plugin",
@@ -2962,7 +2968,7 @@ var tabledata = [
  url: "https://github.com/obpo-project/obpo-plugin",
  src: "py",
  cats: "decomp, deobf",
- last: "20221122",
+ last: "20230606",
  vers: "7.7",
  desc: "Obpo is a microcode-based hex-rays optimizer, uses techniques such as static-program-analysis, dataflow-tracking, concolic-execution to rebuild the obfuscated control flow (such as: OLLVM)."},
 
@@ -2984,7 +2990,7 @@ var tabledata = [
 {name: "Oregami",
  url: "https://github.com/shemesh999/oregami",
  src: "py",
- last: "20200406",
+ last: "20230608",
  desc: "A plugin analyzing the current function to find the usage frame of registers. Oregami eases the work when tracking the use of a register within a function, by limiting the search to occurrences related to the one currently highlighted instead of the whole function. It also allows localized renaming of the registers, and batch type giving to multiple opcodes using the registers."},
 
 {name: "Package Manager",
@@ -3074,7 +3080,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230531",
+ last: "20230611",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3133,7 +3139,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230525",
+ last: "20230606",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3220,7 +3226,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20230316",
+ last: "20230609",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "Rebased Comment",
@@ -3272,6 +3278,12 @@ var tabledata = [
  cats: "int",
  last: "20181128",
  desc: "REmatch, a complete binary diffing framework that works by revealing and identifying previously reverse engineered similar functions and migrating documentation and annotations to current IDB."},
+
+{name: "Renamaida",
+ url: "https://github.com/happyparsertod/Renamaida",
+ src: "py",
+ last: "20230421",
+ desc: "Create your own signature database and rename open library functions."},
 
 {name: "REobjc",
  url: "https://github.com/duo-labs/idapython",
@@ -3626,7 +3638,7 @@ var tabledata = [
  url: "https://github.com/airbus-cert/ttddbg",
  src: "c++",
  cats: "debug, int",
- last: "20230329",
+ last: "20230607",
  desc: "Time Travel Debugging IDA plugin. Adds a new debugger to IDA which can read TTD traces generated by WinDBG or Visual Studio."},
 
 {name: "TurboDiff",
