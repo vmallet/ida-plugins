@@ -263,7 +263,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230607",
+ last: "20230614",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -290,7 +290,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230607",
+ last: "20230616",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -337,7 +337,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230608",
+ last: "20230613",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -552,7 +552,7 @@ var tabledata = [
  url: "https://github.com/mahaloz/decomp2dbg",
  src: "py",
  cats: "decomp, debug, int",
- last: "20230530",
+ last: "20230611",
  vers: "7.0",
  desc: "Plugin to introduce interactive symbols into your debugger from your decompiler."},
 
@@ -957,7 +957,7 @@ var tabledata = [
  url: "https://github.com/Accenture/FirmLoader",
  src: "py",
  cats: "loader",
- last: "20230530",
+ last: "20230614",
  desc: "Automatically identify parts of memory for firmware images extracted from microcontrollers. Alternative to SVD loader that uses simpler JSON files."},
 
 {name: "FIRST",
@@ -1219,7 +1219,7 @@ var tabledata = [
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
- last: "20230214",
+ last: "20230614",
  desc: "Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro."},
 
 {name: "grap",
@@ -1268,7 +1268,7 @@ var tabledata = [
  url: "https://github.com/interruptlabs/heimdallr-ida",
  src: "py",
  cats: "int",
- last: "20230406",
+ last: "20230615",
  desc: "Plugin to enable linking to locations in an IDB with a ida:// URI (using the Heimdallr client)."},
 
 {name: "herast",
@@ -1852,7 +1852,7 @@ var tabledata = [
 {name: "ida_kernelcache 7.5",
  url: "https://github.com/cellebrite-labs/ida_kernelcache",
  src: "py",
- last: "20220914",
+ last: "20230618",
  vers: "7.5",
  desc: "An IDA Toolkit for analyzing iOS kernelcaches. This fork was updated to work on IDA7.5/Python3/iOS 14.0.1."},
 
@@ -1901,7 +1901,7 @@ var tabledata = [
  desc: "A plugin for integrating MagnumDB requests within IDA. MagNumDB is a database that contains about 380,000 items. These items are constants, names, values all extracted from more than 6,000 header files (.h, .hxx, .hpp, .idl, etc.) provided by standard Windows and Visual Studio SDKs and WDKs."},
 
 {name: "ida_medigate",
- url: "https://github.com/medigate-io/ida_medigate",
+ url: "https://github.com/medigateio/ida_medigate",
  src: "py",
  cats: "decomp",
  last: "20210215",
@@ -2146,7 +2146,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20230523",
+ last: "20230612",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2732,7 +2732,7 @@ var tabledata = [
  url: "https://github.com/zhangyoufu/lumina",
  src: "go",
  cats: "int",
- last: "20230602",
+ last: "20230615",
  desc: "A Go library speaking (IDA Pro) lumina protocol, and a proxy server that may help if you have any privacy concerns using the Hex-Rays' official lumina server."},
 
 {name: "MadNES",
@@ -3080,7 +3080,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230611",
+ last: "20230613",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3139,7 +3139,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230606",
+ last: "20230612",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3198,7 +3198,7 @@ var tabledata = [
  url: "https://github.com/0xeb/ida-qscripts",
  src: "c++",
  cats: "dev",
- last: "20230206",
+ last: "20230612",
  vers: "7.7",
  desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
@@ -3226,7 +3226,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20230609",
+ last: "20230616",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "Rebased Comment",
@@ -3668,6 +3668,12 @@ var tabledata = [
  last: "20180718",
  desc: "Load strings and method/class names in global-metadata.dat to IDA."},
 
+{name: "UserComment",
+ url: "https://github.com/JayRE114514/UserComment",
+ src: "py",
+ last: "20230617",
+ desc: "An IDA pro plugin to display user-added comments in disassembly and pseudocode views."},
+
 {name: "Virtuailor",
  url: "https://github.com/0xgalz/Virtuailor",
  src: "py",
@@ -3880,7 +3886,7 @@ var tabledata = [
  desc: "Unofficial YARA IDA Pro plugin, along with an unparalleled crypto/hash/compression rule set based on Luigi Auriemma's signsrch signatures."},
 
 {name: "YaraScan",
- url: "https://github.com/n1wz/yarascan-ida",
+ url: "https://github.com/snk37/yarascan-ida",
  src: "py",
  cats: "int",
  last: "20230220",

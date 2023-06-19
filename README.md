@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-548 plugins
+549 plugins
 * [3DS-Code-Loader](https://github.com/SinaMegapolis/3DS-Code-Loader): IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files.<br>
 _Updated: 2022 08 01 &nbsp;&nbsp; Language: C++_
 
@@ -131,7 +131,7 @@ _Updated: 2015 04 04 &nbsp;&nbsp; Language: C++_
 _Updated: 2021 06 07_
 
 * [BinExport](https://github.com/google/binexport): Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires.<br>
-_Updated: 2023 06 07 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 06 14 &nbsp;&nbsp; Language: C++_
 
 * [Binkit](https://github.com/ohjeongwook/binkit/tree/master/src/plugin): Binkit Plugin For IDA. Use this plugin to load diffing result files (*.json)...<br>
 _Updated: 2020 10 05 &nbsp;&nbsp; Language: Python_
@@ -143,7 +143,7 @@ _Updated: 2020 10 23_
 _Updated: 2015 02 04 &nbsp;&nbsp; Language: Python_
 
 * [BinSync](https://github.com/angr/binsync): Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler.<br>
-_Updated: 2023 06 07 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 16 &nbsp;&nbsp; Language: Python_
 
 * [Bip](https://github.com/synacktiv/bip): Bip is a project which aims to simplify the usage of python for interacting with IDA. Its main goals are to facilitate the usage of python in the interactive console of IDA and the writing of plugins.<br>
 _Updated: 2020 09 09 &nbsp;&nbsp; Language: Python_
@@ -164,7 +164,7 @@ _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 02 17 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2023 06 08 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 13 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -260,7 +260,7 @@ _Updated: 2023 04 17 &nbsp;&nbsp; Language: C++_
 _Updated: 2017 09 06 &nbsp;&nbsp; Language: Python_
 
 * [decomp2dbg](https://github.com/mahaloz/decomp2dbg): Plugin to introduce interactive symbols into your debugger from your decompiler.<br>
-_Updated: 2023 05 30 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 11 &nbsp;&nbsp; Language: Python_
 
 * [Deep Winter](https://github.com/evil33333333/deep-winter): Black IDA pro theme for darkness enthusiasts.<br>
 _Updated: 2022 10 13_
@@ -434,7 +434,7 @@ _Updated: 2020 12 30 &nbsp;&nbsp; Language: Python_
 _Updated: 2022 11 11 &nbsp;&nbsp; Language: Python_
 
 * [FirmLoader](https://github.com/Accenture/FirmLoader): Automatically identify parts of memory for firmware images extracted from microcontrollers. Alternative to SVD loader that uses simpler JSON files.<br>
-_Updated: 2023 05 30 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 14 &nbsp;&nbsp; Language: Python_
 
 * [FIRST](https://github.com/Cisco-Talos/FIRST-plugin-ida): Function Identification and Recovery Signature Tool (FIRST) is a plugin for IDA Pro that allows users to automatically search for and apply function metadata (the function name, parameter names, parameter types, comments, etc.) submitted from different IDBs / users. This functionality is similar to IDA's Lumina feature, which was introduced in IDA 7.2, although with FIRST the function metadata server address is configurable and the FIRST server code is open source, which means the user can set up a private metadata server for internal use if desired. A community database is also maintained by Cisco Talos and available to use free-of-charge. FIRST supports IDA 6.9 SP1 and above.<br>
 _Updated: 2023 05 03 &nbsp;&nbsp; Language: Python_
@@ -542,7 +542,7 @@ _Updated: 2020 06 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 08 22 &nbsp;&nbsp; Language: Python_
 
 * [go_parser](https://github.com/0xjiayu/go_parser): Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro.<br>
-_Updated: 2023 02 14 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 14 &nbsp;&nbsp; Language: Python_
 
 * [grap](https://github.com/QuoSecGmbH/grap): Define and match graph patterns within binaries. grap takes patterns and binary files, uses a Casptone-based disassembler to obtain the control flow graphs from the binaries, then matches the patterns against them.<br>
 _Updated: 2022 05 05 &nbsp;&nbsp; Language: Python_
@@ -563,7 +563,7 @@ _Updated: 2022 12 12 &nbsp;&nbsp; Language: Python_
 _Updated: 2022 07 25 &nbsp;&nbsp; Language: Python_
 
 * [heimdallr-ida](https://github.com/interruptlabs/heimdallr-ida): Plugin to enable linking to locations in an IDB with a ida:// URI (using the Heimdallr client).<br>
-_Updated: 2023 04 06 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 15 &nbsp;&nbsp; Language: Python_
 
 * [herast](https://github.com/Mizari/herast): Framework to automate working with AST in IDA Pro.<br>
 _Updated: 2023 05 31 &nbsp;&nbsp; Language: Python_
@@ -812,7 +812,7 @@ _Updated: 2022 04 10 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 11 30 &nbsp;&nbsp; Language: Python_
 
 * [ida_kernelcache 7.5](https://github.com/cellebrite-labs/ida_kernelcache): An IDA Toolkit for analyzing iOS kernelcaches. This fork was updated to work on IDA7.5/Python3/iOS 14.0.1.<br>
-_Updated: 2022 09 14 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 18 &nbsp;&nbsp; Language: Python_
 
 * [ida_kern_til](https://github.com/NyaMisty/ida_kern_til): Tools for building TIL for IDA SDK & exporting them to python wrapper<br>
 _Updated: 2022 10 09 &nbsp;&nbsp; Language: Python_
@@ -836,7 +836,7 @@ _Updated: 2022 12 09 &nbsp;&nbsp; Language: Python_
 * [idamagnum](https://github.com/lucasg/idamagnum): A plugin for integrating MagnumDB requests within IDA. MagNumDB is a database that contains about 380,000 items. These items are constants, names, values all extracted from more than 6,000 header files (.h, .hxx, .hpp, .idl, etc.) provided by standard Windows and Visual Studio SDKs and WDKs.<br>
 _Updated: 2020 04 10 &nbsp;&nbsp; Language: Python_
 
-* [ida_medigate](https://github.com/medigate-io/ida_medigate): Medigate plugin for c++ reverse engineering and other utils. Two parts:
+* [ida_medigate](https://github.com/medigateio/ida_medigate): Medigate plugin for c++ reverse engineering and other utils. Two parts:
   * Implementation of C++ classes and polymorphism over IDA
   * A RTTI parser which rebuilds the classes hierarchy.<br>
 _Updated: 2021 02 15 &nbsp;&nbsp; Language: Python_
@@ -948,7 +948,7 @@ _Updated: 2022 10 18 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 03 11 &nbsp;&nbsp; Language: Python_
 
 * [IDAPython](https://github.com/idapython/src): IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA.<br>
-_Updated: 2023 05 23 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 06 12 &nbsp;&nbsp; Language: C++_
 
 * [IDA Python Embedded Toolkit](https://github.com/maddiestone/IDAPythonEmbeddedToolkit): IDAPython scripts for automating analysis of firmware of embedded devices.<br>
 _Updated: 2019 08 14 &nbsp;&nbsp; Language: Python_
@@ -1202,7 +1202,7 @@ _Updated: 2020 09 15 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 06 03 &nbsp;&nbsp; Language: rs_
 
 * [lumina-go](https://github.com/zhangyoufu/lumina): A Go library speaking (IDA Pro) lumina protocol, and a proxy server that may help if you have any privacy concerns using the Hex-Rays' official lumina server.<br>
-_Updated: 2023 06 02 &nbsp;&nbsp; Language: go_
+_Updated: 2023 06 15 &nbsp;&nbsp; Language: go_
 
 * [MadNES](https://github.com/patois/MadNES): This plugin exports IDA names to FCEUXD SP symbols. These can be loaded by FCEUXD SP to allow symbolic debugging.<br>
 _Updated: 2012 09 12 &nbsp;&nbsp; Language: C++_
@@ -1354,7 +1354,7 @@ _Updated: 2023 05 11 &nbsp;&nbsp; Language: C++_
 _Updated: 2022 11 27 &nbsp;&nbsp; Language: Python_
 
 * [Post HexRays ANalysis Kit](https://github.com/Mizari/phrank): Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees.<br>
-_Updated: 2023 06 11 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 13 &nbsp;&nbsp; Language: Python_
 
 * [PPLorer](https://github.com/cellebrite-labs/PPLorer): Plugin that resolves PPL calls to the actual underlying PPL function.<br>
 _Updated: 2023 02 28 &nbsp;&nbsp; Language: Python_
@@ -1378,7 +1378,7 @@ _Updated: 2023 05 31 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 08 03 &nbsp;&nbsp; Language: Python_
 
 * [pwndbg](https://github.com/pwndbg/pwndbg): GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server.<br>
-_Updated: 2023 06 06 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 06 12 &nbsp;&nbsp; Language: Python_
 
 * [pyhexraysdeob](https://github.com/idapython/pyhexraysdeob): A port of Rolf Rolles' HexRaysDeob to Python.<br>
 _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_
@@ -1402,7 +1402,7 @@ _Updated: 2021 08 06 &nbsp;&nbsp; Language: Python_
 _Updated: 2015 07 13 &nbsp;&nbsp; Language: Python_
 
 * [QScripts](https://github.com/0xeb/ida-qscripts): An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script.<br>
-_Updated: 2023 02 06 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 06 12 &nbsp;&nbsp; Language: C++_
 
 * [QtMetaParser](https://github.com/fjqisba/QtMetaParser): IDA plugin to parse qt meta data.<br>
 _Updated: 2023 05 16 &nbsp;&nbsp; Language: C++_
@@ -1414,7 +1414,7 @@ _Updated: 2014 01 23 &nbsp;&nbsp; Language: C++_
 _Updated: 2014 05 10 &nbsp;&nbsp; Language: Python_
 
 * [Quokka](https://github.com/quarkslab/quokka): A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler.<br>
-_Updated: 2023 06 09 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 06 16 &nbsp;&nbsp; Language: C++_
 
 * [Rebased Comment](https://github.com/naim94a/rebasedcomment): Rebase comments when you rebase your IDA database, by searching for hexadecimal numbers that are within range of your program's segments, and fixing your comments after every rebase.<br>
 _Updated: 2020 04 06 &nbsp;&nbsp; Language: Python_
@@ -1609,6 +1609,9 @@ _Updated: 2023 02 08 &nbsp;&nbsp; Language: Python_
 * [unity_metadata_loader](https://github.com/nevermoe/unity_metadata_loader): Load strings and method/class names in global-metadata.dat to IDA.<br>
 _Updated: 2018 07 18 &nbsp;&nbsp; Language: Python_
 
+* [UserComment](https://github.com/JayRE114514/UserComment): An IDA pro plugin to display user-added comments in disassembly and pseudocode views.<br>
+_Updated: 2023 06 17 &nbsp;&nbsp; Language: Python_
+
 * [Virtuailor](https://github.com/0xgalz/Virtuailor): Virtuailor is an IDAPython tool that reconstructs vtables for C++ code written for intel architechture and both 32bit and 64bit code.<br>
 _Updated: 2020 06 06 &nbsp;&nbsp; Language: Python_
 
@@ -1696,7 +1699,7 @@ _Updated: 2022 08 04 &nbsp;&nbsp; Language: C++_
 * [YARA for IDA](https://github.com/kweatherman/yara4ida): Unofficial YARA IDA Pro plugin, along with an unparalleled crypto/hash/compression rule set based on Luigi Auriemma's signsrch signatures.<br>
 _Updated: 2022 09 17 &nbsp;&nbsp; Language: C++_
 
-* [YaraScan](https://github.com/n1wz/yarascan-ida): Scan file with Yara rules.<br>
+* [YaraScan](https://github.com/snk37/yarascan-ida): Scan file with Yara rules.<br>
 _Updated: 2023 02 20 &nbsp;&nbsp; Language: Python_
 
 
