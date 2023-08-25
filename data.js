@@ -213,6 +213,14 @@ var tabledata = [
  vers: "7.7",
  desc: "An IDA plugin for making pseudocode better."},
 
+{name: "BetterCallStack",
+ url: "https://github.com/AntonKukoba1/BetterCallStack",
+ src: "c++",
+ cats: "debug",
+ last: "20230814",
+ vers: "7.7",
+ desc: "Improve call stack in Windows x64 debugger."},
+
 {name: "bextr-helper",
  url: "https://github.com/Goatman13/bextr-helper",
  src: "py",
@@ -263,7 +271,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230728",
+ last: "20230822",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -290,7 +298,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230810",
+ last: "20230822",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -337,7 +345,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230809",
+ last: "20230822",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -465,6 +473,12 @@ var tabledata = [
  vers: "6.9",
  desc: "Continuum is an IDA Pro plugin adding multi-binary project support, allowing fast navigation in applications involving many shared libraries."},
 
+{name: "Copy_RVA",
+ url: "https://github.com/RomanRybachek/Copy_RVA",
+ src: "py",
+ last: "20230728",
+ desc: "Copy RVA under cursor to clipboard."},
+
 {name: "Cortex M Firmware",
  url: "https://github.com/duo-labs/idapython",
  src: "py",
@@ -488,7 +502,7 @@ var tabledata = [
 {name: "CTO: Call Tree Overviewer",
  url: "https://github.com/herosi/CTO",
  src: "py",
- last: "20230328",
+ last: "20230820",
  vers: "7.4",
  desc: "IDA plugin for creating a simple and efficient function call tree graph. It can also summarize function information such as internal function calls, API calls, static linked library function calls, unresolved indirect function calls, string references, structure member accesses, specific comments."},
 
@@ -777,7 +791,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20230808",
+ last: "20230822",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1268,7 +1282,7 @@ var tabledata = [
  url: "https://github.com/interruptlabs/heimdallr-ida",
  src: "py",
  cats: "int",
- last: "20230615",
+ last: "20230817",
  desc: "Plugin to enable linking to locations in an IDB with a ida:// URI (using the Heimdallr client)."},
 
 {name: "herast",
@@ -1493,7 +1507,7 @@ var tabledata = [
 {name: "ida_bochs_windows",
  url: "https://github.com/therealdreg/ida_bochs_windows",
  src: "py",
- last: "20230718",
+ last: "20230811",
  vers: "7.4",
  desc: "Helper script for Windows kernel debugging with IDA Pro on native Bochs debugger (including PDB symbols)."},
 
@@ -1825,7 +1839,7 @@ var tabledata = [
 {name: "ida-kallsyms",
  url: "https://github.com/mephi42/ida-kallsyms",
  src: "py",
- last: "20220818",
+ last: "20230818",
  desc: "IDA script for parsing kallsyms."},
 
 {name: "ida_kcpp",
@@ -2235,7 +2249,7 @@ var tabledata = [
 {name: "IDA-RunLastScript",
  url: "https://github.com/Scags/IDA-RunLastScript",
  src: "py",
- last: "20221031",
+ last: "20230816",
  desc: "IDA Pro plugin with a shortcut to run the most previously used script."},
 
 {name: "IDARustDemangler",
@@ -2278,7 +2292,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/idascripts",
  src: "py",
  cats: "dev",
- last: "20190911",
+ last: "20201125",
  vers: "7.0",
  desc: "IDC and idapython script collection. enumerators.py contains several iterators."},
 
@@ -2461,7 +2475,7 @@ var tabledata = [
 {name: "ida_vmware_windows_gdb",
  url: "https://github.com/therealdreg/ida_vmware_windows_gdb",
  src: "py",
- last: "20230718",
+ last: "20230811",
  vers: "7.4",
  desc: "Helper script for Windows kernel debugging with IDA Pro on VMware + GDB stub (including PDB symbols)."},
 
@@ -2572,7 +2586,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/idbutil",
  src: "c++",
  cats: "dev, int",
- last: "20221130",
+ last: "20230824",
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See Python version 'pyidbutil')"},
 
@@ -2580,7 +2594,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/idcinternals",
  src: "c++",
  cats: "dev",
- last: "20230219",
+ last: "20230824",
  vers: "7.5",
  desc: "IDA plugin investigating the internal representation of IDC scripts"},
 
@@ -2686,7 +2700,7 @@ var tabledata = [
 {name: "linux_kernel_debug_disassemble_ida_vmware",
  url: "https://github.com/therealdreg/linux_kernel_debug_disassemble_ida_vmware",
  src: "py",
- last: "20230718",
+ last: "20230811",
  vers: "7.7",
  desc: "Helper script for Linux kernel disassemble or debugging with IDA Pro on VMware + GDB stub (including some symbols helpers)."},
 
@@ -2724,7 +2738,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20230622",
+ last: "20230819",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2880,6 +2894,12 @@ var tabledata = [
  src: "py",
  last: "20210505",
  desc: "nao (no-meaning assembly omitter) is dead code eliminator plugin for IDA pro."},
+
+{name: "navigation_plugin",
+ url: "https://github.com/RomanRybachek/navigation_plugin",
+ src: "py",
+ last: "20230825",
+ desc: "Help navigate among the large number of unexplored functions in the ida pro disassembler."},
 
 {name: "NDSLdr",
  url: "https://github.com/patois/NDSLdr",
@@ -3080,7 +3100,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230809",
+ last: "20230818",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3139,7 +3159,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230807",
+ last: "20230823",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3154,9 +3174,15 @@ var tabledata = [
  url: "https://github.com/nlitsme/pyidbutil",
  src: "py",
  cats: "dev, int",
- last: "20220727",
+ last: "20230807",
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See C++ version 'idbutil')."},
+
+{name: "pypyc2c",
+ url: "https://github.com/Goatman13/pypyc2c",
+ src: "py",
+ last: "20230821",
+ desc: "PowerPC to C plugin for IDA converted to python."},
 
 {name: "pySigMaker",
  url: "https://github.com/therealzoomgod/pySigMaker",
@@ -3599,7 +3625,7 @@ var tabledata = [
 {name: "symseghelper",
  url: "https://github.com/therealdreg/symseghelper",
  src: "py",
- last: "20230718",
+ last: "20230811",
  vers: "7.4",
  desc: "Helper scripts for windows debugging with symbols for Bochs and IDA Pro (PDB files). Very handy for user mode <--> kernel mode."},
 
