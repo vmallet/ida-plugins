@@ -7,6 +7,13 @@ var tabledata = [
  vers: "7.6",
  desc: "IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files."},
 
+{name: "3ds_ida",
+ url: "https://github.com/kynex7510/3ds_ida",
+ src: "py",
+ cats: "loader",
+ last: "20230828",
+ desc: "IDA Pro resources for reverse engineering Nintendo 3DS binaries."},
+
 {name: "3DSX Loader",
  url: "https://github.com/0xEBFE/3DSX-IDA-PRO-Loader",
  src: "py",
@@ -153,7 +160,7 @@ var tabledata = [
  url: "https://github.com/0xMirasio/IDALibcAutoFlags",
  src: "py",
  cats: "decomp",
- last: "20230610",
+ last: "20230902",
  desc: "Simple plugin to replace decimals flags with enums on standard libc functions."},
 
 {name: "AutoRE",
@@ -271,7 +278,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230822",
+ last: "20230831",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -345,7 +352,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230822",
+ last: "20230830",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -595,7 +602,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20230803",
+ last: "20230901",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -691,7 +698,7 @@ var tabledata = [
 {name: "dubRE",
  url: "https://github.com/michal-kapala/dubRE",
  src: "py",
- last: "20230706",
+ last: "20230901",
  vers: "7.0",
  desc: "ML-driven function symbol extraction plugin for IDA Pro."},
 
@@ -791,7 +798,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20230822",
+ last: "20230828",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1289,7 +1296,7 @@ var tabledata = [
  url: "https://github.com/Mizari/herast",
  src: "py",
  cats: "decomp, dev",
- last: "20230808",
+ last: "20230829",
  vers: "7.4",
  desc: "Framework to automate working with AST in IDA Pro."},
 
@@ -1618,6 +1625,12 @@ var tabledata = [
  last: "20211110",
  desc: "IDA Debugger Module to Dynamically Synchronize Memory and Registers with third-party Backends (Tenet, Unicorn, GDB, etc.)"},
 
+{name: "IDADeflat",
+ url: "https://github.com/za233/IDADeflat",
+ src: "py",
+ last: "20230825",
+ desc: "Deflat plugin for ida pro (Chinese)."},
+
 {name: "idadiff",
  url: "https://github.com/0x00ach/idadiff",
  src: "py",
@@ -1695,6 +1708,13 @@ var tabledata = [
  last: "20180310",
  vers: "7.0",
  desc: "Plugin that enables you to perform different operations at the mnemonic level, independent of any particular processor type. These operations are facilitated through a parameterized template, which include the capabilities to de/highlight instructions, gather statistical information about the frequency of each instruction, and search for sequences of mnemonics, among other features."},
+
+{name: "IDA Fit",
+ url: "https://github.com/asef18766/IDAFit",
+ src: "c++",
+ cats: "int",
+ last: "20230829",
+ desc: "A ringcon-based IDA Pro controller for fitness lovers: manipulate IDA with ringcon & legging joycon."},
 
 {name: "IDA-For-Delphi",
  url: "https://github.com/Coldzer0/IDA-For-Delphi",
@@ -2586,7 +2606,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/idbutil",
  src: "c++",
  cats: "dev, int",
- last: "20230824",
+ last: "20230828",
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See Python version 'pyidbutil')"},
 
@@ -2689,6 +2709,14 @@ var tabledata = [
  last: "20221008",
  vers: "7.0",
  desc: "LazyIDA lets you perform many tasks simply and quickly (e.g., remove function return type in Hex-Rays, convert data into different formats, scan for format string vulnerabilities and a variety of shortcuts)"},
+
+{name: "lib2smda",
+ url: "https://github.com/danielplohmann/lib2smda",
+ src: "py",
+ cats: "dev, int",
+ last: "20230823",
+ vers: "7.4",
+ desc: "Helper tool to use IDA Pro to convert lib files into SMDA format."},
 
 {name: "Lighthouse",
  url: "https://github.com/gaasedelen/lighthouse",
@@ -2898,7 +2926,7 @@ var tabledata = [
 {name: "navigation_plugin",
  url: "https://github.com/RomanRybachek/navigation_plugin",
  src: "py",
- last: "20230825",
+ last: "20230903",
  desc: "Help navigate among the large number of unexplored functions in the ida pro disassembler."},
 
 {name: "NDSLdr",
@@ -3100,7 +3128,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230818",
+ last: "20230828",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3139,6 +3167,13 @@ var tabledata = [
  last: "20220627",
  desc: "IDA plugin for reconstructing original .proto files from binary."},
 
+{name: "ps2_ida_vu_micro",
+ url: "https://github.com/Goatman13/ps2_ida_vu_micro",
+ src: "py",
+ last: "20230901",
+ vers: "7.5",
+ desc: "Plugin that tries to find and disassemble vu microcode in ps2 executables."},
+
 {name: "PS5 .elf",
  url: "https://github.com/flatz/ida_ps5_elf_plugin",
  src: "py",
@@ -3159,7 +3194,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230823",
+ last: "20230827",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3181,7 +3216,7 @@ var tabledata = [
 {name: "pypyc2c",
  url: "https://github.com/Goatman13/pypyc2c",
  src: "py",
- last: "20230821",
+ last: "20230830",
  desc: "PowerPC to C plugin for IDA converted to python."},
 
 {name: "pySigMaker",
@@ -3224,7 +3259,7 @@ var tabledata = [
  url: "https://github.com/0xeb/ida-qscripts",
  src: "c++",
  cats: "dev",
- last: "20230731",
+ last: "20230830",
  vers: "7.7",
  desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
@@ -3252,7 +3287,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20230718",
+ last: "20230827",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "Rebased Comment",
@@ -3647,7 +3682,7 @@ var tabledata = [
 {name: "SysNR-FuncFinder",
  url: "https://github.com/WPeace-HcH/SysNR-FuncFinder",
  src: "py",
- last: "20230705",
+ last: "20230831",
  vers: "7.4",
  desc: "Rename functions by system call numbers."},
 
@@ -3772,7 +3807,7 @@ var tabledata = [
 {name: "VulFi",
  url: "https://github.com/Accenture/VulFi",
  src: "py",
- last: "20230111",
+ last: "20230901",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
