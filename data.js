@@ -11,7 +11,7 @@ var tabledata = [
  url: "https://github.com/kynex7510/3ds_ida",
  src: "py",
  cats: "loader",
- last: "20230828",
+ last: "20230905",
  desc: "IDA Pro resources for reverse engineering Nintendo 3DS binaries."},
 
 {name: "3DSX Loader",
@@ -278,7 +278,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230831",
+ last: "20230906",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -352,7 +352,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230830",
+ last: "20230905",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -584,6 +584,13 @@ var tabledata = [
  vers: "7.0",
  desc: "Black IDA pro theme for darkness enthusiasts."},
 
+{name: "DemangledStructNaming",
+ url: "https://github.com/AntonKukoba1/DemangledStructNaming",
+ src: "c++",
+ last: "20230814",
+ vers: "7.7",
+ desc: "Ida plugin to improve Create structure from selection naming."},
+
 {name: "deREferencing",
  url: "https://github.com/danigargu/deREferencing",
  src: "py",
@@ -615,7 +622,7 @@ var tabledata = [
 
 {name: "docker-idapro",
  url: "https://github.com/blacktop/docker-idapro",
- last: "20230628",
+ last: "20230905",
  vers: "7.7",
  desc: "IDA Pro Docker Image (For use as an ipsw pipeline)."},
 
@@ -698,7 +705,7 @@ var tabledata = [
 {name: "dubRE",
  url: "https://github.com/michal-kapala/dubRE",
  src: "py",
- last: "20230901",
+ last: "20230905",
  vers: "7.0",
  desc: "ML-driven function symbol extraction plugin for IDA Pro."},
 
@@ -798,7 +805,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20230828",
+ last: "20230904",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1300,6 +1307,14 @@ var tabledata = [
  vers: "7.4",
  desc: "Framework to automate working with AST in IDA Pro."},
 
+{name: "Hexagon Processor Module",
+ url: "https://github.com/n-o-o-n/idp_hexagon",
+ src: "c++",
+ cats: "proc",
+ last: "20230626",
+ vers: "7.7",
+ desc: "Hexagon (aka QDSP6) processor module for IDA Pro disassembler."},
+
 {name: "HexCopy",
  url: "https://github.com/OALabs/hexcopy-ida",
  src: "py",
@@ -1563,7 +1578,7 @@ var tabledata = [
 {name: "ida-cmake",
  url: "https://github.com/0xeb/ida-cmake",
  cats: "dev",
- last: "20230511",
+ last: "20230901",
  vers: "7.6",
  desc: "This is not an IDA plugin but a CMake project generator for IDA plugins development."},
 
@@ -3128,7 +3143,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230828",
+ last: "20230907",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3194,7 +3209,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230827",
+ last: "20230905",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3289,6 +3304,13 @@ var tabledata = [
  cats: "int",
  last: "20230827",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
+
+{name: "RDR2 IDA Native Renamer",
+ url: "https://github.com/Sna1lLord/RDR2-IDA-Native-Renamer",
+ src: "py",
+ cats: "",
+ last: "20230908",
+ desc: "A simple python script which names all natives for Red Dead Redemption 2."},
 
 {name: "Rebased Comment",
  url: "https://github.com/naim94a/rebasedcomment",
@@ -3400,6 +3422,13 @@ var tabledata = [
  last: "20150103",
  vers: "6.7",
  desc: "REtypedef is an IDA PRO plugin that allows defining custom substitutions for function names. It comes with a default ruleset providing substitutions for many common STL types."},
+
+{name: "RevEng.AI IDA Plugin",
+ url: "https://github.com/RevEngAI/reai-ida",
+ src: "py",
+ cats: "int",
+ last: "20230818",
+ desc: "RevEng.AI IDA Pro Plugin."},
 
 {name: "Revsync",
  url: "https://github.com/lunixbochs/revsync",
