@@ -278,7 +278,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20230906",
+ last: "20230914",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -305,7 +305,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230822",
+ last: "20230916",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -352,7 +352,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20230905",
+ last: "20230919",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -609,7 +609,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20230901",
+ last: "20230917",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -622,7 +622,7 @@ var tabledata = [
 
 {name: "docker-idapro",
  url: "https://github.com/blacktop/docker-idapro",
- last: "20230905",
+ last: "20230912",
  vers: "7.7",
  desc: "IDA Pro Docker Image (For use as an ipsw pipeline)."},
 
@@ -1011,7 +1011,7 @@ var tabledata = [
 {name: "FLARE Plugins",
  url: "https://github.com/mandiant/flare-ida",
  src: "py",
- last: "20220810",
+ last: "20230919",
  desc: "FLARE Team Reversing Repository plugin collection: Shellcode Hashes, Struct Typer, StackStrings, MSDN Annotations, ApplyCalleeType, idb2pat, argtracker, objc2_analyzer, ironstrings, Code Grafter"},
 
 {name: "FLIRTDB",
@@ -1247,7 +1247,7 @@ var tabledata = [
 {name: "go_parser",
  url: "https://github.com/0xjiayu/go_parser",
  src: "py",
- last: "20230701",
+ last: "20230912",
  desc: "Yet Another Golang binary parser for IDAPro. Inspired by golang_loader_assist and jeb-golang-analyzer, I wrote a more complete Go binaries parsing tool for IDAPro."},
 
 {name: "grap",
@@ -1311,7 +1311,7 @@ var tabledata = [
  url: "https://github.com/n-o-o-n/idp_hexagon",
  src: "c++",
  cats: "proc",
- last: "20230626",
+ last: "20230911",
  vers: "7.7",
  desc: "Hexagon (aka QDSP6) processor module for IDA Pro disassembler."},
 
@@ -1728,7 +1728,7 @@ var tabledata = [
  url: "https://github.com/asef18766/IDAFit",
  src: "c++",
  cats: "int",
- last: "20230829",
+ last: "20230911",
  desc: "A ringcon-based IDA Pro controller for fitness lovers: manipulate IDA with ringcon & legging joycon."},
 
 {name: "IDA-For-Delphi",
@@ -1874,7 +1874,7 @@ var tabledata = [
 {name: "ida-kallsyms",
  url: "https://github.com/mephi42/ida-kallsyms",
  src: "py",
- last: "20230818",
+ last: "20230916",
  desc: "IDA script for parsing kallsyms."},
 
 {name: "ida_kcpp",
@@ -1933,6 +1933,14 @@ var tabledata = [
  last: "20211214",
  vers: "7.0",
  desc: "Analyze and annotate Linux kernel alternatives (content of .altinstructions and .altinstr_replacement sections)."},
+
+{name: "idallama",
+ url: "https://github.com/lbl4/idallama",
+ src: "py",
+ cats: "decomp, int",
+ last: "20230914",
+ vers: "7.7",
+ desc: "Use llama2 from neuroengine to use AI to help with decompilation. Fork of Gepetto."},
 
 {name: "IDAMagicStrings",
  url: "https://github.com/joxeankoret/idamagicstrings",
@@ -3143,7 +3151,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20230907",
+ last: "20230919",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3209,7 +3217,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230905",
+ last: "20230910",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3302,7 +3310,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20230827",
+ last: "20230918",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "RDR2 IDA Native Renamer",
@@ -3806,6 +3814,13 @@ var tabledata = [
  last: "20220408",
  vers: "7.5",
  desc: " A 'No Operation' Generator. Creates NOP'd areas though simple convenient actions to relevant right click menus."},
+
+{name: "Void",
+ url: "https://github.com/dovezp/ida.plugin.void",
+ src: "py",
+ last: "20230820",
+ vers: "7.5",
+ desc: "A 'No Operation' Generator Plugin to effortlessly create NOP'd areas in your disassembly view. (Archived)."},
 
 {name: "vtable-namer",
  url: "https://github.com/5fcc3e45/vtable-namer",
