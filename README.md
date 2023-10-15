@@ -11,12 +11,12 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-568 plugins
+571 plugins
 * [3DS-Code-Loader](https://github.com/SinaMegapolis/3DS-Code-Loader): IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files.<br>
 _Updated: 2022 08 01 &nbsp;&nbsp; Language: C++_
 
 * [3ds_ida](https://github.com/kynex7510/3ds_ida): IDA Pro resources for reverse engineering Nintendo 3DS binaries.<br>
-_Updated: 2023 10 07 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 10 08 &nbsp;&nbsp; Language: Python_
 
 * [3DSX Loader](https://github.com/0xEBFE/3DSX-IDA-PRO-Loader): IDA PRO Loader for 3DSX files<br>
 _Updated: 2021 12 26 &nbsp;&nbsp; Language: Python_
@@ -34,10 +34,10 @@ _Updated: 2018 10 05 &nbsp;&nbsp; Language: Python_
 _Language: C++_
 
 * [alleycat](https://github.com/devttys0/ida/tree/master/plugins/alleycat): 
-  *  Finds paths to a given code block inside a function
-  *  Finds paths between two or more functions
-  *  Generates interactive call graphs
-  *  Fully scriptable<br>
+  * Finds paths to a given code block inside a function
+  * Finds paths between two or more functions
+  * Generates interactive call graphs
+  * Fully scriptable<br>
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 
 * [ALLirt](https://github.com/push0ebp/ALLirt): Converts All of libc to signatures for IDA Pro FLIRT Plugin. and utility make sig with FLAIR easily.<br>
@@ -195,8 +195,8 @@ _Updated: 2018 01 02_
 
 * [codatify](https://github.com/devttys0/ida/tree/master/plugins/codatify): 
   * Defines ASCII strings that IDA's auto analysis missed
-  *  Defines functions/code that IDA's auto analysis missed
-  *  Converts all undefined bytes in the data segment into DWORDs (thus allowing IDA to resolve function and jump table pointers)<br>
+  * Defines functions/code that IDA's auto analysis missed
+  * Converts all undefined bytes in the data segment into DWORDs (thus allowing IDA to resolve function and jump table pointers)<br>
 _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 
 * [Codatify (IDC)](https://github.com/tin-z/codatify): IDC version of codatify IDAPython script.<br>
@@ -408,6 +408,9 @@ _Updated: 2018 09 21 &nbsp;&nbsp; Language: Python_
 
 * [export_source_path](https://github.com/Humenger/export_source_path): Export source path to dir for IDA plugin.<br>
 _Updated: 2023 01 06 &nbsp;&nbsp; Language: Python_
+
+* [Extract.Hvcall](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls): Utility for automatically extracting Hyper-V hypercalls names and codes from Hyper-V core binaries.<br>
+_Updated: 2023 10 02 &nbsp;&nbsp; Language: c#_
 
 * [Extract Macho-O](https://github.com/gdbinit/ExtractMachO): This is a very simple IDA plugin to extract all Mach-O binaries contained anywhere in the disassembly.<br>
 _Updated: 2019 05 09 &nbsp;&nbsp; Language: C++_
@@ -698,7 +701,7 @@ _Updated: 2017 07 31 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 05 15 &nbsp;&nbsp; Language: C++_
 
 * [IdaClu](https://github.com/harlamism/IdaClu): Version-agnostic plugin for grouping similar functions. Pick an existing grouping algorithm or create your own.<br>
-_Updated: 2023 10 06 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 10 13 &nbsp;&nbsp; Language: Python_
 
 * [ida-cmake](https://github.com/0xeb/ida-cmake): This is not an IDA plugin but a CMake project generator for IDA plugins development.<br>
 _Updated: 2023 09 01_
@@ -1246,6 +1249,9 @@ _Updated: 2012 09 12 &nbsp;&nbsp; Language: C++_
 * [mark_executed_code](https://github.com/lzyddf/mark_executed_code): Mark the code which is executed while debugging, including pseudo-code and assembly code.<br>
 _Updated: 2022 06 01 &nbsp;&nbsp; Language: Python_
 
+* [Match4IDA](https://github.com/riskeco/Match4IDA): Helps convert relative offsets to linear addresses pulled from rule engines like YARA and ROST, with a UI to navigate between them.<br>
+_Updated: 2023 09 14 &nbsp;&nbsp; Language: Python_
+
 * [MazeWalker](https://github.com/0xPhoeniX/MazeWalker): Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part.<br>
 _Updated: 2022 01 16 &nbsp;&nbsp; Language: Python_
 
@@ -1393,7 +1399,7 @@ _Updated: 2023 05 11 &nbsp;&nbsp; Language: C++_
 _Updated: 2022 11 27 &nbsp;&nbsp; Language: Python_
 
 * [Post HexRays ANalysis Kit](https://github.com/Mizari/phrank): Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees.<br>
-_Updated: 2023 10 05 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 10 11 &nbsp;&nbsp; Language: Python_
 
 * [PPLorer](https://github.com/cellebrite-labs/PPLorer): Plugin that resolves PPL calls to the actual underlying PPL function.<br>
 _Updated: 2023 02 28 &nbsp;&nbsp; Language: Python_
@@ -1420,7 +1426,7 @@ _Updated: 2023 05 31 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 08 03 &nbsp;&nbsp; Language: Python_
 
 * [pwndbg](https://github.com/pwndbg/pwndbg): GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server.<br>
-_Updated: 2023 09 21 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 10 10 &nbsp;&nbsp; Language: Python_
 
 * [pyhexraysdeob](https://github.com/idapython/pyhexraysdeob): A port of Rolf Rolles' HexRaysDeob to Python.<br>
 _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_
@@ -1452,6 +1458,9 @@ _Updated: 2023 08 30 &nbsp;&nbsp; Language: C++_
 * [QtMetaParser](https://github.com/fjqisba/QtMetaParser): IDA plugin to parse qt meta data.<br>
 _Updated: 2023 05 16 &nbsp;&nbsp; Language: C++_
 
+* [QuakeVM](https://hex-rays.com/contests_details/contest2023/quakevm/quakevm_contest_sub.zip): Loader and processor modules for the Quake 3 Virtual Machine used in the video game and the Rhadamanthys malware.<br>
+_Language: C++_
+
 * [Qualcomm Loader](https://github.com/daxgr/qcom-mbn-ida-loader): IDA loader plugin for Qualcomm Bootloader Stages<br>
 _Updated: 2014 01 23 &nbsp;&nbsp; Language: C++_
 
@@ -1459,7 +1468,7 @@ _Updated: 2014 01 23 &nbsp;&nbsp; Language: C++_
 _Updated: 2014 05 10 &nbsp;&nbsp; Language: Python_
 
 * [Quokka](https://github.com/quarkslab/quokka): A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler.<br>
-_Updated: 2023 09 27 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 10 10 &nbsp;&nbsp; Language: C++_
 
 * [RDR2 IDA Native Renamer](https://github.com/Sna1lLord/RDR2-IDA-Native-Renamer): A simple python script which names all natives for Red Dead Redemption 2.<br>
 _Updated: 2023 09 08 &nbsp;&nbsp; Language: Python_
@@ -1627,6 +1636,9 @@ _Updated: 2016 04 23 &nbsp;&nbsp; Language: Python_
 * [SwitchIDAProLoader](https://github.com/pgarba/switchidaproloader): Loader for IDA Pro to support the Nintendo Switch NRO binaries.<br>
 _Updated: 2022 02 21 &nbsp;&nbsp; Language: C++_
 
+* [Symless](https://github.com/thalium/symless): Automatic structures recovering plugin for IDA. Able to reconstruct structures/classes and virtual tables used in a binary.<br>
+_Updated: 2023 09 25 &nbsp;&nbsp; Language: Python_
+
 * [syms2elf](https://github.com/danigargu/syms2elf): A plugin for IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.<br>
 _Updated: 2021 11 17 &nbsp;&nbsp; Language: Python_
 
@@ -1677,9 +1689,6 @@ _Updated: 2023 02 21 &nbsp;&nbsp; Language: C++_
 
 * [VMAttack](https://github.com/anatolikalysch/VMAttack): Static and dynamic virtualization-based packed analysis and deobfuscation.<br>
 _Updated: 2017 11 30 &nbsp;&nbsp; Language: Python_
-
-* [Void](https://github.com/dove-zp/ida.plugin.void): A 'No Operation' Generator. Creates NOP'd areas though simple convenient actions to relevant right click menus.<br>
-_Updated: 2022 04 08 &nbsp;&nbsp; Language: Python_
 
 * [Void](https://github.com/dovezp/ida.plugin.void): A 'No Operation' Generator Plugin to effortlessly create NOP'd areas in your disassembly view. (Archived).<br>
 _Updated: 2023 08 20 &nbsp;&nbsp; Language: Python_

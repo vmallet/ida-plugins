@@ -11,7 +11,7 @@ var tabledata = [
  url: "https://github.com/kynex7510/3ds_ida",
  src: "py",
  cats: "loader",
- last: "20231007",
+ last: "20231008",
  desc: "IDA Pro resources for reverse engineering Nintendo 3DS binaries."},
 
 {name: "3DSX Loader",
@@ -52,7 +52,7 @@ var tabledata = [
  url: "https://github.com/devttys0/ida/tree/master/plugins/alleycat",
  src: "py",
  last: "20210602",
- desc: "*  Finds paths to a given code block inside a function\n*  Finds paths between two or more functions\n*  Generates interactive call graphs\n*  Fully scriptable"},
+ desc: "* Finds paths to a given code block inside a function\n* Finds paths between two or more functions\n* Generates interactive call graphs\n* Fully scriptable"},
 
 {name: "ALLirt",
  url: "https://github.com/push0ebp/ALLirt",
@@ -407,7 +407,7 @@ var tabledata = [
  url: "https://github.com/devttys0/ida/tree/master/plugins/codatify",
  src: "py",
  last: "20210602",
- desc: "\n* Defines ASCII strings that IDA's auto analysis missed\n*  Defines functions/code that IDA's auto analysis missed\n*  Converts all undefined bytes in the data segment into DWORDs (thus allowing IDA to resolve function and jump table pointers)"},
+ desc: "* Defines ASCII strings that IDA's auto analysis missed\n* Defines functions/code that IDA's auto analysis missed\n* Converts all undefined bytes in the data segment into DWORDs (thus allowing IDA to resolve function and jump table pointers)"},
 
 {name: "Codatify (IDC)",
  url: "https://github.com/tin-z/codatify",
@@ -637,7 +637,7 @@ var tabledata = [
  src: "py",
  last: "20220531",
  vers: "7.5",
- desc: " A plugin for IDA Pro to export the symbols recognized to the ELF symbol table. It can create an ELF with debug information from any dump file."},
+ desc: "A plugin for IDA Pro to export the symbols recognized to the ELF symbol table. It can create an ELF with debug information from any dump file."},
 
 {name: "dotNIET",
  url: "https://github.com/synacktiv/dotNIET",
@@ -897,6 +897,13 @@ var tabledata = [
  src: "py",
  last: "20230106",
  desc: "Export source path to dir for IDA plugin."},
+
+{name: "Extract.Hvcall",
+ url: "https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls",
+ src: "c#",
+ cats: "int",
+ last: "20231002",
+ desc: "Utility for automatically extracting Hyper-V hypercalls names and codes from Hyper-V core binaries."},
 
 {name: "Extract Macho-O",
  url: "https://github.com/gdbinit/ExtractMachO",
@@ -1584,7 +1591,7 @@ var tabledata = [
 {name: "IdaClu",
  url: "https://github.com/harlamism/IdaClu",
  src: "py",
- last: "20231006",
+ last: "20231013",
  vers: "8.2",
  desc: "Version-agnostic plugin for grouping similar functions. Pick an existing grouping algorithm or create your own."},
 
@@ -2837,6 +2844,13 @@ var tabledata = [
  vers: "7.5",
  desc: "Mark the code which is executed while debugging, including pseudo-code and assembly code."},
 
+{name: "Match4IDA",
+ url: "https://github.com/riskeco/Match4IDA",
+ src: "py",
+ cats: "int",
+ last: "20230914",
+ desc: "Helps convert relative offsets to linear addresses pulled from rule engines like YARA and ROST, with a UI to navigate between them."},
+
 {name: "MazeWalker",
  url: "https://github.com/0xPhoeniX/MazeWalker",
  src: "py",
@@ -3172,7 +3186,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20231005",
+ last: "20231011",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3238,7 +3252,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20230921",
+ last: "20231010",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3314,6 +3328,12 @@ var tabledata = [
  last: "20230516",
  desc: "IDA plugin to parse qt meta data."},
 
+{name: "QuakeVM",
+ url: "https://hex-rays.com/contests_details/contest2023/quakevm/quakevm_contest_sub.zip",
+ src: "c++",
+ cats: "loader, proc",
+ desc: "Loader and processor modules for the Quake 3 Virtual Machine used in the video game and the Rhadamanthys malware."},
+
 {name: "Qualcomm Loader",
  url: "https://github.com/daxgr/qcom-mbn-ida-loader",
  src: "c++",
@@ -3331,7 +3351,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20230927",
+ last: "20231010",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "RDR2 IDA Native Renamer",
@@ -3708,6 +3728,13 @@ var tabledata = [
  vers: "7.6",
  desc: "Loader for IDA Pro to support the Nintendo Switch NRO binaries."},
 
+{name: "Symless",
+ url: "https://github.com/thalium/symless",
+ src: "py",
+ last: "20230925",
+ vers: "7.6",
+ desc: "Automatic structures recovering plugin for IDA. Able to reconstruct structures/classes and virtual tables used in a binary."},
+
 {name: "syms2elf",
  url: "https://github.com/danigargu/syms2elf",
  src: "py",
@@ -3828,13 +3855,6 @@ var tabledata = [
  last: "20171130",
  vers: "6.9",
  desc: "Static and dynamic virtualization-based packed analysis and deobfuscation."},
-
-{name: "Void",
- url: "https://github.com/dove-zp/ida.plugin.void",
- src: "py",
- last: "20220408",
- vers: "7.5",
- desc: " A 'No Operation' Generator. Creates NOP'd areas though simple convenient actions to relevant right click menus."},
 
 {name: "Void",
  url: "https://github.com/dovezp/ida.plugin.void",
