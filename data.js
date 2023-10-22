@@ -212,6 +212,14 @@ var tabledata = [
  vers: "7.3",
  desc: "Integrate BAP (Binary Analysis Platform) with IDA, providing functionality such as function info augmentation, taint propagation, BIR attribute tagging, and more."},
 
+{name: "Batch-IDA",
+ url: "https://github.com/chnzzh/batch-ida",
+ src: "py",
+ cats: "int",
+ last: "20231020",
+ vers: "7.7",
+ desc: "A python library for generating IDA Pro files in batch mode & comparing executable files use bindiff in batch mode."},
+
 {name: "BDSDevHelper",
  url: "https://github.com/Redbeanw44602/BDSDevHelper",
  src: "py",
@@ -358,7 +366,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20231006",
+ last: "20231020",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -615,7 +623,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20231003",
+ last: "20231011",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -1129,6 +1137,13 @@ var tabledata = [
  last: "20230304",
  desc: "Plugin for writing and storing notes related to functions. Text is entered in the Editor window and displayed in the Preview window."},
 
+{name: "Funkbuster",
+ url: "https://github.com/ep1h/funkbuster-ida-plugin",
+ src: "py",
+ last: "20231018",
+ vers: "7.7",
+ desc: "IDA plugin for analyzing, filtering and tracing functions and call flows."},
+
 {name: "Gamecube DSP",
  url: "https://github.com/dolphin-emu/gcdsp-ida",
  src: "py",
@@ -1309,7 +1324,7 @@ var tabledata = [
  url: "https://github.com/interruptlabs/heimdallr-ida",
  src: "py",
  cats: "int",
- last: "20230817",
+ last: "20231018",
  desc: "Plugin to enable linking to locations in an IDB with a ida:// URI (using the Heimdallr client)."},
 
 {name: "herast",
@@ -1965,7 +1980,7 @@ var tabledata = [
 {name: "IDAMagicStrings",
  url: "https://github.com/joxeankoret/idamagicstrings",
  src: "py",
- last: "20221209",
+ last: "20231021",
  vers: "7.4",
  desc: "An IDA Python plugin to extract information from string constants. The current version of the plugin is able to:\n* Display functions to source files relationships (in a tree and in a plain list, a chooser in IDA language).\n* Display guessed function names for functions.\n* Rename functions according to the source code file their belong + address (for example, memory_mgmt_0x401050).\n* Rename functions according to the guessed function name."},
 
@@ -2786,7 +2801,7 @@ var tabledata = [
  url: "https://github.com/ProximaV/lm32",
  src: "c++",
  cats: "proc",
- last: "20230922",
+ last: "20231018",
  vers: "8.3",
  desc: "LatticeMico32 IDA Pro Processor Module."},
 
@@ -3186,7 +3201,7 @@ var tabledata = [
  url: "https://github.com/Mizari/phrank",
  src: "py",
  cats: "decomp",
- last: "20231011",
+ last: "20231019",
  vers: "7.5",
  desc: "Phrank helps with structure analysis and function pointers. Phrank works on top of HexRays ctrees."},
 
@@ -3252,7 +3267,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20231010",
+ last: "20231012",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3567,6 +3582,13 @@ var tabledata = [
  last: "20160802",
  vers: "6.9",
  desc: "Helpful scripts for various tasks performed during reverse engineering the Shannon Baseband with the goal to exploit the Samsung Galaxy S6."},
+
+{name: "ShowComments",
+ url: "https://github.com/merces/showcomments",
+ src: "py",
+ last: "20220207",
+ vers: "7.7",
+ desc: "Conveniently view all comments in a database, and navigate quickly between them."},
 
 {name: "Sig Maker",
  url: "https://github.com/ajkhoury/SigMaker-x64",
