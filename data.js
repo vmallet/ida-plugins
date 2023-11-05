@@ -111,7 +111,7 @@ var tabledata = [
 {name: "AntiDebugSeeker",
  url: "https://github.com/LAC-Japan/IDA_Plugin_AntiDebugSeeker",
  src: "py",
- last: "20231002",
+ last: "20231101",
  desc: "Automatically identify and extract potential anti-debugging techniques used by malware."},
 
 {name: "antiVM",
@@ -319,7 +319,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20230916",
+ last: "20231025",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -366,7 +366,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20231020",
+ last: "20231101",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -383,6 +383,13 @@ var tabledata = [
  src: "scm",
  last: "20151228",
  desc: "CGEN with support for generating IDA Pro IDP modules."},
+
+{name: "Chuchu",
+ url: "https://github.com/hazzaaclark/chuchu",
+ src: "c++",
+ cats: "decomp, loader",
+ last: "20231029",
+ desc: "SEGA Dreamcast Binary Decompiler for IDA Pro."},
 
 {name: "Class Informer",
  url: "http://sourceforge.net/projects/classinformer/",
@@ -623,7 +630,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20231011",
+ last: "20231029",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -1140,7 +1147,7 @@ var tabledata = [
 {name: "Funkbuster",
  url: "https://github.com/ep1h/funkbuster-ida-plugin",
  src: "py",
- last: "20231018",
+ last: "20231103",
  vers: "7.7",
  desc: "IDA plugin for analyzing, filtering and tracing functions and call flows."},
 
@@ -1331,7 +1338,7 @@ var tabledata = [
  url: "https://github.com/Mizari/herast",
  src: "py",
  cats: "decomp, dev",
- last: "20230829",
+ last: "20231031",
  vers: "7.4",
  desc: "Framework to automate working with AST in IDA Pro."},
 
@@ -1462,7 +1469,7 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20230804",
+ last: "20231103",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool directly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "iBoot64helper",
@@ -2100,7 +2107,7 @@ var tabledata = [
 {name: "IDA P-Code",
  url: "https://github.com/binarly-io/idapcode",
  src: "py",
- last: "20210720",
+ last: "20231027",
  desc: "IDA plugin displaying the P-Code for the current function."},
 
 {name: "IDA PDB Loader (IPL)",
@@ -2202,7 +2209,7 @@ var tabledata = [
 {name: "IDA Pro SigMaker",
  url: "https://github.com/A200K/IDA-Pro-SigMaker",
  src: "c++",
- last: "20230930",
+ last: "20231105",
  vers: "8.1",
  desc: "Signature Maker Plugin for IDA Pro 8.1."},
 
@@ -2383,7 +2390,7 @@ var tabledata = [
 {name: "ida-scripts (cra0)",
  url: "https://github.com/cra0/ida-scripts",
  src: "py",
- last: "20230716",
+ last: "20231101",
  desc: "Various IDA scripts for Reverse Engineering: Cra0 Signature Definition File Importer, Cra0 VTable Definition File Importer, cvutils-getoffset, cvutils-gotooffset."},
 
 {name: "idascripts (maiyao1988)",
@@ -2536,6 +2543,13 @@ var tabledata = [
  last: "20150130",
  desc: "The IDA Toolbag plugin provides many handy features, such as:\n* A 'History' view, that displays functions in the disassembly that you have decided are important, and the relationships between them.\n* A code path-searching tool, that lets you find what functions (or blocks) are forming a path between two locations.\n* Manage and run your IDC/Python scripts\n* Something that's also of considerable importance is that the IDA Toolbag lets you collaborate with other IDA users: one can publish his 'History', or import another user's history & even merge them!\n* See the official documentation for an extensive feature list."},
 
+{name: "IDATopaqueminator",
+ url: "https://github.com/tomer132246/IDATopaqueminator",
+ src: "py",
+ last: "20230919",
+ vers: "7.0",
+ desc: "IDA plugin for simple opaque predicates removal using symbolic execution with angr."},
+
 {name: "idatrace2tree",
  url: "https://github.com/haltarkon/idatrace2tree",
  src: "c++",
@@ -2672,7 +2686,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/idcinternals",
  src: "c++",
  cats: "dev",
- last: "20230824",
+ last: "20231027",
  vers: "7.5",
  desc: "IDA plugin investigating the internal representation of IDC scripts"},
 
@@ -3267,7 +3281,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20231012",
+ last: "20231102",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
