@@ -319,7 +319,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20231025",
+ last: "20231107",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -366,7 +366,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20231101",
+ last: "20231108",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -388,7 +388,7 @@ var tabledata = [
  url: "https://github.com/hazzaaclark/chuchu",
  src: "c++",
  cats: "decomp, loader",
- last: "20231029",
+ last: "20231111",
  desc: "SEGA Dreamcast Binary Decompiler for IDA Pro."},
 
 {name: "Class Informer",
@@ -583,6 +583,13 @@ var tabledata = [
  last: "20230417",
  vers: "6.6",
  desc: "Debugger plugin for IDA Pro backed by the Unicorn Engine"},
+
+{name: "Debugger_Timer",
+ url: "https://github.com/Mohamed-Adil-Cyber/Debugger_Timer",
+ src: "py",
+ cats: "debug",
+ last: "20231107",
+ desc: "Simple timer plugin for IDA, use Ctrl+Shift+D to start and end the timer."},
 
 {name: "dec2struct",
  url: "https://github.com/krystalgamer/dec2struct",
@@ -1147,7 +1154,7 @@ var tabledata = [
 {name: "Funkbuster",
  url: "https://github.com/ep1h/funkbuster-ida-plugin",
  src: "py",
- last: "20231103",
+ last: "20231106",
  vers: "7.7",
  desc: "IDA plugin for analyzing, filtering and tracing functions and call flows."},
 
@@ -1229,7 +1236,7 @@ var tabledata = [
  url: "https://github.com/JusticeRage/Gepetto",
  src: "py",
  cats: "decomp, int",
- last: "20230602",
+ last: "20231109",
  vers: "7.7",
  desc: "Query OpenAI's davinci-003 language model to speed up reverse-engineering."},
 
@@ -1770,7 +1777,7 @@ var tabledata = [
  url: "https://github.com/asef18766/IDAFit",
  src: "c++",
  cats: "int",
- last: "20230911",
+ last: "20231110",
  desc: "A ringcon-based IDA Pro controller for fitness lovers: manipulate IDA with ringcon & legging joycon."},
 
 {name: "IDA-For-Delphi",
@@ -2183,6 +2190,13 @@ var tabledata = [
  last: "20220320",
  desc: "Dark theme for IDA Pro <V7."},
 
+{name: "IDA Pro Function Hunter",
+ url: "https://github.com/alexander-pick/ida-pro-function-hunter",
+ src: "py",
+ last: "20231028",
+ vers: "8.3",
+ desc: "Script to find interesting syscalls and patterns in binaries."},
+
 {name: "ida-pro-loadmap",
  url: "https://github.com/mefistotelis/ida-pro-loadmap",
  src: "c++",
@@ -2209,7 +2223,7 @@ var tabledata = [
 {name: "IDA Pro SigMaker",
  url: "https://github.com/A200K/IDA-Pro-SigMaker",
  src: "c++",
- last: "20231105",
+ last: "20231112",
  vers: "8.1",
  desc: "Signature Maker Plugin for IDA Pro 8.1."},
 
@@ -2390,7 +2404,7 @@ var tabledata = [
 {name: "ida-scripts (cra0)",
  url: "https://github.com/cra0/ida-scripts",
  src: "py",
- last: "20231101",
+ last: "20231106",
  desc: "Various IDA scripts for Reverse Engineering: Cra0 Signature Definition File Importer, Cra0 VTable Definition File Importer, cvutils-getoffset, cvutils-gotooffset."},
 
 {name: "idascripts (maiyao1988)",
@@ -2678,7 +2692,7 @@ var tabledata = [
  url: "https://github.com/nlitsme/idbutil",
  src: "c++",
  cats: "dev, int",
- last: "20230828",
+ last: "20231108",
  vers: "7.0",
  desc: "IDBTOOL - Library and tool for reading IDApro databases. (See Python version 'pyidbutil')"},
 
@@ -3978,7 +3992,7 @@ var tabledata = [
  url: "https://github.com/WPeace-HcH/WPeChatGPT",
  src: "py",
  cats: "decomp",
- last: "20230512",
+ last: "20231110",
  desc: "Plugin that can help to analyze binary files using OpenAI's ChatGPT training API."},
 
 {name: "WWCD",

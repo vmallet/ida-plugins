@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-576 plugins
+578 plugins
 * [3DS-Code-Loader](https://github.com/SinaMegapolis/3DS-Code-Loader): IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files.<br>
 _Updated: 2022 08 01 &nbsp;&nbsp; Language: C++_
 
@@ -155,7 +155,7 @@ _Updated: 2020 10 23_
 _Updated: 2015 02 04 &nbsp;&nbsp; Language: Python_
 
 * [BinSync](https://github.com/angr/binsync): Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler.<br>
-_Updated: 2023 10 25 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 11 07 &nbsp;&nbsp; Language: Python_
 
 * [Bip](https://github.com/synacktiv/bip): Bip is a project which aims to simplify the usage of python for interacting with IDA. Its main goals are to facilitate the usage of python in the interactive console of IDA and the writing of plugins.<br>
 _Updated: 2020 09 09 &nbsp;&nbsp; Language: Python_
@@ -176,7 +176,7 @@ _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 02 17 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2023 11 01 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 11 08 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -185,7 +185,7 @@ _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
 _Updated: 2015 12 28 &nbsp;&nbsp; Language: Scheme_
 
 * [Chuchu](https://github.com/hazzaaclark/chuchu): SEGA Dreamcast Binary Decompiler for IDA Pro.<br>
-_Updated: 2023 10 29 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 11 11 &nbsp;&nbsp; Language: C++_
 
 * [Class Informer](http://sourceforge.net/projects/classinformer/): Scans an MSVC 32bit target IDB for vftables with C++ RTTI, and MFC RTCI type data. Places structure defs, names, labels, and comments to make more sense of class vftables ("Virtual Function Table") and make them read easier as an aid to reverse engineering. Creates a list window with found vftables for browsing.<br>
 _Updated: 2018 07 14 &nbsp;&nbsp; Language: C++_
@@ -273,6 +273,9 @@ _Updated: 2019 09 06 &nbsp;&nbsp; Language: Python_
 
 * [Debugger](https://github.com/cseagle/sk3wldbg): Debugger plugin for IDA Pro backed by the Unicorn Engine<br>
 _Updated: 2023 04 17 &nbsp;&nbsp; Language: C++_
+
+* [Debugger_Timer](https://github.com/Mohamed-Adil-Cyber/Debugger_Timer): Simple timer plugin for IDA, use Ctrl+Shift+D to start and end the timer.<br>
+_Updated: 2023 11 07 &nbsp;&nbsp; Language: Python_
 
 * [dec2struct](https://github.com/krystalgamer/dec2struct): Easily setup vtables in IDA using declaration files.<br>
 _Updated: 2017 09 06 &nbsp;&nbsp; Language: Python_
@@ -515,7 +518,7 @@ _Updated: 2021 05 26 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 03 04 &nbsp;&nbsp; Language: Python_
 
 * [Funkbuster](https://github.com/ep1h/funkbuster-ida-plugin): IDA plugin for analyzing, filtering and tracing functions and call flows.<br>
-_Updated: 2023 11 03 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 11 06 &nbsp;&nbsp; Language: Python_
 
 * [Gamecube DSP](https://github.com/dolphin-emu/gcdsp-ida): This project adds support for the DSP present in the Gamecube and the Wii to IDA, the Interactive Disassembler [1]. This allows easy analyze of a DSP ucode, handling cross-references, control flow, and so on.<br>
 _Updated: 2014 12 13 &nbsp;&nbsp; Language: Python_
@@ -548,7 +551,7 @@ _Updated: 2019 05 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2019 03 10 &nbsp;&nbsp; Language: Python_
 
 * [Gepetto](https://github.com/JusticeRage/Gepetto): Query OpenAI's davinci-003 language model to speed up reverse-engineering.<br>
-_Updated: 2023 06 02 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 11 09 &nbsp;&nbsp; Language: Python_
 
 * [Gepetto-ChatGPT](https://github.com/burpheart/Gepetto-ChatGPT): IDA plugin which queries OpenAI's ChatGPT model to speed up reverse-engineering (based on JusticeRage/Gepetto) (Chinese).<br>
 _Updated: 2022 12 08 &nbsp;&nbsp; Language: Python_
@@ -776,7 +779,7 @@ _Updated: 2018 07 13 &nbsp;&nbsp; Language: C++_
 _Updated: 2018 03 10 &nbsp;&nbsp; Language: C++_
 
 * [IDA Fit](https://github.com/asef18766/IDAFit): A ringcon-based IDA Pro controller for fitness lovers: manipulate IDA with ringcon & legging joycon.<br>
-_Updated: 2023 09 11 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 11 10 &nbsp;&nbsp; Language: C++_
 
 * [IDA-For-Delphi](https://github.com/Coldzer0/IDA-For-Delphi): IDA Python Script to Get All function names from Event Constructor (VCL).<br>
 _Updated: 2022 11 27 &nbsp;&nbsp; Language: Python_
@@ -965,6 +968,9 @@ _Updated: 2022 10 19 &nbsp;&nbsp; Language: Python_
 * [IDA-Pro-Dark-Theme](https://github.com/BresoDEV/IDA-Pro-Dark-Theme): Dark theme for IDA Pro <V7.<br>
 _Updated: 2022 03 20_
 
+* [IDA Pro Function Hunter](https://github.com/alexander-pick/ida-pro-function-hunter): Script to find interesting syscalls and patterns in binaries.<br>
+_Updated: 2023 10 28 &nbsp;&nbsp; Language: Python_
+
 * [ida-pro-loadmap](https://github.com/mefistotelis/ida-pro-loadmap): Plugin for IDA Pro disassembler which allows loading .map files.<br>
 _Updated: 2023 04 20 &nbsp;&nbsp; Language: C++_
 
@@ -975,7 +981,7 @@ _Updated: 2020 11 10 &nbsp;&nbsp; Language: Python_
 _Updated: 2019 07 14 &nbsp;&nbsp; Language: Python_
 
 * [IDA Pro SigMaker](https://github.com/A200K/IDA-Pro-SigMaker): Signature Maker Plugin for IDA Pro 8.1.<br>
-_Updated: 2023 11 05 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 11 12 &nbsp;&nbsp; Language: C++_
 
 * [IDA Pro Solarized Theme](https://github.com/blue-devil/IDA-Pro-Solarized-Theme): Solarized Theme for IDA Pro 7.3 and above.<br>
 _Updated: 2022 08 14_
@@ -1050,7 +1056,7 @@ _Updated: 2020 11 25 &nbsp;&nbsp; Language: Python_
 _Updated: 2016 10 17 &nbsp;&nbsp; Language: Python_
 
 * [ida-scripts (cra0)](https://github.com/cra0/ida-scripts): Various IDA scripts for Reverse Engineering: Cra0 Signature Definition File Importer, Cra0 VTable Definition File Importer, cvutils-getoffset, cvutils-gotooffset.<br>
-_Updated: 2023 11 01 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 11 06 &nbsp;&nbsp; Language: Python_
 
 * [idascripts (maiyao1988)](https://github.com/maiyao1988/IDAScripts): Common IDA scripts for effective Reverse Engineering: comment-trace, dbg-loc-off, deopt, findsvc, get_all_code, get_all_svc, ida_trace, trace.<br>
 _Updated: 2023 02 15 &nbsp;&nbsp; Language: Python_
@@ -1180,7 +1186,7 @@ _Updated: 2011 10 08 &nbsp;&nbsp; Language: C++_
 _Updated: 2023 07 31 &nbsp;&nbsp; Language: rs_
 
 * [idbutil](https://github.com/nlitsme/idbutil): IDBTOOL - Library and tool for reading IDApro databases. (See Python version 'pyidbutil')<br>
-_Updated: 2023 08 28 &nbsp;&nbsp; Language: C++_
+_Updated: 2023 11 08 &nbsp;&nbsp; Language: C++_
 
 * [idcinternals](https://github.com/nlitsme/idcinternals): IDA plugin investigating the internal representation of IDC scripts<br>
 _Updated: 2023 10 27 &nbsp;&nbsp; Language: C++_
@@ -1742,7 +1748,7 @@ _Updated: 2018 08 22 &nbsp;&nbsp; Language: Python_
 _Updated: 2015 06 02 &nbsp;&nbsp; Language: Python_
 
 * [WPeChatGPT](https://github.com/WPeace-HcH/WPeChatGPT): Plugin that can help to analyze binary files using OpenAI's ChatGPT training API.<br>
-_Updated: 2023 05 12 &nbsp;&nbsp; Language: Python_
+_Updated: 2023 11 10 &nbsp;&nbsp; Language: Python_
 
 * [WWCD](https://github.com/sektioneins/wwcd): What Would Capstone Decode - IDA plugin that implements a Capstone powered IDA view.<br>
 _Updated: 2016 11 29 &nbsp;&nbsp; Language: C++_
