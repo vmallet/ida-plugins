@@ -84,7 +84,7 @@ var tabledata = [
  url: "https://github.com/nforest/droidimg",
  src: "py",
  cats: "loader",
- last: "20201122",
+ last: "20231118",
  vers: "7.0",
  desc: "vmlinux.py is a python script which can load vmlinux image in both IDA Pro"},
 
@@ -319,7 +319,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20231107",
+ last: "20231127",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -366,7 +366,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20231108",
+ last: "20231201",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -433,7 +433,7 @@ var tabledata = [
 {name: "CodeCut",
  url: "https://github.com/JHUAPL/CodeCut",
  src: "py",
- last: "20230223",
+ last: "20231122",
  vers: "7.0",
  desc: "Locating Object File Boundaries in IDA Pro with LFA and MaxCut algorithms. Datasets for testing CodeCut solutions."},
 
@@ -601,7 +601,7 @@ var tabledata = [
  url: "https://github.com/mahaloz/decomp2dbg",
  src: "py",
  cats: "decomp, debug, int",
- last: "20231007",
+ last: "20231130",
  vers: "7.0",
  desc: "Plugin to introduce interactive symbols into your debugger from your decompiler."},
 
@@ -853,7 +853,7 @@ var tabledata = [
 {name: "Enhanced PDB Plugin",
  url: "https://github.com/sonyps5201314/pdb",
  src: "c++",
- last: "20230626",
+ last: "20231127",
  vers: "8.0",
  desc: "IDA PDB plugin with enhancements and bugfixes (Chinese)."},
 
@@ -1218,10 +1218,10 @@ var tabledata = [
  desc: "Genmc is an IDAPython script/plugin hybrid that displays Hexrays decompiler microcode, which can help in developing microcode plugins."},
 
 {name: "genpatch",
- url: "https://github.com/tkmru/genpatch",
+ url: "https://github.com/sterrasec/genpatch",
  src: "py",
- last: "20190504",
- vers: "7.2",
+ last: "20231120",
+ vers: "7.4",
  desc: "Plugin that generates a python script for patching binary from Patched Byte on IDA."},
 
 {name: "Geolocator",
@@ -1302,7 +1302,7 @@ var tabledata = [
 {name: "GraphGrabber",
  url: "https://github.com/tmr232/GraphGrabber",
  src: "py",
- last: "20171120",
+ last: "20231123",
  vers: "7.0",
  desc: "Grab full-resolution images of IDA graphs."},
 
@@ -1345,7 +1345,7 @@ var tabledata = [
  url: "https://github.com/Mizari/herast",
  src: "py",
  cats: "decomp, dev",
- last: "20231031",
+ last: "20231202",
  vers: "7.4",
  desc: "Framework to automate working with AST in IDA Pro."},
 
@@ -2032,7 +2032,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20230629",
+ last: "20231202",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -2723,6 +2723,14 @@ var tabledata = [
  last: "20231003",
  desc: "IDA command palette & more (Ctrl+Shift+P, Ctrl+P)."},
 
+{name: "IISHelper",
+ url: "https://github.com/PwCUK-CTO/iis-helper-plugin",
+ src: "py",
+ cats: "decomp",
+ last: "20231113",
+ vers: "8.3",
+ desc: "IDA Pro plugin to aid with the analysis of native IIS modules."},
+
 {name: "IPyIDA",
  url: "https://github.com/eset/ipyida",
  src: "py",
@@ -2883,7 +2891,7 @@ var tabledata = [
  url: "https://github.com/lzyddf/mark_executed_code",
  src: "py",
  cats: "debug",
- last: "20220601",
+ last: "20231127",
  vers: "7.5",
  desc: "Mark the code which is executed while debugging, including pseudo-code and assembly code."},
 
@@ -3010,6 +3018,14 @@ var tabledata = [
  last: "20190322",
  vers: "7.1",
  desc: "An msp430 emulator plugin for Ida Pro."},
+
+{name: "myda",
+ url: "https://github.com/fevral/myda",
+ src: "py",
+ cats: "debug, int",
+ last: "20231120",
+ vers: "8.3",
+ desc: "General Purpose IDA Plugin, currently a wrapper around vmrun to facilitate remote debugging of Windows PEs."},
 
 {name: "MyNav",
  url: "https://code.google.com/p/mynav/",
@@ -3295,7 +3311,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20231102",
+ last: "20231129",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3860,7 +3876,7 @@ var tabledata = [
 {name: "uEmu",
  url: "https://github.com/alexhude/uEmu",
  src: "py",
- last: "20230208",
+ last: "20231120",
  vers: "7.2",
  desc: "uEmu is a tiny cute emulator plugin for IDA based on unicorn engine. Supports following architectures out of the box: x86, x64, ARM, ARM64, MIPS, MIPS64"},
 
@@ -3906,6 +3922,12 @@ var tabledata = [
  vers: "6.9",
  desc: "Static and dynamic virtualization-based packed analysis and deobfuscation."},
 
+{name: "VmpHelper",
+ url: "https://github.com/fjqisba/VmpHelper",
+ src: "c++",
+ last: "20231115",
+ desc: "A vmp-analysis ida-plugin based on Ghidra, currently under development. Only supports Vmp3.5 x86. (In Chinese, no source)."},
+
 {name: "Void",
  url: "https://github.com/dovezp/ida.plugin.void",
  src: "py",
@@ -3929,7 +3951,7 @@ var tabledata = [
  url: "https://github.com/VirusTotal/vt-ida-plugin",
  src: "py",
  cats: "int",
- last: "20230710",
+ last: "20231127",
  desc: "This is the official VirusTotal plugin for Hex-Rays IDA Pro. This plugin integrates functionality from VirusTotal web services into the IDA Pro's user interface."},
 
 {name: "VulChatGPT",
@@ -3942,7 +3964,7 @@ var tabledata = [
 {name: "VulFi",
  url: "https://github.com/Accenture/VulFi",
  src: "py",
- last: "20230901",
+ last: "20231116",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
@@ -3985,14 +4007,14 @@ var tabledata = [
 {name: "WinIOCtlDecoder",
  url: "https://github.com/tandasat/WinIoCtlDecoder",
  src: "py",
- last: "20150602",
+ last: "20231201",
  desc: "An IDA Pro plugin which decodes a Windows Device I/O control code into DeviceType, FunctionCode, AccessType and MethodType."},
 
 {name: "WPeChatGPT",
  url: "https://github.com/WPeace-HcH/WPeChatGPT",
  src: "py",
  cats: "decomp",
- last: "20231110",
+ last: "20231130",
  desc: "Plugin that can help to analyze binary files using OpenAI's ChatGPT training API."},
 
 {name: "WWCD",
@@ -4093,5 +4115,12 @@ var tabledata = [
  cats: "int",
  last: "20230220",
  desc: "Scan file with Yara rules."},
+
+{name: "Yarka",
+ url: "https://github.com/AzzOnFire/yarka",
+ src: "py",
+ cats: "int",
+ last: "20231125",
+ desc: "IDA plugin for YARA signature creation from selections."},
 
 ];
