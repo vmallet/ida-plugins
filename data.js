@@ -175,6 +175,12 @@ var tabledata = [
  last: "20210804",
  desc: "Auto-renaming plugin with tagging support."},
 
+{name: "AutoRename",
+ url: "https://github.com/crifan/AutoRename",
+ src: "py",
+ last: "20231215",
+ desc: "Automatically rename very simple functions."},
+
 {name: "AutoResolv",
  url: "https://github.com/0xMirasio/AutoResolv",
  src: "py",
@@ -366,7 +372,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20231201",
+ last: "20231216",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -601,7 +607,7 @@ var tabledata = [
  url: "https://github.com/mahaloz/decomp2dbg",
  src: "py",
  cats: "decomp, debug, int",
- last: "20231130",
+ last: "20231204",
  vers: "7.0",
  desc: "Plugin to introduce interactive symbols into your debugger from your decompiler."},
 
@@ -693,7 +699,7 @@ var tabledata = [
  url: "https://github.com/dod-cyber-crime-center/Dragodis",
  src: "py",
  cats: "dev, int",
- last: "20230221",
+ last: "20231129",
  vers: "7.0",
  desc: "Python framework which allows for the creation of universal disassembler scripts. Supports IDA and Ghidra."},
 
@@ -1620,7 +1626,7 @@ var tabledata = [
 {name: "IdaClu",
  url: "https://github.com/harlamism/IdaClu",
  src: "py",
- last: "20231013",
+ last: "20231212",
  vers: "8.2",
  desc: "Version-agnostic plugin for grouping similar functions. Pick an existing grouping algorithm or create your own."},
 
@@ -1829,6 +1835,14 @@ var tabledata = [
  last: "20200216",
  desc: "Suite of IDA scripts for SEGA Genesis ROM hacking. ROM Loader, Branch Table Enumeration."},
 
+{name: "ida-genpatch",
+ url: "https://github.com/frasten/ida-genpatch",
+ src: "py",
+ cats: "int",
+ last: "20231212",
+ vers: "7.4",
+ desc: "IDA Pro Plugin to automate patch generation for external tools."},
+
 {name: "IDAGolangHelper",
  url: "https://github.com/sibears/idagolanghelper",
  src: "py",
@@ -2032,7 +2046,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20231202",
+ last: "20231207",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -2170,6 +2184,13 @@ var tabledata = [
  url: "https://vmallet.github.io/ida-plugins/",
  desc: "Interactive IDA Plugin List: a great list of plugins for IDA which can be sorted and filtered dynamically to make it easier to find plugins of interest. Worth checking out! :)"},
 
+{name: "IDA-Plugin-Template",
+ url: "https://github.com/gurrenm3/IDA-Plugin-Template",
+ src: "c++",
+ cats: "dev",
+ last: "20231216",
+ desc: "A basic C++ Plugin template for new IDA Plugins."},
+
 {name: "idapm",
  url: "https://github.com/tkmru/idapm",
  src: "py",
@@ -2259,7 +2280,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20230731",
+ last: "20231215",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2277,6 +2298,12 @@ var tabledata = [
  last: "20201111",
  vers: "7.5",
  desc: "Multiples virtual envs support for IDAPython. Enable Virtualenv or Conda in IDAPython."},
+
+{name: "IDA-QuickRunPython-Plugin",
+ url: "https://github.com/gurrenm3/IDA-QuickRunPython-Plugin",
+ src: "py",
+ last: "20231216",
+ desc: "Quickly execute any python script."},
 
 {name: "IDARay",
  url: "https://github.com/SouhailHammou/IDARay-Plugin",
@@ -2404,7 +2431,7 @@ var tabledata = [
 {name: "ida-scripts (cra0)",
  url: "https://github.com/cra0/ida-scripts",
  src: "py",
- last: "20231106",
+ last: "20231208",
  desc: "Various IDA scripts for Reverse Engineering: Cra0 Signature Definition File Importer, Cra0 VTable Definition File Importer, cvutils-getoffset, cvutils-gotooffset."},
 
 {name: "idascripts (maiyao1988)",
@@ -2868,7 +2895,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20230819",
+ last: "20231215",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2988,7 +3015,7 @@ var tabledata = [
  url: "https://github.com/patois/mrspicky",
  src: "py",
  cats: "decomp",
- last: "20191218",
+ last: "20231217",
  vers: "7.3",
  desc: "An IDAPython decompiler script that helps auditing calls to the memcpy() and memmove() functions."},
 
@@ -3133,7 +3160,7 @@ var tabledata = [
  url: "https://github.com/obpo-project/obpo-plugin",
  src: "py",
  cats: "decomp, deobf",
- last: "20230606",
+ last: "20231205",
  vers: "7.7",
  desc: "Obpo is a microcode-based hex-rays optimizer, uses techniques such as static-program-analysis, dataflow-tracking, concolic-execution to rebuild the obfuscated control flow (such as: OLLVM)."},
 
@@ -3311,7 +3338,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20231129",
+ last: "20231215",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3376,7 +3403,7 @@ var tabledata = [
  url: "https://github.com/0xeb/ida-qscripts",
  src: "c++",
  cats: "dev",
- last: "20230830",
+ last: "20231216",
  vers: "7.7",
  desc: "An IDA scripting productivity plugin. With this plugin, you will be able to easily write and test scripts using your favorite editor. `ida-qscripts` will automatically detect changes to your script or one of its dependencies and automatically reload them and re-execute your script."},
 
@@ -3581,7 +3608,7 @@ var tabledata = [
  url: "https://github.com/tmr232/Sark/",
  src: "py",
  cats: "dev",
- last: "20230401",
+ last: "20231204",
  vers: "7.4",
  desc: "Sark, (named after the notorious Tron villain,) is an object-oriented scripting layer written on top of IDAPython. Sark is easy to use and provides tools for writing advanced scripts and plugins."},
 
@@ -3876,7 +3903,7 @@ var tabledata = [
 {name: "uEmu",
  url: "https://github.com/alexhude/uEmu",
  src: "py",
- last: "20231120",
+ last: "20231217",
  vers: "7.2",
  desc: "uEmu is a tiny cute emulator plugin for IDA based on unicorn engine. Supports following architectures out of the box: x86, x64, ARM, ARM64, MIPS, MIPS64"},
 
@@ -3964,7 +3991,7 @@ var tabledata = [
 {name: "VulFi",
  url: "https://github.com/Accenture/VulFi",
  src: "py",
- last: "20231116",
+ last: "20231214",
  vers: "7.5",
  desc: "The VulFi (Vulnerability Finder) tool is a plugin to IDA Pro which can be used to assist during bug hunting in binaries. Its main objective is to provide a single view with all cross-references to the most interesting functions (such as strcpy, sprintf, system, etc.)."},
 
@@ -4014,7 +4041,7 @@ var tabledata = [
  url: "https://github.com/WPeace-HcH/WPeChatGPT",
  src: "py",
  cats: "decomp",
- last: "20231130",
+ last: "20231204",
  desc: "Plugin that can help to analyze binary files using OpenAI's ChatGPT training API."},
 
 {name: "WWCD",
@@ -4074,7 +4101,7 @@ var tabledata = [
  url: "https://github.com/patois/xray",
  src: "py",
  cats: "decomp, ui",
- last: "20221018",
+ last: "20231208",
  vers: "7.4",
  desc: "Hexrays decompiler plugin that colorizes and filters the decompiler's output based on regular expressions"},
 
