@@ -63,7 +63,7 @@ var tabledata = [
 {name: "AlphaGolang",
  url: "https://github.com/SentineLabs/AlphaGolang",
  src: "py",
- last: "20230718",
+ last: "20240201",
  vers: "7.6",
  desc: "IDApython Scripts for Analyzing Golang Binaries."},
 
@@ -111,7 +111,7 @@ var tabledata = [
 {name: "AntiDebugSeeker",
  url: "https://github.com/LAC-Japan/IDA_Plugin_AntiDebugSeeker",
  src: "py",
- last: "20231101",
+ last: "20240209",
  desc: "Automatically identify and extract potential anti-debugging techniques used by malware."},
 
 {name: "antiVM",
@@ -166,7 +166,7 @@ var tabledata = [
  url: "https://github.com/0xMirasio/IDALibcAutoFlags",
  src: "py",
  cats: "decomp",
- last: "20240114",
+ last: "20240116",
  desc: "Simple plugin to replace decimals flags with enums on standard libc functions."},
 
 {name: "AutoRE",
@@ -178,7 +178,7 @@ var tabledata = [
 {name: "AutoRename",
  url: "https://github.com/crifan/AutoRename",
  src: "py",
- last: "20240109",
+ last: "20240126",
  desc: "Automatically rename very simple functions."},
 
 {name: "AutoResolv",
@@ -222,7 +222,7 @@ var tabledata = [
  url: "https://github.com/chnzzh/batch-ida",
  src: "py",
  cats: "int",
- last: "20231020",
+ last: "20240205",
  vers: "7.7",
  desc: "A python library for generating IDA Pro files in batch mode & comparing executable files use bindiff in batch mode."},
 
@@ -279,7 +279,7 @@ var tabledata = [
 {name: "BinCAT",
  url: "https://github.com/airbus-seclab/bincat",
  src: "py",
- last: "20230308",
+ last: "20240211",
  vers: "7.4",
  desc: "BinCAT is a static Binary Code Analysis Toolkit, designed to help reverse engineers, directly from IDA."},
 
@@ -298,7 +298,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20240110",
+ last: "20240131",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -372,7 +372,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20240111",
+ last: "20240214",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -607,7 +607,7 @@ var tabledata = [
  url: "https://github.com/mahaloz/decomp2dbg",
  src: "py",
  cats: "decomp, debug, int",
- last: "20240113",
+ last: "20240116",
  vers: "7.0",
  desc: "Plugin to introduce interactive symbols into your debugger from your decompiler."},
 
@@ -643,7 +643,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20231222",
+ last: "20240210",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -839,7 +839,7 @@ var tabledata = [
 {name: "efiXplorer",
  url: "https://github.com/binarly-io/efiXplorer",
  src: "c++",
- last: "20231220",
+ last: "20240216",
  vers: "7.7",
  desc: "IDA plugin for UEFI firmware analysis and reverse engineering automation."},
 
@@ -1026,7 +1026,7 @@ var tabledata = [
  url: "https://github.com/Accenture/FirmLoader",
  src: "py",
  cats: "loader",
- last: "20230614",
+ last: "20240206",
  desc: "Automatically identify parts of memory for firmware images extracted from microcontrollers. Alternative to SVD loader that uses simpler JSON files."},
 
 {name: "FIRST",
@@ -1490,7 +1490,7 @@ var tabledata = [
 {name: "Hyara",
  url: "https://github.com/hyuunnn/Hyara",
  src: "py",
- last: "20231103",
+ last: "20240209",
  desc: "A plugin to create pattern-matching rules. It helps creating rules for the YARA pattern-matching tool directly in IDA. It includes a simple detection of relocatable bytes in x86 opcodes for improved matching. It also provides a checker feature for testing the rules on the loaded binary."},
 
 {name: "iBoot64helper",
@@ -1791,7 +1791,7 @@ var tabledata = [
  url: "https://github.com/asef18766/IDAFit",
  src: "c++",
  cats: "int",
- last: "20231110",
+ last: "20240126",
  desc: "A ringcon-based IDA Pro controller for fitness lovers: manipulate IDA with ringcon & legging joycon."},
 
 {name: "IDA-For-Delphi",
@@ -1901,7 +1901,7 @@ var tabledata = [
  url: "https://github.com/matteyeux/ida-iboot-loader",
  src: "py",
  cats: "loader",
- last: "20230514",
+ last: "20240216",
  desc: "IDA loader for Apple's 64 bits iBoot, SecureROM and AVPBooter."},
 
 {name: "idaidle",
@@ -2054,7 +2054,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20240106",
+ last: "20240208",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -2091,7 +2091,7 @@ var tabledata = [
 {name: "IDAObjcTypes",
  url: "https://github.com/PoomSmart/IDAObjcTypes",
  src: "py",
- last: "20240101",
+ last: "20240220",
  vers: "7.2",
  desc: "A collection of (public and private) types and functions definitions useful for Objective-C binaries analysis."},
 
@@ -2157,7 +2157,7 @@ var tabledata = [
  url: "https://github.com/Rupan/idapin",
  src: "c++",
  cats: "debug, int",
- last: "20230629",
+ last: "20240217",
  vers: "8.0",
  desc: "A debugger backend for IDA Pro built on top of of Intel’s PIN framework."},
 
@@ -2252,7 +2252,7 @@ var tabledata = [
 {name: "IDA Pro SigMaker",
  url: "https://github.com/A200K/IDA-Pro-SigMaker",
  src: "c++",
- last: "20231112",
+ last: "20240212",
  vers: "8.1",
  desc: "Signature Maker Plugin for IDA Pro 8.1."},
 
@@ -2586,6 +2586,13 @@ var tabledata = [
  vers: "7.3",
  desc: "Tag explorer for IDA Pro. The plugin leverages IDA as a platform to map, explore, and visualize collected tags. Tags can come from multiple sources such as IDA itself or different other clients."},
 
+{name: "IdaThemer",
+ url: "https://github.com/can1357/IdaThemer",
+ src: "go",
+ cats: "ui",
+ last: "20240126",
+ desc: "Seamlessly convert your favorite Visual Studio Code themes to IDA Pro themes."},
+
 {name: "IDA Toolbag",
  url: "https://github.com/aaronportnoy/toolbag",
  src: "py",
@@ -2612,6 +2619,13 @@ var tabledata = [
  last: "20210416",
  vers: "7.4",
  desc: "IDAtropy is a plugin for Hex-Ray's IDA Pro designed to generate charts of entropy and histograms using the power of idapython and matplotlib."},
+
+{name: "IDAVenv",
+ url: "https://github.com/Skwteinopteros/ida-venv",
+ src: "py",
+ cats: "dev",
+ last: "20240215",
+ desc: "An IDAPYthon plugin to create and use Python virtual environments."},
 
 {name: "ida_vmware_windows_gdb",
  url: "https://github.com/therealdreg/ida_vmware_windows_gdb",
@@ -2798,7 +2812,7 @@ var tabledata = [
 {name: "jni_helper",
  url: "https://github.com/evilpan/jni_helper",
  src: "py",
- last: "20230201",
+ last: "20240206",
  vers: "7.4",
  desc: "Find JNI function signatures in APK, Load JNI function signatures and apply to IDA-Pro"},
 
@@ -2865,7 +2879,7 @@ var tabledata = [
 {name: "Lighthouse",
  url: "https://github.com/gaasedelen/lighthouse",
  src: "py",
- last: "20220217",
+ last: "20240205",
  vers: "7.0",
  desc: "Lighthouse is a Code Coverage Plugin for IDA Pro. The plugin leverages IDA as a platform to map, explore, and visualize externally collected code coverage data when symbols or source may not be available for a given binary."},
 
@@ -2887,7 +2901,7 @@ var tabledata = [
  url: "https://github.com/ProximaV/lm32",
  src: "c++",
  cats: "proc",
- last: "20231018",
+ last: "20240215",
  vers: "8.3",
  desc: "LatticeMico32 IDA Pro Processor Module."},
 
@@ -2918,7 +2932,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20240113",
+ last: "20240122",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -3265,6 +3279,14 @@ var tabledata = [
  last: "20221227",
  desc: "Use OpenAI's davinci-003 model to help with vulnerabilities research on functions decompiled by IDA Pro."},
 
+{name: "pixel_loader",
+ url: "https://github.com/0xAbby/pixel_loader",
+ src: "py",
+ cats: "loader",
+ last: "20240205",
+ vers: "8.3",
+ desc: "An IDA Pro loader module for Pixel phone bootloader (abl stage), setting correct offsets, fixing function names, adding some C-style structs and annotations."},
+
 {name: "Plus22",
  url: "https://github.com/v0s/plus22",
  src: "php",
@@ -3298,6 +3320,13 @@ var tabledata = [
  last: "20221127",
  vers: "7.0",
  desc: "Make byte signatures and scan for byte signatures."},
+
+{name: "PortAddresses",
+ url: "https://github.com/szapp/PortAddresses",
+ src: "py",
+ cats: "",
+ last: "20240201",
+ desc: "IDA plugin aiding in porting memory addresses from one build executable to another."},
 
 {name: "Post HexRays ANalysis Kit",
  url: "https://github.com/Mizari/phrank",
@@ -3353,7 +3382,7 @@ var tabledata = [
  url: "https://github.com/flatz/ida_ps5_elf_plugin",
  src: "py",
  cats: "loader",
- last: "20230531",
+ last: "20240123",
  vers: "7.5",
  desc: "PS5 elf loader for IDA 7.5"},
 
@@ -3369,7 +3398,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20240113",
+ last: "20240214",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3593,7 +3622,7 @@ var tabledata = [
  url: "https://github.com/RevEngAI/reai-ida",
  src: "py",
  cats: "int",
- last: "20230818",
+ last: "20240211",
  desc: "RevEng.AI IDA Pro Plugin."},
 
 {name: "Revsync",
@@ -3667,7 +3696,7 @@ var tabledata = [
  url: "https://github.com/lab313ru/smd_ida_tools2",
  src: "c++",
  cats: "debug, loader",
- last: "20230715",
+ last: "20240207",
  vers: "7.5",
  desc: "Special IDA Pro tools for the Sega Genesis/Megadrive romhackers. Updated to at least IDA 7.5"},
 
@@ -3761,7 +3790,7 @@ var tabledata = [
  url: "https://github.com/PassKeyRa/solana-ebpf-ida-processor",
  src: "py",
  cats: "proc",
- last: "20240109",
+ last: "20240128",
  desc: "Solana Virtual Machine bytecode processor for IDA Pro (eBPF-based)."},
 
 {name: "SpiritIDAPlugin",
@@ -4178,7 +4207,7 @@ var tabledata = [
  url: "https://github.com/snk37/yarascan-ida",
  src: "py",
  cats: "int",
- last: "20230220",
+ last: "20240123",
  desc: "Scan file with Yara rules."},
 
 {name: "Yarka",
