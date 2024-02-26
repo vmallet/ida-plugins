@@ -11,7 +11,7 @@ The dynamic version is hosted on [GitHub Pages](https://vmallet.github.io/ida-pl
 Any contribution is welcome one way or another. If you know of a plugin that could be added, or data in the list that could be updated, missing categories, typos.. please send a PR! If you'd just prefer sending me a message or an email that's fine too, my email should be pretty easy to find on GitHub.
 
 ## Plugins (see [interactive version](https://vmallet.github.io/ida-plugins))
-595 plugins
+598 plugins
 * [3DS-Code-Loader](https://github.com/SinaMegapolis/3DS-Code-Loader): IDA Pro 7.6 Plugin to load ExeFS and CRO code from CXI files.<br>
 _Updated: 2022 08 01 &nbsp;&nbsp; Language: C++_
 
@@ -179,7 +179,7 @@ _Updated: 2019 08 01 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 02 17 &nbsp;&nbsp; Language: Python_
 
 * [Capa Explorer](https://github.com/fireeye/capa/tree/master/capa/ida/plugin): Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program.<br>
-_Updated: 2024 02 14 &nbsp;&nbsp; Language: Python_
+_Updated: 2024 02 25 &nbsp;&nbsp; Language: Python_
 
 * [CGC Loader](https://github.com/cseagle/cgc_ldr): IDA Loader for DARPA CGC binaries.<br>
 _Updated: 2018 04 09 &nbsp;&nbsp; Language: C++_
@@ -907,7 +907,7 @@ _Updated: 2018 01 04 &nbsp;&nbsp; Language: Python_
 _Updated: 2021 05 28 &nbsp;&nbsp; Language: Python_
 
 * [IDA-minsc](https://github.com/arizvisa/ida-minsc): A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment.<br>
-_Updated: 2024 02 08 &nbsp;&nbsp; Language: Python_
+_Updated: 2024 02 21 &nbsp;&nbsp; Language: Python_
 
 * [IDA-names](https://github.com/archercreat/ida_names): IDA-names automatically renames pseudocode windows with the current function name.<br>
 _Updated: 2022 12 24 &nbsp;&nbsp; Language: Python_
@@ -1001,6 +1001,9 @@ _Updated: 2022 08 14_
 * [IDA Pro Translator](https://github.com/kyrus/ida-translator): Assists in decoding arbitrary character sets in an IDA Pro database into Unicode, then automatically invoking a web-based translation service (currently Google Translate) to translate that foreign text into English.<br>
 _Updated: 2015 02 09 &nbsp;&nbsp; Language: Python_
 
+* [IDA Pro Unity PDB Downloader](https://github.com/SamuelTulach/ida-unity-pdb-downloader): Simple IDA Pro plugin to download Unity debug symbols from their symbol server.<br>
+_Updated: 2024 02 22 &nbsp;&nbsp; Language: C++_
+
 * [IDAPyHelper](https://github.com/patois/IDAPyHelper): IDAPyHelper is a script for the Interactive Disassembler that helps writing IDAPython scripts and plugins.<br>
 _Updated: 2022 10 18 &nbsp;&nbsp; Language: Python_
 
@@ -1008,7 +1011,7 @@ _Updated: 2022 10 18 &nbsp;&nbsp; Language: Python_
 _Updated: 2023 03 11 &nbsp;&nbsp; Language: Python_
 
 * [IDAPython](https://github.com/idapython/src): IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA.<br>
-_Updated: 2023 12 15 &nbsp;&nbsp; Language: C++_
+_Updated: 2024 02 21 &nbsp;&nbsp; Language: C++_
 
 * [IDA Python Embedded Toolkit](https://github.com/maddiestone/IDAPythonEmbeddedToolkit): IDAPython scripts for automating analysis of firmware of embedded devices.<br>
 _Updated: 2019 08 14 &nbsp;&nbsp; Language: Python_
@@ -1160,6 +1163,9 @@ _Updated: 2024 02 15 &nbsp;&nbsp; Language: Python_
 * [ida_vmware_windows_gdb](https://github.com/therealdreg/ida_vmware_windows_gdb): Helper script for Windows kernel debugging with IDA Pro on VMware + GDB stub (including PDB symbols).<br>
 _Updated: 2023 08 11 &nbsp;&nbsp; Language: Python_
 
+* [ida_vmx128_helper](https://github.com/Goatman13/ida_vmx128_helper): Plugin to fix misinterpreted VMX128 A register in IDA.<br>
+_Updated: 2024 02 25 &nbsp;&nbsp; Language: Python_
+
 * [IDAVSCode](https://github.com/Cirn09/idavscode): Debug IDAPython in VSCode. (docs in Chinese).<br>
 _Updated: 2023 03 20 &nbsp;&nbsp; Language: Python_
 
@@ -1286,7 +1292,7 @@ _Updated: 2021 06 02 &nbsp;&nbsp; Language: Python_
 _Updated: 2020 09 15 &nbsp;&nbsp; Language: Python_
 
 * [Lumen](https://github.com/naim94a/lumen): A private Lumina server for IDA Pro written in Rust.<br>
-_Updated: 2024 01 22 &nbsp;&nbsp; Language: rs_
+_Updated: 2024 02 25 &nbsp;&nbsp; Language: rs_
 
 * [lumina-go](https://github.com/zhangyoufu/lumina): A Go library speaking (IDA Pro) lumina protocol, and a proxy server that may help if you have any privacy concerns using the Hex-Rays' official lumina server.<br>
 _Updated: 2023 06 15 &nbsp;&nbsp; Language: go_
@@ -1302,6 +1308,9 @@ _Updated: 2023 09 14 &nbsp;&nbsp; Language: Python_
 
 * [MazeWalker](https://github.com/0xPhoeniX/MazeWalker): Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part.<br>
 _Updated: 2022 01 16 &nbsp;&nbsp; Language: Python_
+
+* [MED17 parser](https://github.com/fknbrkn/IDA-PRO---MED17-python-script): Python script to parse MED17 / DSG files.<br>
+_Updated: 2024 02 23 &nbsp;&nbsp; Language: Python_
 
 * [Memory Loader](https://github.com/SentineLabs/Memloader): IDA loader that allows loading malicious buffers to IDA without writing them to the disk.
   * UrlLoader - loads files from a URL.
@@ -1486,7 +1495,7 @@ _Updated: 2024 01 23 &nbsp;&nbsp; Language: Python_
 _Updated: 2018 08 03 &nbsp;&nbsp; Language: Python_
 
 * [pwndbg](https://github.com/pwndbg/pwndbg): GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server.<br>
-_Updated: 2024 02 14 &nbsp;&nbsp; Language: Python_
+_Updated: 2024 02 26 &nbsp;&nbsp; Language: Python_
 
 * [pyhexraysdeob](https://github.com/idapython/pyhexraysdeob): A port of Rolf Rolles' HexRaysDeob to Python.<br>
 _Updated: 2019 10 15 &nbsp;&nbsp; Language: Python_

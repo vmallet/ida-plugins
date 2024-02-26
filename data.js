@@ -372,7 +372,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20240214",
+ last: "20240225",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -2054,7 +2054,7 @@ var tabledata = [
  url: "https://github.com/arizvisa/ida-minsc",
  src: "py",
  cats: "dev",
- last: "20240208",
+ last: "20240221",
  vers: "7.4",
  desc: "A plugin that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script different aspects of their work with very little investment."},
 
@@ -2270,6 +2270,12 @@ var tabledata = [
  vers: "6.3",
  desc: "Assists in decoding arbitrary character sets in an IDA Pro database into Unicode, then automatically invoking a web-based translation service (currently Google Translate) to translate that foreign text into English."},
 
+{name: "IDA Pro Unity PDB Downloader",
+ url: "https://github.com/SamuelTulach/ida-unity-pdb-downloader",
+ src: "c++",
+ last: "20240222",
+ desc: "Simple IDA Pro plugin to download Unity debug symbols from their symbol server."},
+
 {name: "IDAPyHelper",
  url: "https://github.com/patois/IDAPyHelper",
  src: "py",
@@ -2288,7 +2294,7 @@ var tabledata = [
  url: "https://github.com/idapython/src",
  src: "c++",
  cats: "dev, int",
- last: "20231215",
+ last: "20240221",
  vers: "8.0",
  desc: "IDAPython project for Hex-Ray's IDA Pro: the official source for the Python integration plugin for IDA."},
 
@@ -2634,6 +2640,12 @@ var tabledata = [
  vers: "7.4",
  desc: "Helper script for Windows kernel debugging with IDA Pro on VMware + GDB stub (including PDB symbols)."},
 
+{name: "ida_vmx128_helper",
+ url: "https://github.com/Goatman13/ida_vmx128_helper",
+ src: "py",
+ last: "20240225",
+ desc: "Plugin to fix misinterpreted VMX128 A register in IDA."},
+
 {name: "IDAVSCode",
  url: "https://github.com/Cirn09/idavscode",
  src: "py",
@@ -2932,7 +2944,7 @@ var tabledata = [
  url: "https://github.com/naim94a/lumen",
  src: "rs",
  cats: "int",
- last: "20240122",
+ last: "20240225",
  vers: "7.2",
  desc: "A private Lumina server for IDA Pro written in Rust."},
 
@@ -2972,6 +2984,13 @@ var tabledata = [
  cats: "trace",
  last: "20220116",
  desc: "Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part."},
+
+{name: "MED17 parser",
+ url: "https://github.com/fknbrkn/IDA-PRO---MED17-python-script",
+ src: "py",
+ last: "20240223",
+ vers: "7.4",
+ desc: "Python script to parse MED17 / DSG files."},
 
 {name: "Memory Loader",
  url: "https://github.com/SentineLabs/Memloader",
@@ -3398,7 +3417,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20240214",
+ last: "20240226",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
