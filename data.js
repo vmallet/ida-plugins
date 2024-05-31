@@ -4285,6 +4285,13 @@ var tabledata = [
  last: "20240123",
  desc: "Scan file with Yara rules."},
 
+{name: "YaraForge",
+ url: "https://github.com/zhaoxinnZ/YaraForge",
+ src: "py",
+ cats: "int",
+ last: "20240531",
+ desc: "A plugin that integrated capa explorer's scanning result and using mkYARA's rule generation logic to automatic export yara rules."},
+ 
 {name: "Yarka",
  url: "https://github.com/AzzOnFire/yarka",
  src: "py",
