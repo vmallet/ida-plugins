@@ -1870,6 +1870,9 @@ _Updated: 2022 09 17 &nbsp;&nbsp; Language: C++_
 * [YaraScan](https://github.com/snk37/yarascan-ida): Scan file with Yara rules.<br>
 _Updated: 2024 01 23 &nbsp;&nbsp; Language: Python_
 
+* [YaraForge](https://github.com/zhaoxinnZ/YaraForge): A plugin that integrated capa explorer's scanning result and using mkYARA's rule generation logic to automatic export yara rules.<br>
+_Updated: 2024 05 31 &nbsp;&nbsp; Language: Python_
+
 * [Yarka](https://github.com/AzzOnFire/yarka): IDA plugin for YARA signature creation from selections.<br>
 _Updated: 2023 11 25 &nbsp;&nbsp; Language: Python_
 
