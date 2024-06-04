@@ -298,7 +298,7 @@ var tabledata = [
  url: "https://github.com/google/binexport",
  src: "c++",
  cats: "int",
- last: "20240513",
+ last: "20240603",
  vers: "7.6",
  desc: "Export disassemblies into Protocol Buffers. BinExport is the exporter component of BinDiff. It is a plugin/extension for IDA that exports disassembly data into the Protocol Buffer format that BinDiff requires."},
 
@@ -325,7 +325,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20240515",
+ last: "20240603",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -372,7 +372,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20240516",
+ last: "20240603",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -607,7 +607,7 @@ var tabledata = [
  url: "https://github.com/mahaloz/decomp2dbg",
  src: "py",
  cats: "decomp, debug, int",
- last: "20240509",
+ last: "20240524",
  vers: "7.0",
  desc: "Plugin to introduce interactive symbols into your debugger from your decompiler."},
 
@@ -643,7 +643,7 @@ var tabledata = [
 {name: "Diaphora",
  url: "https://github.com/joxeankoret/diaphora",
  src: "py",
- last: "20240409",
+ last: "20240530",
  vers: "7.4",
  desc: "Diaphora (διαφορά, Greek for 'difference') is a program diffing plugin for IDA Pro, similar to Zynamics Bindiff or the FOSS counterparts DarunGrim, TurboDiff, etc... It was released during SyScan 2015."},
 
@@ -936,7 +936,7 @@ var tabledata = [
  url: "https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls",
  src: "c#",
  cats: "int",
- last: "20240506",
+ last: "20240603",
  desc: "Utility for automatically extracting Hyper-V hypercalls names and codes from Hyper-V core binaries."},
 
 {name: "Extract Macho-O",
@@ -1248,7 +1248,7 @@ var tabledata = [
  url: "https://github.com/JusticeRage/Gepetto",
  src: "py",
  cats: "decomp, int",
- last: "20240424",
+ last: "20240603",
  vers: "7.7",
  desc: "Query OpenAI's davinci-003 language model to speed up reverse-engineering."},
 
@@ -1335,7 +1335,7 @@ var tabledata = [
  url: "https://github.com/OALabs/hashdb-ida",
  src: "py",
  cats: "int",
- last: "20221212",
+ last: "20240603",
  vers: "7.0",
  desc: "Malware string hash lookup plugin for IDA Pro. This plugin connects to the OALABS HashDB Lookup Service."},
 
@@ -1365,7 +1365,7 @@ var tabledata = [
  url: "https://github.com/n-o-o-n/idp_hexagon",
  src: "c++",
  cats: "proc",
- last: "20230911",
+ last: "20240522",
  vers: "7.7",
  desc: "Hexagon (aka QDSP6) processor module for IDA Pro disassembler."},
 
@@ -1654,7 +1654,7 @@ var tabledata = [
 {name: "ida-cmake",
  url: "https://github.com/0xeb/ida-cmake",
  cats: "dev",
- last: "20240426",
+ last: "20240602",
  vers: "7.6",
  desc: "This is not an IDA plugin but a CMake project generator for IDA plugins development."},
 
@@ -1819,6 +1819,14 @@ var tabledata = [
  cats: "int, trace",
  last: "20221218",
  desc: "IDA Frida Plugin for tracing something interesting. Plugin to generate FRIDA script."},
+
+{name: "ida_functioncolor",
+ url: "https://github.com/sneakyevil/ida_functioncolor",
+ src: "py",
+ cats: "decomp",
+ last: "20240517",
+ vers: "8.3",
+ desc: "IDA Plugin to colorize function definition in pseudocode."},
 
 {name: "IDAFunctionsDecompiler",
  url: "https://github.com/JCGdev/IDAFunctionsDecompiler",
@@ -2879,7 +2887,7 @@ var tabledata = [
  url: "https://github.com/ProximaV/kirk",
  src: "c++",
  cats: "proc",
- last: "20240506",
+ last: "20240521",
  vers: "8.3",
  desc: "Theoretical Processor Module for IDA Pro."},
 
@@ -2939,7 +2947,7 @@ var tabledata = [
  url: "https://github.com/ProximaV/lm32",
  src: "c++",
  cats: "proc",
- last: "20240215",
+ last: "20240521",
  vers: "8.3",
  desc: "LatticeMico32 IDA Pro Processor Module."},
 
@@ -3261,6 +3269,13 @@ var tabledata = [
  last: "20191011",
  desc: "IDA Python's idc.py <= 7.3 compatibility module."},
 
+{name: "OpenLumina",
+ url: "https://github.com/tomrus88/OpenLumina",
+ src: "c++",
+ cats: "int",
+ last: "20240317",
+ desc: "IDA plugin that allows connecting to third party Lumina servers."},
+
 {name: "Optimice",
  url: "https://code.google.com/p/optimice/",
  src: "py",
@@ -3459,7 +3474,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20240515",
+ last: "20240603",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3558,7 +3573,7 @@ var tabledata = [
  url: "https://github.com/quarkslab/quokka",
  src: "c++",
  cats: "int",
- last: "20240516",
+ last: "20240528",
  desc: "A Fast and Accurate Binary Exporter. From the disassembly of a program, it generates an export file that can be used without the disassembler."},
 
 {name: "RDR2 IDA Native Renamer",
@@ -4270,6 +4285,14 @@ var tabledata = [
  vers: "7.6",
  desc: "Yet Another Ghidra Integration for IDA. Yagi intends to include the wonderful Ghidra decompiler into both IDA pro and IDA Free."},
 
+{name: "YaraForge",
+ url: "https://github.com/zhaoxinnZ/YaraForge",
+ src: "py",
+ cats: "int",
+ last: "20240531",
+ vers: "8.3",
+ desc: "A plugin that integrates capa explorer's scanning result and using mkYARA's rule generation logic to automatic export yara rules."},
+
 {name: "YARA for IDA",
  url: "https://github.com/kweatherman/yara4ida",
  src: "c++",
@@ -4285,18 +4308,11 @@ var tabledata = [
  last: "20240123",
  desc: "Scan file with Yara rules."},
 
-{name: "YaraForge",
- url: "https://github.com/zhaoxinnZ/YaraForge",
- src: "py",
- cats: "int",
- last: "20240531",
- desc: "A plugin that integrated capa explorer's scanning result and using mkYARA's rule generation logic to automatic export yara rules."},
- 
 {name: "Yarka",
  url: "https://github.com/AzzOnFire/yarka",
  src: "py",
  cats: "int",
- last: "20231125",
+ last: "20240526",
  desc: "IDA plugin for YARA signature creation from selections."},
 
 ];
