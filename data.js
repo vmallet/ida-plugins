@@ -111,7 +111,7 @@ var tabledata = [
 {name: "AntiDebugSeeker",
  url: "https://github.com/LAC-Japan/IDA_Plugin_AntiDebugSeeker",
  src: "py",
- last: "20240326",
+ last: "20240607",
  desc: "Automatically identify and extract potential anti-debugging techniques used by malware."},
 
 {name: "antiVM",
@@ -325,7 +325,7 @@ var tabledata = [
  url: "https://github.com/angr/binsync",
  src: "py",
  cats: "collab",
- last: "20240603",
+ last: "20240606",
  vers: "7.3",
  desc: "Decompiler collaboration tool built on the Git versioning system to enable fined grained reverse engineering collaboration regardless of decompiler."},
 
@@ -339,7 +339,7 @@ var tabledata = [
  url: "https://github.com/cseagle/blc",
  src: "c++",
  cats: "decomp, int",
- last: "20240115",
+ last: "20240604",
  vers: "7.5",
  desc: "Integrate Ghidra's decompiler as an Ida plugin."},
 
@@ -372,7 +372,7 @@ var tabledata = [
  url: "https://github.com/fireeye/capa/tree/master/capa/ida/plugin",
  src: "py",
  cats: "int",
- last: "20240603",
+ last: "20240606",
  vers: "7.7",
  desc: "Capa explorer is an IDAPython plugin that integrates the FLARE team's open-source framework, capa, with IDA Pro. capa is a framework that uses a well-defined collection of rules to identify capabilities in a program."},
 
@@ -607,7 +607,7 @@ var tabledata = [
  url: "https://github.com/mahaloz/decomp2dbg",
  src: "py",
  cats: "decomp, debug, int",
- last: "20240524",
+ last: "20240608",
  vers: "7.0",
  desc: "Plugin to introduce interactive symbols into your debugger from your decompiler."},
 
@@ -1248,7 +1248,7 @@ var tabledata = [
  url: "https://github.com/JusticeRage/Gepetto",
  src: "py",
  cats: "decomp, int",
- last: "20240603",
+ last: "20240607",
  vers: "7.7",
  desc: "Query OpenAI's davinci-003 language model to speed up reverse-engineering."},
 
@@ -2303,6 +2303,13 @@ var tabledata = [
  last: "20240411",
  desc: "Simple IDA Pro plugin to download Unity debug symbols from their symbol server."},
 
+{name: "ida-psx-gte",
+ url: "https://github.com/Goatman13/ida-psx-gte",
+ src: "py",
+ cats: "",
+ last: "20240525",
+ desc: "IDA Pro plugin that implements disassembly of PlayStation CP2 MIPS instructions."},
+
 {name: "IDAPyHelper",
  url: "https://github.com/patois/IDAPyHelper",
  src: "py",
@@ -2454,6 +2461,13 @@ var tabledata = [
  last: "20220802",
  vers: "7.0",
  desc: "IDAscope is an IDA Pro extension with the goal to ease the task of (malware) reverse engineering with a current focus on x86 Windows. It consists of multiple tabs, containing functionality to achieve different goals such as fast identification of semantically interesting locations in the analysis target, seamless access to MSDN documentation of Windows API, and finding of potential crypto/compression algorithms."},
+
+{name: "IDA Screenshot",
+ url: "https://github.com/jonpalmisc/ida_screenshot",
+ src: "py",
+ cats: "ui",
+ last: "20240531",
+ desc: "High-resolution screenshot capture plugin for IDA Pro."},
 
 {name: "idascripts",
  url: "https://github.com/nlitsme/idascripts",
@@ -2657,7 +2671,7 @@ var tabledata = [
  url: "https://github.com/Skwteinopteros/ida-venv",
  src: "py",
  cats: "dev",
- last: "20240404",
+ last: "20240604",
  desc: "An IDAPYthon plugin to create and use Python virtual environments."},
 
 {name: "ida_vmware_windows_gdb",
@@ -3041,6 +3055,13 @@ var tabledata = [
  last: "20210326",
  vers: "7.4",
  desc: "IDA loader that allows loading malicious buffers to IDA without writing them to the disk.\n* UrlLoader - loads files from a URL.\n* MemZipLoader - loads files to encrypted / plain zip file.\n* So far only windows supported."},
+
+{name: "MicroAllegrex",
+ url: "https://github.com/Goatman13/MicroAllegrex",
+ src: "py",
+ cats: "decomp",
+ last: "20240523",
+ desc: "Allegrex Plugin for IDA Hexrays Mips Decompiler, to help with basic decompilation of Allegrex specific opcodes."},
 
 {name: "MicroAVX",
  url: "https://github.com/gaasedelen/microavx",
@@ -3474,7 +3495,7 @@ var tabledata = [
  url: "https://github.com/pwndbg/pwndbg",
  src: "py",
  cats: "debug, int",
- last: "20240603",
+ last: "20240608",
  vers: "7.0",
  desc: "GDB plug-in that makes debugging with GDB suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. NOTE: IDA integration through small XMLRPC server."},
 
@@ -3781,6 +3802,14 @@ var tabledata = [
  src: "py",
  last: "20220915",
  desc: "Symbolic Execution plugin for IDA."},
+
+{name: "Shannon Baseband Loader",
+ url: "https://github.com/alexander-pick/shannon_modem_loader",
+ src: "py",
+ cats: "loader",
+ last: "20240606",
+ vers: "8.4",
+ desc: "Exynos Modem / Shannon baseband firmware loader for IDA Pro 8.x."},
 
 {name: "ShannonRE",
  url: "https://github.com/Comsecuris/shannonRE/tree/master/idapython",
