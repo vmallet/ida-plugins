@@ -4043,6 +4043,14 @@ var tabledata = [
  last: "20150128",
  desc: "A combination of an IDAPython Plugin and a control version system that result in a new reverse engineering collaborative addon for IDA Pro. By http://cubicalabs.com/"},
 
+{name: "Syscall Parser",
+ url: "https://github.com/0xQQa/IDAProPlugins/tree/main/SyscallParser",
+ src: "py",
+ cats: "int",
+ last: "20240808",
+ vers: "8.4",
+ desc: "A tool that allows you to quickly get the Windows api name from syscall number."},
+
 {name: "SysNR-FuncFinder",
  url: "https://github.com/WPeace-HcH/SysNR-FuncFinder",
  src: "py",
