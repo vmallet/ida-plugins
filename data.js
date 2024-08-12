@@ -2847,6 +2847,13 @@ var tabledata = [
  last: "20240423",
  desc: "IDA Pro Plugin to import /proc/kallsyms for Linux Kernel."},
 
+ {name: "In Too Deep",
+  url: "https://github.com/josephH00/ida-InTooDeep",
+  src: "py",
+  cats: "ui",
+  last: "20240811",
+  desc: "IDA Folder Management Made Easy"},
+
 {name: "IPyIDA",
  url: "https://github.com/eset/ipyida",
  src: "py",
