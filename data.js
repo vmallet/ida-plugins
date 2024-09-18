@@ -1742,14 +1742,6 @@ var tabledata = [
  last: "20170517",
  desc: "IDAPython script to auto-rename subs using the MACHOC algorithm."},
 
-{name: "IDADiscord",
- url: "https://github.com/bakablaze/IDADiscord",
- src: "c++",
- cats: "int",
- last: "20220822",
- vers: "7.6",
- desc: "Discord RPC plugin for IDA 7.x."},
-
 {name: "IDA EA",
  url: "https://github.com/1111joe1111/ida_ea",
  src: "py",
