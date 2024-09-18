@@ -2419,6 +2419,14 @@ var tabledata = [
  vers: "7.0",
  desc: "Discord rich presence plugin for IDA Pro 7.0"},
 
+{name: "ida-rpc-ida9",
+ url: "https://github.com/shikataganaii/ida-rpc-ida9",
+ src: "c++",
+ cats: "int",
+ last: "20240918",
+ vers: "9.0",
+ desc: "Discord rich presence plugin ment for IDA Pro 7.0 updated for IDA Pro 9.0"},
+ 
 {name: "IDA-RPyC",
  url: "https://github.com/HyperSine/ida-rpyc",
  src: "py",
