@@ -1909,6 +1909,9 @@ _Updated: 2024 01 23 &nbsp;&nbsp; Language: Python_
 * [Yarka](https://github.com/AzzOnFire/yarka): IDA plugin for YARA signature creation from selections.<br>
 _Updated: 2024 10 19 &nbsp;&nbsp; Language: Python_
 
+* [Retrospective Analysis](https://github.com/maskelihileci/Retrospective_Analysis): Retrospective Analysis is a plugin compatible with IDA Pro that enhances the reverse engineering process. It performs backward analysis of function calls using a layered system, predicts and modifies function types, and removes unused parameters after these modifications. This process aims to accelerate and simplify the analysis workflow for reverse engineers.<br>
+_Updated: 2024 11 16 &nbsp;&nbsp; Language: Python_
+
 
 
 ## Credits
